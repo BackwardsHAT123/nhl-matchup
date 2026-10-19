@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NHL Matchup Model</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#14181f;--mute:#667085;--line:#e4e7ec;--home:#1f6feb;--away:#8a94a6;--good:#1a7f4b;--bad:#b42318;--warn:#b54708;--warnbg:#fef3e2}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0e1116;--card:#171b22;--ink:#e8ebf0;--mute:#98a2b3;--line:#272d38;--home:#58a6ff;--away:#6b7588;--good:#3fb97a;--bad:#f0746a;--warn:#f2a444;--warnbg:#2a2113}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0}h2{font-size:16px;margin:28px 0 10px}
+.sub{color:var(--mute);font-size:13px;margin-top:2px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.stat b{display:block;font-size:24px}.stat span{color:var(--mute);font-size:12px}
+.day{color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin:16px 0 6px}
+.game{display:grid;grid-template-columns:1.1fr 1.6fr 1fr;gap:14px;align-items:center;margin-bottom:8px}
+.teams{font-weight:600}.teams small{display:block;font-weight:400;color:var(--mute)}
+.bar{height:10px;border-radius:5px;background:var(--away);overflow:hidden;position:relative}
+.bar i{position:absolute;right:0;top:0;bottom:0;background:var(--home)}
+.pr{display:flex;justify-content:space-between;font-size:12px;color:var(--mute);margin-top:3px}
+.pick{font-weight:700}.pick small{font-weight:400;color:var(--mute);display:block}
+.meta{grid-column:1/-1;font-size:12px;color:var(--mute);display:flex;flex-wrap:wrap;gap:4px 14px;border-top:1px solid var(--line);padding-top:6px}
+.tag{background:var(--warnbg);color:var(--warn);border-radius:4px;padding:0 5px;font-size:11px}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right}th:first-child,td:first-child{text-align:left}
+th{color:var(--mute);font-weight:500}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.good{color:var(--good)}.bad{color:var(--bad)}
+.tbar{display:inline-block;height:8px;background:var(--home);border-radius:4px;vertical-align:middle}
+.note{font-size:12.5px;color:var(--mute)}
+svg text{fill:var(--mute);font-size:10px}
+@media(max-width:700px){.game{grid-template-columns:1fr}.cols{grid-template-columns:1fr}}
+</style>
+</head>
+<body><main>
+<h1>NHL Matchup Model</h1>
+<div class="sub" id="updated">Loading…</div>
+
+<h2>Model record</h2>
+<div class="stats" id="stats"></div>
+
+<h2>Upcoming games</h2>
+<div id="slate"></div>
+<p class="note">* Starting goalie is assumed (most-used recent starter) until confirmed. Win probability is shown for each team; bar = home share. GSAx = goals saved above expected per start over the last 25 starts, shrunk toward average.</p>
+
+<div class="cols">
+  <div><h2>Backtest calibration (2025-26 + 2026-27)</h2><div class="card"><table id="cal"></table><svg id="cum" viewBox="0 0 400 120" width="100%" style="margin-top:10px"></svg></div></div>
+  <div><h2>Last 30 graded live picks</h2><div class="card"><table id="recent"></table></div></div>
+</div>
+
+<h2>Team 5v5 xGF% (last 40 games, shrunk to 50%)</h2>
+<div class="card"><table id="teams"></table></div>
+
+<h2>Method</h2>
+<p class="note">Score = 75% xGF% differential + 15% starting-goalie GSAx differential + 10% schedule (back-to-back, rest days), each scaled to a common spread; a logistic curve turns it into win probability (home ice in the intercept). Fit on earlier seasons only. Data: MoneyPuck and the NHL API, refreshed daily by GitHub Actions. Win-prediction model only — it does not use betting odds, so it does not by itself show an edge over the market. Not financial advice.</p>
+</main>
+<script>
+const $=id=>document.getElementById(id), pct=(x,d=1)=>(x*100).toFixed(d)+"%";
+const fmt=iso=>new Date(iso).toLocaleString([],{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+Promise.all([fetch("data/predictions.json").then(r=>r.json()),fetch("data/summary.json").then(r=>r.json())]).then(([P,S])=>{
+  $("updated").textContent="Updated "+fmt(P.generated_at);
+  const bt=S.backtest, lv=S.live;
+  $("stats").innerHTML=[
+    [pct(bt.acc),"Backtest accuracy ("+bt.n+" games)"],
+    [pct(bt.home_rate),"Home team win rate (baseline)"],
+    [bt.logloss.toFixed(3),"Backtest log loss (coin flip 0.693)"],
+    [lv.n?pct(lv.acc):"—",lv.n?"Live accuracy ("+lv.n+" graded)":"Live record starts once logged games finish"],
+  ].map(([a,b])=>`<div class="card stat"><b>${a}</b><span>${b}</span></div>`).join("");
+  // slate
+  const byDay={};P.games.forEach(g=>(byDay[g.date]??=[]).push(g));
+  $("slate").innerHTML=Object.keys(byDay).sort().map(d=>{
+    const label=new Date(d+"T12:00:00").toLocaleDateString([],{weekday:"long",month:"short",day:"numeric"});
+    return `<div class="day">${label}</div>`+byDay[d].sort((a,b)=>a.start_utc.localeCompare(b.start_utc)).map(g=>{
+      const ph=g.p_home,pick=ph>=.5?g.home:g.away,c=Math.max(ph,1-ph);
+      const rest=r=>r===0?'<span class="tag">B2B</span>':r+"d rest";
+      const gs=(n,as,x)=>`${n}${as?"*":""} (${x>=0?"+":""}${x.toFixed(2)})`;
+      return `<div class="card game"><div class="teams">${g.away} @ ${g.home}<small>${new Date(g.start_utc).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}</small></div>
+      <div><div class="bar"><i style="width:${ph*100}%"></i></div><div class="pr"><span>${g.away} ${pct(1-ph)}</span><span>${g.home} ${pct(ph)}</span></div></div>
+      <div class="pick">${pick} <small>${pct(c)} confidence</small></div>
+      <div class="meta"><span>xGF% ${g.away} ${pct(g.a_xg)} · ${g.home} ${pct(g.h_xg)}</span><span>G: ${gs(g.a_goalie,g.a_assumed,g.a_gsax)} vs ${gs(g.h_goalie,g.h_assumed,g.h_gsax)}</span><span>${g.away}: ${rest(g.a_rest)} · ${g.home}: ${rest(g.h_rest)}</span></div></div>`}).join("")}).join("")||'<div class="card">No games scheduled.</div>';
+  // calibration
+  $("cal").innerHTML="<tr><th>Model confidence</th><th>Games</th><th>Avg conf.</th><th>Actual win %</th></tr>"+bt.calibration.map(r=>`<tr><td>${["50-55%","55-60%","60-65%","65%+"][bt.calibration.indexOf(r)]}</td><td>${r.n}</td><td>${pct(r.conf)}</td><td>${pct(r.acc)}</td></tr>`).join("");
+  // cumulative accuracy chart
+  const c=bt.cumulative,xs=i=>30+i*(360/Math.max(c.length-1,1)),ys=v=>110-(v-.45)*(100/.2);
+  $("cum").innerHTML=`<line x1="30" x2="390" y1="${ys(.5)}" y2="${ys(.5)}" stroke="currentColor" opacity=".25" stroke-dasharray="3"/><text x="2" y="${ys(.5)+3}">50%</text><text x="2" y="${ys(.55)+3}">55%</text><text x="2" y="${ys(.6)+3}">60%</text><polyline fill="none" stroke="var(--home)" stroke-width="2" points="${c.map((r,i)=>xs(i)+","+ys(Math.min(Math.max(r.cum,.45),.65))).join(" ")}"/><text x="30" y="10">Cumulative backtest accuracy</text>`;
+  // recent
+  $("recent").innerHTML=lv.recent.length?"<tr><th>Date</th><th>Game</th><th>P(home)</th><th>Result</th></tr>"+lv.recent.slice().reverse().map(r=>`<tr><td>${r.date.slice(5)}</td><td>${r.away} @ ${r.home}</td><td>${pct(r.p_home,0)}</td><td class="${r.correct?"good":"bad"}">${r.correct?"✓":"✗"}</td></tr>`).join(""):'<tr><td>No graded picks yet — they accrue as logged games finish.</td></tr>';
+  // teams
+  const mx=Math.max(...S.teams.map(t=>t.xgf_pct)),mn=Math.min(...S.teams.map(t=>t.xgf_pct));
+  $("teams").innerHTML="<tr><th>Team</th><th>xGF%</th><th></th></tr>"+S.teams.map(t=>`<tr><td>${t.team}</td><td>${pct(t.xgf_pct)}</td><td style="text-align:left;width:50%"><span class="tbar" style="width:${(t.xgf_pct-mn+.005)/(mx-mn+.005)*100}%"></span></td></tr>`).join("");
+}).catch(e=>{$("updated").textContent="Failed to load data: "+e});
+</script>
+</body></html>
