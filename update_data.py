@@ -21,6 +21,7 @@ def fetch(url):
 
 
 if __name__ == "__main__":
+    RAW.mkdir(parents=True, exist_ok=True)
     (RAW / "all_teams.csv").write_bytes(fetch("https://moneypuck.com/moneypuck/playerData/careers/gameByGame/all_teams.csv"))
     for y in range(2023, CUR + 1):  # past seasons never change: download once, refresh the current one
         if y == CUR or not (RAW / f"shots_{y}" / f"shots_{y}.csv").exists():
