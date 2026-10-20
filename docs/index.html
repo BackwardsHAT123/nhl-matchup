@@ -47,7 +47,7 @@ svg text{fill:var(--mute);font-size:10px}
 <p class="note"><span class="flag" style="margin:0">Both &gt;51% xGF%</span> = both teams' rolling 5v5 xGF% is above 51%. * Starting goalie is assumed (most-used recent starter) until confirmed. Win probability is shown for each team; bar = home share. GSAx = goals saved above expected per start over the last 25 starts, shrunk toward average.</p>
 
 <div class="cols">
-  <div><h2>Backtest calibration (2025-26 + 2026-27)</h2><div class="card"><table id="cal"></table><svg id="cum" viewBox="0 0 400 120" width="100%" style="margin-top:10px"></svg></div></div>
+  <div><h2>Backtest calibration (<span id="btlabel"></span>)</h2><div class="card"><table id="cal"></table><svg id="cum" viewBox="0 0 400 120" width="100%" style="margin-top:10px"></svg></div></div>
   <div><h2>Last 30 graded live picks</h2><div class="card"><table id="recent"></table></div></div>
 </div>
 
@@ -64,6 +64,7 @@ const fmt=iso=>new Date(iso).toLocaleString([],{month:"short",day:"numeric",hour
 Promise.all([fetch("data/predictions.json").then(r=>r.json()),fetch("data/summary.json").then(r=>r.json())]).then(([P,S])=>{
   $("updated").textContent="Updated "+fmt(P.generated_at);
   const bt=S.backtest, lv=S.live;
+  $("btlabel").textContent=bt.label;
   $("stats").innerHTML=[
     [pct(bt.acc),"Backtest accuracy ("+bt.n+" games)"],
     [pct(bt.home_rate),"Home team win rate (baseline)"],

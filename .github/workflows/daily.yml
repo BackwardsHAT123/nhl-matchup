@@ -27,11 +27,15 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # Past-season shot files never change; cache them so only the current season re-downloads.
+      - name: Current season
+        id: season
+        run: echo "cur=$(python seasons.py | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+
+      # Past-season shot files never change; cache them (keyed by season) so only the current one re-downloads.
       - uses: actions/cache@v4
         with:
-          path: data/raw/shots_202[3-5]
-          key: shots-past-seasons-v1
+          path: data/raw/shots_*
+          key: shots-${{ steps.season.outputs.cur }}
 
       - name: Refresh data and rebuild features
         run: python update_data.py

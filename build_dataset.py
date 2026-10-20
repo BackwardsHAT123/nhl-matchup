@@ -10,11 +10,12 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from seasons import SEASONS  # MoneyPuck season = start year (2026 = 2026-27)
+
 ROOT = Path(__file__).parent
 RAW = ROOT / "data" / "raw"
 OUT = ROOT / "data" / "processed"
 OUT.mkdir(parents=True, exist_ok=True)
-SEASONS = [2023, 2024, 2025, 2026]  # MoneyPuck season = start year (2026 = 2026-27)
 
 
 def load_team_games() -> pd.DataFrame:
@@ -43,6 +44,8 @@ def load_goalie_games() -> pd.DataFrame:
     """
     rows = []
     for s in SEASONS:
+        if not (RAW / f"shots_{s}" / f"shots_{s}.csv").exists():
+            continue  # current season not published yet
         sh = pd.read_csv(RAW / f"shots_{s}" / f"shots_{s}.csv", usecols=[
             "game_id", "season", "goalieIdForShot", "goalieNameForShot", "xGoal", "goal",
             "shotWasOnGoal", "xShotWasOnGoal", "shotOnEmptyNet", "isPlayoffGame", "isHomeTeam",

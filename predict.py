@@ -10,6 +10,7 @@ Confirm starters (morning skate / beat reports) and override; the model is only 
 """
 import argparse
 import json
+import time
 import urllib.request
 from datetime import date, datetime
 
@@ -18,14 +19,21 @@ import pandas as pd
 
 import backtest
 import features as F
+from seasons import CUR
 
 PROC = F.PROC
 
 
-def api(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read())
+def api(url, tries=6):
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.loads(r.read())
+        except Exception:
+            if i == tries - 1:
+                raise
+            time.sleep(1 + i)
 
 
 def team_state(tg, team, asof):
@@ -73,7 +81,7 @@ def compute_slate(day, over=None, w1=0.75):
     tg = pd.read_csv(PROC / "team_games.csv", parse_dates=["date"])
     gg = pd.read_csv(PROC / "goalie_games.csv").merge(tg[["gameId", "team", "date"]], on=["gameId", "team"])
     df = pd.read_csv(PROC / "game_features.csv", parse_dates=["date"])
-    params = backtest.fit(df[df.season >= 2024], w)
+    params = backtest.fit(df[df.season >= CUR - 2], w)
     sched = api(f"https://api-web.nhle.com/v1/schedule/{day}")
     games = [g for d in sched["gameWeek"] if d["date"] == day for g in d["games"] if g["gameType"] == 2]
     out = []

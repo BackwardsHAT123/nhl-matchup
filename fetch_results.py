@@ -6,6 +6,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from seasons import SEASONS
+
 PROC = Path(__file__).parent / "data" / "processed"
 TEAMS = ("ANA BOS BUF CAR CBJ CGY CHI COL DAL DET EDM FLA LAK MIN MTL NJD NSH NYI NYR OTT PHI "
          "PIT SEA SJS STL TBL TOR UTA VAN VGK WPG WSH").split()
@@ -46,7 +48,7 @@ def season_games(season: int) -> list[dict]:
 
 if __name__ == "__main__":
     rows = []
-    for s in (2023, 2024, 2025, 2026):
+    for s in SEASONS:
         rows += season_games(s)
     d = pd.DataFrame(rows)
     d.to_csv(PROC / "nhl_schedule_results.csv", index=False)

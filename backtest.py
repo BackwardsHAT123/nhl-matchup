@@ -9,6 +9,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 
 from features import PROC
+from seasons import CUR, label
 
 W = (0.75, 0.15, 0.10)
 
@@ -97,8 +98,12 @@ def calibration(te):
 
 if __name__ == "__main__":
     df = pd.read_csv(PROC / "game_features.csv", parse_dates=["date"])
-    # 2023 is feature burn-in only; train on 2024, test on 2025 (full 2025-26 season)
-    te25 = run(df, df.season == 2024, df.season == 2025, "2025-26 full season (train 2024-25)")
-    calibration(te25)
-    te26 = run(df, df.season.isin([2024, 2025]), df.season == 2026, "2026-27 season to date (train 2024-26)")
-    pd.concat([te25, te26]).to_csv(PROC / "backtest_predictions.csv", index=False)
+    # CUR-3 is feature burn-in only; train on CUR-2, test on the last full season (CUR-1),
+    # then test the current season to date with CUR-2 and CUR-1 as training.
+    tr1, last, cur = CUR - 2, CUR - 1, CUR
+    te_last = run(df, df.season == tr1, df.season == last,
+                  f"{label(last)} full season (train {label(tr1)})")
+    calibration(te_last)
+    te_cur = run(df, df.season.isin([tr1, last]), df.season == cur,
+                 f"{label(cur)} season to date (train {label(tr1)}-{label(last)})")
+    pd.concat([te_last, te_cur]).to_csv(PROC / "backtest_predictions.csv", index=False)

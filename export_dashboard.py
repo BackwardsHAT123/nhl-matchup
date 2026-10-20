@@ -15,6 +15,7 @@ import pandas as pd
 import backtest
 import features as F
 import predict
+from seasons import CUR, label
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs" / "data"
@@ -87,7 +88,7 @@ def backtest_summary():
     cum = cum.iloc[::20][["date", "n", "cum"]]
     cum["date"] = cum.date.dt.date.astype(str)
     return dict(
-        n=len(bt), acc=float(bt.correct.mean()),
+        label=f"{label(CUR - 1)} + {label(CUR)}", n=len(bt), acc=float(bt.correct.mean()),
         logloss=float(-(y * np.log(p) + (1 - y) * np.log(1 - p)).mean()),
         home_rate=float(bt.home_win.mean()),
         calibration=cal.round(4).to_dict("records"), cumulative=cum.round(4).to_dict("records"))
