@@ -30,6 +30,9 @@ th{color:var(--mute);font-weight:500}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .good{color:var(--good)}.bad{color:var(--bad)}
 .tbar{display:inline-block;height:8px;background:var(--home);border-radius:4px;vertical-align:middle}
+.l4{display:inline-flex;gap:3px;vertical-align:middle;margin-left:4px}
+.l4 b{min-width:20px;text-align:center;border-radius:4px;font-size:12px;padding:0 3px;border:1px solid var(--line);color:var(--ink);font-weight:600}
+.l4 b.w{border-color:var(--good)}.l4 b.l{border-color:var(--bad)}
 .note{font-size:12.5px;color:var(--mute)}
 svg text{fill:var(--mute);font-size:10px}
 @media(max-width:700px){.game{grid-template-columns:1fr}.cols{grid-template-columns:1fr}}
@@ -44,7 +47,7 @@ svg text{fill:var(--mute);font-size:10px}
 
 <h2>Upcoming games</h2>
 <div id="slate"></div>
-<p class="note"><span class="flag" style="margin:0">Both &gt;51% xGF%</span> = both teams' rolling 5v5 xGF% is above 51%. * Starting goalie is assumed (most-used recent starter) until confirmed. Win probability is shown for each team; bar = home share. GSAx = goals saved above expected per start over the last 25 starts, shrunk toward average.</p>
+<p class="note"><span class="flag" style="margin:0">Both &gt;51% xGF%</span> = both teams' rolling 5v5 xGF% is above 51%. * Starting goalie is assumed (most-used recent starter) until confirmed. Win probability is shown for each team; bar = home share. GSAx = goals saved above expected per start over the last 25 starts, shrunk toward average. Last-4 boxes show goals scored (green = won, red = lost; hover for opponent and score).</p>
 
 <div class="cols">
   <div><h2>Backtest calibration (<span id="btlabel"></span>)</h2><div class="card"><table id="cal"></table><svg id="cum" viewBox="0 0 400 120" width="100%" style="margin-top:10px"></svg></div></div>
@@ -78,11 +81,12 @@ Promise.all([fetch("data/predictions.json").then(r=>r.json()),fetch("data/summar
     return `<div class="day">${label}</div>`+byDay[d].sort((a,b)=>a.start_utc.localeCompare(b.start_utc)).map(g=>{
       const ph=g.p_home,pick=ph>=.5?g.home:g.away,c=Math.max(ph,1-ph);
       const rest=r=>r===0?'<span class="tag">B2B</span>':r+"d rest";
+      const l4=(arr)=>arr&&arr.length?`<span class="l4">${arr.map(x=>`<b class="${x.gf>x.ga?"w":"l"}" title="${x.date} ${x.home?"vs":"@"} ${x.opp}: ${x.gf}-${x.ga}">${x.gf}</b>`).join("")}</span>`:" n/a";
       const gs=(n,as,x)=>`${n}${as?"*":""} (${x>=0?"+":""}${x.toFixed(2)})`;
       return `<div class="card game"><div class="teams">${g.away} @ ${g.home}${g.a_xg>HI&&g.h_xg>HI?`<span class="flag" title="Both teams above ${pct(HI,0)} xGF%">Both &gt;${pct(HI,0)} xGF%</span>`:""}<small>${new Date(g.start_utc).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}</small></div>
       <div><div class="bar"><i style="width:${ph*100}%"></i></div><div class="pr"><span>${g.away} ${pct(1-ph)}</span><span>${g.home} ${pct(ph)}</span></div></div>
       <div class="pick">${pick} <small>${pct(c)} confidence</small></div>
-      <div class="meta"><span>xGF% ${g.away} ${pct(g.a_xg)} · ${g.home} ${pct(g.h_xg)}</span><span>G: ${gs(g.a_goalie,g.a_assumed,g.a_gsax)} vs ${gs(g.h_goalie,g.h_assumed,g.h_gsax)}</span><span>${g.away}: ${rest(g.a_rest)} · ${g.home}: ${rest(g.h_rest)}</span></div></div>`}).join("")}).join("")||'<div class="card">No games scheduled.</div>';
+      <div class="meta"><span>xGF% ${g.away} ${pct(g.a_xg)} · ${g.home} ${pct(g.h_xg)}</span><span>G: ${gs(g.a_goalie,g.a_assumed,g.a_gsax)} vs ${gs(g.h_goalie,g.h_assumed,g.h_gsax)}</span><span>${g.away}: ${rest(g.a_rest)} · ${g.home}: ${rest(g.h_rest)}</span><span class="last4">Goals scored, last 4 (newest first): ${g.away}${l4(g.a_last4)} · ${g.home}${l4(g.h_last4)}</span></div></div>`}).join("")}).join("")||'<div class="card">No games scheduled.</div>';
   // calibration
   $("cal").innerHTML="<tr><th>Model confidence</th><th>Games</th><th>Avg conf.</th><th>Actual win %</th></tr>"+bt.calibration.map(r=>`<tr><td>${["50-55%","55-60%","60-65%","65%+"][bt.calibration.indexOf(r)]}</td><td>${r.n}</td><td>${pct(r.conf)}</td><td>${pct(r.acc)}</td></tr>`).join("");
   // cumulative accuracy chart

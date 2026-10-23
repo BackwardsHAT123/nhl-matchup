@@ -45,6 +45,18 @@ def team_state(tg, team, asof):
     return pct, rest, len(t)
 
 
+def last_games(res, team, asof, n=4):
+    """Goals for/against in the team's last n completed games this season, most recent first."""
+    m = res[((res.home == team) | (res.away == team)) & (res.date < asof)].sort_values("date").tail(n)
+    out = []
+    for r in m.iloc[::-1].itertuples():
+        home = r.home == team
+        out.append(dict(date=r.date.date().isoformat(), opp=r.away if home else r.home, home=bool(home),
+                        gf=int(r.home_score if home else r.away_score),
+                        ga=int(r.away_score if home else r.home_score)))
+    return out
+
+
 def goalie_stats(gg, gid):
     h = gg[gg.goalie_id == gid].sort_values("date").tail(F.GS_WINDOW)
     return h.gsax.sum() / (len(h) + F.GS_PRIOR), len(h)
@@ -82,6 +94,8 @@ def compute_slate(day, over=None, w1=0.75):
     gg = pd.read_csv(PROC / "goalie_games.csv").merge(tg[["gameId", "team", "date"]], on=["gameId", "team"])
     df = pd.read_csv(PROC / "game_features.csv", parse_dates=["date"])
     params = backtest.fit(df[df.season >= CUR - 2], w)
+    res = pd.read_csv(PROC / "nhl_schedule_results.csv", parse_dates=["date"])
+    res = res[(res.season == CUR) & res.state.isin(["OFF", "FINAL"])]
     sched = api(f"https://api-web.nhle.com/v1/schedule/{day}")
     games = [g for d in sched["gameWeek"] if d["date"] == day for g in d["games"] if g["gameType"] == 2]
     out = []
@@ -99,7 +113,8 @@ def compute_slate(day, over=None, w1=0.75):
                         p_home=float(backtest.predict(x, params, w)[0]),
                         h_xg=hx, a_xg=ax, h_goalie=hg[1], a_goalie=ag[1],
                         h_assumed=hg[2], a_assumed=ag[2], h_gsax=hgs, a_gsax=ags,
-                        h_rest=int(hr), a_rest=int(ar), weights=list(w)))
+                        h_rest=int(hr), a_rest=int(ar), weights=list(w),
+                        h_last4=last_games(res, h, asof), a_last4=last_games(res, a, asof)))
     return out
 
 
