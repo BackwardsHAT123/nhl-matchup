@@ -44,5 +44,5 @@ if __name__ == "__main__":
                 raise
             (RAW / f"shots_{y}").mkdir(parents=True, exist_ok=True)
             z.extractall(RAW / f"shots_{y}")
-    for script in ("build_dataset.py", "fetch_results.py", "features.py"):
+    for script in ("build_dataset.py", "build_players.py", "fetch_results.py", "features.py"):
         subprocess.run([sys.executable, str(ROOT / script)], check=True, cwd=ROOT)

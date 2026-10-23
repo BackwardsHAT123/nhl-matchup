@@ -33,6 +33,14 @@ th{color:var(--mute);font-weight:500}
 .l4{display:inline-flex;gap:3px;vertical-align:middle;margin-left:4px}
 .l4 b{min-width:20px;text-align:center;border-radius:4px;font-size:12px;padding:0 3px;border:1px solid var(--line);color:var(--ink);font-weight:600}
 .l4 b.w{border-color:var(--good)}.l4 b.l{border-color:var(--bad)}
+.sgp{margin-bottom:8px}
+.sgp.hot{border-color:var(--good);box-shadow:inset 3px 0 0 var(--good)}
+.sgp .legs{font-weight:600}.sgp .legs div{margin:1px 0}.sgp .legs small{color:var(--mute);font-weight:400}
+.sgp .nums{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;margin-top:6px;align-items:center}
+.sgp input{width:84px;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+.lift{background:var(--warnbg);color:var(--warn);border-radius:4px;padding:0 6px;font-weight:700}
+.sgp.hot .lift{background:#e6f4ea;color:var(--good)}
+.ev{font-weight:700}
 .note{font-size:12.5px;color:var(--mute)}
 svg text{fill:var(--mute);font-size:10px}
 @media(max-width:700px){.game{grid-template-columns:1fr}.cols{grid-template-columns:1fr}}
@@ -48,6 +56,13 @@ svg text{fill:var(--mute);font-size:10px}
 <h2>Upcoming games</h2>
 <div id="slate"></div>
 <p class="note"><span class="flag" style="margin:0">Both &gt;51% xGF%</span> = both teams' rolling 5v5 xGF% is above 51%. * Starting goalie is assumed (most-used recent starter) until confirmed. Win probability is shown for each team; bar = home share. GSAx = goals saved above expected per start over the last 25 starts, shrunk toward average. Last-4 boxes show goals scored (green = won, red = lost; hover for opponent and score).</p>
+
+<h2>Same-game parlay finder</h2>
+<p class="note">Simulated joint outcomes for 2–3 leg parlays, ranked by <b>correlation lift</b> = P(all legs hit) ÷ product of each leg's probability. <b>Fair odds</b> are the break-even price: if your book pays better than fair odds the parlay is +EV <i>by this model</i>. Type your book's SGP price to see EV. Books already discount for correlation, so check that price, not just the lift. Plays pairing a player's shots with the opposing goalie's saves are excluded (same shots counted twice).</p>
+<div class="note" style="margin:0 0 8px">Sort by: <select id="sgpsort"><option value="lift">Correlation lift (long shots first)</option><option value="prob">Hit probability (lift ≥ 1.25 only)</option></select></div>
+<div id="sgp"></div>
+<h3 style="font-size:14px;margin:22px 0 6px">How reliable are these numbers?</h3>
+<div class="card" id="sgpval"></div>
 
 <div class="cols">
   <div><h2>Backtest calibration (<span id="btlabel"></span>)</h2><div class="card"><table id="cal"></table><svg id="cum" viewBox="0 0 400 120" width="100%" style="margin-top:10px"></svg></div></div>
@@ -98,5 +113,37 @@ Promise.all([fetch("data/predictions.json").then(r=>r.json()),fetch("data/summar
   const mx=Math.max(...S.teams.map(t=>t.xgf_pct)),mn=Math.min(...S.teams.map(t=>t.xgf_pct));
   $("teams").innerHTML="<tr><th>Team</th><th>xGF%</th><th></th></tr>"+S.teams.map(t=>`<tr><td>${t.team}</td><td>${pct(t.xgf_pct)}</td><td style="text-align:left;width:50%"><span class="tbar" style="width:${(t.xgf_pct-mn+.005)/(mx-mn+.005)*100}%"></span></td></tr>`).join("");
 }).catch(e=>{$("updated").textContent="Failed to load data: "+e});
+
+// ---- same-game parlays ----
+const dec=o=>o>0?1+o/100:1+100/Math.abs(o), am=o=>o>0?"+"+o:""+o;
+const store={get(k){try{return localStorage.getItem(k)||""}catch(e){return ""}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+fetch("data/sgp.json").then(r=>r.json()).then(S=>{
+  const plays=[];S.games.forEach(g=>g.plays.forEach(p=>plays.push({...p,g})));
+  const card=(p,i)=>{
+    const key="sgp:"+p.g.gameId+":"+p.legs.join("|"), hot=!!p.hot;
+    return `<div class="card sgp ${hot?"hot":""}" data-key="${key}" data-p="${p.p_joint}">
+      <div class="legs">${p.legs.map((l,j)=>`<div>${l} <small>${pct(p.leg_probs[j],0)}</small></div>`).join("")}</div>
+      <div class="nums"><span>${p.g.away} @ ${p.g.home}</span><span class="lift" title="Joint probability vs. independent product">lift ${p.lift.toFixed(2)}×</span>
+      <span>hit ${pct(p.p_joint)} <small class="note">(indep ${pct(p.p_indep)})</small></span><span>fair ${am(p.fair_odds)}</span>
+      <span>book <input inputmode="numeric" placeholder="+450" value="${store.get(key)}"></span><span class="ev"></span></div></div>`};
+  const day=iso=>new Date(iso+"T12:00:00").toLocaleDateString([],{weekday:"short",month:"short",day:"numeric"});
+  const render=()=>{
+  const mode=$("sgpsort").value;
+  const top=(mode==="lift"?plays.slice().sort((a,b)=>b.lift-a.lift):plays.filter(p=>p.lift>=1.25).sort((a,b)=>b.p_joint-a.p_joint)).slice(0,12);
+  const rest=S.games.map(g=>`<details><summary>${day(g.date)} · ${g.away} @ ${g.home} <small class="note">(exp. total ${g.exp_total})</small></summary>${g.plays.map(p=>card({...p,g})).join("")}</details>`).join("");
+  $("sgp").innerHTML=(top.length?`<div class="day">Highest correlation across the slate</div>${top.map(p=>card({...p,hot:true})).join("")}<div class="day">By game</div>${rest}`:'<div class="card">No candidates yet.</div>')+
+    `<p class="note">Updated ${fmt(S.generated_at)} · ${S.n_sim.toLocaleString()} simulations/game · lineups = last game's dressed skaters (check for scratches/injuries) · green edge = top picks for the chosen sort.</p>`;
+  const upd=el=>{const v=parseFloat(el.querySelector("input").value),out=el.querySelector(".ev"),key=el.dataset.key;
+    store.set(key,el.querySelector("input").value);
+    if(isNaN(v)||v===0){out.textContent="";return}
+    const ev=parseFloat(el.dataset.p)*dec(v)-1;out.textContent="EV "+(ev>=0?"+":"")+(ev*100).toFixed(1)+"%";out.className="ev "+(ev>=0?"good":"bad")};
+  document.querySelectorAll(".sgp").forEach(el=>{upd(el);el.querySelector("input").addEventListener("input",()=>upd(el))});
+  };
+  $("sgpsort").addEventListener("change",render);render();
+}).catch(()=>{$("sgp").innerHTML='<div class="card">SGP data not available yet.</div>'});
+fetch("data/sgp_validation.json").then(r=>r.json()).then(V=>{
+  $("sgpval").innerHTML=`<p class="note" style="margin-top:0">Backtest: ${V.combos.toLocaleString()} parlay combos across ${V.games.toLocaleString()} games (2025-26 and 2026-27 to date), each simulated from pre-game data only, then scored on what happened. "Realized lift" is how often the legs actually hit together vs. the product of their individual odds; it should track "model lift".</p>
+  <table><tr><th>Model lift</th><th>Combos</th><th>Model hit%</th><th>Actual hit%</th><th>Model lift</th><th>Realized lift</th></tr>${V.by_lift.map(r=>`<tr><td>${r.lbin}</td><td>${r.n.toLocaleString()}</td><td>${pct(r.pred_joint)}</td><td>${pct(r.real_joint)}</td><td>${r.pred_lift.toFixed(2)}</td><td>${r.real_lift.toFixed(2)}</td></tr>`).join("")}</table>
+  <p class="note" style="margin-bottom:0">Takeaways: the correlation is real and, at the high end, slightly <i>stronger</i> than modeled. The rankings are not odds, though: none of this knows what your book pays, and books discount correlated legs. Anytime-goal + moneyline + total is the combo type with the most validated lift; shots-over and goalie-saves legs add little correlation with moneyline or total. The first ~165 games of 2026-27 hit about 10% less often than the model's hit rates (small, early-season sample). Lineups are last game's dressed skaters, so scratches are the biggest live risk.</p>`}).catch(()=>{});
 </script>
 </body></html>

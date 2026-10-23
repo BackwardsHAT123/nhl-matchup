@@ -1,0 +1,242 @@
+{
+ "games": 1477,
+ "combos": 3792167,
+ "by_lift": [
+  {
+   "lbin": "<0.9",
+   "n": 287543,
+   "pred_joint": 0.0833,
+   "real_joint": 0.0796,
+   "pred_indep": 0.1049,
+   "pred_lift": 0.7938,
+   "real_lift": 0.7589
+  },
+  {
+   "lbin": "0.9-1.1",
+   "n": 1769433,
+   "pred_joint": 0.1452,
+   "real_joint": 0.1461,
+   "pred_indep": 0.1463,
+   "pred_lift": 0.9915,
+   "real_lift": 0.9987
+  },
+  {
+   "lbin": "1.1-1.3",
+   "n": 505287,
+   "pred_joint": 0.1013,
+   "real_joint": 0.1039,
+   "pred_indep": 0.0839,
+   "pred_lift": 1.2118,
+   "real_lift": 1.2395
+  },
+  {
+   "lbin": "1.3-1.5",
+   "n": 211725,
+   "pred_joint": 0.0867,
+   "real_joint": 0.0951,
+   "pred_indep": 0.0638,
+   "pred_lift": 1.3611,
+   "real_lift": 1.4901
+  },
+  {
+   "lbin": "1.5-1.7",
+   "n": 16163,
+   "pred_joint": 0.0828,
+   "real_joint": 0.0916,
+   "pred_indep": 0.053,
+   "pred_lift": 1.5658,
+   "real_lift": 1.7295
+  },
+  {
+   "lbin": "1.7+",
+   "n": 694,
+   "pred_joint": 0.0694,
+   "real_joint": 0.0778,
+   "pred_indep": 0.0399,
+   "pred_lift": 1.7403,
+   "real_lift": 1.9494
+  }
+ ],
+ "by_type": [
+  {
+   "sig": "atg+ml+total",
+   "n": 45354,
+   "pred_joint": 0.0905,
+   "real_joint": 0.091,
+   "pred_indep": 0.0742,
+   "pred_lift": 1.2632,
+   "real_lift": 1.2265
+  },
+  {
+   "sig": "atg+ml+saves",
+   "n": 84938,
+   "pred_joint": 0.0874,
+   "real_joint": 0.0864,
+   "pred_indep": 0.0766,
+   "pred_lift": 1.1722,
+   "real_lift": 1.1286
+  },
+  {
+   "sig": "atg+sog+total",
+   "n": 359919,
+   "pred_joint": 0.0902,
+   "real_joint": 0.0932,
+   "pred_indep": 0.0808,
+   "pred_lift": 1.1589,
+   "real_lift": 1.1522
+  },
+  {
+   "sig": "atg+saves+total",
+   "n": 175967,
+   "pred_joint": 0.0841,
+   "real_joint": 0.086,
+   "pred_indep": 0.0754,
+   "pred_lift": 1.149,
+   "real_lift": 1.1393
+  },
+  {
+   "sig": "atg+ml+sog",
+   "n": 174636,
+   "pred_joint": 0.0918,
+   "real_joint": 0.091,
+   "pred_indep": 0.0831,
+   "pred_lift": 1.1338,
+   "real_lift": 1.0949
+  },
+  {
+   "sig": "atg+total",
+   "n": 49132,
+   "pred_joint": 0.1261,
+   "real_joint": 0.1341,
+   "pred_indep": 0.1233,
+   "pred_lift": 1.046,
+   "real_lift": 1.088
+  },
+  {
+   "sig": "atg+ml",
+   "n": 24489,
+   "pred_joint": 0.1264,
+   "real_joint": 0.1332,
+   "pred_indep": 0.1236,
+   "pred_lift": 1.0353,
+   "real_lift": 1.0781
+  },
+  {
+   "sig": "ml+saves+total",
+   "n": 89805,
+   "pred_joint": 0.127,
+   "real_joint": 0.1267,
+   "pred_indep": 0.1267,
+   "pred_lift": 1.0045,
+   "real_lift": 0.9996
+  },
+  {
+   "sig": "ml+sog+total",
+   "n": 197620,
+   "pred_joint": 0.1326,
+   "real_joint": 0.1316,
+   "pred_indep": 0.1325,
+   "pred_lift": 1.0018,
+   "real_lift": 0.9931
+  },
+  {
+   "sig": "sog+total",
+   "n": 110173,
+   "pred_joint": 0.2478,
+   "real_joint": 0.2486,
+   "pred_indep": 0.2478,
+   "pred_lift": 1.0008,
+   "real_lift": 1.0029
+  },
+  {
+   "sig": "ml+saves",
+   "n": 23632,
+   "pred_joint": 0.2463,
+   "real_joint": 0.2461,
+   "pred_indep": 0.2463,
+   "pred_lift": 1.0003,
+   "real_lift": 0.9989
+  },
+  {
+   "sig": "ml+total",
+   "n": 11816,
+   "pred_joint": 0.25,
+   "real_joint": 0.25,
+   "pred_indep": 0.25,
+   "pred_lift": 0.9999,
+   "real_lift": 1.0
+  },
+  {
+   "sig": "ml+sog",
+   "n": 55054,
+   "pred_joint": 0.2479,
+   "real_joint": 0.2487,
+   "pred_indep": 0.2479,
+   "pred_lift": 0.9999,
+   "real_lift": 1.003
+  },
+  {
+   "sig": "saves+total",
+   "n": 47264,
+   "pred_joint": 0.2463,
+   "real_joint": 0.2461,
+   "pred_indep": 0.2463,
+   "pred_lift": 0.9995,
+   "real_lift": 0.9989
+  },
+  {
+   "sig": "atg+saves",
+   "n": 105433,
+   "pred_joint": 0.1185,
+   "real_joint": 0.1253,
+   "pred_indep": 0.119,
+   "pred_lift": 0.9959,
+   "real_lift": 1.0531
+  },
+  {
+   "sig": "atg+sog",
+   "n": 203300,
+   "pred_joint": 0.1246,
+   "real_joint": 0.133,
+   "pred_indep": 0.1257,
+   "pred_lift": 0.9904,
+   "real_lift": 1.0584
+  },
+  {
+   "sig": "ml+saves+sog",
+   "n": 192419,
+   "pred_joint": 0.1307,
+   "real_joint": 0.13,
+   "pred_indep": 0.1324,
+   "pred_lift": 0.9878,
+   "real_lift": 0.9819
+  },
+  {
+   "sig": "saves+sog+total",
+   "n": 389477,
+   "pred_joint": 0.1296,
+   "real_joint": 0.1288,
+   "pred_indep": 0.1315,
+   "pred_lift": 0.9849,
+   "real_lift": 0.9795
+  },
+  {
+   "sig": "atg+saves+sog",
+   "n": 340255,
+   "pred_joint": 0.0846,
+   "real_joint": 0.085,
+   "pred_indep": 0.0861,
+   "pred_lift": 0.9834,
+   "real_lift": 0.9869
+  },
+  {
+   "sig": "saves+sog",
+   "n": 110162,
+   "pred_joint": 0.2403,
+   "real_joint": 0.2407,
+   "pred_indep": 0.2442,
+   "pred_lift": 0.9797,
+   "real_lift": 0.9857
+  }
+ ]
+}

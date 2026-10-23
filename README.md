@@ -26,3 +26,12 @@ backtest, runs `export_dashboard.py`, and commits `docs/data/*`. GitHub Pages se
 - `docs/data/prediction_log.csv`: every pre-game prediction (frozen once game day starts) -> the live, out-of-sample record.
 - Confirm starters: edit `overrides.json` (`{"2026-10-20": {"TOR": "Woll"}}`) and run the workflow manually.
 - Setup: push to GitHub, Settings -> Pages -> Deploy from branch `main`, folder `/docs`.
+
+## Same-game parlays
+
+`sgp_model.py` simulates each game's joint outcomes (team shots/goals via a copula using the *measured* correlations,
+shots split among the dressed lineup, goals from each player's shots x shooting%) and ranks 2-3 leg combos by
+**correlation lift** = P(all legs) / product of leg probabilities. `sgp_slate.py` writes `docs/data/sgp.json` daily.
+Legs: team ML, game total 5.5/6.5, top-5 shooters' anytime goal and shots over 1.5/2.5, goalie saves.
+Validate/recalibrate (slow, ~7 min, needs `python3 fetch_lineups.py` first): `sgp_validate.py` -> `sgp_calibrate.py`
+(writes `sgp_calibration.json`, `docs/data/sgp_validation.json`). EV needs the book's SGP price: type it into the dashboard.

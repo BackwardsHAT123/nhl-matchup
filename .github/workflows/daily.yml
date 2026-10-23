@@ -46,6 +46,10 @@ jobs:
       - name: Export dashboard data
         run: python export_dashboard.py
 
+      - name: Same-game parlay candidates
+        continue-on-error: true   # never block the main predictions
+        run: python sgp_slate.py
+
       - name: Commit dashboard data
         run: |
           git config user.name "github-actions[bot]"
