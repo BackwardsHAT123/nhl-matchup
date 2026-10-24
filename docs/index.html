@@ -42,6 +42,7 @@ th{color:var(--mute);font-weight:500}
 .form b{display:inline-block;min-width:20px;text-align:center;border-radius:4px;font-size:11px;margin-right:3px;border:1px solid var(--line)}.form b.w{border-color:var(--good);color:var(--good)}.form b.l{border-color:var(--bad);color:var(--bad)}
 .sgp{margin-bottom:8px}
 .sgp.hot{border-color:var(--good);box-shadow:inset 3px 0 0 var(--good)}
+.sgp .detail{margin-top:10px;padding-top:12px}
 .sgp .legs{font-weight:600}.sgp .legs div{margin:1px 0}.sgp .legs small{color:var(--mute);font-weight:400}
 .sgp .nums{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;margin-top:6px;align-items:center}
 .sgp input{width:84px;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
@@ -129,11 +130,11 @@ fetch("data/sgp.json").then(r=>r.json()).then(S=>{
   const plays=[];S.games.forEach(g=>g.plays.forEach(p=>plays.push({...p,g})));
   const card=(p,i)=>{
     const key="sgp:"+p.g.gameId+":"+p.legs.join("|"), hot=!!p.hot;
-    return `<div class="card sgp ${hot?"hot":""}" data-key="${key}" data-p="${p.p_joint}">
+    return `<div class="card sgp ${hot?"hot":""}" data-key="${key}" data-p="${p.p_joint}" data-away="${p.g.away}" data-home="${p.g.home}">
       <div class="legs">${p.legs.map((l,j)=>{const m=p.market&&p.market.leg_mkt_p[j];return `<div>${l} <small>model ${pct(p.leg_probs[j],0)}${m?` · market ${pct(m,0)}`:""}</small></div>`}).join("")}</div>
-      <div class="nums"><span>${p.g.away} @ ${p.g.home}</span>${(()=>{if(!p.market)return"";let w=0,who="";p.legs.forEach((l,j)=>{const m=p.market.leg_mkt_p[j];if(m&&p.leg_probs[j]/m-1>w){w=p.leg_probs[j]/m-1;who=l}});return w>0.25?`<span class="tag" title="The market is usually better informed (lines, power-play role, injuries). A big gap on one leg is more often model error than edge.">⚠ model ${pct(w,0)} above market on ${who}</span>`:""})()}<span class="lift" title="Joint probability vs. independent product">lift ${p.lift.toFixed(2)}×</span>
+      <div class="nums"><span class="teams" role="button" tabindex="0" aria-expanded="false" title="Click for team and player stats"><span class="caret">▸</span> ${p.g.away} @ ${p.g.home}</span>${(()=>{if(!p.market)return"";let w=0,who="";p.legs.forEach((l,j)=>{const m=p.market.leg_mkt_p[j];if(m&&p.leg_probs[j]/m-1>w){w=p.leg_probs[j]/m-1;who=l}});return w>0.25?`<span class="tag" title="The market is usually better informed (lines, power-play role, injuries). A big gap on one leg is more often model error than edge.">⚠ model ${pct(w,0)} above market on ${who}</span>`:""})()}<span class="lift" title="Joint probability vs. independent product">lift ${p.lift.toFixed(2)}×</span>
       <span>hit ${pct(p.p_joint)} <small class="note">(indep ${pct(p.p_indep)})</small></span><span>fair ${am(p.fair_odds)}</span>${p.market?`<span title="Each leg's price at ${p.market.book}, multiplied. Real SGP prices are lower because books discount correlated legs.">legs × ${am(p.market.naive_odds)} <small class="note">${p.market.book}</small></span><span class="ev ${p.market.ev_full>=0?"good":p.market.ev_half>=0?"warn":"bad"}" title="EV if the book prices 0% / 50% / 100% of the correlation into its SGP payout. Real books price some, not none, and not all.">EV ${sg(p.market.ev)} / ${sg(p.market.ev_half)} / ${sg(p.market.ev_full)}</span><span class="note" title="The play stays +EV as long as the book prices in less than this share of the correlation.">survives if book prices &lt; ${p.market.f_star>=1?"all":pct(Math.max(p.market.f_star,0),0)} of it</span>`:""}
-      <span>book <input inputmode="numeric" placeholder="+450" value="${store.get(key)}"></span><span class="ev"></span></div></div>`};
+      <span>book <input inputmode="numeric" placeholder="+450" value="${store.get(key)}"></span><span class="ev"></span></div><div class="detail" hidden></div></div>`};
   const day=iso=>new Date(iso+"T12:00:00").toLocaleDateString([],{weekday:"short",month:"short",day:"numeric"});
   const render=()=>{
   const mode=$("sgpsort").value;
@@ -176,12 +177,14 @@ function teamPanel(abbr,T){
     <p class="note" style="margin:6px 0 0">${gl}</p></div>`;
 }
 async function toggleDetail(teamsEl){
-  const card=teamsEl.closest(".game"),box=card.querySelector(".detail"),open=teamsEl.getAttribute("aria-expanded")==="true";
+  const card=teamsEl.closest("[data-away]"),box=card.querySelector(".detail"),open=teamsEl.getAttribute("aria-expanded")==="true";
   teamsEl.setAttribute("aria-expanded",String(!open));box.hidden=open;
   if(!open&&!box.dataset.done){const T=await TSP;box.innerHTML=teamPanel(card.dataset.away,T)+teamPanel(card.dataset.home,T)
     +`<p class="note" style="grid-column:1/-1;margin:0">Shaded = team leader in that stat; ★n = top-10 in the NHL (rank n). Season to date, regular season; TOI = minutes per game.${T?` Updated ${fmt(T.generated_at)}.`:""}</p>`;box.dataset.done="1"}
 }
-$("slate").addEventListener("click",e=>{const t=e.target.closest(".teams");if(t)toggleDetail(t)});
-$("slate").addEventListener("keydown",e=>{const t=e.target.closest&&e.target.closest(".teams");if(t&&(e.key==="Enter"||e.key===" ")){e.preventDefault();toggleDetail(t)}});
+["slate","sgp"].forEach(id=>{
+  $(id).addEventListener("click",e=>{const t=e.target.closest(".teams");if(t)toggleDetail(t)});
+  $(id).addEventListener("keydown",e=>{const t=e.target.closest&&e.target.closest(".teams");if(t&&(e.key==="Enter"||e.key===" ")){e.preventDefault();toggleDetail(t)}});
+});
 </script>
 </body></html>
