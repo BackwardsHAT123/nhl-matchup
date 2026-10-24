@@ -17,6 +17,7 @@ import pandas as pd
 from scipy.stats import nbinom, norm, poisson
 
 from features import PROC
+from odds import norm as norm_name
 
 SHARE_WINDOW = 20          # team games for player shot shares / team shot rates
 SHOOT_WINDOW = 60          # team games for player shooting%
@@ -212,7 +213,7 @@ def _allocate(rng, sog, goals, pl):
     return {int(pid): (S[:, i], G[:, i]) for i, pid in enumerate(pl.player_id)}
 
 
-def make_legs(inp, sim, top_players=5):
+def make_legs(inp, sim, top_players=5, extra=None):
     """Candidate legs -> dict label -> (bool array, meta). Meta: market, team, player, line."""
     legs = {}
     add = lambda lab, arr, **m: legs.__setitem__(lab, (arr.astype(bool), m))
@@ -228,11 +229,14 @@ def make_legs(inp, sim, top_players=5):
         top = pl.assign(eg=pl.share * pl.q).sort_values("eg", ascending=False).head(top_players)
         for r in top.itertuples():
             S, G = sim[f"p_{side}"][int(r.player_id)]
-            add(f"{r.name} anytime goal", G >= 1, market="atg", team=team, player=int(r.player_id), kind="atg", side=side)
+            add(f"{r.name} anytime goal", G >= 1, market="atg", team=team, player=int(r.player_id), kind="atg", side=side, name=r.name)
             for line in (1.5, 2.5):  # 3.5 dropped: backtest shows it is over-predicted by 5-7 pts
                 pr = (S > line).mean()
                 if 0.2 <= pr <= 0.85:
-                    add(f"{r.name} over {line} SOG", S > line, market="sog", team=team, player=int(r.player_id), kind="sog", side=side, line=line)
+                    add(f"{r.name} over {line} SOG", S > line, market="sog", team=team, player=int(r.player_id), kind="sog", side=side, line=line, name=r.name)
+            for line in sorted(set((extra or {}).get("sog", {}).get(norm_name(r.name), [])) - {1.5, 2.5}):
+                if 0.5 <= line <= 4.5:   # lines posted by books that the default grid lacks
+                    add(f"{r.name} over {line} SOG", S > line, market="sog", team=team, player=int(r.player_id), kind="sog", side=side, line=line, name=r.name)
     for key, team in (("saves_h", H), ("saves_a", A)):
         gs = key[-1]
         mu = sim[key].mean()
@@ -240,6 +244,14 @@ def make_legs(inp, sim, top_players=5):
         for line in (main - 2, main, main + 2):
             add(f"{team} goalie over {line:g} saves", sim[key] > line, market="saves", team=team, kind="saves", side=gs, dir="over", line=line)
         add(f"{team} goalie under {main:g} saves", sim[key] < main, market="saves", team=team, kind="saves", side=gs, dir="under", line=main)
+        for line in (extra or {}).get("saves", {}).get(gs, []):
+            for d in ("over", "under"):
+                arr = sim[key] > line if d == "over" else sim[key] < line
+                add(f"{team} goalie {d} {line:g} saves", arr, market="saves", team=team, kind="saves", side=gs, dir=d, line=line)
+    for line in (extra or {}).get("totals", []):
+        if line not in (5.5, 6.5) and line % 1 == 0.5:
+            add(f"Over {line}", sim["total"] > line, market="total", team=None, kind="total", dir="over", line=line)
+            add(f"Under {line}", sim["total"] < line, market="total", team=None, kind="total", dir="under", line=line)
     return legs
 
 

@@ -59,7 +59,7 @@ svg text{fill:var(--mute);font-size:10px}
 
 <h2>Same-game parlay finder</h2>
 <p class="note">Simulated joint outcomes for 2–3 leg parlays, ranked by <b>correlation lift</b> = P(all legs hit) ÷ product of each leg's probability. <b>Fair odds</b> are the break-even price: if your book pays better than fair odds the parlay is +EV <i>by this model</i>. Type your book's SGP price to see EV. Books already discount for correlation, so check that price, not just the lift. Plays pairing a player's shots with the opposing goalie's saves are excluded (same shots counted twice).</p>
-<div class="note" style="margin:0 0 8px">Sort by: <select id="sgpsort"><option value="lift">Correlation lift (long shots first)</option><option value="prob">Hit probability (lift ≥ 1.25 only)</option></select></div>
+<div class="note" style="margin:0 0 8px">Sort by: <select id="sgpsort"><option value="lift">Correlation lift (long shots first)</option><option value="prob">Hit probability (lift ≥ 1.25 only)</option><option value="ev">EV vs. legs multiplied (needs live odds)</option></select></div>
 <div id="sgp"></div>
 <h3 style="font-size:14px;margin:22px 0 6px">How reliable are these numbers?</h3>
 <div class="card" id="sgpval"></div>
@@ -122,17 +122,18 @@ fetch("data/sgp.json").then(r=>r.json()).then(S=>{
   const card=(p,i)=>{
     const key="sgp:"+p.g.gameId+":"+p.legs.join("|"), hot=!!p.hot;
     return `<div class="card sgp ${hot?"hot":""}" data-key="${key}" data-p="${p.p_joint}">
-      <div class="legs">${p.legs.map((l,j)=>`<div>${l} <small>${pct(p.leg_probs[j],0)}</small></div>`).join("")}</div>
+      <div class="legs">${p.legs.map((l,j)=>{const m=p.market&&p.market.leg_mkt_p[j];return `<div>${l} <small>model ${pct(p.leg_probs[j],0)}${m?` · market ${pct(m,0)}`:""}</small></div>`}).join("")}</div>
       <div class="nums"><span>${p.g.away} @ ${p.g.home}</span><span class="lift" title="Joint probability vs. independent product">lift ${p.lift.toFixed(2)}×</span>
-      <span>hit ${pct(p.p_joint)} <small class="note">(indep ${pct(p.p_indep)})</small></span><span>fair ${am(p.fair_odds)}</span>
+      <span>hit ${pct(p.p_joint)} <small class="note">(indep ${pct(p.p_indep)})</small></span><span>fair ${am(p.fair_odds)}</span>${p.market?`<span title="Each leg's price at ${p.market.book}, multiplied. Real SGP prices are lower because books discount correlated legs.">legs × ${am(p.market.naive_odds)} <small class="note">${p.market.book}</small></span><span class="ev ${p.market.ev>=0?"good":"bad"}" title="Upper bound. This play stays +EV if the book's SGP payout is within ${pct(p.market.cushion,0)} of the multiplied price.">EV* ${p.market.ev>=0?"+":""}${(p.market.ev*100).toFixed(0)}% · cushion ${pct(p.market.cushion,0)}</span>`:""}
       <span>book <input inputmode="numeric" placeholder="+450" value="${store.get(key)}"></span><span class="ev"></span></div></div>`};
   const day=iso=>new Date(iso+"T12:00:00").toLocaleDateString([],{weekday:"short",month:"short",day:"numeric"});
   const render=()=>{
   const mode=$("sgpsort").value;
-  const top=(mode==="lift"?plays.slice().sort((a,b)=>b.lift-a.lift):plays.filter(p=>p.lift>=1.25).sort((a,b)=>b.p_joint-a.p_joint)).slice(0,12);
+  const sorted=mode==="lift"?plays.slice().sort((a,b)=>b.lift-a.lift):mode==="ev"?plays.filter(p=>p.market).sort((a,b)=>b.market.ev-a.market.ev):plays.filter(p=>p.lift>=1.25).sort((a,b)=>b.p_joint-a.p_joint);
+  const top=sorted.slice(0,12);
   const rest=S.games.map(g=>`<details><summary>${day(g.date)} · ${g.away} @ ${g.home} <small class="note">(exp. total ${g.exp_total})</small></summary>${g.plays.map(p=>card({...p,g})).join("")}</details>`).join("");
-  $("sgp").innerHTML=(top.length?`<div class="day">Highest correlation across the slate</div>${top.map(p=>card({...p,hot:true})).join("")}<div class="day">By game</div>${rest}`:'<div class="card">No candidates yet.</div>')+
-    `<p class="note">Updated ${fmt(S.generated_at)} · ${S.n_sim.toLocaleString()} simulations/game · lineups = last game's dressed skaters (check for scratches/injuries) · green edge = top picks for the chosen sort.</p>`;
+  $("sgp").innerHTML=(top.length?`<div class="day">${mode==="ev"?"Best EV vs. multiplied leg prices":"Top picks across the slate"}</div>${top.map(p=>card({...p,hot:true})).join("")}<div class="day">By game</div>${rest}`:'<div class="card">No candidates yet.</div>')+
+    `<p class="note">Updated ${fmt(S.generated_at)} · ${S.odds_games?`live odds for ${S.odds_games} games (<b>EV*</b> = model hit rate × legs' prices multiplied − 1; an upper bound, since books pay less on correlated parlays)`:"no live odds in this run (type your book's price for EV)"} · ${S.n_sim.toLocaleString()} simulations/game · lineups = last game's dressed skaters (check for scratches/injuries) · green edge = top picks for the chosen sort.</p>`;
   const upd=el=>{const v=parseFloat(el.querySelector("input").value),out=el.querySelector(".ev"),key=el.dataset.key;
     store.set(key,el.querySelector("input").value);
     if(isNaN(v)||v===0){out.textContent="";return}

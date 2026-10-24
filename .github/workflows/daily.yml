@@ -48,6 +48,8 @@ jobs:
 
       - name: Same-game parlay candidates
         continue-on-error: true   # never block the main predictions
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}   # optional; without it EV vs market is skipped
         run: python sgp_slate.py
 
       - name: Commit dashboard data

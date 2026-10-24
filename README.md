@@ -35,3 +35,10 @@ shots split among the dressed lineup, goals from each player's shots x shooting%
 Legs: team ML, game total 5.5/6.5, top-5 shooters' anytime goal and shots over 1.5/2.5, goalie saves.
 Validate/recalibrate (slow, ~7 min, needs `python3 fetch_lineups.py` first): `sgp_validate.py` -> `sgp_calibrate.py`
 (writes `sgp_calibration.json`, `docs/data/sgp_validation.json`). EV needs the book's SGP price: type it into the dashboard.
+
+### Live odds (optional)
+Add a repo secret `ODDS_API_KEY` (The Odds API key; Settings -> Secrets and variables -> Actions). Each run fetches
+moneyline, totals, anytime-goal, shots-on-goal and saves for games starting within 30h: ~5 credits/game, capped by
+`ODDS_MAX_CREDITS` (default 120/run). The API has leg prices only, so "EV*" = model hit rate x legs' prices multiplied - 1,
+an upper bound; "cushion" = payout haircut the book can apply before the play stops being +EV. `tests/test_odds_mock.py`
+checks the pricing path against a mock response.

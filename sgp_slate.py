@@ -11,8 +11,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import odds
 import predict
 import sgp_model as M
+import sgp_pricing as P
 from features import PROC
 from seasons import CUR
 
@@ -55,16 +57,24 @@ def main():
     st = M.Store()
     res = pd.read_csv(PROC / "nhl_schedule_results.csv", parse_dates=["date"])
     res = res[(res.season == CUR) & res.state.isin(["OFF", "FINAL"])]
-    cache, games = {}, []
+    market = odds.fetch_slate()
+    gmap = P.goalie_team_map() if market else {}
+    cache, games, n_priced = {}, [], 0
     for i, g in enumerate(pred["games"]):
         asof = pd.Timestamp(g["date"])
+        books = market.get((g["away"], g["home"]), {})
+        starters = {"h": odds.norm(g["h_goalie"]), "a": odds.norm(g["a_goalie"])}
         try:
             lh, la = last_lineup(res, g["home"], asof, cache), last_lineup(res, g["away"], asof, cache)
             inp = M.build_inputs(st, g["home"], g["away"], asof, g["p_home"], lh, la)
             if inp.players_h.empty or inp.players_a.empty:
                 continue
             sim = M.simulate(inp, N_SIM, seed=i)
-            legs = M.make_legs(inp, sim)
+            extra = None
+            if books:
+                names = [odds.norm(n) for pl in (inp.players_h, inp.players_a) for n in pl.name]
+                extra = P.extra_lines(books, g["home"], g["away"], names, gmap, starters)
+            legs = M.make_legs(inp, sim, extra=extra)
             df = M.rank_combos(legs, min_joint=MIN_JOINT)
         except Exception as e:  # one bad game must not kill the slate
             print("skip", g["home"], g["away"], repr(e)[:100])
@@ -77,16 +87,38 @@ def main():
         df["lift_cal"] = df.p_cal / df.p_indep
         by_lift = df.sort_values("lift_cal", ascending=False).head(TOP_PER_GAME)
         likely = df[df.lift_cal >= MIN_LIFT_LIKELY].sort_values("p_cal", ascending=False).head(6)
-        top = pd.concat([by_lift, likely]).drop_duplicates(subset=["p_joint", "p_indep"])
-        plays = [dict(legs=r.legs, leg_probs=[round(x, 3) for x in r.leg_probs], p_joint=round(r.p_cal, 4),
-                      p_raw=round(r.p_joint, 4), p_indep=round(r.p_indep, 4), lift=round(r.lift_cal, 3),
-                      fair_odds=M.american(r.p_cal), sig=r.sig) for r in top.itertuples()]
+        parts = [by_lift, likely]
+        mk = {}
+        if books:   # price every correlated candidate, then also surface the best market EVs
+            cand = df[(df.lift_cal >= 1.15) & (df.p_cal >= MIN_JOINT)]
+            for r in cand.itertuples():
+                pr = P.price_play(books, [legs[n][1] for n in r.idx], r.p_cal, gmap, starters)
+                if pr:
+                    mk[r.Index] = pr
+            if mk:
+                parts.append(df.loc[sorted(mk, key=lambda k: -mk[k]["ev"])[:6]])
+        top = pd.concat(parts)
+        top = top[~top.index.duplicated()]
+        plays = []
+        for r in top.itertuples():
+            play = dict(legs=r.legs, leg_probs=[round(x, 3) for x in r.leg_probs], p_joint=round(r.p_cal, 4),
+                        p_raw=round(r.p_joint, 4), p_indep=round(r.p_indep, 4), lift=round(r.lift_cal, 3),
+                        fair_odds=M.american(r.p_cal), sig=r.sig)
+            pr = mk.get(r.Index) or (P.price_play(books, [legs[n][1] for n in r.idx], r.p_cal, gmap, starters) if books else None)
+            if pr:
+                play["market"] = dict(book=pr["book"], naive_odds=M.american(1 / pr["dec"]) if pr["dec"] > 1 else None,
+                                      naive_dec=round(pr["dec"], 2), ev=round(pr["ev"], 4), cushion=round(pr["cushion"], 4),
+                                      n_books=pr["n_books"], leg_mkt_p=[None if x is None else round(x, 3) for x in pr["mkt_p"]])
+                n_priced += 1
+            plays.append(play)
         games.append(dict(gameId=g["gameId"], date=g["date"], home=g["home"], away=g["away"],
-                          start_utc=g["start_utc"], p_home=round(g["p_home"], 4),
+                          start_utc=g["start_utc"], p_home=round(g["p_home"], 4), priced=bool(books),
                           exp_total=round(float(sim["total"].mean()), 2), plays=plays))
-        print(f"{g['away']} @ {g['home']}: {len(df)} combos, best lift {top.lift_cal.max():.2f}", flush=True)
+        print(f"{g['away']} @ {g['home']}: {len(df)} combos, best lift {top.lift_cal.max():.2f}"
+              f"{', priced ' + str(len(mk)) if books else ''}", flush=True)
     OUT.write_text(json.dumps(dict(generated_at=datetime.now(timezone.utc).isoformat(timespec="minutes"),
-                                   min_joint=MIN_JOINT, n_sim=N_SIM, games=games), indent=1))
+                                   min_joint=MIN_JOINT, n_sim=N_SIM, odds_games=len(market), priced_plays=n_priced,
+                                   games=games), indent=1))
     print("wrote", OUT)
 
 
