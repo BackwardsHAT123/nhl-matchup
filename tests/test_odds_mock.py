@@ -58,11 +58,11 @@ def test_pipeline():
     df = df[~df.mechanical]
     n, last = 0, None
     for r in df.sort_values("lift", ascending=False).head(300).itertuples():
-        pr = P.price_play(books, [legs[x][1] for x in r.idx], r.p_joint, {}, {})
+        pr = P.price_play(books, [legs[x][1] for x in r.idx], r.p_joint, {}, {}, r.lift)
         if pr:
             n, last = n + 1, pr
-            assert pr["n_books"] in (1, 2) and pr["dec"] > 1 and -1 < pr["ev"] < 50 and 0 <= pr["cushion"] < 1
-    print("priced", n, "of 300 combos; example EV", round(last["ev"], 3), "cushion", round(last["cushion"], 3), last["book"])
+            assert pr["n_books"] in (1, 2) and pr["dec"] > 1 and -1 < pr["ev"] < 50 and pr["ev_full"] <= pr["ev_half"] <= pr["ev"] and -1 <= pr["f_star"] <= 2
+    print("priced", n, "of 300 combos; example EV", round(last["ev"], 3), "f*", round(last["f_star"], 2), last["book"])
     assert n > 0
 
 

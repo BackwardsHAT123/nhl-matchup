@@ -39,6 +39,7 @@ Validate/recalibrate (slow, ~7 min, needs `python3 fetch_lineups.py` first): `sg
 ### Live odds (optional)
 Add a repo secret `ODDS_API_KEY` (The Odds API key; Settings -> Secrets and variables -> Actions). Each run fetches
 moneyline, totals, anytime-goal, shots-on-goal and saves for games starting within 30h: ~5 credits/game, capped by
-`ODDS_MAX_CREDITS` (default 120/run). The API has leg prices only, so "EV*" = model hit rate x legs' prices multiplied - 1,
-an upper bound; "cushion" = payout haircut the book can apply before the play stops being +EV. `tests/test_odds_mock.py`
+`ODDS_MAX_CREDITS` (default 120/run). The API has leg prices only (no SGP prices), so the dashboard shows EV at 0% / 50% / 100% of the correlation priced in
+by the book (price = legs multiplied / lift^f) and the share of correlation the play survives. Scheduled runs skip odds
+(~70 credits/run) unless repo variable `ODDS_SCHEDULED=true`; manual runs always fetch. `tests/test_odds_mock.py`
 checks the pricing path against a mock response.

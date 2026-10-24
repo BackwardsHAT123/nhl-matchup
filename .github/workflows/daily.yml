@@ -49,7 +49,8 @@ jobs:
       - name: Same-game parlay candidates
         continue-on-error: true   # never block the main predictions
         env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}   # optional; without it EV vs market is skipped
+          # odds cost ~70 credits per run: fetched on manual runs, or on every run if repo variable ODDS_SCHEDULED=true
+          ODDS_API_KEY: ${{ (github.event_name == 'workflow_dispatch' || vars.ODDS_SCHEDULED == 'true') && secrets.ODDS_API_KEY || '' }}
         run: python sgp_slate.py
 
       - name: Commit dashboard data

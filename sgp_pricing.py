@@ -79,7 +79,7 @@ def leg_price(book, meta, gmap, starters):
     return None
 
 
-def price_play(books, metas, p_model, gmap, starters):
+def price_play(books, metas, p_model, gmap, starters, lift=1.0):
     """Best bookmaker (highest multiplied price among books quoting all legs) or None."""
     best, n_books = None, 0
     for key, b in books.items():
@@ -92,8 +92,13 @@ def price_play(books, metas, p_model, gmap, starters):
             best = dict(book=b["title"], dec=dec, mkt_p=[x[1] for x in legs])
     if best is None:
         return None
-    fair_dec = 1 / p_model
+    # Scenario EVs: the book's SGP price = legs multiplied / lift^f, where f is the share of the correlation
+    # it prices in. f=0 is the naive upper bound; f=1 means it prices our full lift (EV then = leg edges only).
     best["ev"] = p_model * best["dec"] - 1
-    best["cushion"] = max(0.0, 1 - fair_dec / best["dec"])   # payout haircut the book can apply and still be +EV
+    L = max(lift, 1.0001)
+    best["ev_half"] = p_model * best["dec"] / L ** 0.5 - 1
+    best["ev_full"] = p_model * best["dec"] / L - 1
+    # largest share of the correlation the book can price before EV hits zero (capped at 2 = "robust")
+    best["f_star"] = float(np.clip(np.log(max(1 + best["ev"], 1e-6)) / np.log(L), -1, 2))
     best["n_books"] = n_books
     return best

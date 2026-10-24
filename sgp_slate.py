@@ -92,11 +92,11 @@ def main():
         if books:   # price every correlated candidate, then also surface the best market EVs
             cand = df[(df.lift_cal >= 1.15) & (df.p_cal >= MIN_JOINT)]
             for r in cand.itertuples():
-                pr = P.price_play(books, [legs[n][1] for n in r.idx], r.p_cal, gmap, starters)
+                pr = P.price_play(books, [legs[n][1] for n in r.idx], r.p_cal, gmap, starters, r.lift_cal)
                 if pr:
                     mk[r.Index] = pr
             if mk:
-                parts.append(df.loc[sorted(mk, key=lambda k: -mk[k]["ev"])[:6]])
+                parts.append(df.loc[sorted(mk, key=lambda k: -mk[k]["f_star"])[:6]])
         top = pd.concat(parts)
         top = top[~top.index.duplicated()]
         plays = []
@@ -104,10 +104,11 @@ def main():
             play = dict(legs=r.legs, leg_probs=[round(x, 3) for x in r.leg_probs], p_joint=round(r.p_cal, 4),
                         p_raw=round(r.p_joint, 4), p_indep=round(r.p_indep, 4), lift=round(r.lift_cal, 3),
                         fair_odds=M.american(r.p_cal), sig=r.sig)
-            pr = mk.get(r.Index) or (P.price_play(books, [legs[n][1] for n in r.idx], r.p_cal, gmap, starters) if books else None)
+            pr = mk.get(r.Index) or (P.price_play(books, [legs[n][1] for n in r.idx], r.p_cal, gmap, starters, r.lift_cal) if books else None)
             if pr:
                 play["market"] = dict(book=pr["book"], naive_odds=M.american(1 / pr["dec"]) if pr["dec"] > 1 else None,
-                                      naive_dec=round(pr["dec"], 2), ev=round(pr["ev"], 4), cushion=round(pr["cushion"], 4),
+                                      naive_dec=round(pr["dec"], 2), ev=round(pr["ev"], 4), ev_half=round(pr["ev_half"], 4),
+                                      ev_full=round(pr["ev_full"], 4), f_star=round(pr["f_star"], 3),
                                       n_books=pr["n_books"], leg_mkt_p=[None if x is None else round(x, 3) for x in pr["mkt_p"]])
                 n_priced += 1
             plays.append(play)
