@@ -19,6 +19,7 @@ import pandas as pd
 
 import backtest
 import features as F
+import starters
 from seasons import CUR
 
 PROC = F.PROC
@@ -62,7 +63,18 @@ def goalie_stats(gg, gid):
     return h.gsax.sum() / (len(h) + F.GS_PRIOR), len(h)
 
 
+def roster_goalie_ids(team):
+    """Goalies currently on the club (from the NHL club-stats file), or None if unavailable."""
+    f = PROC.parent.parent / "docs" / "data" / "team_stats.json"
+    try:
+        ids = {g["id"] for g in json.loads(f.read_text())["teams"][team]["goalies"]}
+        return ids or None
+    except Exception:
+        return None
+
+
 def pick_goalie(gg, team, asof, override):
+    """-> (goalie_id, name, assumed, [(id, name, prob), ...]). Uses the trained starter model unless overridden."""
     pool = gg[(gg.team == team) & (gg.date < asof)].sort_values("date")
     recent = pool.tail(10)
     if override:
@@ -73,7 +85,14 @@ def pick_goalie(gg, team, asof, override):
         if hit.empty:
             raise SystemExit(f"No goalie matching '{override}' in data")
         r = hit.iloc[-1]
-        return int(r.goalie_id), r.goalie, False
+        return int(r.goalie_id), r.goalie, False, [(int(r.goalie_id), r.goalie, 1.0)]
+    try:
+        dist = starters.starter_probs(team, asof, roster_goalie_ids(team))
+    except Exception as e:      # never let the starter model break the slate
+        print("starter model failed for", team, repr(e)[:80])
+        dist = []
+    if dist:
+        return dist[0][0], dist[0][1], True, dist
     order = recent.goalie_id.value_counts().index.tolist()
     yday = pool.tail(1)
     played_yday = (not yday.empty) and (asof - yday.date.iloc[0]).days == 1
@@ -81,7 +100,7 @@ def pick_goalie(gg, team, asof, override):
     if played_yday and yday.goalie_id.iloc[0] == gid and len(order) > 1:
         gid = order[1]
     name = pool[pool.goalie_id == gid].goalie.iloc[-1]
-    return int(gid), name, True
+    return int(gid), name, True, [(int(gid), name, 1.0)]
 
 
 def compute_slate(day, over=None, w1=0.75):
@@ -107,12 +126,18 @@ def compute_slate(day, over=None, w1=0.75):
         ag = pick_goalie(gg, a, asof, over.get(a))
         hgs, _ = goalie_stats(gg, hg[0])
         ags, _ = goalie_stats(gg, ag[0])
-        x = pd.DataFrame([{"d_xg": (hx - ax) * 100, "d_gsax": hgs - ags,
+        # when the starter is uncertain, feed the model the probability-weighted GSAx of the candidates
+        hgx = sum(p * goalie_stats(gg, gid)[0] for gid, _, p in hg[3])
+        agx = sum(p * goalie_stats(gg, gid)[0] for gid, _, p in ag[3])
+        x = pd.DataFrame([{"d_xg": (hx - ax) * 100, "d_gsax": hgx - agx,
                            "d_b2b": int(hr == 0) - int(ar == 0), "d_rest": hr - ar}])
         out.append(dict(gameId=g["id"], date=day, start_utc=g.get("startTimeUTC"), home=h, away=a,
                         p_home=float(backtest.predict(x, params, w)[0]),
                         h_xg=hx, a_xg=ax, h_goalie=hg[1], a_goalie=ag[1],
                         h_assumed=hg[2], a_assumed=ag[2], h_gsax=hgs, a_gsax=ags,
+                        h_p_start=round(hg[3][0][2], 3), a_p_start=round(ag[3][0][2], 3),
+                        h_alt=(f"{hg[3][1][1]} {hg[3][1][2]:.0%}" if len(hg[3]) > 1 else None),
+                        a_alt=(f"{ag[3][1][1]} {ag[3][1][2]:.0%}" if len(ag[3]) > 1 else None),
                         h_rest=int(hr), a_rest=int(ar), weights=list(w),
                         h_last4=last_games(res, h, asof), a_last4=last_games(res, a, asof)))
     return out
@@ -134,8 +159,8 @@ def main():
             "game": f"{r['away']} @ {r['home']}", "P(home)": round(p, 3),
             "pick": r["home"] if p >= .5 else r["away"], "conf": round(max(p, 1 - p), 3),
             "xGF% a/h": f"{r['a_xg']:.1%} / {r['h_xg']:.1%}",
-            "starter a": f"{r['a_goalie']}{'*' if r['a_assumed'] else ''} ({r['a_gsax']:+.2f})",
-            "starter h": f"{r['h_goalie']}{'*' if r['h_assumed'] else ''} ({r['h_gsax']:+.2f})",
+            "starter a": f"{r['a_goalie']}{'* ' + format(r['a_p_start'], '.0%') if r['a_assumed'] else ''} ({r['a_gsax']:+.2f})",
+            "starter h": f"{r['h_goalie']}{'* ' + format(r['h_p_start'], '.0%') if r['h_assumed'] else ''} ({r['h_gsax']:+.2f})",
             "rest a/h": f"{r['a_rest']}{' B2B' if r['a_rest'] == 0 else ''} / {r['h_rest']}{' B2B' if r['h_rest'] == 0 else ''}"})
     pd.set_option("display.width", 220, "display.max_columns", 20)
     print(f"\nNHL matchups {args.date}  weights xG/GSAx/sched = {tuple(round(x, 2) for x in games[0]['weights'])}")

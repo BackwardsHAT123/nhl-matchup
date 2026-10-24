@@ -114,11 +114,11 @@ Promise.all([fetch("data/predictions.json").then(r=>r.json()),fetch("data/summar
       const ph=g.p_home,pick=ph>=.5?g.home:g.away,c=Math.max(ph,1-ph);
       const rest=r=>r===0?'<span class="tag">B2B</span>':r+"d rest";
       const l4=(arr)=>arr&&arr.length?`<span class="l4">${arr.map(x=>`<b class="${x.gf>x.ga?"w":"l"}" title="${x.date} ${x.home?"vs":"@"} ${x.opp}: ${x.gf}-${x.ga}">${x.gf}</b>`).join("")}</span>`:" n/a";
-      const gs=(n,as,x)=>`${n}${as?"*":""} (${x>=0?"+":""}${x.toFixed(2)})`;
+      const gs=(n,as,x,p,alt)=>`<span title="${as&&alt?"Likely alternative: "+alt:""}">${n}${as?"* "+pct(p||0,0):""} (${x>=0?"+":""}${x.toFixed(2)})</span>`;
       return `<div class="card game" data-away="${g.away}" data-home="${g.home}"><div class="teams" role="button" tabindex="0" aria-expanded="false" title="Click for team and player stats"><span class="caret">▸</span> ${g.away} @ ${g.home}${g.a_xg>HI&&g.h_xg>HI?`<span class="flag" title="Both teams above ${pct(HI,0)} xGF%">Both &gt;${pct(HI,0)} xGF%</span>`:""}<small>${new Date(g.start_utc).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}</small></div>
       <div><div class="bar"><i style="width:${ph*100}%"></i></div><div class="pr"><span>${g.away} ${pct(1-ph)}</span><span>${g.home} ${pct(ph)}</span></div></div>
       <div class="pick">${pick} <small>${pct(c)} confidence</small></div>
-      <div class="meta"><span>xGF% ${g.away} ${pct(g.a_xg)} · ${g.home} ${pct(g.h_xg)}</span><span>G: ${gs(g.a_goalie,g.a_assumed,g.a_gsax)} vs ${gs(g.h_goalie,g.h_assumed,g.h_gsax)}</span><span>${g.away}: ${rest(g.a_rest)} · ${g.home}: ${rest(g.h_rest)}</span><span class="last4">Goals scored, last 4 (newest first): ${g.away}${l4(g.a_last4)} · ${g.home}${l4(g.h_last4)}</span></div><div class="detail" hidden></div></div>`}).join("")}).join("")||'<div class="card">No games scheduled.</div>';
+      <div class="meta"><span>xGF% ${g.away} ${pct(g.a_xg)} · ${g.home} ${pct(g.h_xg)}</span><span>G: ${gs(g.a_goalie,g.a_assumed,g.a_gsax,g.a_p_start,g.a_alt)} vs ${gs(g.h_goalie,g.h_assumed,g.h_gsax,g.h_p_start,g.h_alt)}</span><span>${g.away}: ${rest(g.a_rest)} · ${g.home}: ${rest(g.h_rest)}</span><span class="last4">Goals scored, last 4 (newest first): ${g.away}${l4(g.a_last4)} · ${g.home}${l4(g.h_last4)}</span></div><div class="detail" hidden></div></div>`}).join("")}).join("")||'<div class="card">No games scheduled.</div>';
   // calibration
   $("cal").innerHTML="<tr><th>Model confidence</th><th>Games</th><th>Avg conf.</th><th>Actual win %</th></tr>"+bt.calibration.map(r=>`<tr><td>${["50-55%","55-60%","60-65%","65%+"][bt.calibration.indexOf(r)]}</td><td>${r.n}</td><td>${pct(r.conf)}</td><td>${pct(r.acc)}</td></tr>`).join("");
   // cumulative accuracy chart

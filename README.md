@@ -55,3 +55,10 @@ before puck drop (never overwritten once a game starts), then grades finished ga
 ice-time drop, penalties/fights/majors, empty-net goals, OT/shootout, hot/shaky goalie, and result-vs-xG mismatch.
 `python3 review.py backfill 2026-10-19 2026-10-22` rebuilds past days from pre-game data (marked "reconstructed").
 Output: `docs/data/results_review.json` (dashboard "Results review"). Injuries are inferred from lineup and ice-time changes, not read from a feed.
+
+## Starting-goalie model
+`starters.py` predicts who starts: a boosted classifier scores each recent goalie on usage, tandem alternation, rest and
+back-to-backs, whether the team plays tomorrow, this-season starts, schedule density and last-start performance (candidates are
+filtered to the current roster). Backtest, next-game accuracy: 2025-26 69.9% vs 63.8% for the old "most-used" rule; 2026-27 to date 71.3% vs 61.4%;
+on the 54 logged team-games 75.9% vs 63.0% (92% when it says >=70%). The NHL API publishes no probable starter before game time, so
+overrides (`overrides.json`) remain the way to enter a confirmed starter. When uncertain, the main model uses the probability-weighted GSAx.

@@ -94,7 +94,7 @@ def main():
         for st in STATS:
             top = df[df.team == team].sort_values([st, "points"], ascending=False).iloc[0]
             leaders[st] = dict(name=top["name"], value=int(top[st]), gp=int(top.gp), rank=int(top["rk_" + st]), id=int(top.id))
-        goalies = [dict(name=f'{g["firstName"]["default"]} {g["lastName"]["default"]}', gp=g["gamesPlayed"],
+        goalies = [dict(id=g["playerId"], name=f'{g["firstName"]["default"]} {g["lastName"]["default"]}', gp=g["gamesPlayed"],
                         w=g["wins"], l=g["losses"], otl=g["overtimeLosses"],
                         sv=round(g["savePercentage"], 3), gaa=round(g["goalsAgainstAverage"], 2))
                    for g in sorted(d["goalies"], key=lambda g: -g["gamesPlayed"])[:2] if g["gamesPlayed"]]
