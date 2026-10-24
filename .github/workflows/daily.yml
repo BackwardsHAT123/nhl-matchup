@@ -4,7 +4,12 @@ on:
   schedule:
     - cron: "0 14 * * *"   # 10:00 ET: morning slate
     - cron: "30 21 * * *"  # 17:30 ET: refresh after starters are usually known
-  workflow_dispatch:         # run manually after editing overrides.json
+  workflow_dispatch:
+    inputs:
+      odds:
+        description: "Fetch live odds (~70 API credits)"
+        type: boolean
+        default: true         # run manually after editing overrides.json
 
 permissions:
   contents: write
@@ -54,14 +59,18 @@ jobs:
         continue-on-error: true   # never block the main predictions
         env:
           # odds cost ~70 credits per run: fetched on manual runs, or on every run if repo variable ODDS_SCHEDULED=true
-          ODDS_API_KEY: ${{ (github.event_name == 'workflow_dispatch' || vars.ODDS_SCHEDULED == 'true') && secrets.ODDS_API_KEY || '' }}
+          ODDS_API_KEY: ${{ ((github.event_name == 'workflow_dispatch' && inputs.odds) || vars.ODDS_SCHEDULED == 'true') && secrets.ODDS_API_KEY || '' }}
         run: python sgp_slate.py
+
+      - name: Results review (log picks pre-game, grade finished games)
+        continue-on-error: true
+        run: python review.py
 
       - name: Commit dashboard data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data
+          git add docs/data log
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Update predictions $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase

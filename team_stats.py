@@ -100,8 +100,9 @@ def main():
                    for g in sorted(d["goalies"], key=lambda g: -g["gamesPlayed"])[:2] if g["gamesPlayed"]]
         out[team] = dict(summary=summ.get(team, {}), leaders=leaders, goalies=goalies,
                          skaters=p.drop(columns=["team"]).to_dict("records"))
+    toi = {str(r.id): r.toi for r in df.itertuples()}   # usual minutes/game for every skater (used by the results review)
     OUT.write_text(json.dumps(dict(generated_at=datetime.now(timezone.utc).isoformat(timespec="minutes"),
-                                   season=CUR, teams=out), separators=(",", ":")))
+                                   season=CUR, teams=out, toi=toi), separators=(",", ":")))
     print("wrote", OUT, len(out), "teams,", OUT.stat().st_size // 1024, "KB")
 
 

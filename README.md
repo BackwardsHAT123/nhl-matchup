@@ -47,3 +47,11 @@ checks the pricing path against a mock response.
 ## Matchup drill-down
 Click a matchup on the dashboard to expand team and player stats. `team_stats.py` (daily) pulls NHL club-stats
 (goals, assists, points, shots) for all 32 teams and writes `docs/data/team_stats.json`, with league ranks so top-10 players get a star.
+
+## Results review
+`review.py` runs daily: it logs every parlay candidate (with the lineups and starters the model assumed) to `log/sgp/<date>.json`
+before puck drop (never overwritten once a game starts), then grades finished games using NHL boxscore + play-by-play facts
+(`review_facts.py`, cached in `log/facts/`). Each leg gets tags explaining the outcome: goalie change/pulled, key player out,
+ice-time drop, penalties/fights/majors, empty-net goals, OT/shootout, hot/shaky goalie, and result-vs-xG mismatch.
+`python3 review.py backfill 2026-10-19 2026-10-22` rebuilds past days from pre-game data (marked "reconstructed").
+Output: `docs/data/results_review.json` (dashboard "Results review"). Injuries are inferred from lineup and ice-time changes, not read from a feed.

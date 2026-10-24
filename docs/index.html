@@ -40,6 +40,11 @@ th{color:var(--mute);font-weight:500}
 .star{color:var(--warn);font-size:10px;font-weight:700;margin-left:2px}
 .chips{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin:6px 0 8px}.chip{border:1px solid var(--line);border-radius:8px;padding:4px 8px;font-size:12px}.chip b{display:block;font-size:13px}.chip span{color:var(--mute)}
 .form b{display:inline-block;min-width:20px;text-align:center;border-radius:4px;font-size:11px;margin-right:3px;border:1px solid var(--line)}.form b.w{border-color:var(--good);color:var(--good)}.form b.l{border-color:var(--bad);color:var(--bad)}
+.rv details{border-top:1px solid var(--line);padding:6px 0}.rv summary{cursor:pointer;font-weight:600}
+.rv .gm{margin:6px 0 10px;padding-left:10px;border-left:3px solid var(--line)}.rv .gm.ok{border-color:var(--good)}.rv .gm.no{border-color:var(--bad)}
+.rv .chips2{display:flex;flex-wrap:wrap;gap:4px;margin:4px 0}.rv .t{background:var(--warnbg);color:var(--warn);border-radius:4px;padding:0 6px;font-size:11px}
+.rv .pl{font-size:12.5px;margin:6px 0;padding:6px 8px;border:1px solid var(--line);border-radius:8px}.rv .pl.hit{border-color:var(--good)}.rv .pl.miss{opacity:.95}
+.rv .lg{margin:1px 0}.rv .lg small{color:var(--mute)}
 .sgp{margin-bottom:8px}
 .sgp.hot{border-color:var(--good);box-shadow:inset 3px 0 0 var(--good)}
 .sgp .detail{margin-top:10px;padding-top:12px}
@@ -71,6 +76,10 @@ svg text{fill:var(--mute);font-size:10px}
 <div id="sgp"></div>
 <h3 style="font-size:14px;margin:22px 0 6px">How reliable are these numbers?</h3>
 <div class="card" id="sgpval"></div>
+
+<h2>Results review</h2>
+<p class="note">Every pick and parlay candidate is logged before puck drop, graded afterward, and tagged with what happened in the game: goalie changes, scratches, ice-time drops, penalties and fights, empty-net goals, OT/shootouts, and whether the result matched the play (expected goals). ✓ hit · ✗ miss · ∅ void (player or goalie didn't play).</p>
+<div id="review"></div>
 
 <div class="cols">
   <div><h2>Backtest calibration (<span id="btlabel"></span>)</h2><div class="card"><table id="cal"></table><svg id="cum" viewBox="0 0 400 120" width="100%" style="margin-top:10px"></svg></div></div>
@@ -186,5 +195,32 @@ async function toggleDetail(teamsEl){
   $(id).addEventListener("click",e=>{const t=e.target.closest(".teams");if(t)toggleDetail(t)});
   $(id).addEventListener("keydown",e=>{const t=e.target.closest&&e.target.closest(".teams");if(t&&(e.key==="Enter"||e.key===" ")){e.preventDefault();toggleDetail(t)}});
 });
+// ---- results review ----
+fetch("data/results_review.json").then(r=>r.json()).then(R=>{
+  const mark=s=>s==="hit"?'<span class="good">✓</span>':s==="miss"?'<span class="bad">✗</span>':'<span class="note">∅</span>';
+  const chip=t=>`<span class="t" title="${(t.t||"").replace(/"/g,"&quot;")}">${(R.labels||{})[t.k]||t.k.replace(/_/g," ")}</span>`;
+  const pk=R.picks,pl=R.plays,g=R.goalies;
+  const cards=[
+    [pk.n?pct(pk.acc,0):"—",`Win picks graded: ${pk.n} (model avg confidence ${pk.avg_conf?pct(pk.avg_conf,0):"—"})`],
+    [pl.n?pct(pl.hit):"—",`Parlay candidates hit (${pl.n} graded) vs model ${pl.pred?pct(pl.pred):"—"}`],
+    [g.n?pct(1-g.wrong/g.n,0):"—",`Starting goalie guessed right (${g.n-g.wrong} of ${g.n})`]];
+  const tags=R.legs.tags.filter(t=>t.n_legs>=5).map(t=>{const d=t.miss_rate-R.legs.base_miss_rate;
+    return `<tr><td>${t.label}</td><td>${t.n_legs}</td><td>${pct(t.miss_rate,0)}</td><td class="${d>0.15?"bad":d<-0.15?"good":""}">${d>=0?"+":""}${(d*100).toFixed(0)} pts</td></tr>`}).join("");
+  const tier=pl.by_lift.map(r=>`<tr><td>${r.key}</td><td>${r.n}</td><td>${pct(r.pred)}</td><td>${pct(r.hit)}</td></tr>`).join("");
+  const days=R.days.map((d,i)=>`<details ${i===0?"open":""}><summary>${new Date(d.date+"T12:00:00").toLocaleDateString([],{weekday:"short",month:"short",day:"numeric"})} · ${d.games.length} games</summary>${d.games.map(m=>{
+    const okp=m.pick?m.pick.correct:null;
+    return `<div class="gm ${okp===true?"ok":okp===false?"no":""}"><b>${m.away} ${m.score.split("-")[0]} – ${m.score.split("-")[1]} ${m.home}</b>${m.period!=="REG"?` (${m.period})`:""}${m.backfill?' <span class="note">(reconstructed)</span>':""}
+      ${m.pick?` · pick ${m.pick.team} ${pct(m.pick.conf,0)} ${mark(m.pick.correct?"hit":"miss")}`:""}
+      <div class="chips2">${m.tags.map(chip).join("")}</div>
+      <div class="note">${m.tags.map(t=>t.t).join(" · ")}</div>
+      ${m.plays.map(p=>`<div class="pl ${p.result}">${mark(p.result)} <span class="note">model ${pct(p.p_joint)} · lift ${p.lift.toFixed(2)} · fair ${p.fair_odds>0?"+":""}${p.fair_odds}</span>${p.legs.map(l=>`<div class="lg">${mark(l.status)} ${l.label} <small>— ${l.actual}</small> ${l.tags.map(chip).join(" ")}</div>`).join("")}</div>`).join("")}
+    </div>`}).join("")}</details>`).join("");
+  $("review").innerHTML=`<div class="stats">${cards.map(([a,b])=>`<div class="card stat"><b>${a}</b><span>${b}</span></div>`).join("")}</div>
+    <div class="cols" style="margin-top:12px"><div class="card"><table><tr><th>When this happened…</th><th>Legs</th><th>Missed</th><th>vs avg (${pct(R.legs.base_miss_rate,0)})</th></tr>${tags||'<tr><td>Not enough graded legs yet.</td></tr>'}</table>
+      <p class="note" style="margin-bottom:0">Tags attach to every leg they could plausibly affect, so counts overlap. Small samples: read as hints, not conclusions.</p></div>
+    <div class="card"><table><tr><th>Lift tier</th><th>Plays</th><th>Model</th><th>Actual</th></tr>${tier}</table></div></div>
+    <div class="card rv" style="margin-top:12px">${days||"Results appear once logged games finish."}</div>
+    <p class="note">Updated ${fmt(R.generated_at)}. Games marked “reconstructed” were rebuilt after the fact from pre-game data (same model inputs, but not logged live).</p>`;
+}).catch(()=>{$("review").innerHTML='<div class="card">Results review not available yet.</div>'});
 </script>
 </body></html>
