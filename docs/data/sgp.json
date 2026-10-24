@@ -1,7 +1,9 @@
 {
- "generated_at": "2026-10-23T23:56+00:00",
+ "generated_at": "2026-10-24T00:05+00:00",
  "min_joint": 0.06,
  "n_sim": 20000,
+ "odds_games": 0,
+ "priced_plays": 0,
  "games": [
   {
    "gameId": 2026020166,
@@ -10,6 +12,7 @@
    "away": "MTL",
    "start_utc": "2026-10-24T00:00:00Z",
    "p_home": 0.4049,
+   "priced": false,
    "exp_total": 6.06,
    "plays": [
     {
@@ -267,6 +270,7 @@
    "away": "TBL",
    "start_utc": "2026-10-24T01:00:00Z",
    "p_home": 0.5731,
+   "priced": false,
    "exp_total": 5.97,
    "plays": [
     {
@@ -520,6 +524,7 @@
    "away": "ANA",
    "start_utc": "2026-10-24T17:00:00Z",
    "p_home": 0.4853,
+   "priced": false,
    "exp_total": 5.97,
    "plays": [
     {
@@ -771,6 +776,7 @@
    "away": "LAK",
    "start_utc": "2026-10-24T19:30:00Z",
    "p_home": 0.5891,
+   "priced": false,
    "exp_total": 6.12,
    "plays": [
     {
@@ -1024,6 +1030,7 @@
    "away": "SJS",
    "start_utc": "2026-10-24T23:00:00Z",
    "p_home": 0.5839,
+   "priced": false,
    "exp_total": 5.95,
    "plays": [
     {
@@ -1279,6 +1286,7 @@
    "away": "NYR",
    "start_utc": "2026-10-24T23:00:00Z",
    "p_home": 0.6539,
+   "priced": false,
    "exp_total": 5.73,
    "plays": [
     {
@@ -1530,6 +1538,7 @@
    "away": "NSH",
    "start_utc": "2026-10-24T23:00:00Z",
    "p_home": 0.6141,
+   "priced": false,
    "exp_total": 6.38,
    "plays": [
     {
@@ -1783,6 +1792,7 @@
    "away": "BUF",
    "start_utc": "2026-10-24T23:00:00Z",
    "p_home": 0.5365,
+   "priced": false,
    "exp_total": 6.29,
    "plays": [
     {
@@ -2036,6 +2046,7 @@
    "away": "VGK",
    "start_utc": "2026-10-24T23:00:00Z",
    "p_home": 0.5076,
+   "priced": false,
    "exp_total": 5.99,
    "plays": [
     {
@@ -2289,6 +2300,7 @@
    "away": "CAR",
    "start_utc": "2026-10-24T23:00:00Z",
    "p_home": 0.4605,
+   "priced": false,
    "exp_total": 6.48,
    "plays": [
     {
@@ -2540,6 +2552,7 @@
    "away": "TOR",
    "start_utc": "2026-10-24T23:00:00Z",
    "p_home": 0.6896,
+   "priced": false,
    "exp_total": 6.58,
    "plays": [
     {
@@ -2799,6 +2812,7 @@
    "away": "TBL",
    "start_utc": "2026-10-25T01:00:00Z",
    "p_home": 0.4975,
+   "priced": false,
    "exp_total": 6.26,
    "plays": [
     {
@@ -3050,6 +3064,7 @@
    "away": "DET",
    "start_utc": "2026-10-25T02:00:00Z",
    "p_home": 0.4631,
+   "priced": false,
    "exp_total": 6.28,
    "plays": [
     {
@@ -3305,6 +3320,7 @@
    "away": "MIN",
    "start_utc": "2026-10-25T02:00:00Z",
    "p_home": 0.4039,
+   "priced": false,
    "exp_total": 6.23,
    "plays": [
     {
@@ -3564,6 +3580,7 @@
    "away": "FLA",
    "start_utc": "2026-10-25T19:00:00Z",
    "p_home": 0.4189,
+   "priced": false,
    "exp_total": 6.29,
    "plays": [
     {
@@ -3817,6 +3834,7 @@
    "away": "NYI",
    "start_utc": "2026-10-25T22:00:00Z",
    "p_home": 0.6074,
+   "priced": false,
    "exp_total": 5.57,
    "plays": [
     {
@@ -4074,6 +4092,7 @@
    "away": "MTL",
    "start_utc": "2026-10-25T23:00:00Z",
    "p_home": 0.5428,
+   "priced": false,
    "exp_total": 5.98,
    "plays": [
     {
@@ -4333,6 +4352,7 @@
    "away": "COL",
    "start_utc": "2026-10-26T00:00:00Z",
    "p_home": 0.3637,
+   "priced": false,
    "exp_total": 6.03,
    "plays": [
     {
@@ -4588,6 +4608,7 @@
    "away": "MIN",
    "start_utc": "2026-10-26T02:00:00Z",
    "p_home": 0.2829,
+   "priced": false,
    "exp_total": 6.52,
    "plays": [
     {
