@@ -46,6 +46,10 @@ jobs:
       - name: Export dashboard data
         run: python export_dashboard.py
 
+      - name: Team and player stats (matchup drill-down)
+        continue-on-error: true
+        run: python team_stats.py
+
       - name: Same-game parlay candidates
         continue-on-error: true   # never block the main predictions
         env:

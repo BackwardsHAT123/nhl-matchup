@@ -43,3 +43,7 @@ moneyline, totals, anytime-goal, shots-on-goal and saves for games starting with
 by the book (price = legs multiplied / lift^f) and the share of correlation the play survives. Scheduled runs skip odds
 (~70 credits/run) unless repo variable `ODDS_SCHEDULED=true`; manual runs always fetch. `tests/test_odds_mock.py`
 checks the pricing path against a mock response.
+
+## Matchup drill-down
+Click a matchup on the dashboard to expand team and player stats. `team_stats.py` (daily) pulls NHL club-stats
+(goals, assists, points, shots) for all 32 teams and writes `docs/data/team_stats.json`, with league ranks so top-10 players get a star.
