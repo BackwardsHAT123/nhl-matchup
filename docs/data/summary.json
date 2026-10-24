@@ -1,18 +1,10 @@
 {
- "generated_at": "2026-10-24T18:45+00:00",
+ "generated_at": "2026-10-24T21:53+00:00",
  "live": {
-  "n": 31,
-  "acc": 0.5161290322580645,
-  "logloss": 0.6955987819630723,
+  "n": 32,
+  "acc": 0.53125,
+  "logloss": 0.694970812070081,
   "recent": [
-   {
-    "date": "2026-10-19",
-    "home": "PHI",
-    "away": "COL",
-    "p_home": 0.385,
-    "home_win": 1,
-    "correct": 0
-   },
    {
     "date": "2026-10-19",
     "home": "TOR",
@@ -243,6 +235,14 @@
     "away": "TBL",
     "p_home": 0.573,
     "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-10-24",
+    "home": "PHI",
+    "away": "ANA",
+    "p_home": 0.491,
+    "home_win": 0,
     "correct": 1
    }
   ]
