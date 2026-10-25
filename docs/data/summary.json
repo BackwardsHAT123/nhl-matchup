@@ -1,18 +1,10 @@
 {
- "generated_at": "2026-10-25T14:23+00:00",
+ "generated_at": "2026-10-25T21:52+00:00",
  "live": {
-  "n": 43,
-  "acc": 0.5813953488372093,
-  "logloss": 0.6804422756929734,
+  "n": 44,
+  "acc": 0.5909090909090909,
+  "logloss": 0.6767508170260308,
   "recent": [
-   {
-    "date": "2026-10-20",
-    "home": "MTL",
-    "away": "SJS",
-    "p_home": 0.537,
-    "home_win": 0,
-    "correct": 0
-   },
    {
     "date": "2026-10-20",
     "home": "CBJ",
@@ -151,6 +143,14 @@
    },
    {
     "date": "2026-10-24",
+    "home": "SEA",
+    "away": "MIN",
+    "p_home": 0.398,
+    "home_win": 0,
+    "correct": 1
+   },
+   {
+    "date": "2026-10-24",
     "home": "CGY",
     "away": "DET",
     "p_home": 0.472,
@@ -238,10 +238,10 @@
     "correct": 1
    },
    {
-    "date": "2026-10-24",
-    "home": "SEA",
-    "away": "MIN",
-    "p_home": 0.398,
+    "date": "2026-10-25",
+    "home": "CHI",
+    "away": "FLA",
+    "p_home": 0.404,
     "home_win": 0,
     "correct": 1
    }
