@@ -1,3100 +1,20 @@
 {
- "generated_at": "2026-10-24T21:54+00:00",
+ "generated_at": "2026-10-25T14:24+00:00",
  "min_joint": 0.06,
  "n_sim": 20000,
  "odds_games": 0,
  "priced_plays": 0,
  "games": [
   {
-   "gameId": 2026020168,
-   "date": "2026-10-24",
-   "home": "PHI",
-   "away": "ANA",
-   "start_utc": "2026-10-24T17:00:00Z",
-   "p_home": 0.4911,
-   "priced": false,
-   "exp_total": 5.98,
-   "plays": [
-    {
-     "legs": [
-      "PHI ML",
-      "Over 6.5",
-      "Trevor Zegras anytime goal"
-     ],
-     "leg_probs": [
-      0.49,
-      0.387,
-      0.209
-     ],
-     "p_joint": 0.071,
-     "p_raw": 0.0666,
-     "p_indep": 0.0397,
-     "lift": 1.791,
-     "fair_odds": 1308,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "PHI ML",
-      "Over 6.5",
-      "Tyson Foerster anytime goal"
-     ],
-     "leg_probs": [
-      0.49,
-      0.387,
-      0.251
-     ],
-     "p_joint": 0.0844,
-     "p_raw": 0.079,
-     "p_indep": 0.0475,
-     "lift": 1.777,
-     "fair_odds": 1085,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "ANA ML",
-      "Over 6.5",
-      "Mikael Granlund anytime goal"
-     ],
-     "leg_probs": [
-      0.51,
-      0.387,
-      0.248
-     ],
-     "p_joint": 0.0844,
-     "p_raw": 0.0791,
-     "p_indep": 0.0489,
-     "lift": 1.725,
-     "fair_odds": 1084,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "ANA ML",
-      "Over 6.5",
-      "Alex Killorn anytime goal"
-     ],
-     "leg_probs": [
-      0.51,
-      0.387,
-      0.208
-     ],
-     "p_joint": 0.0703,
-     "p_raw": 0.0658,
-     "p_indep": 0.0409,
-     "lift": 1.717,
-     "fair_odds": 1323,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "PHI ML",
-      "Over 6.5",
-      "Porter Martone anytime goal"
-     ],
-     "leg_probs": [
-      0.49,
-      0.387,
-      0.253
-     ],
-     "p_joint": 0.082,
-     "p_raw": 0.0768,
-     "p_indep": 0.048,
-     "lift": 1.709,
-     "fair_odds": 1120,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "PHI ML",
-      "Over 6.5",
-      "Matvei Michkov anytime goal"
-     ],
-     "leg_probs": [
-      0.49,
-      0.387,
-      0.256
-     ],
-     "p_joint": 0.0823,
-     "p_raw": 0.0772,
-     "p_indep": 0.0485,
-     "lift": 1.698,
-     "fair_odds": 1114,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "ANA ML",
-      "Over 6.5",
-      "Leo Carlsson anytime goal"
-     ],
-     "leg_probs": [
-      0.51,
-      0.387,
-      0.297
-     ],
-     "p_joint": 0.098,
-     "p_raw": 0.0949,
-     "p_indep": 0.0586,
-     "lift": 1.671,
-     "fair_odds": 921,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "PHI ML",
-      "Over 5.5",
-      "Trevor Zegras anytime goal"
-     ],
-     "leg_probs": [
-      0.49,
-      0.556,
-      0.209
-     ],
-     "p_joint": 0.0937,
-     "p_raw": 0.0908,
-     "p_indep": 0.057,
-     "lift": 1.644,
-     "fair_odds": 967,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "ANA ML",
-      "Leo Carlsson anytime goal"
-     ],
-     "leg_probs": [
-      0.51,
-      0.297
-     ],
-     "p_joint": 0.1912,
-     "p_raw": 0.1924,
-     "p_indep": 0.1517,
-     "lift": 1.261,
-     "fair_odds": 423,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "ANA ML",
-      "Beckett Sennecke anytime goal"
-     ],
-     "leg_probs": [
-      0.51,
-      0.295
-     ],
-     "p_joint": 0.1893,
-     "p_raw": 0.1904,
-     "p_indep": 0.1505,
-     "lift": 1.257,
-     "fair_odds": 428,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "PHI ML",
-      "Tyson Foerster anytime goal"
-     ],
-     "leg_probs": [
-      0.49,
-      0.251
-     ],
-     "p_joint": 0.1588,
-     "p_raw": 0.1598,
-     "p_indep": 0.1228,
-     "lift": 1.293,
-     "fair_odds": 530,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "ANA ML",
-      "Mikael Granlund anytime goal"
-     ],
-     "leg_probs": [
-      0.51,
-      0.248
-     ],
-     "p_joint": 0.1588,
-     "p_raw": 0.1597,
-     "p_indep": 0.1266,
-     "lift": 1.254,
-     "fair_odds": 530,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "PHI ML",
-      "Matvei Michkov anytime goal"
-     ],
-     "leg_probs": [
-      0.49,
-      0.256
-     ],
-     "p_joint": 0.157,
-     "p_raw": 0.1579,
-     "p_indep": 0.1254,
-     "lift": 1.252,
-     "fair_odds": 537,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Cutter Gauthier anytime goal"
-     ],
-     "leg_probs": [
-      0.387,
-      0.303
-     ],
-     "p_joint": 0.1542,
-     "p_raw": 0.1551,
-     "p_indep": 0.1171,
-     "lift": 1.317,
-     "fair_odds": 549,
-     "sig": "atg+total"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020169,
-   "date": "2026-10-24",
-   "home": "NJD",
-   "away": "LAK",
-   "start_utc": "2026-10-24T19:30:00Z",
-   "p_home": 0.5766,
-   "priced": false,
-   "exp_total": 6.08,
-   "plays": [
-    {
-     "legs": [
-      "LAK ML",
-      "Over 6.5",
-      "Alex Laferriere anytime goal"
-     ],
-     "leg_probs": [
-      0.424,
-      0.396,
-      0.209
-     ],
-     "p_joint": 0.0641,
-     "p_raw": 0.0601,
-     "p_indep": 0.0351,
-     "lift": 1.829,
-     "fair_odds": 1459,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NJD ML",
-      "Over 6.5",
-      "Dawson Mercer anytime goal"
-     ],
-     "leg_probs": [
-      0.576,
-      0.396,
-      0.173
-     ],
-     "p_joint": 0.0691,
-     "p_raw": 0.0647,
-     "p_indep": 0.0394,
-     "lift": 1.751,
-     "fair_odds": 1348,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "LAK ML",
-      "Over 6.5",
-      "Artemi Panarin anytime goal"
-     ],
-     "leg_probs": [
-      0.424,
-      0.396,
-      0.274
-     ],
-     "p_joint": 0.0804,
-     "p_raw": 0.0754,
-     "p_indep": 0.046,
-     "lift": 1.747,
-     "fair_odds": 1143,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "LAK ML",
-      "Over 5.5",
-      "Trevor Moore anytime goal"
-     ],
-     "leg_probs": [
-      0.424,
-      0.571,
-      0.197
-     ],
-     "p_joint": 0.0829,
-     "p_raw": 0.0777,
-     "p_indep": 0.0478,
-     "lift": 1.734,
-     "fair_odds": 1106,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "LAK ML",
-      "Over 5.5",
-      "Alex Laferriere anytime goal"
-     ],
-     "leg_probs": [
-      0.424,
-      0.571,
-      0.209
-     ],
-     "p_joint": 0.0877,
-     "p_raw": 0.0821,
-     "p_indep": 0.0506,
-     "lift": 1.733,
-     "fair_odds": 1040,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "LAK ML",
-      "Over 5.5",
-      "Scott Laughton anytime goal"
-     ],
-     "leg_probs": [
-      0.424,
-      0.571,
-      0.172
-     ],
-     "p_joint": 0.0719,
-     "p_raw": 0.0674,
-     "p_indep": 0.0416,
-     "lift": 1.728,
-     "fair_odds": 1291,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NJD ML",
-      "Over 6.5",
-      "Nico Hischier anytime goal"
-     ],
-     "leg_probs": [
-      0.576,
-      0.396,
-      0.224
-     ],
-     "p_joint": 0.0858,
-     "p_raw": 0.0804,
-     "p_indep": 0.0511,
-     "lift": 1.68,
-     "fair_odds": 1065,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NJD ML",
-      "Over 6.5",
-      "Jesper Bratt anytime goal"
-     ],
-     "leg_probs": [
-      0.576,
-      0.396,
-      0.241
-     ],
-     "p_joint": 0.0913,
-     "p_raw": 0.0856,
-     "p_indep": 0.0548,
-     "lift": 1.665,
-     "fair_odds": 995,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "LAK ML",
-      "Adrian Kempe anytime goal"
-     ],
-     "leg_probs": [
-      0.424,
-      0.328
-     ],
-     "p_joint": 0.1801,
-     "p_raw": 0.1812,
-     "p_indep": 0.1391,
-     "lift": 1.295,
-     "fair_odds": 455,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Adrian Kempe anytime goal"
-     ],
-     "leg_probs": [
-      0.396,
-      0.328
-     ],
-     "p_joint": 0.1694,
-     "p_raw": 0.1705,
-     "p_indep": 0.1298,
-     "lift": 1.305,
-     "fair_odds": 490,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Jack Hughes anytime goal"
-     ],
-     "leg_probs": [
-      0.396,
-      0.321
-     ],
-     "p_joint": 0.1668,
-     "p_raw": 0.1679,
-     "p_indep": 0.1271,
-     "lift": 1.313,
-     "fair_odds": 499,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "LAK ML",
-      "Artemi Panarin anytime goal"
-     ],
-     "leg_probs": [
-      0.424,
-      0.274
-     ],
-     "p_joint": 0.1527,
-     "p_raw": 0.1537,
-     "p_indep": 0.1162,
-     "lift": 1.314,
-     "fair_odds": 555,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "NJD ML",
-      "Over 5.5",
-      "Jack Hughes anytime goal"
-     ],
-     "leg_probs": [
-      0.576,
-      0.571,
-      0.321
-     ],
-     "p_joint": 0.1502,
-     "p_raw": 0.1512,
-     "p_indep": 0.1055,
-     "lift": 1.424,
-     "fair_odds": 566,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Alex Laferriere anytime goal"
-     ],
-     "leg_probs": [
-      0.571,
-      0.209
-     ],
-     "p_joint": 0.1494,
-     "p_raw": 0.1503,
-     "p_indep": 0.1192,
-     "lift": 1.253,
-     "fair_odds": 569,
-     "sig": "atg+total"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020170,
-   "date": "2026-10-24",
-   "home": "BOS",
-   "away": "SJS",
-   "start_utc": "2026-10-24T23:00:00Z",
-   "p_home": 0.5631,
-   "priced": false,
-   "exp_total": 5.91,
-   "plays": [
-    {
-     "legs": [
-      "SJS ML",
-      "Over 5.5",
-      "Tyler Toffoli anytime goal"
-     ],
-     "leg_probs": [
-      0.439,
-      0.543,
-      0.174
-     ],
-     "p_joint": 0.0723,
-     "p_raw": 0.0677,
-     "p_indep": 0.0415,
-     "lift": 1.739,
-     "fair_odds": 1284,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "SJS ML",
-      "Over 6.5",
-      "Macklin Celebrini anytime goal"
-     ],
-     "leg_probs": [
-      0.439,
-      0.368,
-      0.335
-     ],
-     "p_joint": 0.0935,
-     "p_raw": 0.0876,
-     "p_indep": 0.0541,
-     "lift": 1.728,
-     "fair_odds": 970,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BOS ML",
-      "Over 6.5",
-      "Morgan Geekie anytime goal"
-     ],
-     "leg_probs": [
-      0.561,
-      0.368,
-      0.191
-     ],
-     "p_joint": 0.0676,
-     "p_raw": 0.0633,
-     "p_indep": 0.0394,
-     "lift": 1.716,
-     "fair_odds": 1380,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BOS ML",
-      "Over 6.5",
-      "Fraser Minten anytime goal"
-     ],
-     "leg_probs": [
-      0.561,
-      0.368,
-      0.223
-     ],
-     "p_joint": 0.0785,
-     "p_raw": 0.0736,
-     "p_indep": 0.0462,
-     "lift": 1.701,
-     "fair_odds": 1174,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BOS ML",
-      "Over 6.5",
-      "Pavel Zacha anytime goal"
-     ],
-     "leg_probs": [
-      0.561,
-      0.368,
-      0.239
-     ],
-     "p_joint": 0.0838,
-     "p_raw": 0.0786,
-     "p_indep": 0.0494,
-     "lift": 1.696,
-     "fair_odds": 1093,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "SJS ML",
-      "Over 5.5",
-      "Will Smith anytime goal"
-     ],
-     "leg_probs": [
-      0.439,
-      0.543,
-      0.23
-     ],
-     "p_joint": 0.0915,
-     "p_raw": 0.0857,
-     "p_indep": 0.0547,
-     "lift": 1.674,
-     "fair_odds": 993,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BOS ML",
-      "Over 6.5",
-      "David Pastrnak anytime goal"
-     ],
-     "leg_probs": [
-      0.561,
-      0.368,
-      0.305
-     ],
-     "p_joint": 0.1026,
-     "p_raw": 0.0993,
-     "p_indep": 0.063,
-     "lift": 1.628,
-     "fair_odds": 875,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BOS ML",
-      "Over 5.5",
-      "Morgan Geekie anytime goal"
-     ],
-     "leg_probs": [
-      0.561,
-      0.543,
-      0.191
-     ],
-     "p_joint": 0.0929,
-     "p_raw": 0.087,
-     "p_indep": 0.0581,
-     "lift": 1.6,
-     "fair_odds": 976,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "David Pastrnak anytime goal"
-     ],
-     "leg_probs": [
-      0.543,
-      0.305
-     ],
-     "p_joint": 0.2093,
-     "p_raw": 0.2105,
-     "p_indep": 0.1657,
-     "lift": 1.263,
-     "fair_odds": 378,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "SJS ML",
-      "Macklin Celebrini anytime goal"
-     ],
-     "leg_probs": [
-      0.439,
-      0.335
-     ],
-     "p_joint": 0.1896,
-     "p_raw": 0.1908,
-     "p_indep": 0.147,
-     "lift": 1.29,
-     "fair_odds": 427,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "David Pastrnak anytime goal",
-      "Macklin Celebrini over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.543,
-      0.305,
-      0.835
-     ],
-     "p_joint": 0.1737,
-     "p_raw": 0.1776,
-     "p_indep": 0.1383,
-     "lift": 1.256,
-     "fair_odds": 476,
-     "sig": "atg+sog+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Macklin Celebrini anytime goal"
-     ],
-     "leg_probs": [
-      0.368,
-      0.335
-     ],
-     "p_joint": 0.1648,
-     "p_raw": 0.1658,
-     "p_indep": 0.1233,
-     "lift": 1.336,
-     "fair_odds": 507,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "SJS ML",
-      "David Pastrnak over 1.5 SOG",
-      "Macklin Celebrini anytime goal"
-     ],
-     "leg_probs": [
-      0.439,
-      0.833,
-      0.335
-     ],
-     "p_joint": 0.1566,
-     "p_raw": 0.1601,
-     "p_indep": 0.1224,
-     "lift": 1.279,
-     "fair_odds": 538,
-     "sig": "atg+ml+sog"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "David Pastrnak anytime goal"
-     ],
-     "leg_probs": [
-      0.368,
-      0.305
-     ],
-     "p_joint": 0.1521,
-     "p_raw": 0.153,
-     "p_indep": 0.1123,
-     "lift": 1.354,
-     "fair_odds": 558,
-     "sig": "atg+total"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020171,
-   "date": "2026-10-24",
-   "home": "OTT",
-   "away": "NYR",
-   "start_utc": "2026-10-24T23:00:00Z",
-   "p_home": 0.6476,
-   "priced": false,
-   "exp_total": 5.72,
-   "plays": [
-    {
-     "legs": [
-      "OTT ML",
-      "Over 6.5",
-      "Shane Pinto anytime goal"
-     ],
-     "leg_probs": [
-      0.646,
-      0.34,
-      0.167
-     ],
-     "p_joint": 0.0653,
-     "p_raw": 0.0611,
-     "p_indep": 0.0365,
-     "lift": 1.786,
-     "fair_odds": 1432,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Over 5.5",
-      "Alexis Lafreniere anytime goal"
-     ],
-     "leg_probs": [
-      0.354,
-      0.512,
-      0.205
-     ],
-     "p_joint": 0.0655,
-     "p_raw": 0.0614,
-     "p_indep": 0.0371,
-     "lift": 1.767,
-     "fair_odds": 1426,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "OTT ML",
-      "Over 6.5",
-      "Drake Batherson anytime goal"
-     ],
-     "leg_probs": [
-      0.646,
-      0.34,
-      0.24
-     ],
-     "p_joint": 0.0926,
-     "p_raw": 0.0868,
-     "p_indep": 0.0527,
-     "lift": 1.758,
-     "fair_odds": 980,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "OTT ML",
-      "Over 6.5",
-      "Fabian Zetterlund anytime goal"
-     ],
-     "leg_probs": [
-      0.646,
-      0.34,
-      0.204
-     ],
-     "p_joint": 0.0775,
-     "p_raw": 0.0727,
-     "p_indep": 0.0446,
-     "lift": 1.737,
-     "fair_odds": 1190,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "OTT ML",
-      "Over 6.5",
-      "Tim Stutzle anytime goal"
-     ],
-     "leg_probs": [
-      0.646,
-      0.34,
-      0.254
-     ],
-     "p_joint": 0.0949,
-     "p_raw": 0.0889,
-     "p_indep": 0.0557,
-     "lift": 1.703,
-     "fair_odds": 954,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "OTT ML",
-      "Over 6.5",
-      "Dylan Cozens anytime goal"
-     ],
-     "leg_probs": [
-      0.646,
-      0.34,
-      0.256
-     ],
-     "p_joint": 0.0937,
-     "p_raw": 0.0878,
-     "p_indep": 0.0562,
-     "lift": 1.668,
-     "fair_odds": 968,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Alexis Lafreniere anytime goal",
-      "OTT goalie under 21.5 saves"
-     ],
-     "leg_probs": [
-      0.354,
-      0.205,
-      0.552
-     ],
-     "p_joint": 0.0663,
-     "p_raw": 0.0621,
-     "p_indep": 0.0401,
-     "lift": 1.654,
-     "fair_odds": 1409,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Will Cuylle anytime goal",
-      "NYR goalie over 20.5 saves"
-     ],
-     "leg_probs": [
-      0.354,
-      0.19,
-      0.595
-     ],
-     "p_joint": 0.066,
-     "p_raw": 0.0619,
-     "p_indep": 0.04,
-     "lift": 1.651,
-     "fair_odds": 1415,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Tim Stutzle anytime goal"
-     ],
-     "leg_probs": [
-      0.512,
-      0.254
-     ],
-     "p_joint": 0.1636,
-     "p_raw": 0.1646,
-     "p_indep": 0.1299,
-     "lift": 1.26,
-     "fair_odds": 511,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Drake Batherson anytime goal"
-     ],
-     "leg_probs": [
-      0.512,
-      0.24
-     ],
-     "p_joint": 0.1549,
-     "p_raw": 0.1558,
-     "p_indep": 0.1228,
-     "lift": 1.261,
-     "fair_odds": 546,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Alexis Lafreniere anytime goal"
-     ],
-     "leg_probs": [
-      0.512,
-      0.205
-     ],
-     "p_joint": 0.142,
-     "p_raw": 0.1374,
-     "p_indep": 0.1048,
-     "lift": 1.355,
-     "fair_odds": 604,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Gabe Perreault anytime goal"
-     ],
-     "leg_probs": [
-      0.512,
-      0.204
-     ],
-     "p_joint": 0.1391,
-     "p_raw": 0.1347,
-     "p_indep": 0.1042,
-     "lift": 1.335,
-     "fair_odds": 619,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Fabian Zetterlund anytime goal"
-     ],
-     "leg_probs": [
-      0.512,
-      0.204
-     ],
-     "p_joint": 0.1384,
-     "p_raw": 0.134,
-     "p_indep": 0.1041,
-     "lift": 1.33,
-     "fair_odds": 623,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Will Cuylle anytime goal"
-     ],
-     "leg_probs": [
-      0.512,
-      0.19
-     ],
-     "p_joint": 0.1336,
-     "p_raw": 0.1294,
-     "p_indep": 0.0971,
-     "lift": 1.376,
-     "fair_odds": 648,
-     "sig": "atg+total"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020172,
-   "date": "2026-10-24",
-   "home": "PIT",
-   "away": "NSH",
-   "start_utc": "2026-10-24T23:00:00Z",
-   "p_home": 0.614,
-   "priced": false,
-   "exp_total": 6.4,
-   "plays": [
-    {
-     "legs": [
-      "NSH ML",
-      "Over 5.5",
-      "Roman Josi anytime goal"
-     ],
-     "leg_probs": [
-      0.386,
-      0.622,
-      0.159
-     ],
-     "p_joint": 0.0674,
-     "p_raw": 0.06,
-     "p_indep": 0.0381,
-     "lift": 1.768,
-     "fair_odds": 1383,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NSH ML",
-      "Over 6.5",
-      "Ryan O'Reilly anytime goal"
-     ],
-     "leg_probs": [
-      0.386,
-      0.454,
-      0.225
-     ],
-     "p_joint": 0.069,
-     "p_raw": 0.0646,
-     "p_indep": 0.0393,
-     "lift": 1.754,
-     "fair_odds": 1350,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NSH ML",
-      "Over 5.5",
-      "Ryan O'Reilly anytime goal"
-     ],
-     "leg_probs": [
-      0.386,
-      0.622,
-      0.225
-     ],
-     "p_joint": 0.0902,
-     "p_raw": 0.0846,
-     "p_indep": 0.0539,
-     "lift": 1.675,
-     "fair_odds": 1008,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NSH ML",
-      "Over 6.5",
-      "Filip Forsberg anytime goal"
-     ],
-     "leg_probs": [
-      0.386,
-      0.454,
-      0.308
-     ],
-     "p_joint": 0.089,
-     "p_raw": 0.0834,
-     "p_indep": 0.0539,
-     "lift": 1.651,
-     "fair_odds": 1024,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "PIT ML",
-      "Over 6.5",
-      "Nick Robertson anytime goal"
-     ],
-     "leg_probs": [
-      0.614,
-      0.454,
-      0.182
-     ],
-     "p_joint": 0.083,
-     "p_raw": 0.0777,
-     "p_indep": 0.0508,
-     "lift": 1.634,
-     "fair_odds": 1105,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NSH ML",
-      "Steven Stamkos anytime goal",
-      "NSH goalie over 26.5 saves"
-     ],
-     "leg_probs": [
-      0.386,
-      0.348,
-      0.358
-     ],
-     "p_joint": 0.0755,
-     "p_raw": 0.0707,
-     "p_indep": 0.0481,
-     "lift": 1.571,
-     "fair_odds": 1224,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "NSH ML",
-      "Over 6.5",
-      "Steven Stamkos anytime goal"
-     ],
-     "leg_probs": [
-      0.386,
-      0.454,
-      0.348
-     ],
-     "p_joint": 0.0957,
-     "p_raw": 0.0926,
-     "p_indep": 0.061,
-     "lift": 1.569,
-     "fair_odds": 945,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NSH ML",
-      "Filip Forsberg anytime goal",
-      "PIT goalie under 22.5 saves"
-     ],
-     "leg_probs": [
-      0.386,
-      0.308,
-      0.485
-     ],
-     "p_joint": 0.0901,
-     "p_raw": 0.0844,
-     "p_indep": 0.0576,
-     "lift": 1.564,
-     "fair_odds": 1009,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Steven Stamkos anytime goal"
-     ],
-     "leg_probs": [
-      0.454,
-      0.348
-     ],
-     "p_joint": 0.1978,
-     "p_raw": 0.199,
-     "p_indep": 0.158,
-     "lift": 1.252,
-     "fair_odds": 406,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "PIT ML",
-      "Over 5.5",
-      "Rickard Rakell anytime goal"
-     ],
-     "leg_probs": [
-      0.614,
-      0.622,
-      0.376
-     ],
-     "p_joint": 0.1929,
-     "p_raw": 0.194,
-     "p_indep": 0.1436,
-     "lift": 1.343,
-     "fair_odds": 419,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Evgeni Malkin anytime goal"
-     ],
-     "leg_probs": [
-      0.454,
-      0.337
-     ],
-     "p_joint": 0.1915,
-     "p_raw": 0.1927,
-     "p_indep": 0.1528,
-     "lift": 1.253,
-     "fair_odds": 422,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Filip Forsberg anytime goal"
-     ],
-     "leg_probs": [
-      0.454,
-      0.308
-     ],
-     "p_joint": 0.1794,
-     "p_raw": 0.1805,
-     "p_indep": 0.1395,
-     "lift": 1.286,
-     "fair_odds": 457,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "PIT ML",
-      "Over 5.5",
-      "Evgeni Malkin anytime goal"
-     ],
-     "leg_probs": [
-      0.614,
-      0.622,
-      0.337
-     ],
-     "p_joint": 0.1773,
-     "p_raw": 0.1784,
-     "p_indep": 0.1286,
-     "lift": 1.379,
-     "fair_odds": 464,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NSH ML",
-      "Steven Stamkos anytime goal"
-     ],
-     "leg_probs": [
-      0.386,
-      0.348
-     ],
-     "p_joint": 0.175,
-     "p_raw": 0.1761,
-     "p_indep": 0.1344,
-     "lift": 1.301,
-     "fair_odds": 472,
-     "sig": "atg+ml"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020173,
-   "date": "2026-10-24",
-   "home": "WSH",
-   "away": "BUF",
-   "start_utc": "2026-10-24T23:00:00Z",
-   "p_home": 0.5309,
-   "priced": false,
-   "exp_total": 6.3,
-   "plays": [
-    {
-     "legs": [
-      "BUF ML",
-      "Over 6.5",
-      "Zach Benson anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.435,
-      0.187
-     ],
-     "p_joint": 0.0694,
-     "p_raw": 0.065,
-     "p_indep": 0.0381,
-     "lift": 1.822,
-     "fair_odds": 1340,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "WSH ML",
-      "Over 6.5",
-      "Jakob Chychrun anytime goal"
-     ],
-     "leg_probs": [
-      0.532,
-      0.435,
-      0.199
-     ],
-     "p_joint": 0.0777,
-     "p_raw": 0.0728,
-     "p_indep": 0.0462,
-     "lift": 1.68,
-     "fair_odds": 1188,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BUF ML",
-      "Over 5.5",
-      "Rasmus Dahlin anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.604,
-      0.157
-     ],
-     "p_joint": 0.074,
-     "p_raw": 0.0693,
-     "p_indep": 0.0442,
-     "lift": 1.673,
-     "fair_odds": 1251,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BUF ML",
-      "Over 5.5",
-      "Zach Benson anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.604,
-      0.187
-     ],
-     "p_joint": 0.0884,
-     "p_raw": 0.0829,
-     "p_indep": 0.0529,
-     "lift": 1.673,
-     "fair_odds": 1031,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BUF ML",
-      "Over 6.5",
-      "Jack Quinn anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.435,
-      0.281
-     ],
-     "p_joint": 0.0955,
-     "p_raw": 0.0895,
-     "p_indep": 0.0572,
-     "lift": 1.669,
-     "fair_odds": 947,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BUF ML",
-      "Over 5.5",
-      "Josh Norris anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.604,
-      0.159
-     ],
-     "p_joint": 0.0747,
-     "p_raw": 0.0699,
-     "p_indep": 0.0449,
-     "lift": 1.661,
-     "fair_odds": 1239,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "WSH ML",
-      "Over 6.5",
-      "Tom Wilson anytime goal"
-     ],
-     "leg_probs": [
-      0.532,
-      0.435,
-      0.217
-     ],
-     "p_joint": 0.0834,
-     "p_raw": 0.0781,
-     "p_indep": 0.0504,
-     "lift": 1.654,
-     "fair_odds": 1100,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BUF ML",
-      "Over 6.5",
-      "Tage Thompson anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.435,
-      0.352
-     ],
-     "p_joint": 0.1173,
-     "p_raw": 0.1136,
-     "p_indep": 0.0716,
-     "lift": 1.639,
-     "fair_odds": 752,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "BUF ML",
-      "Tage Thompson anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.352
-     ],
-     "p_joint": 0.2094,
-     "p_raw": 0.2107,
-     "p_indep": 0.1644,
-     "lift": 1.273,
-     "fair_odds": 378,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Tage Thompson anytime goal"
-     ],
-     "leg_probs": [
-      0.435,
-      0.352
-     ],
-     "p_joint": 0.1981,
-     "p_raw": 0.1993,
-     "p_indep": 0.1531,
-     "lift": 1.293,
-     "fair_odds": 405,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Ryan Leonard anytime goal"
-     ],
-     "leg_probs": [
-      0.435,
-      0.303
-     ],
-     "p_joint": 0.1713,
-     "p_raw": 0.1724,
-     "p_indep": 0.1322,
-     "lift": 1.296,
-     "fair_odds": 484,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "BUF ML",
-      "Tage Thompson anytime goal",
-      "Jack Quinn over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.468,
-      0.352,
-      0.799
-     ],
-     "p_joint": 0.1671,
-     "p_raw": 0.1708,
-     "p_indep": 0.1314,
-     "lift": 1.272,
-     "fair_odds": 498,
-     "sig": "atg+ml+sog"
-    },
-    {
-     "legs": [
-      "BUF ML",
-      "Jack Quinn anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.281
-     ],
-     "p_joint": 0.1666,
-     "p_raw": 0.1676,
-     "p_indep": 0.1314,
-     "lift": 1.267,
-     "fair_odds": 500,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Jack Quinn anytime goal"
-     ],
-     "leg_probs": [
-      0.435,
-      0.281
-     ],
-     "p_joint": 0.1586,
-     "p_raw": 0.1595,
-     "p_indep": 0.1224,
-     "lift": 1.295,
-     "fair_odds": 531,
-     "sig": "atg+total"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020174,
-   "date": "2026-10-24",
-   "home": "CBJ",
-   "away": "VGK",
-   "start_utc": "2026-10-24T23:00:00Z",
-   "p_home": 0.4952,
-   "priced": false,
-   "exp_total": 5.96,
-   "plays": [
-    {
-     "legs": [
-      "CBJ ML",
-      "Over 6.5",
-      "Charlie Coyle anytime goal"
-     ],
-     "leg_probs": [
-      0.495,
-      0.382,
-      0.195
-     ],
-     "p_joint": 0.0662,
-     "p_raw": 0.062,
-     "p_indep": 0.0369,
-     "lift": 1.793,
-     "fair_odds": 1411,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "VGK ML",
-      "Over 6.5",
-      "Tomas Hertl anytime goal"
-     ],
-     "leg_probs": [
-      0.505,
-      0.382,
-      0.196
-     ],
-     "p_joint": 0.0674,
-     "p_raw": 0.0631,
-     "p_indep": 0.0378,
-     "lift": 1.78,
-     "fair_odds": 1385,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CBJ ML",
-      "Over 6.5",
-      "Zach Werenski anytime goal"
-     ],
-     "leg_probs": [
-      0.495,
-      0.382,
-      0.234
-     ],
-     "p_joint": 0.0771,
-     "p_raw": 0.0723,
-     "p_indep": 0.0443,
-     "lift": 1.742,
-     "fair_odds": 1197,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "VGK ML",
-      "Over 6.5",
-      "Jack Eichel anytime goal"
-     ],
-     "leg_probs": [
-      0.505,
-      0.382,
-      0.252
-     ],
-     "p_joint": 0.0849,
-     "p_raw": 0.0795,
-     "p_indep": 0.0487,
-     "lift": 1.741,
-     "fair_odds": 1078,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "VGK ML",
-      "Over 6.5",
-      "Brett Howden anytime goal"
-     ],
-     "leg_probs": [
-      0.505,
-      0.382,
-      0.198
-     ],
-     "p_joint": 0.0659,
-     "p_raw": 0.0617,
-     "p_indep": 0.0383,
-     "lift": 1.722,
-     "fair_odds": 1417,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CBJ ML",
-      "Over 6.5",
-      "Adam Fantilli anytime goal"
-     ],
-     "leg_probs": [
-      0.495,
-      0.382,
-      0.277
-     ],
-     "p_joint": 0.0898,
-     "p_raw": 0.0842,
-     "p_indep": 0.0525,
-     "lift": 1.712,
-     "fair_odds": 1013,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "VGK ML",
-      "Over 5.5",
-      "Tomas Hertl anytime goal"
-     ],
-     "leg_probs": [
-      0.505,
-      0.551,
-      0.196
-     ],
-     "p_joint": 0.0928,
-     "p_raw": 0.0869,
-     "p_indep": 0.0545,
-     "lift": 1.702,
-     "fair_odds": 977,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CBJ ML",
-      "Over 5.5",
-      "Kent Johnson anytime goal"
-     ],
-     "leg_probs": [
-      0.495,
-      0.551,
-      0.158
-     ],
-     "p_joint": 0.0724,
-     "p_raw": 0.0678,
-     "p_indep": 0.043,
-     "lift": 1.683,
-     "fair_odds": 1282,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Adam Fantilli anytime goal"
-     ],
-     "leg_probs": [
-      0.551,
-      0.277
-     ],
-     "p_joint": 0.1911,
-     "p_raw": 0.1923,
-     "p_indep": 0.1527,
-     "lift": 1.252,
-     "fair_odds": 423,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "CBJ ML",
-      "Adam Fantilli anytime goal"
-     ],
-     "leg_probs": [
-      0.495,
-      0.277
-     ],
-     "p_joint": 0.1723,
-     "p_raw": 0.1734,
-     "p_indep": 0.1372,
-     "lift": 1.256,
-     "fair_odds": 480,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Zach Werenski anytime goal"
-     ],
-     "leg_probs": [
-      0.551,
-      0.234
-     ],
-     "p_joint": 0.1612,
-     "p_raw": 0.1622,
-     "p_indep": 0.1288,
-     "lift": 1.251,
-     "fair_odds": 520,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "VGK ML",
-      "Jack Eichel anytime goal"
-     ],
-     "leg_probs": [
-      0.505,
-      0.252
-     ],
-     "p_joint": 0.1595,
-     "p_raw": 0.1604,
-     "p_indep": 0.1274,
-     "lift": 1.251,
-     "fair_odds": 527,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Mark Stone anytime goal"
-     ],
-     "leg_probs": [
-      0.382,
-      0.294
-     ],
-     "p_joint": 0.1499,
-     "p_raw": 0.1508,
-     "p_indep": 0.1123,
-     "lift": 1.335,
-     "fair_odds": 567,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "CBJ ML",
-      "Zach Werenski anytime goal"
-     ],
-     "leg_probs": [
-      0.495,
-      0.234
-     ],
-     "p_joint": 0.148,
-     "p_raw": 0.1489,
-     "p_indep": 0.1157,
-     "lift": 1.279,
-     "fair_odds": 576,
-     "sig": "atg+ml"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020175,
-   "date": "2026-10-24",
-   "home": "STL",
-   "away": "CAR",
-   "start_utc": "2026-10-24T23:00:00Z",
-   "p_home": 0.4445,
-   "priced": false,
-   "exp_total": 6.46,
-   "plays": [
-    {
-     "legs": [
-      "STL ML",
-      "Over 6.5",
-      "Jimmy Snuggerud anytime goal"
-     ],
-     "leg_probs": [
-      0.446,
-      0.463,
-      0.261
-     ],
-     "p_joint": 0.0917,
-     "p_raw": 0.0859,
-     "p_indep": 0.0538,
-     "lift": 1.704,
-     "fair_odds": 991,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "STL ML",
-      "Over 6.5",
-      "Robert Thomas anytime goal"
-     ],
-     "leg_probs": [
-      0.446,
-      0.463,
-      0.211
-     ],
-     "p_joint": 0.0716,
-     "p_raw": 0.0671,
-     "p_indep": 0.0435,
-     "lift": 1.646,
-     "fair_odds": 1297,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "STL ML",
-      "Over 6.5",
-      "Dylan Holloway anytime goal"
-     ],
-     "leg_probs": [
-      0.446,
-      0.463,
-      0.265
-     ],
-     "p_joint": 0.0899,
-     "p_raw": 0.0843,
-     "p_indep": 0.0547,
-     "lift": 1.643,
-     "fair_odds": 1012,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CAR ML",
-      "Over 6.5",
-      "Jackson Blake anytime goal"
-     ],
-     "leg_probs": [
-      0.554,
-      0.463,
-      0.229
-     ],
-     "p_joint": 0.096,
-     "p_raw": 0.09,
-     "p_indep": 0.0588,
-     "lift": 1.633,
-     "fair_odds": 942,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "STL ML",
-      "Over 5.5",
-      "Pavel Buchnevich anytime goal"
-     ],
-     "leg_probs": [
-      0.446,
-      0.633,
-      0.158
-     ],
-     "p_joint": 0.0726,
-     "p_raw": 0.068,
-     "p_indep": 0.0446,
-     "lift": 1.629,
-     "fair_odds": 1278,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CAR ML",
-      "Over 6.5",
-      "Nikolaj Ehlers anytime goal"
-     ],
-     "leg_probs": [
-      0.554,
-      0.463,
-      0.246
-     ],
-     "p_joint": 0.0988,
-     "p_raw": 0.0957,
-     "p_indep": 0.0631,
-     "lift": 1.566,
-     "fair_odds": 912,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "STL ML",
-      "Over 5.5",
-      "Mason McTavish anytime goal"
-     ],
-     "leg_probs": [
-      0.446,
-      0.633,
-      0.178
-     ],
-     "p_joint": 0.0786,
-     "p_raw": 0.0736,
-     "p_indep": 0.0503,
-     "lift": 1.562,
-     "fair_odds": 1173,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "STL ML",
-      "Dylan Holloway anytime goal",
-      "CAR goalie under 19.5 saves"
-     ],
-     "leg_probs": [
-      0.446,
-      0.265,
-      0.481
-     ],
-     "p_joint": 0.0887,
-     "p_raw": 0.0831,
-     "p_indep": 0.0569,
-     "lift": 1.559,
-     "fair_odds": 1027,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Andrei Svechnikov anytime goal"
-     ],
-     "leg_probs": [
-      0.463,
-      0.33
-     ],
-     "p_joint": 0.1911,
-     "p_raw": 0.1923,
-     "p_indep": 0.1527,
-     "lift": 1.252,
-     "fair_odds": 423,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Logan Stankoven anytime goal"
-     ],
-     "leg_probs": [
-      0.463,
-      0.282
-     ],
-     "p_joint": 0.1632,
-     "p_raw": 0.1643,
-     "p_indep": 0.1305,
-     "lift": 1.251,
-     "fair_odds": 513,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "CAR ML",
-      "Over 5.5",
-      "Andrei Svechnikov anytime goal"
-     ],
-     "leg_probs": [
-      0.554,
-      0.633,
-      0.33
-     ],
-     "p_joint": 0.161,
-     "p_raw": 0.162,
-     "p_indep": 0.1157,
-     "lift": 1.392,
-     "fair_odds": 521,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Sebastian Aho anytime goal"
-     ],
-     "leg_probs": [
-      0.463,
-      0.275
-     ],
-     "p_joint": 0.1607,
-     "p_raw": 0.1617,
-     "p_indep": 0.1271,
-     "lift": 1.264,
-     "fair_odds": 522,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Jimmy Snuggerud anytime goal"
-     ],
-     "leg_probs": [
-      0.463,
-      0.261
-     ],
-     "p_joint": 0.157,
-     "p_raw": 0.1579,
-     "p_indep": 0.1208,
-     "lift": 1.3,
-     "fair_odds": 537,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Dylan Holloway anytime goal"
-     ],
-     "leg_probs": [
-      0.463,
-      0.265
-     ],
-     "p_joint": 0.1545,
-     "p_raw": 0.1555,
-     "p_indep": 0.1228,
-     "lift": 1.259,
-     "fair_odds": 547,
-     "sig": "atg+total"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020176,
-   "date": "2026-10-24",
-   "home": "EDM",
-   "away": "TOR",
-   "start_utc": "2026-10-24T23:00:00Z",
-   "p_home": 0.6862,
-   "priced": false,
-   "exp_total": 6.63,
-   "plays": [
-    {
-     "legs": [
-      "TOR ML",
-      "Over 5.5",
-      "Easton Cowan anytime goal"
-     ],
-     "leg_probs": [
-      0.313,
-      0.655,
-      0.222
-     ],
-     "p_joint": 0.0778,
-     "p_raw": 0.0729,
-     "p_indep": 0.0457,
-     "lift": 1.704,
-     "fair_odds": 1185,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "TOR ML",
-      "Over 5.5",
-      "Auston Matthews anytime goal"
-     ],
-     "leg_probs": [
-      0.313,
-      0.655,
-      0.194
-     ],
-     "p_joint": 0.0664,
-     "p_raw": 0.0622,
-     "p_indep": 0.0399,
-     "lift": 1.667,
-     "fair_odds": 1405,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "TOR ML",
-      "Over 5.5",
-      "Kirill Marchenko anytime goal"
-     ],
-     "leg_probs": [
-      0.313,
-      0.655,
-      0.198
-     ],
-     "p_joint": 0.0666,
-     "p_raw": 0.0624,
-     "p_indep": 0.0406,
-     "lift": 1.64,
-     "fair_odds": 1403,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "TOR ML",
-      "William Nylander anytime goal",
-      "TOR goalie over 27.5 saves"
-     ],
-     "leg_probs": [
-      0.313,
-      0.381,
-      0.344
-     ],
-     "p_joint": 0.0672,
-     "p_raw": 0.063,
-     "p_indep": 0.041,
-     "lift": 1.639,
-     "fair_odds": 1388,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "TOR ML",
-      "Easton Cowan anytime goal",
-      "TOR goalie over 23.5 saves"
-     ],
-     "leg_probs": [
-      0.313,
-      0.222,
-      0.586
-     ],
-     "p_joint": 0.0665,
-     "p_raw": 0.0623,
-     "p_indep": 0.0409,
-     "lift": 1.628,
-     "fair_odds": 1404,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "TOR ML",
-      "William Nylander anytime goal",
-      "TOR goalie over 25.5 saves"
-     ],
-     "leg_probs": [
-      0.313,
-      0.381,
-      0.461
-     ],
-     "p_joint": 0.0883,
-     "p_raw": 0.0827,
-     "p_indep": 0.055,
-     "lift": 1.605,
-     "fair_odds": 1033,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "TOR ML",
-      "William Nylander anytime goal",
-      "EDM goalie under 21.5 saves"
-     ],
-     "leg_probs": [
-      0.313,
-      0.381,
-      0.487
-     ],
-     "p_joint": 0.0914,
-     "p_raw": 0.0856,
-     "p_indep": 0.0582,
-     "lift": 1.572,
-     "fair_odds": 994,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "TOR ML",
-      "Connor McDavid over 2.5 SOG",
-      "Easton Cowan anytime goal"
-     ],
-     "leg_probs": [
-      0.313,
-      0.703,
-      0.222
-     ],
-     "p_joint": 0.0761,
-     "p_raw": 0.0704,
-     "p_indep": 0.049,
-     "lift": 1.554,
-     "fair_odds": 1214,
-     "sig": "atg+ml+sog"
-    },
-    {
-     "legs": [
-      "EDM ML",
-      "Over 5.5",
-      "Connor McDavid anytime goal"
-     ],
-     "leg_probs": [
-      0.687,
-      0.655,
-      0.431
-     ],
-     "p_joint": 0.2448,
-     "p_raw": 0.2509,
-     "p_indep": 0.194,
-     "lift": 1.262,
-     "fair_odds": 308,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "EDM ML",
-      "Over 6.5",
-      "Connor McDavid anytime goal"
-     ],
-     "leg_probs": [
-      0.687,
-      0.49,
-      0.431
-     ],
-     "p_joint": 0.1982,
-     "p_raw": 0.1994,
-     "p_indep": 0.145,
-     "lift": 1.367,
-     "fair_odds": 405,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "EDM ML",
-      "Over 5.5",
-      "Vasily Podkolzin anytime goal"
-     ],
-     "leg_probs": [
-      0.687,
-      0.655,
-      0.308
-     ],
-     "p_joint": 0.184,
-     "p_raw": 0.1851,
-     "p_indep": 0.1387,
-     "lift": 1.326,
-     "fair_odds": 443,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "EDM ML",
-      "Over 5.5",
-      "Leon Draisaitl anytime goal"
-     ],
-     "leg_probs": [
-      0.687,
-      0.655,
-      0.296
-     ],
-     "p_joint": 0.1763,
-     "p_raw": 0.1773,
-     "p_indep": 0.1335,
-     "lift": 1.321,
-     "fair_odds": 467,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "EDM ML",
-      "Over 5.5",
-      "Evan Bouchard anytime goal"
-     ],
-     "leg_probs": [
-      0.687,
-      0.655,
-      0.281
-     ],
-     "p_joint": 0.1694,
-     "p_raw": 0.1705,
-     "p_indep": 0.1266,
-     "lift": 1.338,
-     "fair_odds": 490,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Connor McDavid over 2.5 SOG",
-      "William Nylander anytime goal"
-     ],
-     "leg_probs": [
-      0.49,
-      0.703,
-      0.381
-     ],
-     "p_joint": 0.164,
-     "p_raw": 0.1676,
-     "p_indep": 0.1312,
-     "lift": 1.25,
-     "fair_odds": 510,
-     "sig": "atg+sog+total"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020177,
-   "date": "2026-10-24",
-   "home": "UTA",
-   "away": "TBL",
-   "start_utc": "2026-10-25T01:00:00Z",
-   "p_home": 0.5316,
-   "priced": false,
-   "exp_total": 6.34,
-   "plays": [
-    {
-     "legs": [
-      "TBL ML",
-      "Over 6.5",
-      "Brayden Point anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.445,
-      0.218
-     ],
-     "p_joint": 0.0792,
-     "p_raw": 0.0742,
-     "p_indep": 0.0453,
-     "lift": 1.748,
-     "fair_odds": 1163,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "UTA ML",
-      "Over 6.5",
-      "Lawson Crouse anytime goal"
-     ],
-     "leg_probs": [
-      0.532,
-      0.445,
-      0.195
-     ],
-     "p_joint": 0.0792,
-     "p_raw": 0.0742,
-     "p_indep": 0.0462,
-     "lift": 1.715,
-     "fair_odds": 1163,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "UTA ML",
-      "Over 6.5",
-      "Kailer Yamamoto anytime goal"
-     ],
-     "leg_probs": [
-      0.532,
-      0.445,
-      0.185
-     ],
-     "p_joint": 0.0727,
-     "p_raw": 0.0681,
-     "p_indep": 0.0438,
-     "lift": 1.66,
-     "fair_odds": 1276,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "UTA ML",
-      "Over 6.5",
-      "Logan Cooley anytime goal"
-     ],
-     "leg_probs": [
-      0.532,
-      0.445,
-      0.196
-     ],
-     "p_joint": 0.0766,
-     "p_raw": 0.0718,
-     "p_indep": 0.0462,
-     "lift": 1.657,
-     "fair_odds": 1206,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "TBL ML",
-      "Over 6.5",
-      "Brandon Hagel anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.445,
-      0.285
-     ],
-     "p_joint": 0.0966,
-     "p_raw": 0.0935,
-     "p_indep": 0.0594,
-     "lift": 1.626,
-     "fair_odds": 935,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "TBL ML",
-      "Over 6.5",
-      "Jake Guentzel anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.445,
-      0.316
-     ],
-     "p_joint": 0.106,
-     "p_raw": 0.1026,
-     "p_indep": 0.0659,
-     "lift": 1.609,
-     "fair_odds": 844,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "TBL ML",
-      "Over 5.5",
-      "Brayden Point anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.614,
-      0.218
-     ],
-     "p_joint": 0.1002,
-     "p_raw": 0.0971,
-     "p_indep": 0.0626,
-     "lift": 1.601,
-     "fair_odds": 898,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "TBL ML",
-      "Over 6.5",
-      "Nikita Kucherov anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.445,
-      0.313
-     ],
-     "p_joint": 0.1025,
-     "p_raw": 0.0992,
-     "p_indep": 0.0653,
-     "lift": 1.569,
-     "fair_odds": 876,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Nick Schmaltz anytime goal"
-     ],
-     "leg_probs": [
-      0.445,
-      0.34
-     ],
-     "p_joint": 0.1899,
-     "p_raw": 0.191,
-     "p_indep": 0.1514,
-     "lift": 1.254,
-     "fair_odds": 427,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "TBL ML",
-      "Jake Guentzel anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.316
-     ],
-     "p_joint": 0.1869,
-     "p_raw": 0.1881,
-     "p_indep": 0.1481,
-     "lift": 1.262,
-     "fair_odds": 435,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "TBL ML",
-      "Nikita Kucherov anytime goal"
-     ],
-     "leg_probs": [
-      0.468,
-      0.313
-     ],
-     "p_joint": 0.1857,
-     "p_raw": 0.1868,
-     "p_indep": 0.1468,
-     "lift": 1.264,
-     "fair_odds": 439,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Jake Guentzel anytime goal"
-     ],
-     "leg_probs": [
-      0.445,
-      0.316
-     ],
-     "p_joint": 0.1817,
-     "p_raw": 0.1829,
-     "p_indep": 0.1406,
-     "lift": 1.292,
-     "fair_odds": 450,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Nikita Kucherov anytime goal"
-     ],
-     "leg_probs": [
-      0.445,
-      0.313
-     ],
-     "p_joint": 0.1773,
-     "p_raw": 0.1784,
-     "p_indep": 0.1394,
-     "lift": 1.272,
-     "fair_odds": 464,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Dylan Guenther anytime goal"
-     ],
-     "leg_probs": [
-      0.445,
-      0.302
-     ],
-     "p_joint": 0.1724,
-     "p_raw": 0.1734,
-     "p_indep": 0.1344,
-     "lift": 1.282,
-     "fair_odds": 480,
-     "sig": "atg+total"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020178,
-   "date": "2026-10-24",
-   "home": "CGY",
-   "away": "DET",
-   "start_utc": "2026-10-25T02:00:00Z",
-   "p_home": 0.4717,
-   "priced": false,
-   "exp_total": 6.26,
-   "plays": [
-    {
-     "legs": [
-      "CGY ML",
-      "Over 6.5",
-      "Ryan Strome anytime goal"
-     ],
-     "leg_probs": [
-      0.472,
-      0.431,
-      0.201
-     ],
-     "p_joint": 0.0721,
-     "p_raw": 0.0676,
-     "p_indep": 0.0409,
-     "lift": 1.762,
-     "fair_odds": 1287,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "DET ML",
-      "Over 6.5",
-      "Emmitt Finnie anytime goal"
-     ],
-     "leg_probs": [
-      0.528,
-      0.431,
-      0.17
-     ],
-     "p_joint": 0.0668,
-     "p_raw": 0.0626,
-     "p_indep": 0.0386,
-     "lift": 1.728,
-     "fair_odds": 1398,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CGY ML",
-      "Over 6.5",
-      "Matt Coronato anytime goal"
-     ],
-     "leg_probs": [
-      0.472,
-      0.431,
-      0.217
-     ],
-     "p_joint": 0.0752,
-     "p_raw": 0.0705,
-     "p_indep": 0.0442,
-     "lift": 1.704,
-     "fair_odds": 1229,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "DET ML",
-      "Over 6.5",
-      "Lucas Raymond anytime goal"
-     ],
-     "leg_probs": [
-      0.528,
-      0.431,
-      0.264
-     ],
-     "p_joint": 0.0996,
-     "p_raw": 0.0965,
-     "p_indep": 0.0601,
-     "lift": 1.657,
-     "fair_odds": 904,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CGY ML",
-      "Over 6.5",
-      "Morgan Frost anytime goal"
-     ],
-     "leg_probs": [
-      0.472,
-      0.431,
-      0.279
-     ],
-     "p_joint": 0.0931,
-     "p_raw": 0.0873,
-     "p_indep": 0.0568,
-     "lift": 1.639,
-     "fair_odds": 974,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CGY ML",
-      "Over 5.5",
-      "Ryan Strome anytime goal"
-     ],
-     "leg_probs": [
-      0.472,
-      0.599,
-      0.201
-     ],
-     "p_joint": 0.0932,
-     "p_raw": 0.0873,
-     "p_indep": 0.0569,
-     "lift": 1.638,
-     "fair_odds": 973,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "DET ML",
-      "Over 6.5",
-      "Dylan Larkin anytime goal"
-     ],
-     "leg_probs": [
-      0.528,
-      0.431,
-      0.274
-     ],
-     "p_joint": 0.102,
-     "p_raw": 0.0988,
-     "p_indep": 0.0624,
-     "lift": 1.636,
-     "fair_odds": 880,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CGY ML",
-      "Over 6.5",
-      "Joel Farabee anytime goal"
-     ],
-     "leg_probs": [
-      0.472,
-      0.431,
-      0.243
-     ],
-     "p_joint": 0.0806,
-     "p_raw": 0.0755,
-     "p_indep": 0.0496,
-     "lift": 1.626,
-     "fair_odds": 1141,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Alex DeBrincat anytime goal"
-     ],
-     "leg_probs": [
-      0.431,
-      0.383
-     ],
-     "p_joint": 0.2104,
-     "p_raw": 0.2118,
-     "p_indep": 0.1651,
-     "lift": 1.274,
-     "fair_odds": 375,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "DET ML",
-      "Dylan Larkin anytime goal"
-     ],
-     "leg_probs": [
-      0.528,
-      0.274
-     ],
-     "p_joint": 0.1825,
-     "p_raw": 0.1837,
-     "p_indep": 0.1446,
-     "lift": 1.262,
-     "fair_odds": 448,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "DET ML",
-      "Lucas Raymond anytime goal"
-     ],
-     "leg_probs": [
-      0.528,
-      0.264
-     ],
-     "p_joint": 0.1754,
-     "p_raw": 0.1765,
-     "p_indep": 0.1394,
-     "lift": 1.258,
-     "fair_odds": 470,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "DET ML",
-      "Over 5.5",
-      "Alex DeBrincat anytime goal"
-     ],
-     "leg_probs": [
-      0.528,
-      0.599,
-      0.383
-     ],
-     "p_joint": 0.1697,
-     "p_raw": 0.1708,
-     "p_indep": 0.1212,
-     "lift": 1.4,
-     "fair_odds": 489,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CGY ML",
-      "Morgan Frost anytime goal"
-     ],
-     "leg_probs": [
-      0.472,
-      0.279
-     ],
-     "p_joint": 0.1665,
-     "p_raw": 0.1675,
-     "p_indep": 0.1318,
-     "lift": 1.263,
-     "fair_odds": 501,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Morgan Frost anytime goal"
-     ],
-     "leg_probs": [
-      0.431,
-      0.279
-     ],
-     "p_joint": 0.157,
-     "p_raw": 0.1579,
-     "p_indep": 0.1204,
-     "lift": 1.304,
-     "fair_odds": 537,
-     "sig": "atg+total"
-    }
-   ]
-  },
-  {
-   "gameId": 2026020179,
-   "date": "2026-10-24",
-   "home": "SEA",
-   "away": "MIN",
-   "start_utc": "2026-10-25T02:00:00Z",
-   "p_home": 0.3975,
-   "priced": false,
-   "exp_total": 6.21,
-   "plays": [
-    {
-     "legs": [
-      "SEA ML",
-      "Over 6.5",
-      "Bobby McMann anytime goal"
-     ],
-     "leg_probs": [
-      0.397,
-      0.425,
-      0.281
-     ],
-     "p_joint": 0.0827,
-     "p_raw": 0.0775,
-     "p_indep": 0.0475,
-     "lift": 1.742,
-     "fair_odds": 1109,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "SEA ML",
-      "Over 5.5",
-      "Jordan Eberle anytime goal"
-     ],
-     "leg_probs": [
-      0.397,
-      0.595,
-      0.198
-     ],
-     "p_joint": 0.0771,
-     "p_raw": 0.0722,
-     "p_indep": 0.0467,
-     "lift": 1.65,
-     "fair_odds": 1198,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "MIN ML",
-      "Over 6.5",
-      "Danila Yurov anytime goal"
-     ],
-     "leg_probs": [
-      0.603,
-      0.425,
-      0.18
-     ],
-     "p_joint": 0.0757,
-     "p_raw": 0.0709,
-     "p_indep": 0.0461,
-     "lift": 1.643,
-     "fair_odds": 1221,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "MIN ML",
-      "Over 6.5",
-      "Joel Eriksson Ek anytime goal"
-     ],
-     "leg_probs": [
-      0.603,
-      0.425,
-      0.229
-     ],
-     "p_joint": 0.0961,
-     "p_raw": 0.093,
-     "p_indep": 0.0586,
-     "lift": 1.64,
-     "fair_odds": 941,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "SEA ML",
-      "Over 5.5",
-      "Jared McCann anytime goal"
-     ],
-     "leg_probs": [
-      0.397,
-      0.595,
-      0.177
-     ],
-     "p_joint": 0.0687,
-     "p_raw": 0.0644,
-     "p_indep": 0.0419,
-     "lift": 1.638,
-     "fair_odds": 1356,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "MIN ML",
-      "Over 6.5",
-      "Ryan Hartman anytime goal"
-     ],
-     "leg_probs": [
-      0.603,
-      0.425,
-      0.173
-     ],
-     "p_joint": 0.0722,
-     "p_raw": 0.0676,
-     "p_indep": 0.0443,
-     "lift": 1.629,
-     "fair_odds": 1285,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "SEA ML",
-      "Over 5.5",
-      "Bobby McMann anytime goal"
-     ],
-     "leg_probs": [
-      0.397,
-      0.595,
-      0.281
-     ],
-     "p_joint": 0.1064,
-     "p_raw": 0.1031,
-     "p_indep": 0.0665,
-     "lift": 1.601,
-     "fair_odds": 840,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "SEA ML",
-      "Bobby McMann anytime goal",
-      "MIN goalie under 22.5 saves"
-     ],
-     "leg_probs": [
-      0.397,
-      0.281,
-      0.49
-     ],
-     "p_joint": 0.0868,
-     "p_raw": 0.0813,
-     "p_indep": 0.0547,
-     "lift": 1.587,
-     "fair_odds": 1052,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "MIN ML",
-      "Over 5.5",
-      "Matt Boldy anytime goal"
-     ],
-     "leg_probs": [
-      0.603,
-      0.595,
-      0.424
-     ],
-     "p_joint": 0.2079,
-     "p_raw": 0.2092,
-     "p_indep": 0.1523,
-     "lift": 1.366,
-     "fair_odds": 381,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Kirill Kaprizov anytime goal"
-     ],
-     "leg_probs": [
-      0.425,
-      0.372
-     ],
-     "p_joint": 0.2023,
-     "p_raw": 0.2036,
-     "p_indep": 0.1581,
-     "lift": 1.28,
-     "fair_odds": 394,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "MIN ML",
-      "Over 5.5",
-      "Kirill Kaprizov anytime goal"
-     ],
-     "leg_probs": [
-      0.603,
-      0.595,
-      0.372
-     ],
-     "p_joint": 0.1846,
-     "p_raw": 0.1857,
-     "p_indep": 0.1335,
-     "lift": 1.383,
-     "fair_odds": 442,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "MIN ML",
-      "Matt Boldy anytime goal",
-      "SEA goalie under 27.5 saves"
-     ],
-     "leg_probs": [
-      0.603,
-      0.424,
-      0.53
-     ],
-     "p_joint": 0.172,
-     "p_raw": 0.1731,
-     "p_indep": 0.1354,
-     "lift": 1.27,
-     "fair_odds": 481,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "MIN ML",
-      "Matt Boldy anytime goal",
-      "MIN goalie over 22.5 saves"
-     ],
-     "leg_probs": [
-      0.603,
-      0.424,
-      0.51
-     ],
-     "p_joint": 0.1638,
-     "p_raw": 0.1648,
-     "p_indep": 0.1305,
-     "lift": 1.255,
-     "fair_odds": 511,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Bobby McMann over 1.5 SOG",
-      "Matt Boldy anytime goal"
-     ],
-     "leg_probs": [
-      0.425,
-      0.712,
-      0.424
-     ],
-     "p_joint": 0.1605,
-     "p_raw": 0.164,
-     "p_indep": 0.1283,
-     "lift": 1.251,
-     "fair_odds": 523,
-     "sig": "atg+sog+total"
-    }
-   ]
-  },
-  {
    "gameId": 2026020180,
    "date": "2026-10-25",
    "home": "CHI",
    "away": "FLA",
    "start_utc": "2026-10-25T19:00:00Z",
-   "p_home": 0.404,
+   "p_home": 0.4043,
    "priced": false,
-   "exp_total": 6.28,
+   "exp_total": 6.26,
    "plays": [
-    {
-     "legs": [
-      "CHI ML",
-      "Over 6.5",
-      "Frank Nazar anytime goal"
-     ],
-     "leg_probs": [
-      0.402,
-      0.429,
-      0.223
-     ],
-     "p_joint": 0.0662,
-     "p_raw": 0.062,
-     "p_indep": 0.0385,
-     "lift": 1.719,
-     "fair_odds": 1410,
-     "sig": "atg+ml+total"
-    },
     {
      "legs": [
       "CHI ML",
@@ -3102,15 +22,15 @@
       "Anton Frondell anytime goal"
      ],
      "leg_probs": [
-      0.402,
-      0.429,
-      0.226
+      0.403,
+      0.428,
+      0.23
      ],
-     "p_joint": 0.0666,
-     "p_raw": 0.0624,
-     "p_indep": 0.0389,
-     "lift": 1.712,
-     "fair_odds": 1403,
+     "p_joint": 0.071,
+     "p_raw": 0.0665,
+     "p_indep": 0.0396,
+     "lift": 1.791,
+     "fair_odds": 1309,
      "sig": "atg+ml+total"
     },
     {
@@ -3120,51 +40,33 @@
       "Ryan Donato anytime goal"
      ],
      "leg_probs": [
-      0.402,
-      0.599,
-      0.182
+      0.403,
+      0.603,
+      0.186
      ],
-     "p_joint": 0.0722,
-     "p_raw": 0.0676,
-     "p_indep": 0.0438,
-     "lift": 1.649,
-     "fair_odds": 1285,
+     "p_joint": 0.0782,
+     "p_raw": 0.0733,
+     "p_indep": 0.0451,
+     "lift": 1.735,
+     "fair_odds": 1178,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "CHI ML",
-      "Over 5.5",
-      "Connor Bedard anytime goal"
+      "Over 6.5",
+      "Frank Nazar anytime goal"
      ],
      "leg_probs": [
-      0.402,
-      0.599,
-      0.207
+      0.403,
+      0.428,
+      0.222
      ],
-     "p_joint": 0.082,
-     "p_raw": 0.0768,
-     "p_indep": 0.05,
-     "lift": 1.641,
-     "fair_odds": 1120,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CHI ML",
-      "Over 5.5",
-      "Anton Frondell anytime goal"
-     ],
-     "leg_probs": [
-      0.402,
-      0.599,
-      0.226
-     ],
-     "p_joint": 0.0883,
-     "p_raw": 0.0827,
-     "p_indep": 0.0543,
-     "lift": 1.624,
-     "fair_odds": 1033,
+     "p_joint": 0.0661,
+     "p_raw": 0.0619,
+     "p_indep": 0.0383,
+     "lift": 1.726,
+     "fair_odds": 1412,
      "sig": "atg+ml+total"
     },
     {
@@ -3174,51 +76,87 @@
       "Matthew Tkachuk anytime goal"
      ],
      "leg_probs": [
-      0.598,
-      0.429,
-      0.223
+      0.597,
+      0.428,
+      0.222
      ],
-     "p_joint": 0.0926,
-     "p_raw": 0.0868,
-     "p_indep": 0.0572,
-     "lift": 1.619,
-     "fair_odds": 979,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "FLA ML",
-      "Over 6.5",
-      "Carter Verhaeghe anytime goal"
-     ],
-     "leg_probs": [
-      0.598,
-      0.429,
-      0.269
-     ],
-     "p_joint": 0.1109,
-     "p_raw": 0.1073,
-     "p_indep": 0.0689,
-     "lift": 1.61,
-     "fair_odds": 802,
+     "p_joint": 0.0954,
+     "p_raw": 0.0894,
+     "p_indep": 0.0568,
+     "lift": 1.681,
+     "fair_odds": 948,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "CHI ML",
-      "Anton Frondell anytime goal",
+      "Over 5.5",
+      "Anton Frondell anytime goal"
+     ],
+     "leg_probs": [
+      0.403,
+      0.603,
+      0.23
+     ],
+     "p_joint": 0.0933,
+     "p_raw": 0.0874,
+     "p_indep": 0.0559,
+     "lift": 1.67,
+     "fair_odds": 971,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CHI ML",
+      "Over 5.5",
+      "Frank Nazar anytime goal"
+     ],
+     "leg_probs": [
+      0.403,
+      0.603,
+      0.222
+     ],
+     "p_joint": 0.0886,
+     "p_raw": 0.083,
+     "p_indep": 0.054,
+     "lift": 1.641,
+     "fair_odds": 1028,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CHI ML",
+      "Over 5.5",
+      "Tyler Bertuzzi anytime goal"
+     ],
+     "leg_probs": [
+      0.403,
+      0.603,
+      0.182
+     ],
+     "p_joint": 0.0719,
+     "p_raw": 0.0674,
+     "p_indep": 0.0443,
+     "lift": 1.624,
+     "fair_odds": 1290,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CHI ML",
+      "Ryan Donato anytime goal",
       "FLA goalie under 20.5 saves"
      ],
      "leg_probs": [
-      0.402,
-      0.226,
+      0.403,
+      0.186,
       0.532
      ],
-     "p_joint": 0.0776,
-     "p_raw": 0.0727,
-     "p_indep": 0.0482,
-     "lift": 1.609,
-     "fair_odds": 1189,
+     "p_joint": 0.0646,
+     "p_raw": 0.0605,
+     "p_indep": 0.0398,
+     "lift": 1.623,
+     "fair_odds": 1449,
      "sig": "atg+ml+saves"
     },
     {
@@ -3227,14 +165,30 @@
       "Sam Bennett anytime goal"
      ],
      "leg_probs": [
-      0.429,
-      0.301
+      0.428,
+      0.298
      ],
-     "p_joint": 0.1628,
-     "p_raw": 0.1638,
-     "p_indep": 0.1288,
-     "lift": 1.264,
-     "fair_odds": 514,
+     "p_joint": 0.1613,
+     "p_raw": 0.1622,
+     "p_indep": 0.1273,
+     "lift": 1.267,
+     "fair_odds": 520,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Brady Tkachuk anytime goal"
+     ],
+     "leg_probs": [
+      0.428,
+      0.276
+     ],
+     "p_joint": 0.1516,
+     "p_raw": 0.1525,
+     "p_indep": 0.1182,
+     "lift": 1.282,
+     "fair_odds": 560,
      "sig": "atg+total"
     },
     {
@@ -3243,14 +197,14 @@
       "Carter Verhaeghe anytime goal"
      ],
      "leg_probs": [
-      0.429,
+      0.428,
       0.269
      ],
-     "p_joint": 0.1524,
-     "p_raw": 0.1533,
-     "p_indep": 0.1152,
-     "lift": 1.323,
-     "fair_odds": 556,
+     "p_joint": 0.1509,
+     "p_raw": 0.1518,
+     "p_indep": 0.115,
+     "lift": 1.312,
+     "fair_odds": 563,
      "sig": "atg+total"
     },
     {
@@ -3260,49 +214,33 @@
       "Sam Bennett anytime goal"
      ],
      "leg_probs": [
-      0.598,
-      0.599,
-      0.301
+      0.597,
+      0.603,
+      0.298
      ],
-     "p_joint": 0.1487,
-     "p_raw": 0.1496,
-     "p_indep": 0.1076,
-     "lift": 1.382,
-     "fair_odds": 573,
+     "p_joint": 0.1493,
+     "p_raw": 0.1502,
+     "p_indep": 0.1072,
+     "lift": 1.393,
+     "fair_odds": 570,
      "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Brady Tkachuk anytime goal"
-     ],
-     "leg_probs": [
-      0.429,
-      0.274
-     ],
-     "p_joint": 0.1469,
-     "p_raw": 0.1478,
-     "p_indep": 0.1175,
-     "lift": 1.25,
-     "fair_odds": 581,
-     "sig": "atg+total"
     },
     {
      "legs": [
       "FLA ML",
       "Over 5.5",
-      "Brady Tkachuk anytime goal"
+      "Carter Verhaeghe anytime goal"
      ],
      "leg_probs": [
-      0.598,
-      0.599,
-      0.274
+      0.597,
+      0.603,
+      0.269
      ],
-     "p_joint": 0.1428,
-     "p_raw": 0.1382,
-     "p_indep": 0.0981,
-     "lift": 1.455,
-     "fair_odds": 600,
+     "p_joint": 0.1442,
+     "p_raw": 0.1396,
+     "p_indep": 0.0968,
+     "lift": 1.489,
+     "fair_odds": 594,
      "sig": "atg+ml+total"
     },
     {
@@ -3311,14 +249,14 @@
       "Ryan Donato anytime goal"
      ],
      "leg_probs": [
-      0.599,
-      0.182
+      0.603,
+      0.186
      ],
-     "p_joint": 0.1407,
-     "p_raw": 0.1363,
-     "p_indep": 0.1088,
-     "lift": 1.293,
-     "fair_odds": 611,
+     "p_joint": 0.1431,
+     "p_raw": 0.1385,
+     "p_indep": 0.1119,
+     "lift": 1.278,
+     "fair_odds": 599,
      "sig": "atg+total"
     }
    ]
@@ -3329,27 +267,45 @@
    "home": "DAL",
    "away": "NYI",
    "start_utc": "2026-10-25T22:00:00Z",
-   "p_home": 0.6043,
+   "p_home": 0.6049,
    "priced": false,
-   "exp_total": 5.55,
+   "exp_total": 5.54,
    "plays": [
     {
      "legs": [
       "NYI ML",
       "Over 5.5",
-      "Matthew Schaefer anytime goal"
+      "Bo Horvat anytime goal"
      ],
      "leg_probs": [
-      0.398,
-      0.477,
-      0.239
+      0.396,
+      0.479,
+      0.245
      ],
-     "p_joint": 0.0822,
-     "p_raw": 0.0771,
-     "p_indep": 0.0454,
+     "p_joint": 0.084,
+     "p_raw": 0.0787,
+     "p_indep": 0.0463,
      "lift": 1.813,
-     "fair_odds": 1116,
+     "fair_odds": 1090,
      "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Bo Horvat anytime goal",
+      "DAL goalie under 21.5 saves"
+     ],
+     "leg_probs": [
+      0.308,
+      0.245,
+      0.525
+     ],
+     "p_joint": 0.067,
+     "p_raw": 0.0628,
+     "p_indep": 0.0396,
+     "lift": 1.694,
+     "fair_odds": 1392,
+     "sig": "atg+saves+total"
     },
     {
      "legs": [
@@ -3358,51 +314,33 @@
       "Mikko Rantanen anytime goal"
      ],
      "leg_probs": [
-      0.602,
-      0.315,
+      0.604,
+      0.308,
       0.22
      ],
-     "p_joint": 0.0754,
-     "p_raw": 0.0706,
-     "p_indep": 0.0417,
-     "lift": 1.809,
-     "fair_odds": 1227,
+     "p_joint": 0.0692,
+     "p_raw": 0.0649,
+     "p_indep": 0.041,
+     "lift": 1.69,
+     "fair_odds": 1345,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "NYI ML",
       "Over 5.5",
-      "Bo Horvat anytime goal"
+      "Matthew Schaefer anytime goal"
      ],
      "leg_probs": [
-      0.398,
-      0.477,
-      0.251
+      0.396,
+      0.479,
+      0.24
      ],
-     "p_joint": 0.0847,
-     "p_raw": 0.0794,
-     "p_indep": 0.0478,
-     "lift": 1.774,
-     "fair_odds": 1080,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "DAL ML",
-      "Over 6.5",
-      "Jason Robertson anytime goal"
-     ],
-     "leg_probs": [
-      0.602,
-      0.315,
-      0.358
-     ],
-     "p_joint": 0.113,
-     "p_raw": 0.1094,
-     "p_indep": 0.0678,
-     "lift": 1.667,
-     "fair_odds": 785,
+     "p_joint": 0.0769,
+     "p_raw": 0.072,
+     "p_indep": 0.0455,
+     "lift": 1.69,
+     "fair_odds": 1200,
      "sig": "atg+ml+total"
     },
     {
@@ -3412,34 +350,34 @@
       "Wyatt Johnston anytime goal"
      ],
      "leg_probs": [
-      0.602,
-      0.315,
-      0.307
+      0.604,
+      0.308,
+      0.31
      ],
-     "p_joint": 0.0961,
-     "p_raw": 0.0931,
-     "p_indep": 0.0581,
-     "lift": 1.655,
-     "fair_odds": 940,
+     "p_joint": 0.0963,
+     "p_raw": 0.0932,
+     "p_indep": 0.0577,
+     "lift": 1.67,
+     "fair_odds": 938,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
+      "DAL ML",
       "Over 6.5",
-      "Bo Horvat anytime goal",
-      "NYI goalie under 20.5 saves"
+      "Jason Robertson anytime goal"
      ],
      "leg_probs": [
-      0.315,
-      0.251,
-      0.518
+      0.604,
+      0.308,
+      0.358
      ],
-     "p_joint": 0.0674,
-     "p_raw": 0.0631,
-     "p_indep": 0.041,
-     "lift": 1.643,
-     "fair_odds": 1385,
-     "sig": "atg+saves+total"
+     "p_joint": 0.1109,
+     "p_raw": 0.1074,
+     "p_indep": 0.0666,
+     "lift": 1.667,
+     "fair_odds": 801,
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -3448,34 +386,34 @@
       "Arttu Hyry anytime goal"
      ],
      "leg_probs": [
-      0.602,
-      0.477,
-      0.165
+      0.604,
+      0.479,
+      0.163
      ],
-     "p_joint": 0.0777,
-     "p_raw": 0.0728,
-     "p_indep": 0.0473,
-     "lift": 1.641,
-     "fair_odds": 1188,
+     "p_joint": 0.0766,
+     "p_raw": 0.0718,
+     "p_indep": 0.0472,
+     "lift": 1.622,
+     "fair_odds": 1206,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
-      "Over 6.5",
-      "Wyatt Johnston over 1.5 SOG",
-      "Matthew Schaefer anytime goal"
+      "NYI ML",
+      "Bo Horvat anytime goal",
+      "NYI goalie over 20.5 saves"
      ],
      "leg_probs": [
-      0.315,
-      0.611,
-      0.239
+      0.396,
+      0.245,
+      0.481
      ],
-     "p_joint": 0.0747,
-     "p_raw": 0.0692,
-     "p_indep": 0.0459,
-     "lift": 1.629,
-     "fair_odds": 1238,
-     "sig": "atg+sog+total"
+     "p_joint": 0.0751,
+     "p_raw": 0.0704,
+     "p_indep": 0.0465,
+     "lift": 1.614,
+     "fair_odds": 1231,
+     "sig": "atg+ml+saves"
     },
     {
      "legs": [
@@ -3483,14 +421,14 @@
       "Jason Robertson anytime goal"
      ],
      "leg_probs": [
-      0.477,
+      0.479,
       0.358
      ],
-     "p_joint": 0.2166,
-     "p_raw": 0.2179,
-     "p_indep": 0.1709,
-     "lift": 1.267,
-     "fair_odds": 362,
+     "p_joint": 0.2182,
+     "p_raw": 0.2195,
+     "p_indep": 0.1711,
+     "lift": 1.275,
+     "fair_odds": 358,
      "sig": "atg+total"
     },
     {
@@ -3499,14 +437,14 @@
       "Wyatt Johnston anytime goal"
      ],
      "leg_probs": [
-      0.477,
-      0.307
+      0.479,
+      0.31
      ],
-     "p_joint": 0.1852,
-     "p_raw": 0.1864,
-     "p_indep": 0.1464,
-     "lift": 1.265,
-     "fair_odds": 440,
+     "p_joint": 0.1883,
+     "p_raw": 0.1895,
+     "p_indep": 0.1483,
+     "lift": 1.27,
+     "fair_odds": 431,
      "sig": "atg+total"
     },
     {
@@ -3516,15 +454,15 @@
       "Matthew Schaefer over 1.5 SOG"
      ],
      "leg_probs": [
-      0.477,
+      0.479,
       0.358,
       0.839
      ],
-     "p_joint": 0.1795,
-     "p_raw": 0.1835,
-     "p_indep": 0.1433,
-     "lift": 1.253,
-     "fair_odds": 457,
+     "p_joint": 0.1818,
+     "p_raw": 0.1858,
+     "p_indep": 0.1436,
+     "lift": 1.266,
+     "fair_odds": 450,
      "sig": "atg+sog+total"
     },
     {
@@ -3534,15 +472,15 @@
       "DAL goalie over 19.5 saves"
      ],
      "leg_probs": [
-      0.602,
+      0.604,
       0.358,
-      0.629
+      0.624
      ],
-     "p_joint": 0.1696,
-     "p_raw": 0.1707,
-     "p_indep": 0.1357,
-     "lift": 1.251,
-     "fair_odds": 489,
+     "p_joint": 0.169,
+     "p_raw": 0.17,
+     "p_indep": 0.1349,
+     "lift": 1.252,
+     "fair_odds": 492,
      "sig": "atg+ml+saves"
     },
     {
@@ -3552,32 +490,34 @@
       "Bo Horvat over 1.5 SOG"
      ],
      "leg_probs": [
-      0.477,
+      0.479,
       0.358,
-      0.737
+      0.733
      ],
-     "p_joint": 0.1597,
-     "p_raw": 0.1632,
-     "p_indep": 0.126,
-     "lift": 1.267,
-     "fair_odds": 526,
+     "p_joint": 0.1589,
+     "p_raw": 0.1624,
+     "p_indep": 0.1255,
+     "lift": 1.266,
+     "fair_odds": 529,
      "sig": "atg+sog+total"
     },
     {
      "legs": [
       "Over 5.5",
-      "Bo Horvat anytime goal"
+      "Wyatt Johnston anytime goal",
+      "Matthew Schaefer over 1.5 SOG"
      ],
      "leg_probs": [
-      0.477,
-      0.251
+      0.479,
+      0.31,
+      0.839
      ],
-     "p_joint": 0.1585,
-     "p_raw": 0.1594,
-     "p_indep": 0.12,
-     "lift": 1.32,
-     "fair_odds": 531,
-     "sig": "atg+total"
+     "p_joint": 0.1581,
+     "p_raw": 0.1616,
+     "p_indep": 0.1245,
+     "lift": 1.27,
+     "fair_odds": 532,
+     "sig": "atg+sog+total"
     }
    ]
   },
@@ -3587,7 +527,7 @@
    "home": "WPG",
    "away": "MTL",
    "start_utc": "2026-10-25T23:00:00Z",
-   "p_home": 0.5489,
+   "p_home": 0.5495,
    "priced": false,
    "exp_total": 5.97,
    "plays": [
@@ -3598,33 +538,15 @@
       "Cole Perfetti anytime goal"
      ],
      "leg_probs": [
-      0.551,
-      0.384,
+      0.548,
+      0.379,
       0.232
      ],
-     "p_joint": 0.0846,
-     "p_raw": 0.0793,
-     "p_indep": 0.049,
-     "lift": 1.726,
-     "fair_odds": 1082,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "MTL ML",
-      "Over 5.5",
-      "Josh Anderson anytime goal"
-     ],
-     "leg_probs": [
-      0.449,
-      0.557,
-      0.166
-     ],
-     "p_joint": 0.0707,
-     "p_raw": 0.0662,
-     "p_indep": 0.0414,
-     "lift": 1.706,
-     "fair_odds": 1315,
+     "p_joint": 0.0847,
+     "p_raw": 0.0794,
+     "p_indep": 0.0482,
+     "lift": 1.759,
+     "fair_odds": 1081,
      "sig": "atg+ml+total"
     },
     {
@@ -3634,15 +556,15 @@
       "Juraj Slafkovsky anytime goal"
      ],
      "leg_probs": [
-      0.449,
-      0.384,
-      0.269
+      0.452,
+      0.379,
+      0.265
      ],
-     "p_joint": 0.0789,
-     "p_raw": 0.074,
-     "p_indep": 0.0463,
-     "lift": 1.704,
-     "fair_odds": 1167,
+     "p_joint": 0.0788,
+     "p_raw": 0.0738,
+     "p_indep": 0.0453,
+     "lift": 1.739,
+     "fair_odds": 1169,
      "sig": "atg+ml+total"
     },
     {
@@ -3652,15 +574,15 @@
       "Gabriel Vilardi anytime goal"
      ],
      "leg_probs": [
-      0.551,
-      0.384,
-      0.211
+      0.548,
+      0.379,
+      0.215
      ],
-     "p_joint": 0.0757,
-     "p_raw": 0.071,
-     "p_indep": 0.0446,
-     "lift": 1.7,
-     "fair_odds": 1220,
+     "p_joint": 0.0768,
+     "p_raw": 0.072,
+     "p_indep": 0.0447,
+     "lift": 1.72,
+     "fair_odds": 1202,
      "sig": "atg+ml+total"
     },
     {
@@ -3670,15 +592,51 @@
       "Mark Scheifele anytime goal"
      ],
      "leg_probs": [
-      0.551,
-      0.384,
-      0.236
+      0.548,
+      0.379,
+      0.238
      ],
-     "p_joint": 0.0835,
-     "p_raw": 0.0782,
-     "p_indep": 0.05,
-     "lift": 1.672,
-     "fair_odds": 1097,
+     "p_joint": 0.0845,
+     "p_raw": 0.0792,
+     "p_indep": 0.0494,
+     "lift": 1.71,
+     "fair_odds": 1083,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "MTL ML",
+      "Over 5.5",
+      "Josh Anderson anytime goal"
+     ],
+     "leg_probs": [
+      0.452,
+      0.553,
+      0.169
+     ],
+     "p_joint": 0.0711,
+     "p_raw": 0.0667,
+     "p_indep": 0.0423,
+     "lift": 1.683,
+     "fair_odds": 1306,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "MTL ML",
+      "Over 5.5",
+      "Juraj Slafkovsky anytime goal"
+     ],
+     "leg_probs": [
+      0.452,
+      0.553,
+      0.265
+     ],
+     "p_joint": 0.1055,
+     "p_raw": 0.1022,
+     "p_indep": 0.0662,
+     "lift": 1.594,
+     "fair_odds": 848,
      "sig": "atg+ml+total"
     },
     {
@@ -3688,52 +646,34 @@
       "Alex Iafallo anytime goal"
      ],
      "leg_probs": [
-      0.551,
-      0.557,
-      0.173
+      0.548,
+      0.553,
+      0.174
      ],
-     "p_joint": 0.0845,
-     "p_raw": 0.0791,
-     "p_indep": 0.0531,
-     "lift": 1.592,
-     "fair_odds": 1084,
+     "p_joint": 0.0841,
+     "p_raw": 0.0788,
+     "p_indep": 0.0528,
+     "lift": 1.593,
+     "fair_odds": 1089,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "WPG ML",
       "Over 5.5",
-      "Gabriel Vilardi anytime goal"
+      "Cole Perfetti anytime goal"
      ],
      "leg_probs": [
-      0.551,
-      0.557,
-      0.211
+      0.548,
+      0.553,
+      0.232
      ],
-     "p_joint": 0.1017,
-     "p_raw": 0.0984,
-     "p_indep": 0.0647,
-     "lift": 1.572,
-     "fair_odds": 883,
+     "p_joint": 0.1113,
+     "p_raw": 0.1077,
+     "p_indep": 0.0704,
+     "lift": 1.582,
+     "fair_odds": 799,
      "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Alex Iafallo over 1.5 SOG",
-      "Juraj Slafkovsky anytime goal"
-     ],
-     "leg_probs": [
-      0.384,
-      0.446,
-      0.269
-     ],
-     "p_joint": 0.072,
-     "p_raw": 0.0666,
-     "p_indep": 0.046,
-     "lift": 1.566,
-     "fair_odds": 1289,
-     "sig": "atg+sog+total"
     },
     {
      "legs": [
@@ -3741,14 +681,14 @@
       "Cole Caufield anytime goal"
      ],
      "leg_probs": [
-      0.384,
-      0.437
+      0.379,
+      0.428
      ],
-     "p_joint": 0.2162,
-     "p_raw": 0.2175,
-     "p_indep": 0.1678,
-     "lift": 1.288,
-     "fair_odds": 363,
+     "p_joint": 0.2092,
+     "p_raw": 0.2104,
+     "p_indep": 0.1622,
+     "lift": 1.289,
+     "fair_odds": 378,
      "sig": "atg+total"
     },
     {
@@ -3758,52 +698,32 @@
       "Kyle Connor anytime goal"
      ],
      "leg_probs": [
-      0.551,
-      0.557,
-      0.464
+      0.548,
+      0.553,
+      0.467
      ],
-     "p_joint": 0.1985,
-     "p_raw": 0.1997,
-     "p_indep": 0.1422,
-     "lift": 1.396,
-     "fair_odds": 404,
+     "p_joint": 0.1966,
+     "p_raw": 0.1978,
+     "p_indep": 0.1416,
+     "lift": 1.388,
+     "fair_odds": 409,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
-      "WPG ML",
-      "Kyle Connor anytime goal",
-      "WPG goalie over 22.5 saves"
+      "Over 5.5",
+      "Juraj Slafkovsky anytime goal"
      ],
      "leg_probs": [
-      0.551,
-      0.464,
-      0.601
+      0.553,
+      0.265
      ],
-     "p_joint": 0.1936,
-     "p_raw": 0.1947,
-     "p_indep": 0.1534,
-     "lift": 1.262,
-     "fair_odds": 417,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Kyle Connor over 2.5 SOG",
-      "Cole Caufield anytime goal"
-     ],
-     "leg_probs": [
-      0.384,
-      0.789,
-      0.437
-     ],
-     "p_joint": 0.17,
-     "p_raw": 0.1737,
-     "p_indep": 0.1324,
-     "lift": 1.284,
-     "fair_odds": 488,
-     "sig": "atg+sog+total"
+     "p_joint": 0.1837,
+     "p_raw": 0.1848,
+     "p_indep": 0.1464,
+     "lift": 1.254,
+     "fair_odds": 444,
+     "sig": "atg+total"
     },
     {
      "legs": [
@@ -3812,15 +732,15 @@
       "MTL goalie under 23.5 saves"
      ],
      "leg_probs": [
-      0.551,
-      0.464,
-      0.518
+      0.548,
+      0.467,
+      0.525
      ],
-     "p_joint": 0.169,
-     "p_raw": 0.17,
-     "p_indep": 0.1322,
-     "lift": 1.278,
-     "fair_odds": 492,
+     "p_joint": 0.1729,
+     "p_raw": 0.174,
+     "p_indep": 0.1343,
+     "lift": 1.288,
+     "fair_odds": 478,
      "sig": "atg+ml+saves"
     },
     {
@@ -3830,16 +750,34 @@
       "MTL goalie under 23.5 saves"
      ],
      "leg_probs": [
-      0.557,
-      0.464,
-      0.518
+      0.553,
+      0.467,
+      0.525
      ],
-     "p_joint": 0.1689,
-     "p_raw": 0.1699,
-     "p_indep": 0.1337,
-     "lift": 1.263,
-     "fair_odds": 492,
+     "p_joint": 0.1708,
+     "p_raw": 0.1718,
+     "p_indep": 0.1356,
+     "lift": 1.26,
+     "fair_odds": 486,
      "sig": "atg+saves+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Kyle Connor anytime goal",
+      "Cole Caufield over 2.5 SOG"
+     ],
+     "leg_probs": [
+      0.379,
+      0.467,
+      0.742
+     ],
+     "p_joint": 0.1677,
+     "p_raw": 0.1715,
+     "p_indep": 0.1312,
+     "lift": 1.278,
+     "fair_odds": 496,
+     "sig": "atg+sog+total"
     }
    ]
   },
@@ -3849,64 +787,10 @@
    "home": "NSH",
    "away": "COL",
    "start_utc": "2026-10-26T00:00:00Z",
-   "p_home": 0.3772,
+   "p_home": 0.3447,
    "priced": false,
-   "exp_total": 5.99,
+   "exp_total": 6.02,
    "plays": [
-    {
-     "legs": [
-      "NSH ML",
-      "Over 5.5",
-      "Ryan O'Reilly anytime goal"
-     ],
-     "leg_probs": [
-      0.377,
-      0.555,
-      0.208
-     ],
-     "p_joint": 0.0756,
-     "p_raw": 0.0708,
-     "p_indep": 0.0435,
-     "lift": 1.736,
-     "fair_odds": 1223,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "COL ML",
-      "Over 6.5",
-      "Gabriel Landeskog anytime goal"
-     ],
-     "leg_probs": [
-      0.623,
-      0.383,
-      0.175
-     ],
-     "p_joint": 0.0723,
-     "p_raw": 0.0677,
-     "p_indep": 0.0417,
-     "lift": 1.734,
-     "fair_odds": 1283,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NSH ML",
-      "Over 6.5",
-      "Filip Forsberg anytime goal"
-     ],
-     "leg_probs": [
-      0.377,
-      0.383,
-      0.294
-     ],
-     "p_joint": 0.0718,
-     "p_raw": 0.0672,
-     "p_indep": 0.0425,
-     "lift": 1.69,
-     "fair_odds": 1293,
-     "sig": "atg+ml+total"
-    },
     {
      "legs": [
       "NSH ML",
@@ -3914,15 +798,33 @@
       "Steven Stamkos anytime goal"
      ],
      "leg_probs": [
-      0.377,
-      0.383,
-      0.33
+      0.343,
+      0.392,
+      0.302
      ],
-     "p_joint": 0.0805,
-     "p_raw": 0.0754,
-     "p_indep": 0.0477,
-     "lift": 1.689,
-     "fair_odds": 1143,
+     "p_joint": 0.0714,
+     "p_raw": 0.0668,
+     "p_indep": 0.0407,
+     "lift": 1.752,
+     "fair_odds": 1301,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NSH ML",
+      "Over 5.5",
+      "Ryan O'Reilly anytime goal"
+     ],
+     "leg_probs": [
+      0.343,
+      0.564,
+      0.212
+     ],
+     "p_joint": 0.0718,
+     "p_raw": 0.0672,
+     "p_indep": 0.0411,
+     "lift": 1.746,
+     "fair_odds": 1293,
      "sig": "atg+ml+total"
     },
     {
@@ -3932,15 +834,69 @@
       "Brock Nelson anytime goal"
      ],
      "leg_probs": [
-      0.623,
-      0.383,
-      0.182
+      0.657,
+      0.392,
+      0.189
      ],
-     "p_joint": 0.0721,
-     "p_raw": 0.0676,
-     "p_indep": 0.0433,
-     "lift": 1.665,
-     "fair_odds": 1287,
+     "p_joint": 0.0828,
+     "p_raw": 0.0776,
+     "p_indep": 0.0487,
+     "lift": 1.699,
+     "fair_odds": 1107,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "COL ML",
+      "Over 6.5",
+      "Gabriel Landeskog anytime goal"
+     ],
+     "leg_probs": [
+      0.657,
+      0.392,
+      0.184
+     ],
+     "p_joint": 0.0804,
+     "p_raw": 0.0753,
+     "p_indep": 0.0475,
+     "lift": 1.693,
+     "fair_odds": 1144,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NSH ML",
+      "Over 5.5",
+      "Filip Forsberg anytime goal"
+     ],
+     "leg_probs": [
+      0.343,
+      0.564,
+      0.267
+     ],
+     "p_joint": 0.0871,
+     "p_raw": 0.0816,
+     "p_indep": 0.0516,
+     "lift": 1.686,
+     "fair_odds": 1048,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NSH ML",
+      "Over 5.5",
+      "Steven Stamkos anytime goal"
+     ],
+     "leg_probs": [
+      0.343,
+      0.564,
+      0.302
+     ],
+     "p_joint": 0.0959,
+     "p_raw": 0.0928,
+     "p_indep": 0.0585,
+     "lift": 1.638,
+     "fair_odds": 943,
      "sig": "atg+ml+total"
     },
     {
@@ -3950,100 +906,50 @@
       "Artturi Lehkonen anytime goal"
      ],
      "leg_probs": [
-      0.623,
-      0.383,
-      0.188
+      0.657,
+      0.392,
+      0.192
      ],
-     "p_joint": 0.0745,
-     "p_raw": 0.0698,
-     "p_indep": 0.0449,
-     "lift": 1.659,
-     "fair_odds": 1242,
+     "p_joint": 0.0806,
+     "p_raw": 0.0755,
+     "p_indep": 0.0495,
+     "lift": 1.629,
+     "fair_odds": 1140,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "NSH ML",
-      "Ryan O'Reilly anytime goal",
-      "COL goalie under 23.5 saves"
+      "Steven Stamkos anytime goal",
+      "NSH goalie over 28.5 saves"
      ],
      "leg_probs": [
-      0.377,
-      0.208,
-      0.539
+      0.343,
+      0.302,
+      0.466
      ],
-     "p_joint": 0.0679,
-     "p_raw": 0.0636,
-     "p_indep": 0.0422,
-     "lift": 1.607,
-     "fair_odds": 1373,
+     "p_joint": 0.0775,
+     "p_raw": 0.0727,
+     "p_indep": 0.0484,
+     "lift": 1.603,
+     "fair_odds": 1190,
      "sig": "atg+ml+saves"
     },
     {
      "legs": [
-      "NSH ML",
-      "Filip Forsberg anytime goal",
-      "COL goalie under 23.5 saves"
-     ],
-     "leg_probs": [
-      0.377,
-      0.294,
-      0.539
-     ],
-     "p_joint": 0.0952,
-     "p_raw": 0.0891,
-     "p_indep": 0.0597,
-     "lift": 1.593,
-     "fair_odds": 951,
-     "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Nathan MacKinnon anytime goal"
-     ],
-     "leg_probs": [
-      0.383,
-      0.33
-     ],
-     "p_joint": 0.1675,
-     "p_raw": 0.1685,
-     "p_indep": 0.1265,
-     "lift": 1.324,
-     "fair_odds": 497,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
+      "Over 5.5",
       "Steven Stamkos anytime goal"
      ],
      "leg_probs": [
-      0.383,
-      0.33
+      0.564,
+      0.302
      ],
-     "p_joint": 0.1658,
-     "p_raw": 0.1669,
-     "p_indep": 0.1263,
-     "lift": 1.313,
-     "fair_odds": 503,
+     "p_joint": 0.2137,
+     "p_raw": 0.215,
+     "p_indep": 0.1705,
+     "lift": 1.254,
+     "fair_odds": 368,
      "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "NSH ML",
-      "Steven Stamkos anytime goal"
-     ],
-     "leg_probs": [
-      0.377,
-      0.33
-     ],
-     "p_joint": 0.1656,
-     "p_raw": 0.1666,
-     "p_indep": 0.1244,
-     "lift": 1.331,
-     "fair_odds": 504,
-     "sig": "atg+ml"
     },
     {
      "legs": [
@@ -4052,31 +958,65 @@
       "Nathan MacKinnon anytime goal"
      ],
      "leg_probs": [
-      0.623,
-      0.555,
-      0.33
+      0.657,
+      0.564,
+      0.345
      ],
-     "p_joint": 0.1621,
-     "p_raw": 0.1631,
-     "p_indep": 0.1141,
-     "lift": 1.421,
-     "fair_odds": 517,
+     "p_joint": 0.1793,
+     "p_raw": 0.1804,
+     "p_indep": 0.1277,
+     "lift": 1.404,
+     "fair_odds": 458,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "Over 6.5",
-      "Filip Forsberg anytime goal"
+      "Nathan MacKinnon anytime goal"
      ],
      "leg_probs": [
-      0.383,
-      0.294
+      0.392,
+      0.345
      ],
-     "p_joint": 0.1504,
-     "p_raw": 0.1514,
-     "p_indep": 0.1126,
-     "lift": 1.336,
-     "fair_odds": 565,
+     "p_joint": 0.1758,
+     "p_raw": 0.1769,
+     "p_indep": 0.1354,
+     "lift": 1.298,
+     "fair_odds": 469,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "COL ML",
+      "Over 5.5",
+      "Martin Necas anytime goal"
+     ],
+     "leg_probs": [
+      0.657,
+      0.564,
+      0.307
+     ],
+     "p_joint": 0.1588,
+     "p_raw": 0.1597,
+     "p_indep": 0.1138,
+     "lift": 1.396,
+     "fair_odds": 530,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Steven Stamkos anytime goal"
+     ],
+     "leg_probs": [
+      0.392,
+      0.302
+     ],
+     "p_joint": 0.1588,
+     "p_raw": 0.1597,
+     "p_indep": 0.1187,
+     "lift": 1.338,
+     "fair_odds": 530,
      "sig": "atg+total"
     },
     {
@@ -4085,14 +1025,14 @@
       "Martin Necas anytime goal"
      ],
      "leg_probs": [
-      0.383,
-      0.3
+      0.392,
+      0.307
      ],
-     "p_joint": 0.1483,
-     "p_raw": 0.1492,
-     "p_indep": 0.115,
-     "lift": 1.289,
-     "fair_odds": 574,
+     "p_joint": 0.1556,
+     "p_raw": 0.1566,
+     "p_indep": 0.1206,
+     "lift": 1.291,
+     "fair_odds": 543,
      "sig": "atg+total"
     }
    ]
@@ -4103,9 +1043,9 @@
    "home": "VAN",
    "away": "MIN",
    "start_utc": "2026-10-26T02:00:00Z",
-   "p_home": 0.283,
+   "p_home": 0.3042,
    "priced": false,
-   "exp_total": 6.51,
+   "exp_total": 6.46,
    "plays": [
     {
      "legs": [
@@ -4114,34 +1054,16 @@
       "MIN goalie under 20.5 saves"
      ],
      "leg_probs": [
-      0.282,
-      0.261,
-      0.534
+      0.301,
+      0.259,
+      0.55
      ],
-     "p_joint": 0.0698,
-     "p_raw": 0.0654,
-     "p_indep": 0.0392,
-     "lift": 1.779,
-     "fair_odds": 1333,
+     "p_joint": 0.0721,
+     "p_raw": 0.0676,
+     "p_indep": 0.0429,
+     "lift": 1.68,
+     "fair_odds": 1287,
      "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "VAN ML",
-      "Over 5.5",
-      "Jake DeBrusk anytime goal"
-     ],
-     "leg_probs": [
-      0.282,
-      0.636,
-      0.261
-     ],
-     "p_joint": 0.0799,
-     "p_raw": 0.0749,
-     "p_indep": 0.0468,
-     "lift": 1.708,
-     "fair_odds": 1152,
-     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -4150,33 +1072,103 @@
       "VAN goalie over 25.5 saves"
      ],
      "leg_probs": [
-      0.282,
-      0.261,
-      0.611
+      0.301,
+      0.259,
+      0.609
      ],
-     "p_joint": 0.0749,
-     "p_raw": 0.0702,
-     "p_indep": 0.0449,
-     "lift": 1.667,
-     "fair_odds": 1236,
+     "p_joint": 0.0781,
+     "p_raw": 0.0732,
+     "p_indep": 0.0476,
+     "lift": 1.642,
+     "fair_odds": 1181,
      "sig": "atg+ml+saves"
     },
     {
      "legs": [
       "VAN ML",
-      "Linus Karlsson anytime goal",
+      "Over 5.5",
+      "Jake DeBrusk anytime goal"
+     ],
+     "leg_probs": [
+      0.301,
+      0.627,
+      0.259
+     ],
+     "p_joint": 0.0792,
+     "p_raw": 0.0742,
+     "p_indep": 0.049,
+     "lift": 1.618,
+     "fair_odds": 1163,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Marco Rossi anytime goal",
       "Kirill Kaprizov over 1.5 SOG"
      ],
      "leg_probs": [
-      0.282,
-      0.19,
-      0.808
+      0.301,
+      0.187,
+      0.801
      ],
-     "p_joint": 0.0683,
-     "p_raw": 0.0632,
-     "p_indep": 0.0432,
-     "lift": 1.58,
-     "fair_odds": 1364,
+     "p_joint": 0.072,
+     "p_raw": 0.0667,
+     "p_indep": 0.045,
+     "lift": 1.6,
+     "fair_odds": 1288,
+     "sig": "atg+ml+sog"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Marco Rossi anytime goal"
+     ],
+     "leg_probs": [
+      0.301,
+      0.187
+     ],
+     "p_joint": 0.088,
+     "p_raw": 0.0825,
+     "p_indep": 0.0562,
+     "lift": 1.566,
+     "fair_odds": 1036,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "MIN ML",
+      "Over 6.5",
+      "Michael McCarron anytime goal"
+     ],
+     "leg_probs": [
+      0.699,
+      0.465,
+      0.192
+     ],
+     "p_joint": 0.0977,
+     "p_raw": 0.0945,
+     "p_indep": 0.0624,
+     "lift": 1.565,
+     "fair_odds": 924,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Marco Rossi anytime goal",
+      "Matt Boldy over 2.5 SOG"
+     ],
+     "leg_probs": [
+      0.301,
+      0.187,
+      0.755
+     ],
+     "p_joint": 0.066,
+     "p_raw": 0.0611,
+     "p_indep": 0.0424,
+     "lift": 1.556,
+     "fair_odds": 1414,
      "sig": "atg+ml+sog"
     },
     {
@@ -4185,69 +1177,15 @@
       "Elias Pettersson anytime goal"
      ],
      "leg_probs": [
-      0.282,
-      0.16
+      0.301,
+      0.164
      ],
-     "p_joint": 0.0704,
-     "p_raw": 0.0659,
-     "p_indep": 0.045,
-     "lift": 1.566,
-     "fair_odds": 1321,
+     "p_joint": 0.0756,
+     "p_raw": 0.0708,
+     "p_indep": 0.0495,
+     "lift": 1.528,
+     "fair_odds": 1223,
      "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "VAN ML",
-      "Jake DeBrusk anytime goal",
-      "Matt Boldy over 2.5 SOG"
-     ],
-     "leg_probs": [
-      0.282,
-      0.261,
-      0.783
-     ],
-     "p_joint": 0.0899,
-     "p_raw": 0.0832,
-     "p_indep": 0.0575,
-     "lift": 1.563,
-     "fair_odds": 1012,
-     "sig": "atg+ml+sog"
-    },
-    {
-     "legs": [
-      "VAN ML",
-      "Jake DeBrusk anytime goal",
-      "Kirill Kaprizov over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.282,
-      0.261,
-      0.808
-     ],
-     "p_joint": 0.0926,
-     "p_raw": 0.0857,
-     "p_indep": 0.0594,
-     "lift": 1.56,
-     "fair_odds": 979,
-     "sig": "atg+ml+sog"
-    },
-    {
-     "legs": [
-      "VAN ML",
-      "Jake DeBrusk anytime goal",
-      "Joel Eriksson Ek over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.282,
-      0.261,
-      0.692
-     ],
-     "p_joint": 0.0787,
-     "p_raw": 0.0728,
-     "p_indep": 0.0509,
-     "lift": 1.547,
-     "fair_odds": 1171,
-     "sig": "atg+ml+sog"
     },
     {
      "legs": [
@@ -4256,51 +1194,51 @@
       "Matt Boldy anytime goal"
      ],
      "leg_probs": [
-      0.718,
-      0.636,
-      0.466
-     ],
-     "p_joint": 0.2667,
-     "p_raw": 0.2733,
-     "p_indep": 0.213,
-     "lift": 1.252,
-     "fair_odds": 275,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "MIN ML",
-      "Over 5.5",
-      "Kirill Kaprizov anytime goal"
-     ],
-     "leg_probs": [
-      0.718,
-      0.636,
-      0.415
+      0.699,
+      0.627,
+      0.431
      ],
      "p_joint": 0.2418,
-     "p_raw": 0.2478,
-     "p_indep": 0.1898,
-     "lift": 1.274,
+     "p_raw": 0.2477,
+     "p_indep": 0.1888,
+     "lift": 1.281,
      "fair_odds": 314,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "MIN ML",
+      "Over 5.5",
+      "Kirill Kaprizov anytime goal"
+     ],
+     "leg_probs": [
+      0.699,
+      0.627,
+      0.402
+     ],
+     "p_joint": 0.2254,
+     "p_raw": 0.231,
+     "p_indep": 0.1761,
+     "lift": 1.28,
+     "fair_odds": 344,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "MIN ML",
       "Over 6.5",
       "Matt Boldy anytime goal"
      ],
      "leg_probs": [
-      0.718,
-      0.473,
-      0.466
+      0.699,
+      0.465,
+      0.431
      ],
-     "p_joint": 0.2123,
-     "p_raw": 0.2136,
-     "p_indep": 0.1583,
-     "lift": 1.341,
-     "fair_odds": 371,
+     "p_joint": 0.193,
+     "p_raw": 0.1942,
+     "p_indep": 0.14,
+     "lift": 1.379,
+     "fair_odds": 418,
      "sig": "atg+ml+total"
     },
     {
@@ -4310,15 +1248,15 @@
       "Kirill Kaprizov anytime goal"
      ],
      "leg_probs": [
-      0.718,
-      0.473,
-      0.415
+      0.699,
+      0.465,
+      0.402
      ],
-     "p_joint": 0.1949,
-     "p_raw": 0.1961,
-     "p_indep": 0.141,
-     "lift": 1.382,
-     "fair_odds": 413,
+     "p_joint": 0.1799,
+     "p_raw": 0.181,
+     "p_indep": 0.1305,
+     "lift": 1.378,
+     "fair_odds": 456,
      "sig": "atg+ml+total"
     },
     {
@@ -4327,14 +1265,14 @@
       "Jake DeBrusk anytime goal"
      ],
      "leg_probs": [
-      0.473,
-      0.261
+      0.465,
+      0.259
      ],
-     "p_joint": 0.1606,
-     "p_raw": 0.1616,
-     "p_indep": 0.1234,
-     "lift": 1.302,
-     "fair_odds": 523,
+     "p_joint": 0.1563,
+     "p_raw": 0.1573,
+     "p_indep": 0.1205,
+     "lift": 1.297,
+     "fair_odds": 540,
      "sig": "atg+total"
     },
     {
@@ -4344,15 +1282,15 @@
       "Joel Eriksson Ek anytime goal"
      ],
      "leg_probs": [
-      0.718,
-      0.636,
-      0.256
+      0.699,
+      0.627,
+      0.262
      ],
-     "p_joint": 0.1556,
-     "p_raw": 0.1566,
-     "p_indep": 0.1169,
-     "lift": 1.331,
-     "fair_odds": 543,
+     "p_joint": 0.1543,
+     "p_raw": 0.1553,
+     "p_indep": 0.1148,
+     "lift": 1.344,
+     "fair_odds": 548,
      "sig": "atg+ml+total"
     }
    ]
@@ -4363,64 +1301,10 @@
    "home": "NYR",
    "away": "LAK",
    "start_utc": "2026-10-26T23:00:00Z",
-   "p_home": 0.5207,
+   "p_home": 0.5181,
    "priced": false,
-   "exp_total": 5.72,
+   "exp_total": 5.8,
    "plays": [
-    {
-     "legs": [
-      "NYR ML",
-      "Over 6.5",
-      "Gabe Perreault anytime goal"
-     ],
-     "leg_probs": [
-      0.519,
-      0.344,
-      0.241
-     ],
-     "p_joint": 0.0772,
-     "p_raw": 0.0724,
-     "p_indep": 0.043,
-     "lift": 1.796,
-     "fair_odds": 1195,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Over 6.5",
-      "Mika Zibanejad anytime goal"
-     ],
-     "leg_probs": [
-      0.519,
-      0.344,
-      0.224
-     ],
-     "p_joint": 0.0708,
-     "p_raw": 0.0663,
-     "p_indep": 0.0401,
-     "lift": 1.766,
-     "fair_odds": 1313,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Over 6.5",
-      "Alexis Lafreniere anytime goal"
-     ],
-     "leg_probs": [
-      0.519,
-      0.344,
-      0.24
-     ],
-     "p_joint": 0.0754,
-     "p_raw": 0.0706,
-     "p_indep": 0.0428,
-     "lift": 1.759,
-     "fair_odds": 1227,
-     "sig": "atg+ml+total"
-    },
     {
      "legs": [
       "NYR ML",
@@ -4428,33 +1312,51 @@
       "Will Cuylle anytime goal"
      ],
      "leg_probs": [
-      0.519,
-      0.344,
+      0.52,
+      0.354,
       0.225
      ],
-     "p_joint": 0.0701,
-     "p_raw": 0.0657,
-     "p_indep": 0.0402,
-     "lift": 1.743,
-     "fair_odds": 1326,
+     "p_joint": 0.0752,
+     "p_raw": 0.0705,
+     "p_indep": 0.0415,
+     "lift": 1.812,
+     "fair_odds": 1229,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "LAK ML",
       "Over 6.5",
-      "Adrian Kempe anytime goal"
+      "Artemi Panarin anytime goal"
      ],
      "leg_probs": [
-      0.481,
-      0.344,
-      0.327
+      0.48,
+      0.354,
+      0.279
      ],
-     "p_joint": 0.094,
-     "p_raw": 0.0881,
-     "p_indep": 0.0541,
-     "lift": 1.739,
-     "fair_odds": 963,
+     "p_joint": 0.0841,
+     "p_raw": 0.0787,
+     "p_indep": 0.0475,
+     "lift": 1.769,
+     "fair_odds": 1090,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NYR ML",
+      "Over 6.5",
+      "Gabe Perreault anytime goal"
+     ],
+     "leg_probs": [
+      0.52,
+      0.354,
+      0.231
+     ],
+     "p_joint": 0.0749,
+     "p_raw": 0.0702,
+     "p_indep": 0.0425,
+     "lift": 1.762,
+     "fair_odds": 1235,
      "sig": "atg+ml+total"
     },
     {
@@ -4464,51 +1366,87 @@
       "Trevor Moore anytime goal"
      ],
      "leg_probs": [
-      0.481,
-      0.513,
-      0.197
+      0.48,
+      0.523,
+      0.193
      ],
-     "p_joint": 0.0841,
-     "p_raw": 0.0787,
+     "p_joint": 0.0833,
+     "p_raw": 0.0781,
      "p_indep": 0.0485,
-     "lift": 1.731,
-     "fair_odds": 1090,
+     "lift": 1.717,
+     "fair_odds": 1100,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NYR ML",
+      "Over 6.5",
+      "Mika Zibanejad anytime goal"
+     ],
+     "leg_probs": [
+      0.52,
+      0.354,
+      0.215
+     ],
+     "p_joint": 0.0677,
+     "p_raw": 0.0634,
+     "p_indep": 0.0396,
+     "lift": 1.707,
+     "fair_odds": 1378,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NYR ML",
+      "Over 6.5",
+      "Alexis Lafreniere anytime goal"
+     ],
+     "leg_probs": [
+      0.52,
+      0.354,
+      0.265
+     ],
+     "p_joint": 0.0827,
+     "p_raw": 0.0775,
+     "p_indep": 0.0489,
+     "lift": 1.693,
+     "fair_odds": 1109,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "LAK ML",
       "Over 6.5",
-      "Artemi Panarin anytime goal"
+      "Adrian Kempe anytime goal"
      ],
      "leg_probs": [
-      0.481,
-      0.344,
-      0.278
+      0.48,
+      0.354,
+      0.327
      ],
-     "p_joint": 0.0796,
-     "p_raw": 0.0746,
-     "p_indep": 0.046,
-     "lift": 1.728,
-     "fair_odds": 1157,
+     "p_joint": 0.0935,
+     "p_raw": 0.0905,
+     "p_indep": 0.0557,
+     "lift": 1.679,
+     "fair_odds": 969,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "LAK ML",
       "Over 5.5",
-      "Scott Laughton anytime goal"
+      "Alex Laferriere anytime goal"
      ],
      "leg_probs": [
-      0.481,
-      0.513,
-      0.164
+      0.48,
+      0.523,
+      0.208
      ],
-     "p_joint": 0.068,
-     "p_raw": 0.0637,
-     "p_indep": 0.0406,
-     "lift": 1.675,
-     "fair_odds": 1370,
+     "p_joint": 0.0879,
+     "p_raw": 0.0824,
+     "p_indep": 0.0524,
+     "lift": 1.678,
+     "fair_odds": 1038,
      "sig": "atg+ml+total"
     },
     {
@@ -4517,30 +1455,30 @@
       "Adrian Kempe anytime goal"
      ],
      "leg_probs": [
-      0.513,
+      0.523,
       0.327
      ],
-     "p_joint": 0.2115,
-     "p_raw": 0.2129,
-     "p_indep": 0.1677,
+     "p_joint": 0.2147,
+     "p_raw": 0.216,
+     "p_indep": 0.1713,
+     "lift": 1.254,
+     "fair_odds": 366,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "LAK ML",
+      "Adrian Kempe anytime goal"
+     ],
+     "leg_probs": [
+      0.48,
+      0.327
+     ],
+     "p_joint": 0.1983,
+     "p_raw": 0.1995,
+     "p_indep": 0.1572,
      "lift": 1.261,
-     "fair_odds": 373,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "LAK ML",
-      "Adrian Kempe anytime goal"
-     ],
-     "leg_probs": [
-      0.481,
-      0.327
-     ],
-     "p_joint": 0.2005,
-     "p_raw": 0.2017,
-     "p_indep": 0.1571,
-     "lift": 1.276,
-     "fair_odds": 399,
+     "fair_odds": 404,
      "sig": "atg+ml"
     },
     {
@@ -4549,14 +1487,14 @@
       "Artemi Panarin anytime goal"
      ],
      "leg_probs": [
-      0.513,
-      0.278
+      0.523,
+      0.279
      ],
-     "p_joint": 0.1819,
-     "p_raw": 0.183,
-     "p_indep": 0.1429,
-     "lift": 1.273,
-     "fair_odds": 450,
+     "p_joint": 0.1842,
+     "p_raw": 0.1854,
+     "p_indep": 0.1461,
+     "lift": 1.261,
+     "fair_odds": 443,
      "sig": "atg+total"
     },
     {
@@ -4565,47 +1503,47 @@
       "Artemi Panarin anytime goal"
      ],
      "leg_probs": [
-      0.481,
-      0.278
+      0.48,
+      0.279
      ],
-     "p_joint": 0.1694,
-     "p_raw": 0.1705,
-     "p_indep": 0.1338,
-     "lift": 1.266,
-     "fair_odds": 490,
+     "p_joint": 0.171,
+     "p_raw": 0.172,
+     "p_indep": 0.1341,
+     "lift": 1.275,
+     "fair_odds": 485,
      "sig": "atg+ml"
     },
     {
      "legs": [
-      "NYR ML",
+      "Over 6.5",
+      "Adrian Kempe anytime goal"
+     ],
+     "leg_probs": [
+      0.354,
+      0.327
+     ],
+     "p_joint": 0.1579,
+     "p_raw": 0.1589,
+     "p_indep": 0.116,
+     "lift": 1.361,
+     "fair_odds": 533,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
       "Gabe Perreault anytime goal"
      ],
      "leg_probs": [
-      0.519,
-      0.241
+      0.523,
+      0.231
      ],
-     "p_joint": 0.1577,
-     "p_raw": 0.1587,
-     "p_indep": 0.125,
-     "lift": 1.262,
-     "fair_odds": 534,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Alexis Lafreniere anytime goal"
-     ],
-     "leg_probs": [
-      0.519,
-      0.24
-     ],
-     "p_joint": 0.1571,
-     "p_raw": 0.1581,
-     "p_indep": 0.1245,
-     "lift": 1.262,
-     "fair_odds": 536,
-     "sig": "atg+ml"
+     "p_joint": 0.1538,
+     "p_raw": 0.1548,
+     "p_indep": 0.1208,
+     "lift": 1.273,
+     "fair_odds": 550,
+     "sig": "atg+total"
     }
    ]
   },
@@ -4615,28 +1553,10 @@
    "home": "CGY",
    "away": "TOR",
    "start_utc": "2026-10-27T00:30:00Z",
-   "p_home": 0.6025,
+   "p_home": 0.6034,
    "priced": false,
-   "exp_total": 6.48,
+   "exp_total": 6.45,
    "plays": [
-    {
-     "legs": [
-      "TOR ML",
-      "Over 6.5",
-      "Jack Roslovic anytime goal"
-     ],
-     "leg_probs": [
-      0.398,
-      0.465,
-      0.2
-     ],
-     "p_joint": 0.0655,
-     "p_raw": 0.0614,
-     "p_indep": 0.037,
-     "lift": 1.772,
-     "fair_odds": 1426,
-     "sig": "atg+ml+total"
-    },
     {
      "legs": [
       "TOR ML",
@@ -4644,33 +1564,15 @@
       "Easton Cowan anytime goal"
      ],
      "leg_probs": [
-      0.398,
-      0.465,
-      0.237
+      0.396,
+      0.463,
+      0.217
      ],
-     "p_joint": 0.0754,
-     "p_raw": 0.0706,
-     "p_indep": 0.0439,
-     "lift": 1.717,
-     "fair_odds": 1227,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "TOR ML",
-      "Over 6.5",
-      "Auston Matthews anytime goal"
-     ],
-     "leg_probs": [
-      0.398,
-      0.465,
-      0.203
-     ],
-     "p_joint": 0.0644,
-     "p_raw": 0.0604,
-     "p_indep": 0.0376,
-     "lift": 1.713,
-     "fair_odds": 1452,
+     "p_joint": 0.0702,
+     "p_raw": 0.0658,
+     "p_indep": 0.0398,
+     "lift": 1.763,
+     "fair_odds": 1325,
      "sig": "atg+ml+total"
     },
     {
@@ -4680,69 +1582,51 @@
       "Kirill Marchenko anytime goal"
      ],
      "leg_probs": [
-      0.398,
-      0.465,
-      0.214
+      0.396,
+      0.463,
+      0.205
      ],
-     "p_joint": 0.0672,
-     "p_raw": 0.063,
-     "p_indep": 0.0396,
-     "lift": 1.697,
-     "fair_odds": 1388,
+     "p_joint": 0.0645,
+     "p_raw": 0.0604,
+     "p_indep": 0.0376,
+     "lift": 1.716,
+     "fair_odds": 1450,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "TOR ML",
-      "Over 5.5",
+      "Over 6.5",
       "Jack Roslovic anytime goal"
      ],
      "leg_probs": [
-      0.398,
-      0.632,
-      0.2
+      0.396,
+      0.463,
+      0.211
      ],
-     "p_joint": 0.0847,
-     "p_raw": 0.0794,
-     "p_indep": 0.0502,
-     "lift": 1.687,
-     "fair_odds": 1080,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "CGY ML",
-      "Over 6.5",
-      "Matvei Gridin anytime goal"
-     ],
-     "leg_probs": [
-      0.602,
-      0.465,
-      0.195
-     ],
-     "p_joint": 0.0892,
-     "p_raw": 0.0835,
-     "p_indep": 0.0546,
-     "lift": 1.635,
-     "fair_odds": 1021,
+     "p_joint": 0.0659,
+     "p_raw": 0.0617,
+     "p_indep": 0.0387,
+     "lift": 1.7,
+     "fair_odds": 1418,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "TOR ML",
-      "Over 5.5",
+      "Over 6.5",
       "Auston Matthews anytime goal"
      ],
      "leg_probs": [
-      0.398,
-      0.632,
-      0.203
+      0.396,
+      0.463,
+      0.216
      ],
-     "p_joint": 0.0828,
-     "p_raw": 0.0776,
-     "p_indep": 0.0511,
-     "lift": 1.621,
-     "fair_odds": 1108,
+     "p_joint": 0.0668,
+     "p_raw": 0.0626,
+     "p_indep": 0.0395,
+     "lift": 1.689,
+     "fair_odds": 1398,
      "sig": "atg+ml+total"
     },
     {
@@ -4752,15 +1636,69 @@
       "Easton Cowan anytime goal"
      ],
      "leg_probs": [
-      0.398,
-      0.632,
-      0.237
+      0.396,
+      0.63,
+      0.217
      ],
-     "p_joint": 0.0963,
-     "p_raw": 0.0932,
-     "p_indep": 0.0596,
-     "lift": 1.615,
-     "fair_odds": 939,
+     "p_joint": 0.0898,
+     "p_raw": 0.0842,
+     "p_indep": 0.0542,
+     "lift": 1.658,
+     "fair_odds": 1013,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "TOR ML",
+      "Over 5.5",
+      "Kirill Marchenko anytime goal"
+     ],
+     "leg_probs": [
+      0.396,
+      0.63,
+      0.205
+     ],
+     "p_joint": 0.0842,
+     "p_raw": 0.0789,
+     "p_indep": 0.0512,
+     "lift": 1.644,
+     "fair_odds": 1088,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "TOR ML",
+      "Over 5.5",
+      "Auston Matthews anytime goal"
+     ],
+     "leg_probs": [
+      0.396,
+      0.63,
+      0.216
+     ],
+     "p_joint": 0.087,
+     "p_raw": 0.0815,
+     "p_indep": 0.0538,
+     "lift": 1.617,
+     "fair_odds": 1050,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "TOR ML",
+      "Over 5.5",
+      "Jack Roslovic anytime goal"
+     ],
+     "leg_probs": [
+      0.396,
+      0.63,
+      0.211
+     ],
+     "p_joint": 0.0852,
+     "p_raw": 0.0799,
+     "p_indep": 0.0527,
+     "lift": 1.616,
+     "fair_odds": 1073,
      "sig": "atg+ml+total"
     },
     {
@@ -4769,14 +1707,14 @@
       "William Nylander anytime goal"
      ],
      "leg_probs": [
-      0.398,
-      0.411
+      0.396,
+      0.375
      ],
-     "p_joint": 0.2091,
-     "p_raw": 0.2104,
-     "p_indep": 0.1635,
-     "lift": 1.279,
-     "fair_odds": 378,
+     "p_joint": 0.1919,
+     "p_raw": 0.193,
+     "p_indep": 0.1487,
+     "lift": 1.29,
+     "fair_odds": 421,
      "sig": "atg+ml"
     },
     {
@@ -4785,33 +1723,31 @@
       "Morgan Frost anytime goal"
      ],
      "leg_probs": [
-      0.465,
-      0.325
+      0.463,
+      0.312
      ],
-     "p_joint": 0.1904,
-     "p_raw": 0.1916,
-     "p_indep": 0.1511,
-     "lift": 1.26,
-     "fair_odds": 425,
+     "p_joint": 0.1806,
+     "p_raw": 0.1817,
+     "p_indep": 0.1444,
+     "lift": 1.251,
+     "fair_odds": 454,
      "sig": "atg+total"
     },
     {
      "legs": [
       "Over 6.5",
-      "Matt Coronato over 1.5 SOG",
-      "William Nylander anytime goal"
+      "Joel Farabee anytime goal"
      ],
      "leg_probs": [
-      0.465,
-      0.703,
-      0.411
+      0.463,
+      0.292
      ],
-     "p_joint": 0.1727,
-     "p_raw": 0.1766,
-     "p_indep": 0.1346,
-     "lift": 1.283,
-     "fair_odds": 479,
-     "sig": "atg+sog+total"
+     "p_joint": 0.171,
+     "p_raw": 0.1721,
+     "p_indep": 0.135,
+     "lift": 1.267,
+     "fair_odds": 485,
+     "sig": "atg+total"
     },
     {
      "legs": [
@@ -4820,32 +1756,34 @@
       "Morgan Frost anytime goal"
      ],
      "leg_probs": [
-      0.602,
-      0.632,
-      0.325
+      0.604,
+      0.63,
+      0.312
      ],
-     "p_joint": 0.1663,
-     "p_raw": 0.1673,
-     "p_indep": 0.1237,
-     "lift": 1.345,
-     "fair_odds": 501,
+     "p_joint": 0.1592,
+     "p_raw": 0.1602,
+     "p_indep": 0.1186,
+     "lift": 1.342,
+     "fair_odds": 528,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
-      "Over 6.5",
+      "CGY ML",
+      "Over 5.5",
       "Joel Farabee anytime goal"
      ],
      "leg_probs": [
-      0.465,
-      0.284
+      0.604,
+      0.63,
+      0.292
      ],
-     "p_joint": 0.1663,
-     "p_raw": 0.1673,
-     "p_indep": 0.1323,
-     "lift": 1.257,
-     "fair_odds": 501,
-     "sig": "atg+total"
+     "p_joint": 0.1548,
+     "p_raw": 0.1558,
+     "p_indep": 0.1109,
+     "lift": 1.397,
+     "fair_odds": 546,
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -4854,15 +1792,15 @@
       "William Nylander anytime goal"
      ],
      "leg_probs": [
-      0.465,
-      0.666,
-      0.411
+      0.463,
+      0.694,
+      0.375
      ],
-     "p_joint": 0.1617,
-     "p_raw": 0.1653,
-     "p_indep": 0.1274,
-     "lift": 1.269,
-     "fair_odds": 518,
+     "p_joint": 0.1516,
+     "p_raw": 0.1549,
+     "p_indep": 0.1204,
+     "lift": 1.259,
+     "fair_odds": 560,
      "sig": "atg+sog+total"
     }
    ]
@@ -4873,26 +1811,26 @@
    "home": "EDM",
    "away": "DET",
    "start_utc": "2026-10-27T01:30:00Z",
-   "p_home": 0.5647,
+   "p_home": 0.5727,
    "priced": false,
-   "exp_total": 6.32,
+   "exp_total": 6.31,
    "plays": [
     {
      "legs": [
       "DET ML",
       "Over 6.5",
-      "Lucas Raymond anytime goal"
+      "Dylan Larkin anytime goal"
      ],
      "leg_probs": [
-      0.434,
-      0.44,
-      0.25
+      0.428,
+      0.438,
+      0.271
      ],
-     "p_joint": 0.0812,
-     "p_raw": 0.0761,
-     "p_indep": 0.0477,
-     "lift": 1.701,
-     "fair_odds": 1131,
+     "p_joint": 0.0846,
+     "p_raw": 0.0793,
+     "p_indep": 0.0508,
+     "lift": 1.666,
+     "fair_odds": 1081,
      "sig": "atg+ml+total"
     },
     {
@@ -4902,51 +1840,51 @@
       "Kasperi Kapanen anytime goal"
      ],
      "leg_probs": [
-      0.566,
-      0.44,
-      0.17
+      0.572,
+      0.438,
+      0.172
      ],
-     "p_joint": 0.0707,
-     "p_raw": 0.0662,
-     "p_indep": 0.0424,
-     "lift": 1.669,
-     "fair_odds": 1314,
+     "p_joint": 0.0711,
+     "p_raw": 0.0666,
+     "p_indep": 0.0431,
+     "lift": 1.649,
+     "fair_odds": 1307,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "DET ML",
       "Over 6.5",
-      "Dylan Larkin anytime goal"
+      "Lucas Raymond anytime goal"
      ],
      "leg_probs": [
-      0.434,
-      0.44,
-      0.253
+      0.428,
+      0.438,
+      0.252
      ],
-     "p_joint": 0.0804,
-     "p_raw": 0.0754,
-     "p_indep": 0.0483,
-     "lift": 1.665,
-     "fair_odds": 1143,
+     "p_joint": 0.0772,
+     "p_raw": 0.0724,
+     "p_indep": 0.0473,
+     "lift": 1.632,
+     "fair_odds": 1195,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "DET ML",
-      "Over 5.5",
-      "Emmitt Finnie anytime goal"
+      "Over 6.5",
+      "Alex DeBrincat anytime goal"
      ],
      "leg_probs": [
-      0.434,
-      0.608,
-      0.159
+      0.428,
+      0.438,
+      0.331
      ],
-     "p_joint": 0.0676,
-     "p_raw": 0.0633,
-     "p_indep": 0.042,
-     "lift": 1.609,
-     "fair_odds": 1380,
+     "p_joint": 0.0993,
+     "p_raw": 0.0961,
+     "p_indep": 0.0621,
+     "lift": 1.598,
+     "fair_odds": 907,
      "sig": "atg+ml+total"
     },
     {
@@ -4956,15 +1894,33 @@
       "Evan Bouchard anytime goal"
      ],
      "leg_probs": [
-      0.566,
-      0.44,
-      0.25
+      0.572,
+      0.438,
+      0.254
      ],
-     "p_joint": 0.0995,
-     "p_raw": 0.0963,
-     "p_indep": 0.0621,
-     "lift": 1.602,
-     "fair_odds": 905,
+     "p_joint": 0.1014,
+     "p_raw": 0.0982,
+     "p_indep": 0.0636,
+     "lift": 1.594,
+     "fair_odds": 886,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "EDM ML",
+      "Over 6.5",
+      "Vasily Podkolzin anytime goal"
+     ],
+     "leg_probs": [
+      0.572,
+      0.438,
+      0.273
+     ],
+     "p_joint": 0.1078,
+     "p_raw": 0.1044,
+     "p_indep": 0.0683,
+     "lift": 1.577,
+     "fair_odds": 828,
      "sig": "atg+ml+total"
     },
     {
@@ -4974,84 +1930,34 @@
       "Leon Draisaitl anytime goal"
      ],
      "leg_probs": [
-      0.566,
-      0.44,
-      0.26
+      0.572,
+      0.438,
+      0.32
      ],
-     "p_joint": 0.1028,
-     "p_raw": 0.0996,
-     "p_indep": 0.0646,
-     "lift": 1.591,
-     "fair_odds": 873,
+     "p_joint": 0.1256,
+     "p_raw": 0.1216,
+     "p_indep": 0.0803,
+     "lift": 1.565,
+     "fair_odds": 696,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "DET ML",
-      "Lucas Raymond anytime goal",
-      "EDM goalie under 24.5 saves"
+      "Dylan Larkin anytime goal",
+      "EDM goalie under 23.5 saves"
      ],
      "leg_probs": [
-      0.434,
-      0.25,
-      0.546
+      0.428,
+      0.271,
+      0.492
      ],
-     "p_joint": 0.0938,
-     "p_raw": 0.0879,
-     "p_indep": 0.0593,
-     "lift": 1.583,
-     "fair_odds": 966,
+     "p_joint": 0.0883,
+     "p_raw": 0.0828,
+     "p_indep": 0.057,
+     "lift": 1.55,
+     "fair_odds": 1032,
      "sig": "atg+ml+saves"
-    },
-    {
-     "legs": [
-      "EDM ML",
-      "Over 6.5",
-      "Vasily Podkolzin anytime goal"
-     ],
-     "leg_probs": [
-      0.566,
-      0.44,
-      0.275
-     ],
-     "p_joint": 0.1076,
-     "p_raw": 0.1042,
-     "p_indep": 0.0684,
-     "lift": 1.574,
-     "fair_odds": 829,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Alex DeBrincat anytime goal"
-     ],
-     "leg_probs": [
-      0.44,
-      0.356
-     ],
-     "p_joint": 0.2008,
-     "p_raw": 0.202,
-     "p_indep": 0.1566,
-     "lift": 1.282,
-     "fair_odds": 398,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "DET ML",
-      "Alex DeBrincat anytime goal"
-     ],
-     "leg_probs": [
-      0.434,
-      0.356
-     ],
-     "p_joint": 0.1964,
-     "p_raw": 0.1977,
-     "p_indep": 0.1546,
-     "lift": 1.271,
-     "fair_odds": 409,
-     "sig": "atg+ml"
     },
     {
      "legs": [
@@ -5060,68 +1966,2928 @@
       "Connor McDavid anytime goal"
      ],
      "leg_probs": [
-      0.566,
-      0.608,
-      0.381
+      0.572,
+      0.61,
+      0.396
      ],
-     "p_joint": 0.18,
-     "p_raw": 0.1811,
-     "p_indep": 0.1309,
-     "lift": 1.375,
-     "fair_odds": 456,
+     "p_joint": 0.1901,
+     "p_raw": 0.1912,
+     "p_indep": 0.1382,
+     "lift": 1.376,
+     "fair_odds": 426,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "Over 6.5",
-      "Connor McDavid over 1.5 SOG",
       "Alex DeBrincat anytime goal"
      ],
      "leg_probs": [
-      0.44,
-      0.829,
-      0.356
+      0.438,
+      0.331
      ],
-     "p_joint": 0.1655,
-     "p_raw": 0.1691,
-     "p_indep": 0.1299,
-     "lift": 1.274,
-     "fair_odds": 504,
+     "p_joint": 0.1877,
+     "p_raw": 0.1889,
+     "p_indep": 0.1451,
+     "lift": 1.294,
+     "fair_odds": 433,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "DET ML",
+      "Alex DeBrincat anytime goal"
+     ],
+     "leg_probs": [
+      0.428,
+      0.331
+     ],
+     "p_joint": 0.182,
+     "p_raw": 0.1831,
+     "p_indep": 0.1417,
+     "lift": 1.285,
+     "fair_odds": 449,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "EDM ML",
+      "Connor McDavid anytime goal",
+      "EDM goalie over 21.5 saves"
+     ],
+     "leg_probs": [
+      0.572,
+      0.396,
+      0.641
+     ],
+     "p_joint": 0.1819,
+     "p_raw": 0.1831,
+     "p_indep": 0.1452,
+     "lift": 1.253,
+     "fair_odds": 450,
+     "sig": "atg+ml+saves"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Leon Draisaitl anytime goal"
+     ],
+     "leg_probs": [
+      0.438,
+      0.32
+     ],
+     "p_joint": 0.1782,
+     "p_raw": 0.1793,
+     "p_indep": 0.1404,
+     "lift": 1.269,
+     "fair_odds": 461,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "EDM ML",
+      "Over 5.5",
+      "Leon Draisaitl anytime goal"
+     ],
+     "leg_probs": [
+      0.572,
+      0.61,
+      0.32
+     ],
+     "p_joint": 0.1588,
+     "p_raw": 0.1597,
+     "p_indep": 0.1117,
+     "lift": 1.421,
+     "fair_odds": 530,
+     "sig": "atg+ml+total"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020188,
+   "date": "2026-10-27",
+   "home": "PHI",
+   "away": "CBJ",
+   "start_utc": "2026-10-27T23:00:00Z",
+   "p_home": 0.4575,
+   "priced": false,
+   "exp_total": 5.68,
+   "plays": [
+    {
+     "legs": [
+      "CBJ ML",
+      "Over 6.5",
+      "Adam Fantilli anytime goal"
+     ],
+     "leg_probs": [
+      0.543,
+      0.333,
+      0.292
+     ],
+     "p_joint": 0.0946,
+     "p_raw": 0.0886,
+     "p_indep": 0.0528,
+     "lift": 1.793,
+     "fair_odds": 957,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CBJ ML",
+      "Over 6.5",
+      "Zach Werenski anytime goal"
+     ],
+     "leg_probs": [
+      0.543,
+      0.333,
+      0.224
+     ],
+     "p_joint": 0.0723,
+     "p_raw": 0.0677,
+     "p_indep": 0.0405,
+     "lift": 1.784,
+     "fair_odds": 1283,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CBJ ML",
+      "Over 6.5",
+      "Charlie Coyle anytime goal"
+     ],
+     "leg_probs": [
+      0.543,
+      0.333,
+      0.205
+     ],
+     "p_joint": 0.0656,
+     "p_raw": 0.0615,
+     "p_indep": 0.037,
+     "lift": 1.771,
+     "fair_odds": 1425,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "PHI ML",
+      "Over 5.5",
+      "Noah Cates anytime goal"
+     ],
+     "leg_probs": [
+      0.457,
+      0.507,
+      0.164
+     ],
+     "p_joint": 0.0662,
+     "p_raw": 0.062,
+     "p_indep": 0.038,
+     "lift": 1.74,
+     "fair_odds": 1411,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "PHI ML",
+      "Over 5.5",
+      "Trevor Zegras anytime goal"
+     ],
+     "leg_probs": [
+      0.457,
+      0.507,
+      0.187
+     ],
+     "p_joint": 0.0746,
+     "p_raw": 0.0699,
+     "p_indep": 0.0434,
+     "lift": 1.721,
+     "fair_odds": 1240,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CBJ ML",
+      "Over 5.5",
+      "Sean Monahan anytime goal"
+     ],
+     "leg_probs": [
+      0.543,
+      0.507,
+      0.156
+     ],
+     "p_joint": 0.0724,
+     "p_raw": 0.0678,
+     "p_indep": 0.0428,
+     "lift": 1.691,
+     "fair_odds": 1282,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CBJ ML",
+      "Over 5.5",
+      "Charlie Coyle anytime goal"
+     ],
+     "leg_probs": [
+      0.543,
+      0.507,
+      0.205
+     ],
+     "p_joint": 0.0948,
+     "p_raw": 0.0888,
+     "p_indep": 0.0563,
+     "lift": 1.684,
+     "fair_odds": 955,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "PHI ML",
+      "Over 5.5",
+      "Tyson Foerster anytime goal"
+     ],
+     "leg_probs": [
+      0.457,
+      0.507,
+      0.227
+     ],
+     "p_joint": 0.0883,
+     "p_raw": 0.0828,
+     "p_indep": 0.0525,
+     "lift": 1.683,
+     "fair_odds": 1032,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Adam Fantilli anytime goal"
+     ],
+     "leg_probs": [
+      0.507,
+      0.292
+     ],
+     "p_joint": 0.1884,
+     "p_raw": 0.1895,
+     "p_indep": 0.1477,
+     "lift": 1.275,
+     "fair_odds": 431,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Adam Fantilli anytime goal",
+      "Zach Werenski over 1.5 SOG"
+     ],
+     "leg_probs": [
+      0.507,
+      0.292,
+      0.85
+     ],
+     "p_joint": 0.1579,
+     "p_raw": 0.1613,
+     "p_indep": 0.1255,
+     "lift": 1.258,
+     "fair_odds": 533,
      "sig": "atg+sog+total"
     },
     {
      "legs": [
       "Over 5.5",
-      "Connor McDavid anytime goal",
-      "DET goalie under 23.5 saves"
+      "Matvei Michkov anytime goal"
      ],
      "leg_probs": [
-      0.608,
-      0.381,
-      0.537
+      0.507,
+      0.241
      ],
-     "p_joint": 0.1563,
-     "p_raw": 0.1573,
-     "p_indep": 0.1243,
+     "p_joint": 0.1545,
+     "p_raw": 0.1555,
+     "p_indep": 0.1223,
+     "lift": 1.264,
+     "fair_odds": 547,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "CBJ ML",
+      "Zach Werenski anytime goal"
+     ],
+     "leg_probs": [
+      0.543,
+      0.224
+     ],
+     "p_joint": 0.1528,
+     "p_raw": 0.1538,
+     "p_indep": 0.1216,
      "lift": 1.257,
-     "fair_odds": 540,
-     "sig": "atg+saves+total"
+     "fair_odds": 554,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Tyson Foerster anytime goal"
+     ],
+     "leg_probs": [
+      0.507,
+      0.227
+     ],
+     "p_joint": 0.1477,
+     "p_raw": 0.1487,
+     "p_indep": 0.1148,
+     "lift": 1.287,
+     "fair_odds": 577,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Zach Werenski anytime goal"
+     ],
+     "leg_probs": [
+      0.507,
+      0.224
+     ],
+     "p_joint": 0.1446,
+     "p_raw": 0.1455,
+     "p_indep": 0.1135,
+     "lift": 1.275,
+     "fair_odds": 592,
+     "sig": "atg+total"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020189,
+   "date": "2026-10-27",
+   "home": "CAR",
+   "away": "BOS",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "p_home": 0.6329,
+   "priced": false,
+   "exp_total": 6.14,
+   "plays": [
+    {
+     "legs": [
+      "BOS ML",
+      "Over 5.5",
+      "Fraser Minten anytime goal"
+     ],
+     "leg_probs": [
+      0.366,
+      0.58,
+      0.203
+     ],
+     "p_joint": 0.0773,
+     "p_raw": 0.0724,
+     "p_indep": 0.0432,
+     "lift": 1.79,
+     "fair_odds": 1194,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "BOS ML",
+      "Over 5.5",
+      "Pavel Zacha anytime goal"
+     ],
+     "leg_probs": [
+      0.366,
+      0.58,
+      0.178
+     ],
+     "p_joint": 0.0674,
+     "p_raw": 0.0631,
+     "p_indep": 0.0378,
+     "lift": 1.783,
+     "fair_odds": 1385,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "BOS ML",
+      "Over 6.5",
+      "David Pastrnak anytime goal"
+     ],
+     "leg_probs": [
+      0.366,
+      0.409,
+      0.264
+     ],
+     "p_joint": 0.0693,
+     "p_raw": 0.0649,
+     "p_indep": 0.0395,
+     "lift": 1.755,
+     "fair_odds": 1344,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "BOS ML",
+      "Over 5.5",
+      "David Pastrnak anytime goal"
+     ],
+     "leg_probs": [
+      0.366,
+      0.58,
+      0.264
+     ],
+     "p_joint": 0.0942,
+     "p_raw": 0.0883,
+     "p_indep": 0.056,
+     "lift": 1.683,
+     "fair_odds": 961,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CAR ML",
+      "Over 6.5",
+      "Jackson Blake anytime goal"
+     ],
+     "leg_probs": [
+      0.634,
+      0.409,
+      0.219
+     ],
+     "p_joint": 0.0934,
+     "p_raw": 0.0875,
+     "p_indep": 0.0569,
+     "lift": 1.642,
+     "fair_odds": 970,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "BOS ML",
+      "David Pastrnak anytime goal",
+      "CAR goalie under 19.5 saves"
+     ],
+     "leg_probs": [
+      0.366,
+      0.264,
+      0.488
+     ],
+     "p_joint": 0.0747,
+     "p_raw": 0.0699,
+     "p_indep": 0.0471,
+     "lift": 1.585,
+     "fair_odds": 1239,
+     "sig": "atg+ml+saves"
+    },
+    {
+     "legs": [
+      "CAR ML",
+      "Over 6.5",
+      "Nikolaj Ehlers anytime goal"
+     ],
+     "leg_probs": [
+      0.634,
+      0.409,
+      0.25
+     ],
+     "p_joint": 0.1025,
+     "p_raw": 0.0992,
+     "p_indep": 0.0649,
+     "lift": 1.58,
+     "fair_odds": 876,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CAR ML",
+      "Over 6.5",
+      "Logan Stankoven anytime goal"
+     ],
+     "leg_probs": [
+      0.634,
+      0.409,
+      0.293
+     ],
+     "p_joint": 0.1198,
+     "p_raw": 0.116,
+     "p_indep": 0.0759,
+     "lift": 1.578,
+     "fair_odds": 735,
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
       "Over 6.5",
-      "Vasily Podkolzin anytime goal"
+      "Andrei Svechnikov anytime goal"
+     ],
+     "leg_probs": [
+      0.409,
+      0.322
+     ],
+     "p_joint": 0.1678,
+     "p_raw": 0.1688,
+     "p_indep": 0.1316,
+     "lift": 1.275,
+     "fair_odds": 496,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "CAR ML",
+      "Over 5.5",
+      "Andrei Svechnikov anytime goal"
+     ],
+     "leg_probs": [
+      0.634,
+      0.58,
+      0.322
+     ],
+     "p_joint": 0.1615,
+     "p_raw": 0.1626,
+     "p_indep": 0.1184,
+     "lift": 1.364,
+     "fair_odds": 519,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Logan Stankoven anytime goal"
+     ],
+     "leg_probs": [
+      0.409,
+      0.293
+     ],
+     "p_joint": 0.1561,
+     "p_raw": 0.1571,
+     "p_indep": 0.1197,
+     "lift": 1.305,
+     "fair_odds": 540,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "CAR ML",
+      "Over 5.5",
+      "Logan Stankoven anytime goal"
+     ],
+     "leg_probs": [
+      0.634,
+      0.58,
+      0.293
+     ],
+     "p_joint": 0.1519,
+     "p_raw": 0.1529,
+     "p_indep": 0.1077,
+     "lift": 1.411,
+     "fair_odds": 558,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "David Pastrnak anytime goal"
+     ],
+     "leg_probs": [
+      0.409,
+      0.264
+     ],
+     "p_joint": 0.1463,
+     "p_raw": 0.1472,
+     "p_indep": 0.1079,
+     "lift": 1.356,
+     "fair_odds": 583,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "CAR ML",
+      "Over 5.5",
+      "Sebastian Aho anytime goal"
+     ],
+     "leg_probs": [
+      0.634,
+      0.58,
+      0.27
+     ],
+     "p_joint": 0.1436,
+     "p_raw": 0.139,
+     "p_indep": 0.0995,
+     "lift": 1.443,
+     "fair_odds": 597,
+     "sig": "atg+ml+total"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020190,
+   "date": "2026-10-27",
+   "home": "CHI",
+   "away": "LAK",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "p_home": 0.3521,
+   "priced": false,
+   "exp_total": 6.02,
+   "plays": [
+    {
+     "legs": [
+      "CHI ML",
+      "Over 5.5",
+      "Anton Frondell anytime goal"
+     ],
+     "leg_probs": [
+      0.353,
+      0.561,
+      0.21
+     ],
+     "p_joint": 0.0711,
+     "p_raw": 0.0666,
+     "p_indep": 0.0414,
+     "lift": 1.715,
+     "fair_odds": 1307,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "LAK ML",
+      "Over 6.5",
+      "Scott Laughton anytime goal"
+     ],
+     "leg_probs": [
+      0.647,
+      0.391,
+      0.215
+     ],
+     "p_joint": 0.092,
+     "p_raw": 0.0862,
+     "p_indep": 0.0545,
+     "lift": 1.689,
+     "fair_odds": 987,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "CHI ML",
+      "Over 5.5",
+      "Frank Nazar anytime goal"
+     ],
+     "leg_probs": [
+      0.353,
+      0.561,
+      0.205
+     ],
+     "p_joint": 0.0679,
+     "p_raw": 0.0636,
+     "p_indep": 0.0404,
+     "lift": 1.68,
+     "fair_odds": 1373,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "LAK ML",
+      "Over 6.5",
+      "Trevor Moore anytime goal"
+     ],
+     "leg_probs": [
+      0.647,
+      0.391,
+      0.231
+     ],
+     "p_joint": 0.0968,
+     "p_raw": 0.0938,
+     "p_indep": 0.0586,
+     "lift": 1.652,
+     "fair_odds": 933,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "LAK ML",
+      "Over 6.5",
+      "Alex Laferriere anytime goal"
+     ],
+     "leg_probs": [
+      0.647,
+      0.391,
+      0.245
+     ],
+     "p_joint": 0.1021,
+     "p_raw": 0.0988,
+     "p_indep": 0.062,
+     "lift": 1.646,
+     "fair_odds": 879,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Trevor Moore anytime goal",
+      "CHI goalie under 25.5 saves"
+     ],
+     "leg_probs": [
+      0.391,
+      0.231,
+      0.484
+     ],
+     "p_joint": 0.0703,
+     "p_raw": 0.0659,
+     "p_indep": 0.0438,
+     "lift": 1.605,
+     "fair_odds": 1322,
+     "sig": "atg+saves+total"
+    },
+    {
+     "legs": [
+      "CHI ML",
+      "Connor Bedard anytime goal",
+      "CHI goalie over 23.5 saves"
+     ],
+     "leg_probs": [
+      0.353,
+      0.186,
+      0.642
+     ],
+     "p_joint": 0.067,
+     "p_raw": 0.0628,
+     "p_indep": 0.0421,
+     "lift": 1.591,
+     "fair_odds": 1392,
+     "sig": "atg+ml+saves"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Alex Laferriere anytime goal",
+      "CHI goalie under 25.5 saves"
+     ],
+     "leg_probs": [
+      0.391,
+      0.245,
+      0.484
+     ],
+     "p_joint": 0.0736,
+     "p_raw": 0.0689,
+     "p_indep": 0.0464,
+     "lift": 1.587,
+     "fair_odds": 1259,
+     "sig": "atg+saves+total"
+    },
+    {
+     "legs": [
+      "LAK ML",
+      "Over 5.5",
+      "Adrian Kempe anytime goal"
+     ],
+     "leg_probs": [
+      0.647,
+      0.561,
+      0.381
+     ],
+     "p_joint": 0.1899,
+     "p_raw": 0.191,
+     "p_indep": 0.1381,
+     "lift": 1.375,
+     "fair_odds": 427,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Adrian Kempe anytime goal"
+     ],
+     "leg_probs": [
+      0.391,
+      0.381
+     ],
+     "p_joint": 0.1889,
+     "p_raw": 0.1901,
+     "p_indep": 0.1489,
+     "lift": 1.268,
+     "fair_odds": 429,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Artemi Panarin anytime goal"
+     ],
+     "leg_probs": [
+      0.391,
+      0.326
+     ],
+     "p_joint": 0.1681,
+     "p_raw": 0.1691,
+     "p_indep": 0.1275,
+     "lift": 1.318,
+     "fair_odds": 495,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "LAK ML",
+      "Over 5.5",
+      "Artemi Panarin anytime goal"
+     ],
+     "leg_probs": [
+      0.647,
+      0.561,
+      0.326
+     ],
+     "p_joint": 0.1667,
+     "p_raw": 0.1677,
+     "p_indep": 0.1183,
+     "lift": 1.409,
+     "fair_odds": 500,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Trevor Moore anytime goal"
+     ],
+     "leg_probs": [
+      0.561,
+      0.231
+     ],
+     "p_joint": 0.1624,
+     "p_raw": 0.1635,
+     "p_indep": 0.1297,
+     "lift": 1.253,
+     "fair_odds": 516,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Anton Frondell anytime goal"
+     ],
+     "leg_probs": [
+      0.561,
+      0.21
+     ],
+     "p_joint": 0.1476,
+     "p_raw": 0.1486,
+     "p_indep": 0.1175,
+     "lift": 1.256,
+     "fair_odds": 577,
+     "sig": "atg+total"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020191,
+   "date": "2026-10-27",
+   "home": "STL",
+   "away": "MTL",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "p_home": 0.5719,
+   "priced": false,
+   "exp_total": 6.09,
+   "plays": [
+    {
+     "legs": [
+      "MTL ML",
+      "Over 5.5",
+      "Josh Anderson anytime goal"
+     ],
+     "leg_probs": [
+      0.428,
+      0.578,
+      0.166
+     ],
+     "p_joint": 0.0716,
+     "p_raw": 0.0671,
+     "p_indep": 0.041,
+     "lift": 1.745,
+     "fair_odds": 1297,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "STL ML",
+      "Over 6.5",
+      "Mason McTavish anytime goal"
+     ],
+     "leg_probs": [
+      0.572,
+      0.403,
+      0.196
+     ],
+     "p_joint": 0.0781,
+     "p_raw": 0.0732,
+     "p_indep": 0.0452,
+     "lift": 1.728,
+     "fair_odds": 1181,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "STL ML",
+      "Over 6.5",
+      "Robert Thomas anytime goal"
+     ],
+     "leg_probs": [
+      0.572,
+      0.403,
+      0.233
+     ],
+     "p_joint": 0.0918,
+     "p_raw": 0.086,
+     "p_indep": 0.0538,
+     "lift": 1.707,
+     "fair_odds": 989,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "MTL ML",
+      "Over 6.5",
+      "Juraj Slafkovsky anytime goal"
+     ],
+     "leg_probs": [
+      0.428,
+      0.403,
+      0.27
+     ],
+     "p_joint": 0.0788,
+     "p_raw": 0.0738,
+     "p_indep": 0.0466,
+     "lift": 1.691,
+     "fair_odds": 1169,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "STL ML",
+      "Over 6.5",
+      "Jake Neighbours anytime goal"
+     ],
+     "leg_probs": [
+      0.572,
+      0.403,
+      0.174
+     ],
+     "p_joint": 0.0656,
+     "p_raw": 0.0615,
+     "p_indep": 0.04,
+     "lift": 1.64,
+     "fair_odds": 1423,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "STL ML",
+      "Over 6.5",
+      "Jimmy Snuggerud anytime goal"
+     ],
+     "leg_probs": [
+      0.572,
+      0.403,
+      0.265
+     ],
+     "p_joint": 0.0991,
+     "p_raw": 0.0959,
+     "p_indep": 0.0611,
+     "lift": 1.621,
+     "fair_odds": 910,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "STL ML",
+      "Over 5.5",
+      "Jake Neighbours anytime goal"
+     ],
+     "leg_probs": [
+      0.572,
+      0.578,
+      0.174
+     ],
+     "p_joint": 0.0902,
+     "p_raw": 0.0846,
+     "p_indep": 0.0573,
+     "lift": 1.574,
+     "fair_odds": 1008,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "STL ML",
+      "Over 6.5",
+      "Dylan Holloway anytime goal"
+     ],
+     "leg_probs": [
+      0.572,
+      0.403,
+      0.284
+     ],
+     "p_joint": 0.1029,
+     "p_raw": 0.0996,
+     "p_indep": 0.0655,
+     "lift": 1.57,
+     "fair_odds": 872,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "MTL ML",
+      "Cole Caufield anytime goal"
+     ],
+     "leg_probs": [
+      0.428,
+      0.433
+     ],
+     "p_joint": 0.2319,
+     "p_raw": 0.2377,
+     "p_indep": 0.1854,
+     "lift": 1.251,
+     "fair_odds": 331,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Cole Caufield anytime goal"
+     ],
+     "leg_probs": [
+      0.403,
+      0.433
+     ],
+     "p_joint": 0.2205,
+     "p_raw": 0.226,
+     "p_indep": 0.1747,
+     "lift": 1.263,
+     "fair_odds": 353,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Cole Caufield anytime goal",
+      "Juraj Slafkovsky over 1.5 SOG"
+     ],
+     "leg_probs": [
+      0.403,
+      0.433,
+      0.726
+     ],
+     "p_joint": 0.1611,
+     "p_raw": 0.1646,
+     "p_indep": 0.1269,
+     "lift": 1.27,
+     "fair_odds": 521,
+     "sig": "atg+sog+total"
+    },
+    {
+     "legs": [
+      "MTL ML",
+      "Over 5.5",
+      "Cole Caufield anytime goal"
+     ],
+     "leg_probs": [
+      0.428,
+      0.578,
+      0.433
+     ],
+     "p_joint": 0.1538,
+     "p_raw": 0.1548,
+     "p_indep": 0.1071,
+     "lift": 1.436,
+     "fair_odds": 550,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Dylan Holloway over 1.5 SOG",
+      "Cole Caufield anytime goal"
+     ],
+     "leg_probs": [
+      0.403,
+      0.686,
+      0.433
+     ],
+     "p_joint": 0.1537,
+     "p_raw": 0.1571,
+     "p_indep": 0.1198,
+     "lift": 1.283,
+     "fair_odds": 551,
+     "sig": "atg+sog+total"
+    },
+    {
+     "legs": [
+      "MTL ML",
+      "Cole Caufield anytime goal",
+      "MTL goalie over 21.5 saves"
+     ],
+     "leg_probs": [
+      0.428,
+      0.433,
+      0.592
+     ],
+     "p_joint": 0.1505,
+     "p_raw": 0.1514,
+     "p_indep": 0.1099,
+     "lift": 1.37,
+     "fair_odds": 565,
+     "sig": "atg+ml+saves"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020192,
+   "date": "2026-10-27",
+   "home": "NSH",
+   "away": "NYI",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "p_home": 0.4424,
+   "priced": false,
+   "exp_total": 5.76,
+   "plays": [
+    {
+     "legs": [
+      "NSH ML",
+      "Over 6.5",
+      "Filip Forsberg anytime goal"
      ],
      "leg_probs": [
       0.44,
-      0.275
+      0.348,
+      0.281
      ],
-     "p_joint": 0.1558,
-     "p_raw": 0.1567,
-     "p_indep": 0.1209,
-     "lift": 1.289,
-     "fair_odds": 542,
+     "p_joint": 0.0781,
+     "p_raw": 0.0732,
+     "p_indep": 0.0431,
+     "lift": 1.813,
+     "fair_odds": 1181,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NSH ML",
+      "Over 6.5",
+      "Steven Stamkos anytime goal"
+     ],
+     "leg_probs": [
+      0.44,
+      0.348,
+      0.317
+     ],
+     "p_joint": 0.0848,
+     "p_raw": 0.0794,
+     "p_indep": 0.0486,
+     "lift": 1.747,
+     "fair_odds": 1079,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NYI ML",
+      "Over 6.5",
+      "Brayden Schenn anytime goal"
+     ],
+     "leg_probs": [
+      0.56,
+      0.348,
+      0.224
+     ],
+     "p_joint": 0.0758,
+     "p_raw": 0.071,
+     "p_indep": 0.0436,
+     "lift": 1.739,
+     "fair_odds": 1220,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NSH ML",
+      "Over 5.5",
+      "Ryan O'Reilly anytime goal"
+     ],
+     "leg_probs": [
+      0.44,
+      0.514,
+      0.214
+     ],
+     "p_joint": 0.0831,
+     "p_raw": 0.0778,
+     "p_indep": 0.0485,
+     "lift": 1.713,
+     "fair_odds": 1103,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NYI ML",
+      "Over 5.5",
+      "Casey Cizikas anytime goal"
+     ],
+     "leg_probs": [
+      0.56,
+      0.514,
+      0.156
+     ],
+     "p_joint": 0.0752,
+     "p_raw": 0.0705,
+     "p_indep": 0.045,
+     "lift": 1.672,
+     "fair_odds": 1229,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NYI ML",
+      "Over 6.5",
+      "Bo Horvat anytime goal"
+     ],
+     "leg_probs": [
+      0.56,
+      0.348,
+      0.302
+     ],
+     "p_joint": 0.0983,
+     "p_raw": 0.0952,
+     "p_indep": 0.0589,
+     "lift": 1.671,
+     "fair_odds": 917,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NYI ML",
+      "Over 6.5",
+      "Matthew Schaefer anytime goal"
+     ],
+     "leg_probs": [
+      0.56,
+      0.348,
+      0.287
+     ],
+     "p_joint": 0.0935,
+     "p_raw": 0.0905,
+     "p_indep": 0.056,
+     "lift": 1.67,
+     "fair_odds": 970,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NYI ML",
+      "Over 5.5",
+      "Simon Holmstrom anytime goal"
+     ],
+     "leg_probs": [
+      0.56,
+      0.514,
+      0.17
+     ],
+     "p_joint": 0.0796,
+     "p_raw": 0.0746,
+     "p_indep": 0.0489,
+     "lift": 1.63,
+     "fair_odds": 1156,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Steven Stamkos anytime goal"
+     ],
+     "leg_probs": [
+      0.514,
+      0.317
+     ],
+     "p_joint": 0.2063,
+     "p_raw": 0.2076,
+     "p_indep": 0.1628,
+     "lift": 1.267,
+     "fair_odds": 385,
      "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Bo Horvat anytime goal"
+     ],
+     "leg_probs": [
+      0.514,
+      0.302
+     ],
+     "p_joint": 0.196,
+     "p_raw": 0.1972,
+     "p_indep": 0.1552,
+     "lift": 1.263,
+     "fair_odds": 410,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Matthew Schaefer anytime goal"
+     ],
+     "leg_probs": [
+      0.514,
+      0.287
+     ],
+     "p_joint": 0.1861,
+     "p_raw": 0.1873,
+     "p_indep": 0.1476,
+     "lift": 1.261,
+     "fair_odds": 437,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Filip Forsberg anytime goal"
+     ],
+     "leg_probs": [
+      0.514,
+      0.281
+     ],
+     "p_joint": 0.1844,
+     "p_raw": 0.1855,
+     "p_indep": 0.1444,
+     "lift": 1.277,
+     "fair_odds": 442,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "NSH ML",
+      "Steven Stamkos anytime goal"
+     ],
+     "leg_probs": [
+      0.44,
+      0.317
+     ],
+     "p_joint": 0.1791,
+     "p_raw": 0.1802,
+     "p_indep": 0.1394,
+     "lift": 1.285,
+     "fair_odds": 458,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "NSH ML",
+      "Filip Forsberg anytime goal"
+     ],
+     "leg_probs": [
+      0.44,
+      0.281
+     ],
+     "p_joint": 0.163,
+     "p_raw": 0.164,
+     "p_indep": 0.1236,
+     "lift": 1.319,
+     "fair_odds": 513,
+     "sig": "atg+ml"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020193,
+   "date": "2026-10-27",
+   "home": "DAL",
+   "away": "NJD",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "p_home": 0.5658,
+   "priced": false,
+   "exp_total": 5.8,
+   "plays": [
+    {
+     "legs": [
+      "DAL ML",
+      "Over 6.5",
+      "Mikko Rantanen anytime goal"
+     ],
+     "leg_probs": [
+      0.564,
+      0.357,
+      0.218
+     ],
+     "p_joint": 0.0787,
+     "p_raw": 0.0737,
+     "p_indep": 0.0438,
+     "lift": 1.796,
+     "fair_odds": 1171,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NJD ML",
+      "Over 6.5",
+      "Jack Hughes anytime goal"
+     ],
+     "leg_probs": [
+      0.436,
+      0.357,
+      0.273
+     ],
+     "p_joint": 0.0743,
+     "p_raw": 0.0697,
+     "p_indep": 0.0425,
+     "lift": 1.75,
+     "fair_odds": 1245,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NJD ML",
+      "Over 5.5",
+      "Timo Meier anytime goal"
+     ],
+     "leg_probs": [
+      0.436,
+      0.522,
+      0.184
+     ],
+     "p_joint": 0.0718,
+     "p_raw": 0.0672,
+     "p_indep": 0.0419,
+     "lift": 1.713,
+     "fair_odds": 1293,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NJD ML",
+      "Over 5.5",
+      "Jesper Bratt anytime goal"
+     ],
+     "leg_probs": [
+      0.436,
+      0.522,
+      0.214
+     ],
+     "p_joint": 0.0826,
+     "p_raw": 0.0774,
+     "p_indep": 0.0487,
+     "lift": 1.697,
+     "fair_odds": 1110,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NJD ML",
+      "Over 5.5",
+      "Nico Hischier anytime goal"
+     ],
+     "leg_probs": [
+      0.436,
+      0.522,
+      0.202
+     ],
+     "p_joint": 0.078,
+     "p_raw": 0.0731,
+     "p_indep": 0.0461,
+     "lift": 1.694,
+     "fair_odds": 1182,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "DAL ML",
+      "Over 5.5",
+      "Arttu Hyry anytime goal"
+     ],
+     "leg_probs": [
+      0.564,
+      0.522,
+      0.165
+     ],
+     "p_joint": 0.0814,
+     "p_raw": 0.0763,
+     "p_indep": 0.0486,
+     "lift": 1.675,
+     "fair_odds": 1129,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Mikko Rantanen anytime goal",
+      "NJD goalie under 20.5 saves"
+     ],
+     "leg_probs": [
+      0.357,
+      0.218,
+      0.502
+     ],
+     "p_joint": 0.0653,
+     "p_raw": 0.0611,
+     "p_indep": 0.039,
+     "lift": 1.674,
+     "fair_odds": 1432,
+     "sig": "atg+saves+total"
+    },
+    {
+     "legs": [
+      "DAL ML",
+      "Over 6.5",
+      "Wyatt Johnston anytime goal"
+     ],
+     "leg_probs": [
+      0.564,
+      0.357,
+      0.311
+     ],
+     "p_joint": 0.1041,
+     "p_raw": 0.1008,
+     "p_indep": 0.0626,
+     "lift": 1.662,
+     "fair_odds": 860,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Wyatt Johnston anytime goal"
+     ],
+     "leg_probs": [
+      0.522,
+      0.311
+     ],
+     "p_joint": 0.204,
+     "p_raw": 0.2052,
+     "p_indep": 0.1624,
+     "lift": 1.256,
+     "fair_odds": 390,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Jason Robertson anytime goal",
+      "Jack Hughes over 1.5 SOG"
+     ],
+     "leg_probs": [
+      0.522,
+      0.359,
+      0.809
+     ],
+     "p_joint": 0.1894,
+     "p_raw": 0.1936,
+     "p_indep": 0.1514,
+     "lift": 1.25,
+     "fair_odds": 428,
+     "sig": "atg+sog+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Jack Hughes anytime goal"
+     ],
+     "leg_probs": [
+      0.522,
+      0.273
+     ],
+     "p_joint": 0.1804,
+     "p_raw": 0.1815,
+     "p_indep": 0.1423,
+     "lift": 1.267,
+     "fair_odds": 454,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Jason Robertson anytime goal",
+      "Timo Meier over 1.5 SOG"
+     ],
+     "leg_probs": [
+      0.522,
+      0.359,
+      0.743
+     ],
+     "p_joint": 0.174,
+     "p_raw": 0.1778,
+     "p_indep": 0.1392,
+     "lift": 1.25,
+     "fair_odds": 475,
+     "sig": "atg+sog+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Jason Robertson anytime goal"
+     ],
+     "leg_probs": [
+      0.357,
+      0.359
+     ],
+     "p_joint": 0.1706,
+     "p_raw": 0.1717,
+     "p_indep": 0.1281,
+     "lift": 1.332,
+     "fair_odds": 486,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "DAL ML",
+      "Jason Robertson anytime goal",
+      "DAL goalie over 21.5 saves"
+     ],
+     "leg_probs": [
+      0.564,
+      0.359,
+      0.622
+     ],
+     "p_joint": 0.1597,
+     "p_raw": 0.1607,
+     "p_indep": 0.1259,
+     "lift": 1.268,
+     "fair_odds": 526,
+     "sig": "atg+ml+saves"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020194,
+   "date": "2026-10-27",
+   "home": "WPG",
+   "away": "FLA",
+   "start_utc": "2026-10-28T00:00:00Z",
+   "p_home": 0.5626,
+   "priced": false,
+   "exp_total": 6.21,
+   "plays": [
+    {
+     "legs": [
+      "FLA ML",
+      "Over 6.5",
+      "Brady Tkachuk anytime goal"
+     ],
+     "leg_probs": [
+      0.435,
+      0.425,
+      0.236
+     ],
+     "p_joint": 0.0766,
+     "p_raw": 0.0718,
+     "p_indep": 0.0437,
+     "lift": 1.752,
+     "fair_odds": 1206,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "FLA ML",
+      "Over 6.5",
+      "Carter Verhaeghe anytime goal"
+     ],
+     "leg_probs": [
+      0.435,
+      0.425,
+      0.23
+     ],
+     "p_joint": 0.0736,
+     "p_raw": 0.069,
+     "p_indep": 0.0425,
+     "lift": 1.732,
+     "fair_odds": 1258,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "FLA ML",
+      "Over 6.5",
+      "Sam Bennett anytime goal"
+     ],
+     "leg_probs": [
+      0.435,
+      0.425,
+      0.265
+     ],
+     "p_joint": 0.0848,
+     "p_raw": 0.0794,
+     "p_indep": 0.0491,
+     "lift": 1.727,
+     "fair_odds": 1079,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "FLA ML",
+      "Over 5.5",
+      "Matthew Tkachuk anytime goal"
+     ],
+     "leg_probs": [
+      0.435,
+      0.594,
+      0.195
+     ],
+     "p_joint": 0.0849,
+     "p_raw": 0.0795,
+     "p_indep": 0.0505,
+     "lift": 1.681,
+     "fair_odds": 1078,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "WPG ML",
+      "Over 6.5",
+      "Gabriel Vilardi anytime goal"
+     ],
+     "leg_probs": [
+      0.565,
+      0.425,
+      0.224
+     ],
+     "p_joint": 0.0897,
+     "p_raw": 0.084,
+     "p_indep": 0.0538,
+     "lift": 1.668,
+     "fair_odds": 1015,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "WPG ML",
+      "Over 6.5",
+      "Mark Scheifele anytime goal"
+     ],
+     "leg_probs": [
+      0.565,
+      0.425,
+      0.244
+     ],
+     "p_joint": 0.0957,
+     "p_raw": 0.0896,
+     "p_indep": 0.0585,
+     "lift": 1.635,
+     "fair_odds": 945,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "WPG ML",
+      "Over 6.5",
+      "Cole Perfetti anytime goal"
+     ],
+     "leg_probs": [
+      0.565,
+      0.425,
+      0.241
+     ],
+     "p_joint": 0.0944,
+     "p_raw": 0.0884,
+     "p_indep": 0.058,
+     "lift": 1.629,
+     "fair_odds": 959,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "FLA ML",
+      "Over 5.5",
+      "Sam Reinhart anytime goal"
+     ],
+     "leg_probs": [
+      0.435,
+      0.594,
+      0.198
+     ],
+     "p_joint": 0.083,
+     "p_raw": 0.0778,
+     "p_indep": 0.0512,
+     "lift": 1.621,
+     "fair_odds": 1104,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "WPG ML",
+      "Over 5.5",
+      "Kyle Connor anytime goal"
+     ],
+     "leg_probs": [
+      0.565,
+      0.594,
+      0.476
+     ],
+     "p_joint": 0.2154,
+     "p_raw": 0.2208,
+     "p_indep": 0.1597,
+     "lift": 1.349,
+     "fair_odds": 364,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "WPG ML",
+      "Kyle Connor anytime goal",
+      "WPG goalie over 22.5 saves"
+     ],
+     "leg_probs": [
+      0.565,
+      0.476,
+      0.599
+     ],
+     "p_joint": 0.2052,
+     "p_raw": 0.2065,
+     "p_indep": 0.1609,
+     "lift": 1.275,
+     "fair_odds": 387,
+     "sig": "atg+ml+saves"
+    },
+    {
+     "legs": [
+      "WPG ML",
+      "Kyle Connor anytime goal",
+      "FLA goalie under 21.5 saves"
+     ],
+     "leg_probs": [
+      0.565,
+      0.476,
+      0.5
+     ],
+     "p_joint": 0.1733,
+     "p_raw": 0.1744,
+     "p_indep": 0.1345,
+     "lift": 1.288,
+     "fair_odds": 477,
+     "sig": "atg+ml+saves"
+    },
+    {
+     "legs": [
+      "WPG ML",
+      "Over 6.5",
+      "Kyle Connor anytime goal"
+     ],
+     "leg_probs": [
+      0.565,
+      0.425,
+      0.476
+     ],
+     "p_joint": 0.1648,
+     "p_raw": 0.1658,
+     "p_indep": 0.1144,
+     "lift": 1.441,
+     "fair_odds": 507,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "WPG ML",
+      "Kyle Connor anytime goal",
+      "WPG goalie over 24.5 saves"
+     ],
+     "leg_probs": [
+      0.565,
+      0.476,
+      0.469
+     ],
+     "p_joint": 0.1616,
+     "p_raw": 0.1626,
+     "p_indep": 0.126,
+     "lift": 1.283,
+     "fair_odds": 519,
+     "sig": "atg+ml+saves"
+    },
+    {
+     "legs": [
+      "FLA ML",
+      "Sam Bennett anytime goal"
+     ],
+     "leg_probs": [
+      0.435,
+      0.265
+     ],
+     "p_joint": 0.1495,
+     "p_raw": 0.1505,
+     "p_indep": 0.1155,
+     "lift": 1.295,
+     "fair_odds": 569,
+     "sig": "atg+ml"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020195,
+   "date": "2026-10-27",
+   "home": "UTA",
+   "away": "MIN",
+   "start_utc": "2026-10-28T01:00:00Z",
+   "p_home": 0.4872,
+   "priced": false,
+   "exp_total": 6.41,
+   "plays": [
+    {
+     "legs": [
+      "UTA ML",
+      "Over 6.5",
+      "Clayton Keller anytime goal"
+     ],
+     "leg_probs": [
+      0.488,
+      0.451,
+      0.176
+     ],
+     "p_joint": 0.0664,
+     "p_raw": 0.0622,
+     "p_indep": 0.0387,
+     "lift": 1.716,
+     "fair_odds": 1406,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "UTA ML",
+      "Over 6.5",
+      "Lawson Crouse anytime goal"
+     ],
+     "leg_probs": [
+      0.488,
+      0.451,
+      0.174
+     ],
+     "p_joint": 0.0656,
+     "p_raw": 0.0615,
+     "p_indep": 0.0384,
+     "lift": 1.711,
+     "fair_odds": 1423,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "UTA ML",
+      "Over 6.5",
+      "Kailer Yamamoto anytime goal"
+     ],
+     "leg_probs": [
+      0.488,
+      0.451,
+      0.199
+     ],
+     "p_joint": 0.0744,
+     "p_raw": 0.0697,
+     "p_indep": 0.0438,
+     "lift": 1.699,
+     "fair_odds": 1244,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "MIN ML",
+      "Over 6.5",
+      "Danila Yurov anytime goal"
+     ],
+     "leg_probs": [
+      0.512,
+      0.451,
+      0.164
+     ],
+     "p_joint": 0.0643,
+     "p_raw": 0.0602,
+     "p_indep": 0.038,
+     "lift": 1.69,
+     "fair_odds": 1456,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "MIN ML",
+      "Over 6.5",
+      "Joel Eriksson Ek anytime goal"
+     ],
+     "leg_probs": [
+      0.512,
+      0.451,
+      0.221
+     ],
+     "p_joint": 0.0852,
+     "p_raw": 0.0799,
+     "p_indep": 0.0512,
+     "lift": 1.664,
+     "fair_odds": 1073,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "MIN ML",
+      "Over 5.5",
+      "Michael McCarron anytime goal"
+     ],
+     "leg_probs": [
+      0.512,
+      0.622,
+      0.162
+     ],
+     "p_joint": 0.0839,
+     "p_raw": 0.0786,
+     "p_indep": 0.0516,
+     "lift": 1.626,
+     "fair_odds": 1092,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "UTA ML",
+      "Over 5.5",
+      "Clayton Keller anytime goal"
+     ],
+     "leg_probs": [
+      0.488,
+      0.622,
+      0.176
+     ],
+     "p_joint": 0.0861,
+     "p_raw": 0.0807,
+     "p_indep": 0.0534,
+     "lift": 1.614,
+     "fair_odds": 1061,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "UTA ML",
+      "Over 5.5",
+      "Lawson Crouse anytime goal"
+     ],
+     "leg_probs": [
+      0.488,
+      0.622,
+      0.174
+     ],
+     "p_joint": 0.0844,
+     "p_raw": 0.079,
+     "p_indep": 0.0529,
+     "lift": 1.595,
+     "fair_odds": 1085,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Matt Boldy anytime goal"
+     ],
+     "leg_probs": [
+      0.451,
+      0.374
+     ],
+     "p_joint": 0.2113,
+     "p_raw": 0.2127,
+     "p_indep": 0.1687,
+     "lift": 1.253,
+     "fair_odds": 373,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Kirill Kaprizov anytime goal"
+     ],
+     "leg_probs": [
+      0.451,
+      0.346
+     ],
+     "p_joint": 0.1964,
+     "p_raw": 0.1977,
+     "p_indep": 0.1561,
+     "lift": 1.259,
+     "fair_odds": 409,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Nick Schmaltz anytime goal"
+     ],
+     "leg_probs": [
+      0.451,
+      0.33
+     ],
+     "p_joint": 0.1907,
+     "p_raw": 0.1919,
+     "p_indep": 0.1491,
+     "lift": 1.279,
+     "fair_odds": 424,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Dylan Guenther anytime goal"
+     ],
+     "leg_probs": [
+      0.451,
+      0.294
+     ],
+     "p_joint": 0.1699,
+     "p_raw": 0.1709,
+     "p_indep": 0.1324,
+     "lift": 1.283,
+     "fair_odds": 489,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "MIN ML",
+      "Over 5.5",
+      "Matt Boldy anytime goal"
+     ],
+     "leg_probs": [
+      0.512,
+      0.622,
+      0.374
+     ],
+     "p_joint": 0.1673,
+     "p_raw": 0.1683,
+     "p_indep": 0.1193,
+     "lift": 1.403,
+     "fair_odds": 498,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Nick Schmaltz anytime goal",
+      "Matt Boldy over 1.5 SOG"
+     ],
+     "leg_probs": [
+      0.451,
+      0.33,
+      0.832
+     ],
+     "p_joint": 0.1592,
+     "p_raw": 0.1627,
+     "p_indep": 0.124,
+     "lift": 1.284,
+     "fair_odds": 528,
+     "sig": "atg+sog+total"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020196,
+   "date": "2026-10-27",
+   "home": "VGK",
+   "away": "OTT",
+   "start_utc": "2026-10-28T02:00:00Z",
+   "p_home": 0.5476,
+   "priced": false,
+   "exp_total": 6.01,
+   "plays": [
+    {
+     "legs": [
+      "OTT ML",
+      "Over 6.5",
+      "Tim Stutzle anytime goal"
+     ],
+     "leg_probs": [
+      0.449,
+      0.391,
+      0.221
+     ],
+     "p_joint": 0.0695,
+     "p_raw": 0.0651,
+     "p_indep": 0.0388,
+     "lift": 1.789,
+     "fair_odds": 1339,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "OTT ML",
+      "Over 6.5",
+      "Dylan Cozens anytime goal"
+     ],
+     "leg_probs": [
+      0.449,
+      0.391,
+      0.233
+     ],
+     "p_joint": 0.0729,
+     "p_raw": 0.0683,
+     "p_indep": 0.041,
+     "lift": 1.779,
+     "fair_odds": 1272,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "VGK ML",
+      "Over 6.5",
+      "Brett Howden anytime goal"
+     ],
+     "leg_probs": [
+      0.551,
+      0.391,
+      0.19
+     ],
+     "p_joint": 0.0724,
+     "p_raw": 0.0678,
+     "p_indep": 0.0409,
+     "lift": 1.769,
+     "fair_odds": 1282,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "VGK ML",
+      "Over 6.5",
+      "Tomas Hertl anytime goal"
+     ],
+     "leg_probs": [
+      0.551,
+      0.391,
+      0.198
+     ],
+     "p_joint": 0.0733,
+     "p_raw": 0.0686,
+     "p_indep": 0.0425,
+     "lift": 1.723,
+     "fair_odds": 1265,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "OTT ML",
+      "Over 6.5",
+      "Drake Batherson anytime goal"
+     ],
+     "leg_probs": [
+      0.449,
+      0.391,
+      0.236
+     ],
+     "p_joint": 0.0706,
+     "p_raw": 0.0662,
+     "p_indep": 0.0415,
+     "lift": 1.703,
+     "fair_odds": 1316,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "OTT ML",
+      "Over 5.5",
+      "Fabian Zetterlund anytime goal"
+     ],
+     "leg_probs": [
+      0.449,
+      0.561,
+      0.167
+     ],
+     "p_joint": 0.0706,
+     "p_raw": 0.0662,
+     "p_indep": 0.0421,
+     "lift": 1.677,
+     "fair_odds": 1316,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "OTT ML",
+      "Over 5.5",
+      "Tim Stutzle anytime goal"
+     ],
+     "leg_probs": [
+      0.449,
+      0.561,
+      0.221
+     ],
+     "p_joint": 0.0929,
+     "p_raw": 0.087,
+     "p_indep": 0.0558,
+     "lift": 1.665,
+     "fair_odds": 976,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "VGK ML",
+      "Over 6.5",
+      "Jack Eichel anytime goal"
+     ],
+     "leg_probs": [
+      0.551,
+      0.391,
+      0.269
+     ],
+     "p_joint": 0.0937,
+     "p_raw": 0.0908,
+     "p_indep": 0.0579,
+     "lift": 1.619,
+     "fair_odds": 967,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Mark Stone anytime goal"
+     ],
+     "leg_probs": [
+      0.391,
+      0.309
+     ],
+     "p_joint": 0.1583,
+     "p_raw": 0.1593,
+     "p_indep": 0.1207,
+     "lift": 1.311,
+     "fair_odds": 532,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Tim Stutzle anytime goal"
+     ],
+     "leg_probs": [
+      0.561,
+      0.221
+     ],
+     "p_joint": 0.1564,
+     "p_raw": 0.1574,
+     "p_indep": 0.1242,
+     "lift": 1.259,
+     "fair_odds": 539,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "VGK ML",
+      "Over 5.5",
+      "Mark Stone anytime goal"
+     ],
+     "leg_probs": [
+      0.551,
+      0.561,
+      0.309
+     ],
+     "p_joint": 0.1435,
+     "p_raw": 0.139,
+     "p_indep": 0.0955,
+     "lift": 1.503,
+     "fair_odds": 597,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Mark Stone anytime goal",
+      "Dylan Cozens over 1.5 SOG"
+     ],
+     "leg_probs": [
+      0.561,
+      0.309,
+      0.65
+     ],
+     "p_joint": 0.143,
+     "p_raw": 0.1393,
+     "p_indep": 0.1128,
+     "lift": 1.268,
+     "fair_odds": 599,
+     "sig": "atg+sog+total"
+    },
+    {
+     "legs": [
+      "OTT ML",
+      "Dylan Cozens anytime goal"
+     ],
+     "leg_probs": [
+      0.449,
+      0.233
+     ],
+     "p_joint": 0.1425,
+     "p_raw": 0.138,
+     "p_indep": 0.1049,
+     "lift": 1.358,
+     "fair_odds": 602,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Jack Eichel anytime goal"
+     ],
+     "leg_probs": [
+      0.391,
+      0.269
+     ],
+     "p_joint": 0.1398,
+     "p_raw": 0.1407,
+     "p_indep": 0.1051,
+     "lift": 1.33,
+     "fair_odds": 615,
+     "sig": "atg+total"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020197,
+   "date": "2026-10-27",
+   "home": "ANA",
+   "away": "VAN",
+   "start_utc": "2026-10-28T02:00:00Z",
+   "p_home": 0.7341,
+   "priced": false,
+   "exp_total": 6.82,
+   "plays": [
+    {
+     "legs": [
+      "VAN ML",
+      "Jake DeBrusk anytime goal",
+      "VAN goalie over 24.5 saves"
+     ],
+     "leg_probs": [
+      0.263,
+      0.264,
+      0.63
+     ],
+     "p_joint": 0.0709,
+     "p_raw": 0.0664,
+     "p_indep": 0.0437,
+     "lift": 1.621,
+     "fair_odds": 1311,
+     "sig": "atg+ml+saves"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Over 5.5",
+      "Jake DeBrusk anytime goal"
+     ],
+     "leg_probs": [
+      0.263,
+      0.682,
+      0.264
+     ],
+     "p_joint": 0.0764,
+     "p_raw": 0.0715,
+     "p_indep": 0.0473,
+     "lift": 1.614,
+     "fair_odds": 1209,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Beckett Sennecke over 1.5 SOG",
+      "Marco Rossi anytime goal"
+     ],
+     "leg_probs": [
+      0.263,
+      0.822,
+      0.188
+     ],
+     "p_joint": 0.0654,
+     "p_raw": 0.0605,
+     "p_indep": 0.0406,
+     "lift": 1.612,
+     "fair_odds": 1429,
+     "sig": "atg+ml+sog"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Leo Carlsson over 1.5 SOG",
+      "Marco Rossi anytime goal"
+     ],
+     "leg_probs": [
+      0.263,
+      0.841,
+      0.188
+     ],
+     "p_joint": 0.0665,
+     "p_raw": 0.0615,
+     "p_indep": 0.0415,
+     "lift": 1.603,
+     "fair_odds": 1403,
+     "sig": "atg+ml+sog"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Cutter Gauthier over 1.5 SOG",
+      "Linus Karlsson anytime goal"
+     ],
+     "leg_probs": [
+      0.263,
+      0.803,
+      0.199
+     ],
+     "p_joint": 0.0657,
+     "p_raw": 0.0608,
+     "p_indep": 0.0419,
+     "lift": 1.567,
+     "fair_odds": 1422,
+     "sig": "atg+ml+sog"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Marco Rossi anytime goal"
+     ],
+     "leg_probs": [
+      0.263,
+      0.188
+     ],
+     "p_joint": 0.077,
+     "p_raw": 0.0721,
+     "p_indep": 0.0493,
+     "lift": 1.56,
+     "fair_odds": 1199,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Brock Boeser anytime goal"
+     ],
+     "leg_probs": [
+      0.263,
+      0.16
+     ],
+     "p_joint": 0.0655,
+     "p_raw": 0.0614,
+     "p_indep": 0.042,
+     "lift": 1.559,
+     "fair_odds": 1426,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "VAN ML",
+      "Elias Pettersson anytime goal"
+     ],
+     "leg_probs": [
+      0.263,
+      0.167
+     ],
+     "p_joint": 0.0684,
+     "p_raw": 0.064,
+     "p_indep": 0.044,
+     "lift": 1.553,
+     "fair_odds": 1363,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "ANA ML",
+      "Over 5.5",
+      "Beckett Sennecke anytime goal"
+     ],
+     "leg_probs": [
+      0.737,
+      0.682,
+      0.375
+     ],
+     "p_joint": 0.238,
+     "p_raw": 0.2439,
+     "p_indep": 0.1885,
+     "lift": 1.263,
+     "fair_odds": 320,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "ANA ML",
+      "Over 5.5",
+      "Cutter Gauthier anytime goal"
+     ],
+     "leg_probs": [
+      0.737,
+      0.682,
+      0.364
+     ],
+     "p_joint": 0.2288,
+     "p_raw": 0.2345,
+     "p_indep": 0.183,
+     "lift": 1.251,
+     "fair_odds": 337,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "ANA ML",
+      "Over 5.5",
+      "Mikael Granlund anytime goal"
+     ],
+     "leg_probs": [
+      0.737,
+      0.682,
+      0.309
+     ],
+     "p_joint": 0.2018,
+     "p_raw": 0.2031,
+     "p_indep": 0.1551,
+     "lift": 1.301,
+     "fair_odds": 396,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "ANA ML",
+      "Over 6.5",
+      "Leo Carlsson anytime goal"
+     ],
+     "leg_probs": [
+      0.737,
+      0.519,
+      0.391
+     ],
+     "p_joint": 0.1974,
+     "p_raw": 0.1986,
+     "p_indep": 0.1497,
+     "lift": 1.319,
+     "fair_odds": 407,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "ANA ML",
+      "Over 6.5",
+      "Beckett Sennecke anytime goal"
+     ],
+     "leg_probs": [
+      0.737,
+      0.519,
+      0.375
+     ],
+     "p_joint": 0.1938,
+     "p_raw": 0.1951,
+     "p_indep": 0.1435,
+     "lift": 1.351,
+     "fair_odds": 416,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "ANA ML",
+      "Over 6.5",
+      "Cutter Gauthier anytime goal"
+     ],
+     "leg_probs": [
+      0.737,
+      0.519,
+      0.364
+     ],
+     "p_joint": 0.1901,
+     "p_raw": 0.1913,
+     "p_indep": 0.1393,
+     "lift": 1.365,
+     "fair_odds": 426,
+     "sig": "atg+ml+total"
+    }
+   ]
+  },
+  {
+   "gameId": 2026020198,
+   "date": "2026-10-27",
+   "home": "SJS",
+   "away": "BUF",
+   "start_utc": "2026-10-28T02:30:00Z",
+   "p_home": 0.4877,
+   "priced": false,
+   "exp_total": 6.27,
+   "plays": [
+    {
+     "legs": [
+      "SJS ML",
+      "Over 6.5",
+      "Collin Graf anytime goal"
+     ],
+     "leg_probs": [
+      0.489,
+      0.43,
+      0.178
+     ],
+     "p_joint": 0.0664,
+     "p_raw": 0.0622,
+     "p_indep": 0.0374,
+     "lift": 1.774,
+     "fair_odds": 1406,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "BUF ML",
+      "Over 6.5",
+      "Zach Benson anytime goal"
+     ],
+     "leg_probs": [
+      0.511,
+      0.43,
+      0.207
+     ],
+     "p_joint": 0.0795,
+     "p_raw": 0.0745,
+     "p_indep": 0.0455,
+     "lift": 1.746,
+     "fair_odds": 1158,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "SJS ML",
+      "Over 6.5",
+      "Kiefer Sherwood anytime goal"
+     ],
+     "leg_probs": [
+      0.489,
+      0.43,
+      0.179
+     ],
+     "p_joint": 0.0648,
+     "p_raw": 0.0607,
+     "p_indep": 0.0377,
+     "lift": 1.721,
+     "fair_odds": 1443,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "SJS ML",
+      "Over 6.5",
+      "Tyler Toffoli anytime goal"
+     ],
+     "leg_probs": [
+      0.489,
+      0.43,
+      0.205
+     ],
+     "p_joint": 0.0722,
+     "p_raw": 0.0676,
+     "p_indep": 0.0431,
+     "lift": 1.675,
+     "fair_odds": 1285,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "BUF ML",
+      "Over 5.5",
+      "Rasmus Dahlin anytime goal"
+     ],
+     "leg_probs": [
+      0.511,
+      0.602,
+      0.167
+     ],
+     "p_joint": 0.0845,
+     "p_raw": 0.0792,
+     "p_indep": 0.0513,
+     "lift": 1.649,
+     "fair_odds": 1083,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "SJS ML",
+      "Over 6.5",
+      "Will Smith anytime goal"
+     ],
+     "leg_probs": [
+      0.489,
+      0.43,
+      0.274
+     ],
+     "p_joint": 0.0946,
+     "p_raw": 0.0887,
+     "p_indep": 0.0576,
+     "lift": 1.642,
+     "fair_odds": 957,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "SJS ML",
+      "Over 5.5",
+      "Kiefer Sherwood anytime goal"
+     ],
+     "leg_probs": [
+      0.489,
+      0.602,
+      0.179
+     ],
+     "p_joint": 0.086,
+     "p_raw": 0.0806,
+     "p_indep": 0.0528,
+     "lift": 1.63,
+     "fair_odds": 1063,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "SJS ML",
+      "Over 5.5",
+      "Collin Graf anytime goal"
+     ],
+     "leg_probs": [
+      0.489,
+      0.602,
+      0.178
+     ],
+     "p_joint": 0.0849,
+     "p_raw": 0.0795,
+     "p_indep": 0.0524,
+     "lift": 1.619,
+     "fair_odds": 1078,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "SJS ML",
+      "Macklin Celebrini anytime goal"
+     ],
+     "leg_probs": [
+      0.489,
+      0.357
+     ],
+     "p_joint": 0.2184,
+     "p_raw": 0.2198,
+     "p_indep": 0.1745,
+     "lift": 1.252,
+     "fair_odds": 358,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Macklin Celebrini anytime goal"
+     ],
+     "leg_probs": [
+      0.43,
+      0.357
+     ],
+     "p_joint": 0.1981,
+     "p_raw": 0.1993,
+     "p_indep": 0.1534,
+     "lift": 1.291,
+     "fair_odds": 405,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Tage Thompson anytime goal"
+     ],
+     "leg_probs": [
+      0.43,
+      0.349
+     ],
+     "p_joint": 0.1932,
+     "p_raw": 0.1944,
+     "p_indep": 0.15,
+     "lift": 1.288,
+     "fair_odds": 418,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Macklin Celebrini anytime goal",
+      "Tage Thompson over 1.5 SOG"
+     ],
+     "leg_probs": [
+      0.43,
+      0.357,
+      0.839
+     ],
+     "p_joint": 0.1654,
+     "p_raw": 0.169,
+     "p_indep": 0.1287,
+     "lift": 1.285,
+     "fair_odds": 505,
+     "sig": "atg+sog+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Macklin Celebrini over 1.5 SOG",
+      "Tage Thompson anytime goal"
+     ],
+     "leg_probs": [
+      0.43,
+      0.822,
+      0.349
+     ],
+     "p_joint": 0.158,
+     "p_raw": 0.1615,
+     "p_indep": 0.1233,
+     "lift": 1.282,
+     "fair_odds": 533,
+     "sig": "atg+sog+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Macklin Celebrini anytime goal",
+      "Jack Quinn over 1.5 SOG"
+     ],
+     "leg_probs": [
+      0.43,
+      0.357,
+      0.804
+     ],
+     "p_joint": 0.1576,
+     "p_raw": 0.1611,
+     "p_indep": 0.1234,
+     "lift": 1.277,
+     "fair_odds": 534,
+     "sig": "atg+sog+total"
     }
    ]
   }
