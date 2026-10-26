@@ -265,8 +265,7 @@ Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/prediction
     const dots=pts.sort((a,b)=>playing.has(a.r.team)-playing.has(b.r.team)).map(p=>{const on=playing.has(p.r.team);
       return `<g class="pt" data-t="${p.r.team}" transform="translate(${p.x.toFixed(1)},${p.y.toFixed(1)})"><title>${p.r.team}</title>
         <circle class="chip" r="16" fill="#fff" stroke="${on?"var(--home)":"var(--away)"}" stroke-width="${on?3:2}"/>
-        <text text-anchor="middle" dy="3" style="font-size:9px;font-weight:700;fill:#333">${p.r.team}</text>
-        <image href="${LOGO(p.r.team)}" x="-12.5" y="-12.5" width="25" height="25" onerror="this.remove()"/>
+        <image href="${LOGO(p.r.team)}" x="-12.5" y="-12.5" width="25" height="25" onerror="var t=document.createElementNS('http://www.w3.org/2000/svg','text');t.setAttribute('text-anchor','middle');t.setAttribute('dy','3');t.style.cssText='font-size:9px;font-weight:700;fill:#333';t.textContent='${p.r.team}';this.replaceWith(t)"/>
         <circle r="19" fill="transparent"/></g>`}).join("");
     $("scatter").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Scatter of each team's xGF% against its starting goalie's GSAx per start">${grid}${ref}${quad}
       <text x="${(M.l+W-M.r)/2}" y="${H-10}" text-anchor="middle">5v5 expected-goals share (xGF%)  →  better team</text>
