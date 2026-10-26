@@ -262,7 +262,8 @@ Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/prediction
   function draw(){
     const rows=T.map(t=>({...t,...t[view]})).filter(r=>r.gsax!=null);
     const nice=(v,u)=>Math.ceil(v/u)*u;
-    const dx=Math.max(0.06,nice(Math.max(...rows.map(r=>Math.abs(r.xgf-0.5)))*1.1,0.02)),dy=Math.max(0.4,nice(Math.max(...rows.map(r=>Math.abs(r.gsax)))*1.1,0.2));
+    const all=T.flatMap(t=>[t.full,t.l5]).filter(r=>r&&r.gsax!=null);   // same axis extents in both views: use the larger of the two
+    const dx=Math.max(0.06,nice(Math.max(...all.map(r=>Math.abs(r.xgf-0.5)))*1.1,0.02)),dy=Math.max(0.4,nice(Math.max(...all.map(r=>Math.abs(r.gsax)))*1.1,0.2));
     const X=v=>M.l+(v-(0.5-dx))/(2*dx)*(W-M.l-M.r),Y=v=>M.t+(1-(v+dy)/(2*dy))*(H-M.t-M.b);
     const pts=rows.map(r=>({r,x0:X(r.xgf),y0:Y(r.gsax),x:X(r.xgf),y:Y(r.gsax)}));
     const R=33,MAXD=12;                                    // nudge overlapping logos apart (at most MAXD px from true position)
