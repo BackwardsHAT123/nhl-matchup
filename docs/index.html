@@ -11,7 +11,7 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
 main{max-width:1000px;margin:0 auto;padding:20px 16px 60px}
 html{scroll-behavior:smooth}
-h1{font-size:22px;margin:0}h2{font-size:16px;margin:28px 0 10px}h3{font-size:15px;margin:22px 0 8px}
+h1{font-size:22px;margin:0}h2{font-size:16px;margin:28px 0 10px}h3{font-size:15px;margin:22px 0 8px;scroll-margin-top:64px}
 h2.sec{font-size:19px;margin:44px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line);scroll-margin-top:64px}
 h2.sec:first-of-type{margin-top:18px}
 nav.jump{position:sticky;top:0;z-index:20;background:var(--bg);margin:10px -16px 0;padding:8px 16px;border-bottom:1px solid var(--line);display:flex;gap:6px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}
@@ -79,7 +79,7 @@ svg text{fill:var(--mute);font-size:10px}
 <h1>NHL Matchup Model</h1>
 <div class="sub" id="updated">Loading…</div>
 <nav class="jump" aria-label="Jump to section">
-  <a href="#overview">Record</a><a href="#games">Games</a><a href="#parlays">Parlays</a><a href="#results">Results</a><a href="#checks">Checks</a><a href="#sec-teams">Teams</a><a href="#method">Method</a>
+  <a href="#overview">Record</a><a href="#games">Games</a><a href="#parlays">Parlays</a><a href="#results">Results</a><a href="#checks">Checks</a><a href="#sec-teams">Teams</a><a href="#scatter-sec">Scatter</a><a href="#method">Method</a>
 </nav>
 
 <h2 class="sec" id="overview">Model record</h2>
@@ -107,16 +107,16 @@ svg text{fill:var(--mute);font-size:10px}
 </div>
 
 <h2 class="sec" id="sec-teams">Teams</h2>
-<h3>Team 5v5 xGF% (last 40 games, shrunk to 50%)</h3>
-<div class="card"><table id="teams"></table></div>
-
-<h3>Team xGF% vs. starting goalie GSAx</h3>
+<h3 id="scatter-sec">Team xGF% vs. starting goalie GSAx</h3>
 <div class="card" id="scatterwrap" style="position:relative">
   <div class="seg" role="group" aria-label="Window"><button type="button" data-w="full" class="on" aria-pressed="true">Full season</button><button type="button" data-w="l5" aria-pressed="false">Last 5 games</button></div>
   <div id="scatter"></div><div id="sctip" class="tip" hidden></div>
   <p class="note" id="scnote" style="margin:6px 0 0"></p>
   <details style="margin-top:8px"><summary class="note" style="cursor:pointer">Table view</summary><div id="sctable"></div></details>
 </div>
+
+<h3>Team 5v5 xGF% (last 40 games, shrunk to 50%)</h3>
+<div class="card"><table id="teams"></table></div>
 
 <h2 class="sec" id="method">Method</h2>
 <p class="note">Score = 75% xGF% differential + 15% starting-goalie GSAx differential + 10% schedule (back-to-back, rest days), each scaled to a common spread; a logistic curve turns it into win probability (home ice in the intercept). Fit on earlier seasons only. Data: MoneyPuck and the NHL API, refreshed daily by GitHub Actions. Win-prediction model only — it does not use betting odds, so it does not by itself show an edge over the market. Not financial advice.</p>
