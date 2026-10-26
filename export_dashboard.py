@@ -76,6 +76,38 @@ def team_table():
     return sorted(rows, key=lambda r: -r["xgf_pct"])
 
 
+def team_goalies(today):
+    """Per club: 5v5 xGF% and the likely starter's GSAx per start, for the whole season and the last 5 games."""
+    import odds
+    import starters
+    tg = pd.read_csv(F.PROC / "team_games.csv", parse_dates=["date"])
+    gg = pd.read_csv(F.PROC / "goalie_games.csv").merge(tg[["gameId", "team", "date"]], on=["gameId", "team"])
+    gg["season"] = gg.gameId // 1_000_000
+    tg["season"] = tg.gameId // 1_000_000
+    rows = []
+    for team in odds.TEAM_KEY:                      # the 32 current clubs only
+        t = tg[(tg.team == team)].sort_values("date")
+        cur = t[t.season == CUR]
+        if cur.empty:
+            continue
+        try:
+            dist = starters.starter_probs(team, pd.Timestamp(today), predict.roster_goalie_ids(team))
+        except Exception as e:
+            print("starter lookup failed", team, repr(e)[:60])
+            continue
+        if not dist:
+            continue
+        gid, name, p = dist[0]
+        x = lambda d: float(d.xgf.sum() / (d.xgf.sum() + d.xga.sum()))
+        starts = gg[gg.goalie_id == gid].sort_values("date")
+        s_cur, s_l5 = starts[starts.season == CUR], starts.tail(5)
+        avg = lambda d: round(float(d.gsax.mean()), 3) if len(d) else None
+        rows.append(dict(team=team, goalie=name, p_start=round(p, 3),
+                         full=dict(xgf=round(x(cur), 4), gsax=avg(s_cur), gp=int(len(cur)), starts=int(len(s_cur))),
+                         l5=dict(xgf=round(x(t.tail(5)), 4), gsax=avg(s_l5), gp=int(min(5, len(t))), starts=int(len(s_l5)))))
+    return rows
+
+
 def backtest_summary():
     bt = pd.read_csv(F.PROC / "backtest_predictions.csv", parse_dates=["date"])
     bt = bt.sort_values("date")
@@ -106,5 +138,6 @@ if __name__ == "__main__":
                 recent=g.sort_values("date").tail(30)[["date", "home", "away", "p_home", "home_win", "correct"]]
                 .round(3).to_dict("records"))
     (OUT / "summary.json").write_text(json.dumps(
-        dict(generated_at=now, live=live, backtest=backtest_summary(), teams=team_table()), indent=1))
+        dict(generated_at=now, live=live, backtest=backtest_summary(), teams=team_table(),
+                                                              team_goalies=team_goalies(today)), indent=1))
     print(f"{len(games)} upcoming games, live record n={live['n']}, wrote {OUT}")

@@ -62,3 +62,8 @@ back-to-backs, whether the team plays tomorrow, this-season starts, schedule den
 filtered to the current roster). Backtest, next-game accuracy: 2025-26 69.9% vs 63.8% for the old "most-used" rule; 2026-27 to date 71.3% vs 61.4%;
 on the 54 logged team-games 75.9% vs 63.0% (92% when it says >=70%). The NHL API publishes no probable starter before game time, so
 overrides (`overrides.json`) remain the way to enter a confirmed starter. When uncertain, the main model uses the probability-weighted GSAx.
+
+## xGF% vs. goalie scatter
+Dashboard chart: each club's logo at (5v5 xGF%, likely starter's GSAx per start). Default = season to date (starter's starts this
+season); toggle = last 5 team games / the starter's last 5 starts. Data: `team_goalies` in `docs/data/summary.json` (export_dashboard.py).
+Logos are hot-linked from the NHL's asset host and fall back to the team abbreviation if unavailable.

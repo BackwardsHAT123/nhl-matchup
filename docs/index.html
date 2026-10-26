@@ -45,6 +45,13 @@ th{color:var(--mute);font-weight:500}
 .rv .chips2{display:flex;flex-wrap:wrap;gap:4px;margin:4px 0}.rv .t{background:var(--warnbg);color:var(--warn);border-radius:4px;padding:0 6px;font-size:11px}
 .rv .pl{font-size:12.5px;margin:6px 0;padding:6px 8px;border:1px solid var(--line);border-radius:8px}.rv .pl.hit{border-color:var(--good)}.rv .pl.miss{opacity:.95}
 .rv .lg{margin:1px 0}.rv .lg small{color:var(--mute)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-bottom:8px}
+.seg button{background:transparent;color:var(--ink);border:0;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
+.seg button.on{background:var(--home);color:#fff}
+#scatter svg{width:100%;height:auto;display:block}#scatter text{fill:var(--mute);font-size:11px}
+#scatter .pt{cursor:pointer}#scatter .pt:hover circle.chip{stroke-width:3.5}
+.tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12px;box-shadow:0 2px 10px rgba(0,0,0,.18);z-index:5;white-space:nowrap}
+.tip b{display:block;margin-bottom:2px}
 .sgp{margin-bottom:8px}
 .sgp.hot{border-color:var(--good);box-shadow:inset 3px 0 0 var(--good)}
 .sgp .detail{margin-top:10px;padding-top:12px}
@@ -56,7 +63,7 @@ th{color:var(--mute);font-weight:500}
 .ev{font-weight:700}.warn{color:var(--warn)}
 .note{font-size:12.5px;color:var(--mute)}
 svg text{fill:var(--mute);font-size:10px}
-@media(max-width:700px){.detail{grid-template-columns:1fr}.game{grid-template-columns:1fr}.cols{grid-template-columns:1fr}}
+@media(max-width:700px){#scatter{overflow-x:auto}#scatter svg{min-width:620px}.detail{grid-template-columns:1fr}.game{grid-template-columns:1fr}.cols{grid-template-columns:1fr}}
 </style>
 </head>
 <body><main>
@@ -88,6 +95,14 @@ svg text{fill:var(--mute);font-size:10px}
 
 <h2>Team 5v5 xGF% (last 40 games, shrunk to 50%)</h2>
 <div class="card"><table id="teams"></table></div>
+
+<h2>Team xGF% vs. starting goalie GSAx</h2>
+<div class="card" id="scatterwrap" style="position:relative">
+  <div class="seg" role="group" aria-label="Window"><button type="button" data-w="full" class="on" aria-pressed="true">Full season</button><button type="button" data-w="l5" aria-pressed="false">Last 5 games</button></div>
+  <div id="scatter"></div><div id="sctip" class="tip" hidden></div>
+  <p class="note" id="scnote" style="margin:6px 0 0"></p>
+  <details style="margin-top:8px"><summary class="note" style="cursor:pointer">Table view</summary><div id="sctable"></div></details>
+</div>
 
 <h2>Method</h2>
 <p class="note">Score = 75% xGF% differential + 15% starting-goalie GSAx differential + 10% schedule (back-to-back, rest days), each scaled to a common spread; a logistic curve turns it into win probability (home ice in the intercept). Fit on earlier seasons only. Data: MoneyPuck and the NHL API, refreshed daily by GitHub Actions. Win-prediction model only — it does not use betting odds, so it does not by itself show an edge over the market. Not financial advice.</p>
@@ -222,5 +237,55 @@ fetch("data/results_review.json").then(r=>r.json()).then(R=>{
     <div class="card rv" style="margin-top:12px">${days||"Results appear once logged games finish."}</div>
     <p class="note">Updated ${fmt(R.generated_at)}. Games marked “reconstructed” were rebuilt after the fact from pre-game data (same model inputs, but not logged live).</p>`;
 }).catch(()=>{$("review").innerHTML='<div class="card">Results review not available yet.</div>'});
+// ---- scatter: team xGF% vs. starter GSAx (logos as points) ----
+Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/predictions.json").then(r=>r.json())]).then(([S,P])=>{
+  const T=S.team_goalies;if(!T||!T.length){$("scatterwrap").style.display="none";return}
+  const playing=new Set(P.games.filter(g=>g.date===P.today).flatMap(g=>[g.home,g.away]));
+  let view="full";
+  const W=760,H=520,M={l:58,r:18,t:18,b:52},LOGO=g=>`https://assets.nhle.com/logos/nhl/svg/${g}_light.svg`;
+  const sg=v=>(v>=0?"+":"")+v.toFixed(2);
+  function draw(){
+    const rows=T.map(t=>({...t,...t[view]})).filter(r=>r.gsax!=null);
+    const nice=(v,u)=>Math.ceil(v/u)*u;
+    const dx=Math.max(0.06,nice(Math.max(...rows.map(r=>Math.abs(r.xgf-0.5)))*1.1,0.02)),dy=Math.max(0.4,nice(Math.max(...rows.map(r=>Math.abs(r.gsax)))*1.1,0.2));
+    const X=v=>M.l+(v-(0.5-dx))/(2*dx)*(W-M.l-M.r),Y=v=>M.t+(1-(v+dy)/(2*dy))*(H-M.t-M.b);
+    const pts=rows.map(r=>({r,x0:X(r.xgf),y0:Y(r.gsax),x:X(r.xgf),y:Y(r.gsax)}));
+    const R=33,MAXD=12;                                    // nudge overlapping logos apart (at most MAXD px from true position)
+    for(let it=0;it<80;it++)for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){
+      const a=pts[i],b=pts[j];let dxp=b.x-a.x,dyp=b.y-a.y,d=Math.hypot(dxp,dyp)||0.01;
+      if(d<R){const k=(R-d)/2/d;a.x-=dxp*k;a.y-=dyp*k;b.x+=dxp*k;b.y+=dyp*k}}
+    pts.forEach(p=>{const ox=p.x-p.x0,oy=p.y-p.y0,d=Math.hypot(ox,oy);if(d>MAXD){p.x=p.x0+ox/d*MAXD;p.y=p.y0+oy/d*MAXD}
+      p.x=Math.min(Math.max(p.x,M.l+14),W-M.r-14);p.y=Math.min(Math.max(p.y,M.t+14),H-M.b-14)});
+    const xs=dx>=0.1?0.05:0.02,ys=dy>=1?0.5:0.2,tk=(lo,hi,st)=>{const o=[];for(let v=Math.ceil(lo/st-1e-9)*st;v<=hi+1e-9;v+=st)o.push(+v.toFixed(3));return o};
+    const grid=tk(0.5-dx,0.5+dx,xs).map(v=>`<line x1="${X(v)}" x2="${X(v)}" y1="${M.t}" y2="${H-M.b}" stroke="var(--line)" stroke-width="1"/><text x="${X(v)}" y="${H-M.b+16}" text-anchor="middle">${(v*100).toFixed(0)}%</text>`).join("")
+      +tk(-dy,dy,ys).map(v=>`<line x1="${M.l}" x2="${W-M.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)" stroke-width="1"/><text x="${M.l-8}" y="${Y(v)+4}" text-anchor="end">${v>0?"+":""}${v.toFixed(1)}</text>`).join("");
+    const ref=`<line x1="${X(0.5)}" x2="${X(0.5)}" y1="${M.t}" y2="${H-M.b}" stroke="var(--mute)" stroke-dasharray="4 4" opacity=".6"/><line x1="${M.l}" x2="${W-M.r}" y1="${Y(0)}" y2="${Y(0)}" stroke="var(--mute)" stroke-dasharray="4 4" opacity=".6"/>`;
+    const q=(t,x,y,a)=>`<text x="${x}" y="${y}" text-anchor="${a}" opacity=".75" style="font-size:10.5px;letter-spacing:.03em;text-transform:uppercase">${t}</text>`;
+    const quad=q("Strong team · hot goalie",W-M.r-6,M.t+14,"end")+q("Weak team · hot goalie",M.l+6,M.t+14,"start")+q("Strong team · cold goalie",W-M.r-6,H-M.b-8,"end")+q("Weak team · cold goalie",M.l+6,H-M.b-8,"start");
+    const dots=pts.sort((a,b)=>playing.has(a.r.team)-playing.has(b.r.team)).map(p=>{const on=playing.has(p.r.team);
+      return `<g class="pt" data-t="${p.r.team}" transform="translate(${p.x.toFixed(1)},${p.y.toFixed(1)})"><title>${p.r.team}</title>
+        <circle class="chip" r="16" fill="#fff" stroke="${on?"var(--home)":"var(--away)"}" stroke-width="${on?3:2}"/>
+        <text text-anchor="middle" dy="3" style="font-size:9px;font-weight:700;fill:#333">${p.r.team}</text>
+        <image href="${LOGO(p.r.team)}" x="-12.5" y="-12.5" width="25" height="25" onerror="this.remove()"/>
+        <circle r="19" fill="transparent"/></g>`}).join("");
+    $("scatter").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Scatter of each team's xGF% against its starting goalie's GSAx per start">${grid}${ref}${quad}
+      <text x="${(M.l+W-M.r)/2}" y="${H-10}" text-anchor="middle">5v5 expected-goals share (xGF%)  →  better team</text>
+      <text transform="translate(14 ${(M.t+H-M.b)/2}) rotate(-90)" text-anchor="middle">Starter GSAx per start  →  better goalie</text>${dots}</svg>`;
+    const gp=rows.map(r=>r.gp),st=rows.map(r=>r.starts);
+    $("scnote").innerHTML=(view==="full"?`Season to date: ${Math.min(...gp)}–${Math.max(...gp)} games per team; goalie = likely starter, his starts this season (${Math.min(...st)}–${Math.max(...st)}).`
+        :`Each team's last 5 games; goalie = likely starter, his last 5 starts.`)+` GSAx = goals saved above expected, per start. ${playing.size?'<span style="color:var(--home)">Blue ring</span> = playing today. ':""}Logos are nudged apart by up to ${MAXD}px to avoid overlap; exact values in the tooltip and table. Small samples this early: read as direction, not precision.`;
+    $("sctable").innerHTML=`<table><tr><th>Team</th><th>Likely starter</th><th>xGF%</th><th>GP</th><th>GSAx / start</th><th>Starts</th></tr>${rows.slice().sort((a,b)=>b.xgf-a.xgf).map(r=>`<tr><td>${r.team}</td><td>${r.goalie} <small class="note">${pct(r.p_start,0)}</small></td><td>${pct(r.xgf)}</td><td>${r.gp}</td><td>${sg(r.gsax)}</td><td>${r.starts}</td></tr>`).join("")}</table>`;
+    window.__sc=rows;
+  }
+  const tip=$("sctip"),wrap=$("scatterwrap");
+  wrap.addEventListener("mousemove",e=>{const g=e.target.closest&&e.target.closest(".pt");if(!g){tip.hidden=true;return}
+    const r=(window.__sc||[]).find(x=>x.team===g.dataset.t);if(!r)return;
+    tip.innerHTML=`<b>${r.team} · ${r.goalie}</b>xGF% ${pct(r.xgf)} (${r.gp} games)<br>GSAx ${sg(r.gsax)} per start (${r.starts} starts)<br><span class="note">${pct(r.p_start,0)} likely to start${playing.has(r.team)?" · plays today":""}</span>`;
+    const b=wrap.getBoundingClientRect();tip.hidden=false;tip.style.left=Math.min(e.clientX-b.left+14,b.width-tip.offsetWidth-8)+"px";tip.style.top=(e.clientY-b.top+14)+"px"});
+  wrap.addEventListener("mouseleave",()=>{tip.hidden=true});
+  wrap.querySelectorAll&&wrap.querySelectorAll(".seg button").forEach(b=>b.addEventListener("click",()=>{view=b.dataset.w;
+    wrap.querySelectorAll(".seg button").forEach(x=>{x.classList.toggle("on",x===b);x.setAttribute("aria-pressed",String(x===b))});draw()}));
+  draw();
+}).catch(()=>{});
 </script>
 </body></html>
