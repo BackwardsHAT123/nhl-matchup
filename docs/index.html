@@ -79,11 +79,19 @@ svg text{fill:var(--mute);font-size:10px}
 <h1>NHL Matchup Model</h1>
 <div class="sub" id="updated">Loading…</div>
 <nav class="jump" aria-label="Jump to section">
-  <a href="#overview">Record</a><a href="#games">Games</a><a href="#parlays">Parlays</a><a href="#results">Results</a><a href="#checks">Checks</a><a href="#sec-teams">Teams</a><a href="#scatter-sec">Scatter</a><a href="#method">Method</a>
+  <a href="#overview">Record</a><a href="#scatter-sec">Scatter</a><a href="#games">Games</a><a href="#parlays">Parlays</a><a href="#results">Results</a><a href="#checks">Checks</a><a href="#sec-teams">Teams</a><a href="#method">Method</a>
 </nav>
 
 <h2 class="sec" id="overview">Model record</h2>
 <div class="stats" id="stats"></div>
+
+<h3 id="scatter-sec">Team xGF% vs. starting goalie GSAx</h3>
+<div class="card" id="scatterwrap" style="position:relative">
+  <div class="seg" role="group" aria-label="Window"><button type="button" data-w="full" class="on" aria-pressed="true">Full season</button><button type="button" data-w="l5" aria-pressed="false">Last 5 games</button></div>
+  <div id="scatter"></div><div id="sctip" class="tip" hidden></div>
+  <p class="note" id="scnote" style="margin:6px 0 0"></p>
+  <details style="margin-top:8px"><summary class="note" style="cursor:pointer">Table view</summary><div id="sctable"></div></details>
+</div>
 
 <h2 class="sec" id="games">Upcoming games</h2>
 <div id="slate"></div>
@@ -107,14 +115,6 @@ svg text{fill:var(--mute);font-size:10px}
 </div>
 
 <h2 class="sec" id="sec-teams">Teams</h2>
-<h3 id="scatter-sec">Team xGF% vs. starting goalie GSAx</h3>
-<div class="card" id="scatterwrap" style="position:relative">
-  <div class="seg" role="group" aria-label="Window"><button type="button" data-w="full" class="on" aria-pressed="true">Full season</button><button type="button" data-w="l5" aria-pressed="false">Last 5 games</button></div>
-  <div id="scatter"></div><div id="sctip" class="tip" hidden></div>
-  <p class="note" id="scnote" style="margin:6px 0 0"></p>
-  <details style="margin-top:8px"><summary class="note" style="cursor:pointer">Table view</summary><div id="sctable"></div></details>
-</div>
-
 <h3>Team 5v5 xGF% (last 40 games, shrunk to 50%)</h3>
 <div class="card"><table id="teams"></table></div>
 
