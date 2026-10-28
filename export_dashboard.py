@@ -15,6 +15,7 @@ import pandas as pd
 import backtest
 import features as F
 import predict
+import quadrant_lookback
 from seasons import CUR, label
 
 ROOT = Path(__file__).parent
@@ -139,5 +140,6 @@ if __name__ == "__main__":
                 .round(3).to_dict("records"))
     (OUT / "summary.json").write_text(json.dumps(
         dict(generated_at=now, live=live, backtest=backtest_summary(), teams=team_table(),
-                                                              team_goalies=team_goalies(today)), indent=1))
+                                                              team_goalies=team_goalies(today),
+                                                              quad_lookback=quadrant_lookback.summary()), indent=1))
     print(f"{len(games)} upcoming games, live record n={live['n']}, wrote {OUT}")

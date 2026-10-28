@@ -91,6 +91,8 @@ svg text{fill:var(--mute);font-size:10px}
   <div id="scatter"></div><div id="sctip" class="tip" hidden></div>
   <p class="note" id="scnote" style="margin:6px 0 0"></p>
   <details style="margin-top:8px"><summary class="note" style="cursor:pointer">Table view</summary><div id="sctable"></div></details>
+  <h4 style="margin:14px 0 4px">What happened when quadrants met (past seasons)</h4>
+  <div id="quadtable" style="overflow-x:auto"></div>
 </div>
 
 <h2 class="sec" id="games">Upcoming games</h2>
@@ -294,6 +296,13 @@ Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/prediction
     $("scnote").innerHTML=(view==="full"?`Season to date: ${Math.min(...gp)}–${Math.max(...gp)} games per team; goalie = likely starter, his starts this season (${Math.min(...st)}–${Math.max(...st)}).`
         :`Each team's last 5 games; goalie = likely starter, his last 5 starts.`)+` GSAx = goals saved above expected, per start. ${playing.size?'<span style="color:var(--home)">Blue ring</span> = playing today. ':""}Logos are nudged apart by up to ${MAXD}px to avoid overlap; exact values in the tooltip and table. Small samples this early: read as direction, not precision.`;
     $("sctable").innerHTML=`<table><tr><th>Team</th><th>Likely starter</th><th>xGF%</th><th>GP</th><th>GSAx / start</th><th>Starts</th></tr>${rows.slice().sort((a,b)=>b.xgf-a.xgf).map(r=>`<tr><td>${r.team}</td><td>${r.goalie} <small class="note">${pct(r.p_start,0)}</small></td><td>${pct(r.xgf)}</td><td>${r.gp}</td><td>${sg(r.gsax)}</td><td>${r.starts}</td></tr>`).join("")}</table>`;
+    const QL=S.quad_lookback&&S.quad_lookback[view];
+    if(QL){const QN={TR:"Strong/Hot",BR:"Strong/Cold",BL:"Weak/Cold",TL:"Weak/Hot",MID:"Middle"},p1=v=>v==null?"–":(v*100).toFixed(0)+"%",
+        c=(v,z)=>`<td${Math.abs(z)>=2?' class="lead"':''}>${p1(v)}</td>`;
+      $("quadtable").innerHTML=`<table><tr><th>Matchup</th><th>Games</th><th>First side wins</th><th>Home wins</th><th>Avg total</th><th>Over 5.5</th><th>Over 6.5</th></tr>
+        <tr><td><i>All games</i></td><td>${QL.n}</td><td>–</td><td>${p1(QL.home_win)}</td><td>${QL.avg_total.toFixed(2)}</td><td>${p1(QL.over55)}</td><td>${p1(QL.over65)}</td></tr>
+        ${QL.cells.map(r=>`<tr><td>${QN[r.A]} v ${QN[r.B]}</td><td>${r.n}</td>${c(r.A_win,r.A_win_z)}${c(r.home_win,r.home_z)}<td>${r.avg_total.toFixed(2)}</td>${c(r.over55,r.over55_z)}${c(r.over65,r.over65_z)}</tr>`).join("")}</table>
+        <p class="note" style="margin:6px 0 0">Every game since 2023-24, graded with the quadrants each team was in <i>before</i> it (${view==="full"?"season to date":"last 5"}; the goalie is the one who actually started). Shaded = more than two standard errors from the average (50% for "first side wins"); with this many cells, a few will look significant by chance. Totals use fixed 5.5 / 6.5 lines (no historical odds) and include OT/SO goals. Middle = inside the grey diamond.</p>`}
     window.__sc=rows;
   }
   const tip=$("sctip"),wrap=$("scatterwrap");
