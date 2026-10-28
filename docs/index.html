@@ -275,6 +275,10 @@ Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/prediction
     const xs=dx>=0.1?0.05:0.02,ys=dy>=1?0.5:0.2,tk=(lo,hi,st)=>{const o=[];for(let v=Math.ceil(lo/st-1e-9)*st;v<=hi+1e-9;v+=st)o.push(+v.toFixed(3));return o};
     const grid=tk(0.5-dx,0.5+dx,xs).map(v=>`<line x1="${X(v)}" x2="${X(v)}" y1="${M.t}" y2="${H-M.b}" stroke="var(--line)" stroke-width="1"/><text x="${X(v)}" y="${H-M.b+16}" text-anchor="middle">${(v*100).toFixed(0)}%</text>`).join("")
       +tk(-dy,dy,ys).map(v=>`<line x1="${M.l}" x2="${W-M.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)" stroke-width="1"/><text x="${M.l-8}" y="${Y(v)+4}" text-anchor="end">${v>0?"+":""}${v.toFixed(1)}</text>`).join("");
+    const qx=X(0.5),qy=Y(0),ql=M.l,qr=W-M.r,qt=M.t,qb=H-M.b,qr_=(x,y,w,h,f)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${f}"/>`;
+    const zones=qr_(qx,qt,qr-qx,qy-qt,"rgba(120,200,130,.28)")+qr_(qx,qy,qr-qx,qb-qy,"rgba(250,170,90,.28)")   // strong/hot green, strong/cold orange
+      +qr_(ql,qy,qx-ql,qb-qy,"rgba(110,170,240,.28)")+qr_(ql,qt,qx-ql,qy-qt,"rgba(220,120,210,.28)")        // weak/cold blue, weak/hot magenta
+      +`<polygon points="${X(0.5)},${Y(-0.5)} ${X(0.55)},${Y(0)} ${X(0.5)},${Y(0.5)} ${X(0.45)},${Y(0)}" fill="rgba(150,150,150,.30)"/>`;   // too close to the middle to be predictive
     const ref=`<line x1="${X(0.5)}" x2="${X(0.5)}" y1="${M.t}" y2="${H-M.b}" stroke="var(--mute)" stroke-dasharray="4 4" opacity=".6"/><line x1="${M.l}" x2="${W-M.r}" y1="${Y(0)}" y2="${Y(0)}" stroke="var(--mute)" stroke-dasharray="4 4" opacity=".6"/>`;
     const q=(t,x,y,a)=>`<text x="${x}" y="${y}" text-anchor="${a}" opacity=".75" style="font-size:10.5px;letter-spacing:.03em;text-transform:uppercase">${t}</text>`;
     const quad=q("Strong team · hot goalie",W-M.r-6,M.t+14,"end")+q("Weak team · hot goalie",M.l+6,M.t+14,"start")+q("Strong team · cold goalie",W-M.r-6,H-M.b-8,"end")+q("Weak team · cold goalie",M.l+6,H-M.b-8,"start");
@@ -283,7 +287,7 @@ Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/prediction
         <circle class="chip" r="16" fill="#fff" stroke="${on?"var(--home)":"var(--away)"}" stroke-width="${on?3:2}"/>
         <image href="${LOGO(p.r.team)}" x="-12.5" y="-12.5" width="25" height="25" onerror="var t=document.createElementNS('http://www.w3.org/2000/svg','text');t.setAttribute('text-anchor','middle');t.setAttribute('dy','3');t.style.cssText='font-size:9px;font-weight:700;fill:#333';t.textContent='${p.r.team}';this.replaceWith(t)"/>
         <circle r="19" fill="transparent"/></g>`}).join("");
-    $("scatter").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Scatter of each team's xGF% against its starting goalie's GSAx per start">${grid}${ref}${quad}
+    $("scatter").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Scatter of each team's xGF% against its starting goalie's GSAx per start">${zones}${grid}${ref}${quad}
       <text x="${(M.l+W-M.r)/2}" y="${H-10}" text-anchor="middle">5v5 expected-goals share (xGF%)  →  better team</text>
       <text transform="translate(14 ${(M.t+H-M.b)/2}) rotate(-90)" text-anchor="middle">Starter GSAx per start  →  better goalie</text>${dots}</svg>`;
     const gp=rows.map(r=>r.gp),st=rows.map(r=>r.starts);
