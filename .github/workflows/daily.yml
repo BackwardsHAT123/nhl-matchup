@@ -73,5 +73,5 @@ jobs:
           git add docs/data log
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Update predictions $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase
+          git pull --rebase -X theirs   # in a rebase, "theirs" = this run's fresh data, which fully replaces the generated files
           git push
