@@ -2,8 +2,8 @@ name: Daily update
 
 on:
   schedule:
-    - cron: "0 14 * * *"   # 10:00 ET: morning slate
-    - cron: "30 21 * * *"  # 17:30 ET: refresh after starters are usually known
+    - cron: "17 14 * * *"  # ~10:17 ET: morning slate (off the top of the hour: GitHub delays on-the-hour runs)
+    - cron: "43 21 * * *"  # ~17:43 ET: refresh after starters are usually known
   workflow_dispatch:
     inputs:
       odds:
