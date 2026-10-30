@@ -12,7 +12,7 @@ Pipeline: `build_dataset.py` (MoneyPuck 5v5 xG per game, goalie GSAx per start f
 
 Model: composite = 0.75*z(xGF% diff) + 0.15*z(goalie GSAx diff) + 0.10*z(rest/B2B diff);
 P(home) = sigmoid(a + c*composite). Home ice is in the intercept `a`.
-xGF%: last 40 team games (across seasons), shrunk to 50%. GSAx: last 25 starts, shrunk to 0,
+xGF%: this season's games only (resets each season; window grows to the last 40), shrunk to 50%. GSAx: last 25 starts, shrunk to 0,
 calibrated so league-average = 0. Starter = goalie facing the first shot.
 
 Caveats: starters are unknown pre-game (predict.py guesses; override them). No odds are used, so

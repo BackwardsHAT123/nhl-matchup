@@ -38,7 +38,7 @@ def api(url, tries=6):
 
 
 def team_state(tg, team, asof):
-    t = tg[(tg.team == team) & (tg.date < asof)].sort_values("date").tail(F.XG_WINDOW)
+    t = tg[(tg.team == team) & (tg.date < asof) & (tg.season == F.season_of(asof))].sort_values("date").tail(F.XG_WINDOW)
     f, a = t.xgf.sum(), t.xga.sum()
     pct = (f + F.XG_PRIOR) / (f + a + 2 * F.XG_PRIOR)
     last = t.date.max()

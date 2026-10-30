@@ -53,7 +53,7 @@ def team_summary():
         for i, o in zip(g.gameId, g.opp):
             sa.append(ts.loc[(i, o)].sog if (i, o) in ts.index else None)
         sf, sa = pd.Series(sf).dropna(), pd.Series(sa).dropna()
-        t = tg[tg.team == team].sort_values("date").tail(F.XG_WINDOW)
+        t = tg[(tg.team == team) & (tg.season == tg.season.max())].sort_values("date").tail(F.XG_WINDOW)
         f, ag = t.xgf.sum(), t.xga.sum()
         out[team] = dict(
             gp=int(len(g)), w=int(win.sum()), l=int((~win & ~otl).sum()), otl=int(otl.sum()),

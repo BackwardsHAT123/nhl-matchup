@@ -1,7 +1,7 @@
 """Pre-game features for every game, using only information available before it.
 
 Components (home minus away):
-  xg    1. rolling 5v5 xGF% (last XG_WINDOW team games, carried across seasons, shrunk to 50%)
+  xg    1. rolling 5v5 xGF% (this season's games only, last XG_WINDOW at most, shrunk to 50%; resets each season)
   gsax  2. starting goalie GSAx per start over last GS_WINDOW starts (shrunk to 0)
   sched 3. rest days / back-to-back (home ice is handled by the model intercept)
 """
@@ -13,17 +13,24 @@ import pandas as pd
 ROOT = Path(__file__).parent
 PROC = ROOT / "data" / "processed"
 
-XG_WINDOW = 40       # team games in the rolling xGF% window
+XG_WINDOW = 40       # max team games in the rolling xGF% window; the window starts empty each season and grows to this
 XG_PRIOR = 20.0      # pseudo-xG added to each side (~8 games) for shrinkage to 50%
 GS_WINDOW = 25       # goalie starts in the GSAx window (user spec: 20-30)
 GS_PRIOR = 10.0      # pseudo-starts at 0 GSAx
 REST_CAP = 4
 
 
+def season_of(d) -> int:
+    """Start year of the season a date belongs to (September onward = new season)."""
+    d = pd.Timestamp(d)
+    return d.year if d.month >= 9 else d.year - 1
+
+
 def team_features(tg: pd.DataFrame) -> pd.DataFrame:
     tg = tg.sort_values(["team", "date", "gameId"]).copy()
     g = tg.groupby("team")
-    roll = lambda c: g[c].transform(lambda s: s.rolling(XG_WINDOW, min_periods=1).sum().shift(1))
+    gs = tg.groupby(["team", "season"])                  # xGF% does not carry over from last season
+    roll = lambda c: gs[c].transform(lambda s: s.rolling(XG_WINDOW, min_periods=1).sum().shift(1))
     f, a = roll("xgf"), roll("xga")
     tg["xgf_pct"] = (f.fillna(0) + XG_PRIOR) / (f.fillna(0) + a.fillna(0) + 2 * XG_PRIOR)
     prev = g["date"].shift(1)

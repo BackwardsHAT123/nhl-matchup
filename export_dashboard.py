@@ -70,7 +70,7 @@ def team_table():
     tg = pd.read_csv(F.PROC / "team_games.csv", parse_dates=["date"])
     rows = []
     for t, g in tg.groupby("team"):
-        g = g.sort_values("date").tail(F.XG_WINDOW)
+        g = g[g.season == CUR].sort_values("date").tail(F.XG_WINDOW)
         f, a = g.xgf.sum(), g.xga.sum()
         rows.append(dict(team=t, xgf_pct=(f + F.XG_PRIOR) / (f + a + 2 * F.XG_PRIOR),
                          last_game=g.date.max().date().isoformat(), gp_window=len(g)))
