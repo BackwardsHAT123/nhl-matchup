@@ -1,63 +1,15 @@
 {
- "generated_at": "2026-10-31T18:39+00:00",
+ "generated_at": "2026-11-01T00:27+00:00",
  "live": {
-  "n": 80,
-  "acc": 0.6,
-  "logloss": 0.674439870398392,
+  "n": 86,
+  "acc": 0.5930232558139535,
+  "logloss": 0.6761511572133257,
   "recent": [
-   {
-    "date": "2026-10-26",
-    "home": "EDM",
-    "away": "DET",
-    "p_home": 0.573,
-    "home_win": 0,
-    "correct": 0
-   },
-   {
-    "date": "2026-10-27",
-    "home": "WPG",
-    "away": "FLA",
-    "p_home": 0.552,
-    "home_win": 0,
-    "correct": 0
-   },
-   {
-    "date": "2026-10-27",
-    "home": "ANA",
-    "away": "VAN",
-    "p_home": 0.749,
-    "home_win": 0,
-    "correct": 0
-   },
-   {
-    "date": "2026-10-27",
-    "home": "VGK",
-    "away": "OTT",
-    "p_home": 0.547,
-    "home_win": 1,
-    "correct": 1
-   },
    {
     "date": "2026-10-27",
     "home": "SJS",
     "away": "BUF",
     "p_home": 0.488,
-    "home_win": 0,
-    "correct": 1
-   },
-   {
-    "date": "2026-10-27",
-    "home": "DAL",
-    "away": "NJD",
-    "p_home": 0.563,
-    "home_win": 0,
-    "correct": 0
-   },
-   {
-    "date": "2026-10-27",
-    "home": "UTA",
-    "away": "MIN",
-    "p_home": 0.479,
     "home_win": 0,
     "correct": 1
    },
@@ -175,18 +127,10 @@
    },
    {
     "date": "2026-10-29",
-    "home": "PIT",
-    "away": "UTA",
-    "p_home": 0.523,
+    "home": "NSH",
+    "away": "WSH",
+    "p_home": 0.497,
     "home_win": 0,
-    "correct": 0
-   },
-   {
-    "date": "2026-10-29",
-    "home": "STL",
-    "away": "BOS",
-    "p_home": 0.543,
-    "home_win": 1,
     "correct": 1
    },
    {
@@ -196,6 +140,14 @@
     "p_home": 0.64,
     "home_win": 1,
     "correct": 1
+   },
+   {
+    "date": "2026-10-29",
+    "home": "PIT",
+    "away": "UTA",
+    "p_home": 0.523,
+    "home_win": 0,
+    "correct": 0
    },
    {
     "date": "2026-10-29",
@@ -215,17 +167,9 @@
    },
    {
     "date": "2026-10-29",
-    "home": "NSH",
-    "away": "WSH",
-    "p_home": 0.497,
-    "home_win": 0,
-    "correct": 1
-   },
-   {
-    "date": "2026-10-30",
-    "home": "FLA",
-    "away": "WPG",
-    "p_home": 0.65,
+    "home": "STL",
+    "away": "BOS",
+    "p_home": 0.543,
     "home_win": 1,
     "correct": 1
    },
@@ -239,10 +183,66 @@
    },
    {
     "date": "2026-10-30",
+    "home": "FLA",
+    "away": "WPG",
+    "p_home": 0.65,
+    "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-10-30",
     "home": "CGY",
     "away": "SEA",
     "p_home": 0.608,
     "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-10-31",
+    "home": "LAK",
+    "away": "BUF",
+    "p_home": 0.468,
+    "home_win": 0,
+    "correct": 1
+   },
+   {
+    "date": "2026-10-31",
+    "home": "BOS",
+    "away": "CHI",
+    "p_home": 0.742,
+    "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-10-31",
+    "home": "DET",
+    "away": "STL",
+    "p_home": 0.614,
+    "home_win": 0,
+    "correct": 0
+   },
+   {
+    "date": "2026-10-31",
+    "home": "NSH",
+    "away": "TBL",
+    "p_home": 0.41,
+    "home_win": 1,
+    "correct": 0
+   },
+   {
+    "date": "2026-10-31",
+    "home": "NYI",
+    "away": "EDM",
+    "p_home": 0.586,
+    "home_win": 0,
+    "correct": 0
+   },
+   {
+    "date": "2026-10-31",
+    "home": "SJS",
+    "away": "OTT",
+    "p_home": 0.416,
+    "home_win": 0,
     "correct": 1
    }
   ]
@@ -251,7 +251,7 @@
   "label": "2025-26 + 2026-27",
   "n": 1528,
   "acc": 0.5726439790575916,
-  "logloss": 0.6755324507108053,
+  "logloss": 0.6755333939541293,
   "home_rate": 0.5294502617801047,
   "calibration": [
    {
@@ -867,16 +867,16 @@
   {
    "team": "ANA",
    "goalie": "Lukas Dostal",
-   "p_start": 0.861,
+   "p_start": 0.852,
    "full": {
     "xgf": 0.4448,
-    "gsax": -0.143,
+    "gsax": -0.13,
     "gp": 13,
     "starts": 9
    },
    "l5": {
     "xgf": 0.4157,
-    "gsax": -0.213,
+    "gsax": -0.198,
     "gp": 5,
     "starts": 5
    }
@@ -884,16 +884,16 @@
   {
    "team": "BOS",
    "goalie": "Jeremy Swayman",
-   "p_start": 0.583,
+   "p_start": 0.588,
    "full": {
     "xgf": 0.5347,
-    "gsax": 0.492,
+    "gsax": 0.503,
     "gp": 14,
     "starts": 11
    },
    "l5": {
     "xgf": 0.5404,
-    "gsax": 0.175,
+    "gsax": 0.187,
     "gp": 5,
     "starts": 5
    }
@@ -901,16 +901,16 @@
   {
    "team": "BUF",
    "goalie": "Ukko-Pekka Luukkonen",
-   "p_start": 0.723,
+   "p_start": 0.71,
    "full": {
     "xgf": 0.5136,
-    "gsax": -0.335,
+    "gsax": -0.32,
     "gp": 13,
     "starts": 8
    },
    "l5": {
     "xgf": 0.481,
-    "gsax": 0.731,
+    "gsax": 0.749,
     "gp": 5,
     "starts": 5
    }
@@ -921,13 +921,13 @@
    "p_start": 0.968,
    "full": {
     "xgf": 0.4728,
-    "gsax": 0.175,
+    "gsax": 0.185,
     "gp": 13,
     "starts": 7
    },
    "l5": {
     "xgf": 0.4531,
-    "gsax": 1.04,
+    "gsax": 1.05,
     "gp": 5,
     "starts": 5
    }
@@ -935,16 +935,16 @@
   {
    "team": "CAR",
    "goalie": "Pyotr Kochetkov",
-   "p_start": 0.68,
+   "p_start": 0.682,
    "full": {
     "xgf": 0.5992,
-    "gsax": 0.906,
+    "gsax": 0.916,
     "gp": 15,
     "starts": 9
    },
    "l5": {
     "xgf": 0.6276,
-    "gsax": 1.063,
+    "gsax": 1.074,
     "gp": 5,
     "starts": 5
    }
@@ -952,16 +952,16 @@
   {
    "team": "CHI",
    "goalie": "Spencer Knight",
-   "p_start": 0.837,
+   "p_start": 0.82,
    "full": {
     "xgf": 0.4001,
-    "gsax": 0.092,
+    "gsax": 0.105,
     "gp": 13,
     "starts": 11
    },
    "l5": {
     "xgf": 0.4177,
-    "gsax": 0.357,
+    "gsax": 0.369,
     "gp": 5,
     "starts": 5
    }
@@ -969,16 +969,16 @@
   {
    "team": "COL",
    "goalie": "Mackenzie Blackwood",
-   "p_start": 0.694,
+   "p_start": 0.699,
    "full": {
     "xgf": 0.5329,
-    "gsax": -0.029,
+    "gsax": -0.018,
     "gp": 13,
     "starts": 9
    },
    "l5": {
     "xgf": 0.4782,
-    "gsax": 0.71,
+    "gsax": 0.723,
     "gp": 5,
     "starts": 5
    }
@@ -986,16 +986,16 @@
   {
    "team": "CBJ",
    "goalie": "Cam Talbot",
-   "p_start": 0.707,
+   "p_start": 0.686,
    "full": {
     "xgf": 0.4613,
-    "gsax": 0.541,
+    "gsax": 0.555,
     "gp": 11,
     "starts": 5
    },
    "l5": {
     "xgf": 0.3862,
-    "gsax": 0.541,
+    "gsax": 0.555,
     "gp": 5,
     "starts": 5
    }
@@ -1003,16 +1003,16 @@
   {
    "team": "DAL",
    "goalie": "Jake Oettinger",
-   "p_start": 0.768,
+   "p_start": 0.748,
    "full": {
     "xgf": 0.5179,
-    "gsax": 0.716,
+    "gsax": 0.725,
     "gp": 13,
     "starts": 10
    },
    "l5": {
     "xgf": 0.5646,
-    "gsax": 0.437,
+    "gsax": 0.448,
     "gp": 5,
     "starts": 5
    }
@@ -1020,16 +1020,16 @@
   {
    "team": "DET",
    "goalie": "John Gibson",
-   "p_start": 0.715,
+   "p_start": 0.709,
    "full": {
     "xgf": 0.5575,
-    "gsax": -0.361,
+    "gsax": -0.351,
     "gp": 13,
     "starts": 9
    },
    "l5": {
     "xgf": 0.6247,
-    "gsax": -0.105,
+    "gsax": -0.094,
     "gp": 5,
     "starts": 5
    }
@@ -1037,16 +1037,16 @@
   {
    "team": "EDM",
    "goalie": "Tristan Jarry",
-   "p_start": 0.715,
+   "p_start": 0.692,
    "full": {
     "xgf": 0.4877,
-    "gsax": -0.665,
+    "gsax": -0.655,
     "gp": 13,
     "starts": 6
    },
    "l5": {
     "xgf": 0.4368,
-    "gsax": -0.093,
+    "gsax": -0.083,
     "gp": 5,
     "starts": 5
    }
@@ -1054,16 +1054,16 @@
   {
    "team": "FLA",
    "goalie": "Jacob Markstrom",
-   "p_start": 0.921,
+   "p_start": 0.926,
    "full": {
     "xgf": 0.5422,
-    "gsax": 0.242,
+    "gsax": 0.251,
     "gp": 14,
     "starts": 6
    },
    "l5": {
     "xgf": 0.5021,
-    "gsax": -0.188,
+    "gsax": -0.179,
     "gp": 5,
     "starts": 5
    }
@@ -1071,16 +1071,16 @@
   {
    "team": "LAK",
    "goalie": "Anton Forsberg",
-   "p_start": 0.545,
+   "p_start": 0.547,
    "full": {
     "xgf": 0.4665,
-    "gsax": -0.216,
+    "gsax": -0.206,
     "gp": 12,
     "starts": 4
    },
    "l5": {
     "xgf": 0.4428,
-    "gsax": -0.275,
+    "gsax": -0.267,
     "gp": 5,
     "starts": 5
    }
@@ -1088,16 +1088,16 @@
   {
    "team": "MIN",
    "goalie": "Jesper Wallstedt",
-   "p_start": 0.59,
+   "p_start": 0.597,
    "full": {
     "xgf": 0.5601,
-    "gsax": 0.674,
+    "gsax": 0.685,
     "gp": 15,
     "starts": 13
    },
    "l5": {
     "xgf": 0.5976,
-    "gsax": 0.529,
+    "gsax": 0.54,
     "gp": 5,
     "starts": 5
    }
@@ -1108,13 +1108,13 @@
    "p_start": 0.733,
    "full": {
     "xgf": 0.5359,
-    "gsax": 1.334,
+    "gsax": 1.345,
     "gp": 13,
     "starts": 7
    },
    "l5": {
     "xgf": 0.528,
-    "gsax": 1.416,
+    "gsax": 1.428,
     "gp": 5,
     "starts": 5
    }
@@ -1122,16 +1122,16 @@
   {
    "team": "NSH",
    "goalie": "Juuse Saros",
-   "p_start": 0.553,
+   "p_start": 0.551,
    "full": {
     "xgf": 0.4646,
-    "gsax": 0.133,
+    "gsax": 0.145,
     "gp": 13,
     "starts": 10
    },
    "l5": {
     "xgf": 0.4604,
-    "gsax": 0.375,
+    "gsax": 0.387,
     "gp": 5,
     "starts": 5
    }
@@ -1139,16 +1139,16 @@
   {
    "team": "NJD",
    "goalie": "Jake Allen",
-   "p_start": 0.52,
+   "p_start": 0.527,
    "full": {
     "xgf": 0.5857,
-    "gsax": -0.229,
+    "gsax": -0.218,
     "gp": 14,
     "starts": 8
    },
    "l5": {
     "xgf": 0.5345,
-    "gsax": -0.727,
+    "gsax": -0.716,
     "gp": 5,
     "starts": 5
    }
@@ -1156,16 +1156,16 @@
   {
    "team": "NYI",
    "goalie": "Ilya Sorokin",
-   "p_start": 0.591,
+   "p_start": 0.587,
    "full": {
     "xgf": 0.4986,
-    "gsax": 0.648,
+    "gsax": 0.66,
     "gp": 13,
     "starts": 9
    },
    "l5": {
     "xgf": 0.5143,
-    "gsax": 0.138,
+    "gsax": 0.15,
     "gp": 5,
     "starts": 5
    }
@@ -1176,13 +1176,13 @@
    "p_start": 0.845,
    "full": {
     "xgf": 0.5103,
-    "gsax": -0.117,
+    "gsax": -0.106,
     "gp": 14,
     "starts": 8
    },
    "l5": {
     "xgf": 0.5506,
-    "gsax": -0.781,
+    "gsax": -0.769,
     "gp": 5,
     "starts": 5
    }
@@ -1193,13 +1193,13 @@
    "p_start": 0.583,
    "full": {
     "xgf": 0.508,
-    "gsax": 1.039,
+    "gsax": 1.048,
     "gp": 14,
     "starts": 8
    },
    "l5": {
     "xgf": 0.5394,
-    "gsax": 0.694,
+    "gsax": 0.702,
     "gp": 5,
     "starts": 5
    }
@@ -1207,16 +1207,16 @@
   {
    "team": "PHI",
    "goalie": "Dan Vladar",
-   "p_start": 0.612,
+   "p_start": 0.61,
    "full": {
     "xgf": 0.3934,
-    "gsax": 0.031,
+    "gsax": 0.044,
     "gp": 15,
     "starts": 7
    },
    "l5": {
     "xgf": 0.4932,
-    "gsax": 0.44,
+    "gsax": 0.452,
     "gp": 5,
     "starts": 5
    }
@@ -1224,16 +1224,16 @@
   {
    "team": "PIT",
    "goalie": "Arturs Silovs",
-   "p_start": 0.772,
+   "p_start": 0.77,
    "full": {
     "xgf": 0.5187,
-    "gsax": 0.222,
+    "gsax": 0.235,
     "gp": 13,
     "starts": 9
    },
    "l5": {
     "xgf": 0.506,
-    "gsax": 0.627,
+    "gsax": 0.642,
     "gp": 5,
     "starts": 5
    }
@@ -1241,16 +1241,16 @@
   {
    "team": "SJS",
    "goalie": "Yaroslav Askarov",
-   "p_start": 0.564,
+   "p_start": 0.565,
    "full": {
     "xgf": 0.4203,
-    "gsax": 0.38,
+    "gsax": 0.394,
     "gp": 14,
     "starts": 9
    },
    "l5": {
     "xgf": 0.3944,
-    "gsax": 1.148,
+    "gsax": 1.162,
     "gp": 5,
     "starts": 5
    }
@@ -1258,16 +1258,16 @@
   {
    "team": "SEA",
    "goalie": "Joey Daccord",
-   "p_start": 0.859,
+   "p_start": 0.872,
    "full": {
     "xgf": 0.4472,
-    "gsax": -0.524,
+    "gsax": -0.511,
     "gp": 14,
     "starts": 6
    },
    "l5": {
     "xgf": 0.455,
-    "gsax": -0.875,
+    "gsax": -0.862,
     "gp": 5,
     "starts": 5
    }
@@ -1275,16 +1275,16 @@
   {
    "team": "STL",
    "goalie": "Joel Hofer",
-   "p_start": 0.671,
+   "p_start": 0.669,
    "full": {
     "xgf": 0.4953,
-    "gsax": 0.514,
+    "gsax": 0.525,
     "gp": 13,
     "starts": 9
    },
    "l5": {
     "xgf": 0.486,
-    "gsax": 0.487,
+    "gsax": 0.499,
     "gp": 5,
     "starts": 5
    }
@@ -1292,16 +1292,16 @@
   {
    "team": "TBL",
    "goalie": "Andrei Vasilevskiy",
-   "p_start": 0.714,
+   "p_start": 0.718,
    "full": {
     "xgf": 0.5649,
-    "gsax": -0.406,
+    "gsax": -0.396,
     "gp": 12,
     "starts": 9
    },
    "l5": {
     "xgf": 0.5634,
-    "gsax": -0.698,
+    "gsax": -0.687,
     "gp": 5,
     "starts": 5
    }
@@ -1309,16 +1309,16 @@
   {
    "team": "TOR",
    "goalie": "Sergei Bobrovsky",
-   "p_start": 0.504,
+   "p_start": 0.519,
    "full": {
     "xgf": 0.4507,
-    "gsax": 0.058,
+    "gsax": 0.07,
     "gp": 15,
     "starts": 10
    },
    "l5": {
     "xgf": 0.4845,
-    "gsax": -0.767,
+    "gsax": -0.757,
     "gp": 5,
     "starts": 5
    }
@@ -1326,16 +1326,16 @@
   {
    "team": "UTA",
    "goalie": "Karel Vejmelka",
-   "p_start": 0.815,
+   "p_start": 0.806,
    "full": {
     "xgf": 0.5805,
-    "gsax": -0.353,
+    "gsax": -0.342,
     "gp": 14,
     "starts": 10
    },
    "l5": {
     "xgf": 0.6034,
-    "gsax": -1.179,
+    "gsax": -1.169,
     "gp": 5,
     "starts": 5
    }
@@ -1343,16 +1343,16 @@
   {
    "team": "VAN",
    "goalie": "Leevi Merilainen",
-   "p_start": 0.56,
+   "p_start": 0.559,
    "full": {
     "xgf": 0.3944,
-    "gsax": 0.357,
+    "gsax": 0.372,
     "gp": 15,
     "starts": 8
    },
    "l5": {
     "xgf": 0.4013,
-    "gsax": -0.213,
+    "gsax": -0.198,
     "gp": 5,
     "starts": 5
    }
@@ -1360,16 +1360,16 @@
   {
    "team": "VGK",
    "goalie": "Carter Hart",
-   "p_start": 0.953,
+   "p_start": 0.948,
    "full": {
     "xgf": 0.549,
-    "gsax": -0.371,
+    "gsax": -0.362,
     "gp": 15,
     "starts": 8
    },
    "l5": {
     "xgf": 0.5655,
-    "gsax": -0.367,
+    "gsax": -0.357,
     "gp": 5,
     "starts": 5
    }
@@ -1377,16 +1377,16 @@
   {
    "team": "WSH",
    "goalie": "Logan Thompson",
-   "p_start": 0.82,
+   "p_start": 0.811,
    "full": {
     "xgf": 0.5315,
-    "gsax": 0.644,
+    "gsax": 0.657,
     "gp": 12,
     "starts": 8
    },
    "l5": {
     "xgf": 0.5667,
-    "gsax": 0.085,
+    "gsax": 0.097,
     "gp": 5,
     "starts": 5
    }
@@ -1397,13 +1397,13 @@
    "p_start": 0.534,
    "full": {
     "xgf": 0.4603,
-    "gsax": 0.422,
+    "gsax": 0.435,
     "gp": 14,
     "starts": 9
    },
    "l5": {
     "xgf": 0.4399,
-    "gsax": 0.202,
+    "gsax": 0.216,
     "gp": 5,
     "starts": 5
    }
@@ -1462,16 +1462,16 @@
     {
      "A": "TR",
      "B": "TL",
-     "n": 187,
-     "A_win": 0.642,
-     "A_win_z": 3.876,
-     "home_win": 0.535,
-     "home_z": -0.259,
-     "avg_total": 6.155,
-     "over55": 0.54,
-     "over55_z": -0.543,
-     "over65": 0.449,
-     "over65_z": 0.013
+     "n": 188,
+     "A_win": 0.638,
+     "A_win_z": 3.792,
+     "home_win": 0.537,
+     "home_z": -0.192,
+     "avg_total": 6.154,
+     "over55": 0.543,
+     "over55_z": -0.477,
+     "over65": 0.447,
+     "over65_z": -0.053
     },
     {
      "A": "TR",
@@ -1518,16 +1518,16 @@
     {
      "A": "BR",
      "B": "TL",
-     "n": 124,
-     "A_win": 0.613,
-     "A_win_z": 2.514,
-     "home_win": 0.556,
-     "home_z": 0.274,
+     "n": 123,
+     "A_win": 0.618,
+     "A_win_z": 2.615,
+     "home_win": 0.553,
+     "home_z": 0.193,
      "avg_total": 6.081,
-     "over55": 0.516,
-     "over55_z": -0.98,
-     "over65": 0.403,
-     "over65_z": -1.019
+     "over55": 0.512,
+     "over55_z": -1.064,
+     "over65": 0.407,
+     "over65_z": -0.942
     },
     {
      "A": "BR",
