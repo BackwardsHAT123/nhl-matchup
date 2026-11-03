@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T22:50+00:00",
+ "generated_at": "2026-11-03T03:07+00:00",
  "min_joint": 0.06,
  "n_sim": 20000,
  "odds_games": 0,
@@ -1568,13 +1568,31 @@
      "leg_probs": [
       0.447,
       0.429,
-      0.214
+      0.219
      ],
-     "p_joint": 0.071,
-     "p_raw": 0.0666,
-     "p_indep": 0.041,
-     "lift": 1.733,
-     "fair_odds": 1308,
+     "p_joint": 0.0726,
+     "p_raw": 0.068,
+     "p_indep": 0.0421,
+     "lift": 1.724,
+     "fair_odds": 1278,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "DET ML",
+      "Over 6.5",
+      "Emmitt Finnie anytime goal"
+     ],
+     "leg_probs": [
+      0.447,
+      0.429,
+      0.202
+     ],
+     "p_joint": 0.0667,
+     "p_raw": 0.0624,
+     "p_indep": 0.0387,
+     "lift": 1.72,
+     "fair_odds": 1400,
      "sig": "atg+ml+total"
     },
     {
@@ -1586,31 +1604,31 @@
      "leg_probs": [
       0.447,
       0.429,
-      0.288
+      0.29
      ],
-     "p_joint": 0.0941,
-     "p_raw": 0.0882,
-     "p_indep": 0.0553,
-     "lift": 1.703,
-     "fair_odds": 963,
+     "p_joint": 0.0925,
+     "p_raw": 0.0867,
+     "p_indep": 0.0556,
+     "lift": 1.666,
+     "fair_odds": 981,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "DET ML",
-      "Over 6.5",
+      "Over 5.5",
       "Emmitt Finnie anytime goal"
      ],
      "leg_probs": [
       0.447,
-      0.429,
-      0.203
+      0.598,
+      0.202
      ],
-     "p_joint": 0.0655,
-     "p_raw": 0.0614,
-     "p_indep": 0.0389,
-     "lift": 1.686,
-     "fair_odds": 1426,
+     "p_joint": 0.0882,
+     "p_raw": 0.0826,
+     "p_indep": 0.054,
+     "lift": 1.633,
+     "fair_odds": 1034,
      "sig": "atg+ml+total"
     },
     {
@@ -1622,31 +1640,13 @@
      "leg_probs": [
       0.447,
       0.598,
-      0.214
+      0.219
      ],
-     "p_joint": 0.0944,
-     "p_raw": 0.0884,
-     "p_indep": 0.0571,
-     "lift": 1.652,
-     "fair_odds": 960,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "DET ML",
-      "Over 5.5",
-      "Emmitt Finnie anytime goal"
-     ],
-     "leg_probs": [
-      0.447,
-      0.598,
-      0.203
-     ],
-     "p_joint": 0.0878,
-     "p_raw": 0.0823,
-     "p_indep": 0.0542,
-     "lift": 1.622,
-     "fair_odds": 1038,
+     "p_joint": 0.0957,
+     "p_raw": 0.0897,
+     "p_indep": 0.0587,
+     "lift": 1.632,
+     "fair_odds": 944,
      "sig": "atg+ml+total"
     },
     {
@@ -1676,12 +1676,12 @@
      "leg_probs": [
       0.447,
       0.429,
-      0.333
+      0.334
      ],
      "p_joint": 0.1027,
      "p_raw": 0.0994,
-     "p_indep": 0.0639,
-     "lift": 1.607,
+     "p_indep": 0.064,
+     "lift": 1.604,
      "fair_odds": 874,
      "sig": "atg+ml+total"
     },
@@ -1710,13 +1710,13 @@
      ],
      "leg_probs": [
       0.447,
-      0.333
+      0.334
      ],
-     "p_joint": 0.1904,
-     "p_raw": 0.1916,
-     "p_indep": 0.1489,
-     "lift": 1.279,
-     "fair_odds": 425,
+     "p_joint": 0.1909,
+     "p_raw": 0.1921,
+     "p_indep": 0.1492,
+     "lift": 1.28,
+     "fair_odds": 424,
      "sig": "atg+ml"
     },
     {
@@ -1742,13 +1742,13 @@
      ],
      "leg_probs": [
       0.429,
-      0.333
+      0.334
      ],
-     "p_joint": 0.1865,
-     "p_raw": 0.1877,
-     "p_indep": 0.143,
-     "lift": 1.305,
-     "fair_odds": 436,
+     "p_joint": 0.1844,
+     "p_raw": 0.1856,
+     "p_indep": 0.1433,
+     "lift": 1.287,
+     "fair_odds": 442,
      "sig": "atg+total"
     },
     {
@@ -1790,13 +1790,13 @@
      ],
      "leg_probs": [
       0.447,
-      0.288
+      0.29
      ],
-     "p_joint": 0.1653,
-     "p_raw": 0.1663,
-     "p_indep": 0.1287,
-     "lift": 1.284,
-     "fair_odds": 505,
+     "p_joint": 0.1663,
+     "p_raw": 0.1673,
+     "p_indep": 0.1295,
+     "lift": 1.285,
+     "fair_odds": 501,
      "sig": "atg+ml"
     }
    ]
@@ -2328,13 +2328,13 @@
      "leg_probs": [
       0.51,
       0.457,
-      0.204
+      0.205
      ],
-     "p_joint": 0.0837,
-     "p_raw": 0.0784,
-     "p_indep": 0.0474,
-     "lift": 1.764,
-     "fair_odds": 1095,
+     "p_joint": 0.0842,
+     "p_raw": 0.0789,
+     "p_indep": 0.0477,
+     "lift": 1.765,
+     "fair_odds": 1088,
      "sig": "atg+ml+total"
     },
     {
@@ -2359,18 +2359,18 @@
      "legs": [
       "VGK ML",
       "Over 6.5",
-      "Jack Eichel anytime goal"
+      "Mitch Marner anytime goal"
      ],
      "leg_probs": [
       0.51,
       0.457,
-      0.249
+      0.229
      ],
-     "p_joint": 0.0963,
-     "p_raw": 0.0932,
-     "p_indep": 0.0579,
-     "lift": 1.663,
-     "fair_odds": 939,
+     "p_joint": 0.0885,
+     "p_raw": 0.083,
+     "p_indep": 0.0533,
+     "lift": 1.66,
+     "fair_odds": 1029,
      "sig": "atg+ml+total"
     },
     {
@@ -2395,18 +2395,18 @@
      "legs": [
       "VGK ML",
       "Over 6.5",
-      "Mitch Marner anytime goal"
+      "Jack Eichel anytime goal"
      ],
      "leg_probs": [
       0.51,
       0.457,
-      0.226
+      0.249
      ],
-     "p_joint": 0.0863,
-     "p_raw": 0.0808,
-     "p_indep": 0.0526,
-     "lift": 1.64,
-     "fair_odds": 1059,
+     "p_joint": 0.0946,
+     "p_raw": 0.0916,
+     "p_indep": 0.0578,
+     "lift": 1.635,
+     "fair_odds": 958,
      "sig": "atg+ml+total"
     },
     {
@@ -2418,13 +2418,31 @@
      "leg_probs": [
       0.51,
       0.457,
-      0.29
+      0.285
      ],
-     "p_joint": 0.1081,
-     "p_raw": 0.1046,
-     "p_indep": 0.0675,
-     "lift": 1.602,
-     "fair_odds": 825,
+     "p_joint": 0.1071,
+     "p_raw": 0.1037,
+     "p_indep": 0.0665,
+     "lift": 1.612,
+     "fair_odds": 834,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "VGK ML",
+      "Over 5.5",
+      "Tomas Hertl anytime goal"
+     ],
+     "leg_probs": [
+      0.51,
+      0.625,
+      0.205
+     ],
+     "p_joint": 0.1036,
+     "p_raw": 0.1003,
+     "p_indep": 0.0652,
+     "lift": 1.588,
+     "fair_odds": 865,
      "sig": "atg+ml+total"
     },
     {
@@ -2448,20 +2466,18 @@
     {
      "legs": [
       "VGK ML",
-      "Over 5.5",
-      "Tomas Hertl anytime goal"
+      "Mark Stone anytime goal"
      ],
      "leg_probs": [
       0.51,
-      0.625,
-      0.204
+      0.285
      ],
-     "p_joint": 0.1019,
-     "p_raw": 0.0987,
-     "p_indep": 0.0649,
-     "lift": 1.57,
-     "fair_odds": 881,
-     "sig": "atg+ml+total"
+     "p_joint": 0.184,
+     "p_raw": 0.1851,
+     "p_indep": 0.1455,
+     "lift": 1.265,
+     "fair_odds": 444,
+     "sig": "atg+ml"
     },
     {
      "legs": [
@@ -2502,62 +2518,46 @@
      ],
      "leg_probs": [
       0.457,
-      0.29
+      0.285
      ],
-     "p_joint": 0.1697,
-     "p_raw": 0.1708,
-     "p_indep": 0.1324,
-     "lift": 1.282,
-     "fair_odds": 489,
+     "p_joint": 0.1641,
+     "p_raw": 0.1651,
+     "p_indep": 0.1304,
+     "lift": 1.258,
+     "fair_odds": 509,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Jack Eichel anytime goal"
+     ],
+     "leg_probs": [
+      0.457,
+      0.249
+     ],
+     "p_joint": 0.1486,
+     "p_raw": 0.1495,
+     "p_indep": 0.1135,
+     "lift": 1.309,
+     "fair_odds": 573,
      "sig": "atg+total"
     },
     {
      "legs": [
       "VGK ML",
-      "Jack Eichel anytime goal"
+      "Mitch Marner anytime goal"
      ],
      "leg_probs": [
       0.51,
-      0.249
+      0.229
      ],
-     "p_joint": 0.1593,
-     "p_raw": 0.1603,
-     "p_indep": 0.1267,
-     "lift": 1.257,
-     "fair_odds": 528,
+     "p_joint": 0.1462,
+     "p_raw": 0.1471,
+     "p_indep": 0.1167,
+     "lift": 1.252,
+     "fair_odds": 584,
      "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Jack Eichel anytime goal"
-     ],
-     "leg_probs": [
-      0.457,
-      0.249
-     ],
-     "p_joint": 0.1468,
-     "p_raw": 0.1477,
-     "p_indep": 0.1136,
-     "lift": 1.292,
-     "fair_odds": 581,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 6.5",
-      "Evgeni Malkin anytime goal"
-     ],
-     "leg_probs": [
-      0.457,
-      0.233
-     ],
-     "p_joint": 0.1413,
-     "p_raw": 0.1368,
-     "p_indep": 0.1065,
-     "lift": 1.327,
-     "fair_odds": 607,
-     "sig": "atg+total"
     }
    ]
   },

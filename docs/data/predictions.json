@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T22:50+00:00",
+ "generated_at": "2026-11-03T03:06+00:00",
  "today": "2026-11-02",
  "games": [
   {
@@ -356,7 +356,7 @@
    "start_utc": "2026-11-04T00:00:00Z",
    "home": "TOR",
    "away": "UTA",
-   "p_home": 0.3765788679535921,
+   "p_home": 0.37657886795359213,
    "h_xg": 0.47509132039994906,
    "a_xg": 0.547987646262215,
    "h_goalie": "Sergei Bobrovsky",
@@ -582,6 +582,13 @@
    ],
    "a_last4": [
     {
+     "date": "2026-11-02",
+     "opp": "FLA",
+     "home": false,
+     "gf": 5,
+     "ga": 3
+    },
+    {
      "date": "2026-10-31",
      "opp": "STL",
      "home": true,
@@ -601,13 +608,6 @@
      "home": false,
      "gf": 4,
      "ga": 3
-    },
-    {
-     "date": "2026-10-24",
-     "opp": "CGY",
-     "home": false,
-     "gf": 1,
-     "ga": 4
     }
    ]
   },
@@ -791,7 +791,7 @@
    "start_utc": "2026-11-04T00:00:00Z",
    "home": "PIT",
    "away": "VGK",
-   "p_home": 0.4901973671526459,
+   "p_home": 0.4901973671526458,
    "h_xg": 0.5109964392482435,
    "a_xg": 0.5300838877639572,
    "h_goalie": "Arturs Silovs",
@@ -843,6 +843,13 @@
    ],
    "a_last4": [
     {
+     "date": "2026-11-02",
+     "opp": "BOS",
+     "home": false,
+     "gf": 2,
+     "ga": 3
+    },
+    {
      "date": "2026-10-30",
      "opp": "NJD",
      "home": true,
@@ -862,13 +869,6 @@
      "home": false,
      "gf": 1,
      "ga": 2
-    },
-    {
-     "date": "2026-10-22",
-     "opp": "STL",
-     "home": false,
-     "gf": 2,
-     "ga": 6
     }
    ]
   },
@@ -1313,7 +1313,7 @@
    "start_utc": "2026-11-05T00:30:00Z",
    "home": "BUF",
    "away": "OTT",
-   "p_home": 0.5358715197608083,
+   "p_home": 0.5358715197608084,
    "h_xg": 0.5022365983233189,
    "a_xg": 0.5135810338446354,
    "h_goalie": "Ukko-Pekka Luukkonen",
@@ -1422,6 +1422,13 @@
    ],
    "h_last4": [
     {
+     "date": "2026-11-02",
+     "opp": "DET",
+     "home": true,
+     "gf": 3,
+     "ga": 5
+    },
+    {
      "date": "2026-10-30",
      "opp": "WPG",
      "home": true,
@@ -1441,13 +1448,6 @@
      "home": false,
      "gf": 3,
      "ga": 2
-    },
-    {
-     "date": "2026-10-22",
-     "opp": "PIT",
-     "home": false,
-     "gf": 0,
-     "ga": 4
     }
    ],
    "a_last4": [
