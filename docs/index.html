@@ -32,6 +32,7 @@ nav.jump a.on{background:var(--home);border-color:var(--home);color:#fff}
 .pr{display:flex;justify-content:space-between;font-size:12px;color:var(--mute);margin-top:3px}
 .pick{font-weight:700}.pick small{font-weight:400;color:var(--mute);display:block}
 .meta{grid-column:1/-1;font-size:12px;color:var(--mute);display:flex;flex-wrap:wrap;gap:4px 14px;border-top:1px solid var(--line);padding-top:6px}
+.qm{grid-column:1/-1;font-size:12px;color:var(--mute);display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center}.qm .qc{border:1px solid var(--line);border-radius:4px;padding:0 6px;white-space:nowrap;color:var(--ink)}.qm .qc.hi{background:rgba(40,200,90,.4)}.qm .qc.lo{background:rgba(240,130,30,.4)}.qm .qc.sg{font-weight:700}
 .flag{background:#e6f4ea;color:var(--good);border:1px solid var(--good);border-radius:4px;padding:0 6px;font-size:11px;font-weight:600;margin-left:6px;white-space:nowrap}
 .tag{background:var(--warnbg);color:var(--warn);border-radius:4px;padding:0 5px;font-size:11px}
 table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right}th:first-child,td:first-child{text-align:left}
@@ -98,7 +99,7 @@ svg text{fill:var(--mute);font-size:10px}
 
 <h2 class="sec" id="games">Upcoming games</h2>
 <div id="slate"></div>
-<p class="note"><span class="flag" style="margin:0">Both &gt;51% xGF%</span> = both teams' rolling 5v5 xGF% is above 51%. The xGF% shown on each game is the model's input: the team's games this season only (last year's games are not used), up to its last 40, shrunk toward 50%, so early in the season it leans on the 50% prior and is less stable. The scatter above uses the raw, unshrunk season-to-date and last-5 xGF% instead, so the two will differ, especially for a team that has recently run hot or cold. * Starting goalie is assumed (most-used recent starter) until confirmed. Win probability is shown for each team; bar = home share. GSAx = goals saved above expected per start over the last 25 starts, shrunk toward average. Last-4 boxes show goals scored (green = won, red = lost; hover for opponent and score).</p>
+<p class="note"><span class="flag" style="margin:0">Both &gt;51% xGF%</span> = both teams' rolling 5v5 xGF% is above 51%. The xGF% shown on each game is the model's input: the team's games this season only (last year's games are not used), up to its last 40, shrunk toward 50%, so early in the season it leans on the 50% prior and is less stable. The scatter above uses the raw, unshrunk season-to-date and last-5 xGF% instead, so the two will differ, especially for a team that has recently run hot or cold. * Starting goalie is assumed (most-used recent starter) until confirmed. Win probability is shown for each team; bar = home share. GSAx = goals saved above expected per start over the last 25 starts, shrunk toward average. Quadrant markers (Season / Last 5) place each team on the scatter and show what that pairing did historically in the table below the scatter: <b>*</b> = more than two standard errors from the average, green ▲ / orange ▼ = highest / lowest in that column of the table (hover for sample size). Last-4 boxes show goals scored (green = won, red = lost; hover for opponent and score).</p>
 
 <h2 class="sec" id="parlays">Same-game parlay finder</h2>
 <p class="note">Simulated joint outcomes for 2–3 leg parlays, ranked by <b>correlation lift</b> = P(all legs hit) ÷ product of each leg's probability. <b>Fair odds</b> are the break-even price: if your book pays better than fair odds the parlay is +EV <i>by this model</i>. Type your book's SGP price to see EV. Books already discount for correlation, so check that price, not just the lift. Plays pairing a player's shots with the opposing goalie's saves are excluded (same shots counted twice).</p>
@@ -139,6 +140,24 @@ Promise.all([fetch("data/predictions.json").then(r=>r.json()),fetch("data/summar
     [bt.logloss.toFixed(3),"Backtest log loss (coin flip 0.693)"],
     [lv.n?pct(lv.acc):"—",lv.n?"Live accuracy ("+lv.n+" graded)":"Live record starts once logged games finish"],
   ].map(([a,b])=>`<div class="card stat"><b>${a}</b><span>${b}</span></div>`).join("");
+  // quadrant matchup markers: where each team sits on the scatter, and what that pairing did historically (table above)
+  const QN={TR:"Strong/Hot",BR:"Strong/Cold",BL:"Weak/Cold",TL:"Weak/Hot",MID:"Middle"},QO=["TR","BR","BL","TL","MID"],QV=["full","l5"],QVL={full:"Season",l5:"Last 5"};
+  const quadOf=(x,y)=>Math.abs(x-.5)/.05+Math.abs(y)/.5<=1?"MID":(y>=0?"T":"B")+(x>=.5?"R":"L");
+  const TG=Object.fromEntries((S.team_goalies||[]).map(t=>[t.team,t])),QX={};
+  QV.forEach(v=>{const L=S.quad_lookback&&S.quad_lookback[v];if(!L)return;QX[v]={};
+    ["A_win","home_win","avg_total","over55","over65"].forEach(k=>{const vs=L.cells.map(r=>r[k]).filter(x=>x!=null);QX[v][k]=[Math.max(...vs),Math.min(...vs)]})});
+  const qm=g=>{const a=TG[g.away],h=TG[g.home];if(!a||!h)return"";let html="";
+    QV.forEach(v=>{const L=S.quad_lookback&&S.quad_lookback[v];if(!L||!a[v]||!h[v]||a[v].gsax==null||h[v].gsax==null)return;
+      const qa=quadOf(a[v].xgf,a[v].gsax),qh=quadOf(h[v].xgf,h[v].gsax),ia=QO.indexOf(qa),ih=QO.indexOf(qh),[A,B]=ia<=ih?[qa,qh]:[qh,qa];
+      const c=L.cells.find(r=>r.A===A&&r.B===B);if(!c)return;
+      const first=ia<=ih?g.away:g.home,p0=x=>(x*100).toFixed(0)+"%";
+      const cols=[["A_win",`${first} (${QN[A]}) wins`,"A_win_z",p0],["home_win","Home wins","home_z",p0],["avg_total","Avg total",null,x=>x.toFixed(2)],["over55","Over 5.5","over55_z",p0],["over65","Over 6.5","over65_z",p0]];
+      const chips=cols.map(([k,lab,zk,f])=>{const val=c[k];if(val==null)return"";
+        const sig=zk&&Math.abs(c[zk])>=2,hi=val===QX[v][k][0],lo=val===QX[v][k][1];if(!sig&&!hi&&!lo)return"";
+        const why=[sig?"more than two standard errors from the average":"",hi?"highest in this column of the table":"",lo?"lowest in this column of the table":""].filter(Boolean).join("; ");
+        return `<span class="qc${hi?" hi":lo?" lo":""}${sig?" sg":""}" title="${QN[qa]} (${g.away}) @ ${QN[qh]} (${g.home}), ${c.n} past games: ${why}">${lab} ${f(val)}${sig?"*":""}${hi?" ▲":lo?" ▼":""}</span>`}).join("");
+      if(chips)html+=`<div class="qm"><b>${QVL[v]}: ${QN[qa]} @ ${QN[qh]}</b> <small>(${c.n})</small>${chips}</div>`});
+    return html};
   // slate
   const byDay={};P.games.forEach(g=>(byDay[g.date]??=[]).push(g));
   $("slate").innerHTML=Object.keys(byDay).sort().map(d=>{
@@ -151,7 +170,7 @@ Promise.all([fetch("data/predictions.json").then(r=>r.json()),fetch("data/summar
       return `<div class="card game" data-away="${g.away}" data-home="${g.home}"><div class="teams" role="button" tabindex="0" aria-expanded="false" title="Click for team and player stats"><span class="caret">▸</span> ${g.away} @ ${g.home}${g.a_xg>HI&&g.h_xg>HI?`<span class="flag" title="Both teams above ${pct(HI,0)} xGF%">Both &gt;${pct(HI,0)} xGF%</span>`:""}<small>${new Date(g.start_utc).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}</small></div>
       <div><div class="bar"><i style="width:${ph*100}%"></i></div><div class="pr"><span>${g.away} ${pct(1-ph)}</span><span>${g.home} ${pct(ph)}</span></div></div>
       <div class="pick">${pick} <small>${pct(c)} confidence</small></div>
-      <div class="meta"><span>xGF% ${g.away} ${pct(g.a_xg)} · ${g.home} ${pct(g.h_xg)}</span><span>G: ${gs(g.a_goalie,g.a_assumed,g.a_gsax,g.a_p_start,g.a_alt)} vs ${gs(g.h_goalie,g.h_assumed,g.h_gsax,g.h_p_start,g.h_alt)}</span><span>${g.away}: ${rest(g.a_rest)} · ${g.home}: ${rest(g.h_rest)}</span><span class="last4">Goals scored, last 4 (newest first): ${g.away}${l4(g.a_last4)} · ${g.home}${l4(g.h_last4)}</span></div><div class="detail" hidden></div></div>`}).join("")}).join("")||'<div class="card">No games scheduled.</div>';
+      <div class="meta"><span>xGF% ${g.away} ${pct(g.a_xg)} · ${g.home} ${pct(g.h_xg)}</span><span>G: ${gs(g.a_goalie,g.a_assumed,g.a_gsax,g.a_p_start,g.a_alt)} vs ${gs(g.h_goalie,g.h_assumed,g.h_gsax,g.h_p_start,g.h_alt)}</span><span>${g.away}: ${rest(g.a_rest)} · ${g.home}: ${rest(g.h_rest)}</span><span class="last4">Goals scored, last 4 (newest first): ${g.away}${l4(g.a_last4)} · ${g.home}${l4(g.h_last4)}</span></div>${qm(g)}<div class="detail" hidden></div></div>`}).join("")}).join("")||'<div class="card">No games scheduled.</div>';
   // calibration
   $("cal").innerHTML="<tr><th>Model confidence</th><th>Games</th><th>Avg conf.</th><th>Actual win %</th></tr>"+bt.calibration.map(r=>`<tr><td>${["50-55%","55-60%","60-65%","65%+"][bt.calibration.indexOf(r)]}</td><td>${r.n}</td><td>${pct(r.conf)}</td><td>${pct(r.acc)}</td></tr>`).join("");
   // cumulative accuracy chart
