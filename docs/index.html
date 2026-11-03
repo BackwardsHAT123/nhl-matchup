@@ -304,11 +304,11 @@ Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/prediction
           return v=>{if(v==null)return"";const hi=vs.filter(x=>x>v).length,lo=vs.filter(x=>x<v).length;
             return hi<3?`background:rgba(40,200,90,${[.7,.42,.2][hi]});`:lo<3?`background:rgba(240,130,30,${st[lo]});`:""}},
         S5={A_win:sh("A_win"),home_win:sh("home_win"),avg_total:sh("avg_total"),over55:sh("over55"),over65:sh("over65")},
-        c=(k,zk,r,f=p1)=>`<td style="${S5[k](r[k])}${Math.abs(r[zk]||0)>=2?'font-weight:700':''}">${f(r[k])}</td>`;
+        c=(k,zk,r,f=p1)=>{const sig=Math.abs(r[zk]||0)>=2;return `<td style="${S5[k](r[k])}${sig?'font-weight:700':''}">${f(r[k])}${sig?"*":""}</td>`};
       $("quadtable").innerHTML=`<table><tr><th>Matchup</th><th>Games</th><th>First side wins</th><th>Home wins</th><th>Avg total</th><th>Over 5.5</th><th>Over 6.5</th></tr>
         <tr><td><i>All games</i></td><td>${QL.n}</td><td>–</td><td>${p1(QL.home_win)}</td><td>${QL.avg_total.toFixed(2)}</td><td>${p1(QL.over55)}</td><td>${p1(QL.over65)}</td></tr>
         ${QL.cells.map(r=>`<tr><td>${QN[r.A]} v ${QN[r.B]}</td><td>${r.n}</td>${c("A_win","A_win_z",r)}${c("home_win","home_z",r)}${c("avg_total","none",r,v=>v.toFixed(2))}${c("over55","over55_z",r)}${c("over65","over65_z",r)}</tr>`).join("")}</table>
-        <p class="note" style="margin:6px 0 0">Every game since 2023-24, graded with the quadrants each team was in <i>before</i> it (${view==="full"?"season to date":"last 5"}; the goalie is the one who actually started). Green = top 3 in the column (darkest = highest), orange = bottom 3 (darkest = lowest). Bold = more than two standard errors from the average (50% for "first side wins"); with this many cells, a few will look significant by chance. Totals use fixed 5.5 / 6.5 lines (no historical odds) and include OT/SO goals. Middle = inside the grey diamond.</p>`}
+        <p class="note" style="margin:6px 0 0">Every game since 2023-24, graded with the quadrants each team was in <i>before</i> it (${view==="full"?"season to date":"last 5"}; the goalie is the one who actually started). Green = top 3 in the column (darkest = highest), orange = bottom 3 (darkest = lowest). Bold with * = more than two standard errors from the average (50% for "first side wins"); with this many cells, a few will look significant by chance. Totals use fixed 5.5 / 6.5 lines (no historical odds) and include OT/SO goals. Middle = inside the grey diamond.</p>`}
     window.__sc=rows;
   }
   const tip=$("sctip"),wrap=$("scatterwrap");
