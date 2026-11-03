@@ -302,7 +302,7 @@ Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/prediction
         // top 3 of each column: stepped green (darkest = highest); bottom 3: stepped orange (darkest = lowest)
         sh=k=>{const vs=QL.cells.map(r=>r[k]).filter(v=>v!=null),st=[.55,.35,.18];
           return v=>{if(v==null)return"";const hi=vs.filter(x=>x>v).length,lo=vs.filter(x=>x<v).length;
-            return hi<3?`background:rgba(46,160,67,${st[hi]});`:lo<3?`background:rgba(240,130,30,${st[lo]});`:""}},
+            return hi<3?`background:rgba(40,200,90,${[.7,.42,.2][hi]});`:lo<3?`background:rgba(240,130,30,${st[lo]});`:""}},
         S5={A_win:sh("A_win"),home_win:sh("home_win"),avg_total:sh("avg_total"),over55:sh("over55"),over65:sh("over65")},
         c=(k,zk,r,f=p1)=>`<td style="${S5[k](r[k])}${Math.abs(r[zk]||0)>=2?'font-weight:700':''}">${f(r[k])}</td>`;
       $("quadtable").innerHTML=`<table><tr><th>Matchup</th><th>Games</th><th>First side wins</th><th>Home wins</th><th>Avg total</th><th>Over 5.5</th><th>Over 6.5</th></tr>
