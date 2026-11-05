@@ -4,37 +4,46 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NHL Matchup Model</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--ink:#14181f;--mute:#667085;--line:#e4e7ec;--home:#1f6feb;--away:#8a94a6;--good:#1a7f4b;--bad:#b42318;--warn:#b54708;--warnbg:#fef3e2}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0e1116;--card:#171b22;--ink:#e8ebf0;--mute:#98a2b3;--line:#272d38;--home:#58a6ff;--away:#6b7588;--good:#3fb97a;--bad:#f0746a;--warn:#f2a444;--warnbg:#2a2113}}
+:root{/* TAH design system tokens (dark default) */
+--surface:#262524;--surface-raised:#1c1a17;--ink:#f2eee8;--ink-muted:#b3b2ae;--hairline:#3a3733;--border-strong:#8a877d;
+--accent:#ed7437;--on-accent:#121310;--accent-text:#ed7437;--green:#79bc76;--success:#79bc76;--blue:#6a9ada;--amber:#eaa945;--red:#e5576b;--danger:#ea6275;--track-off:#77746a;
+--space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:40px;--radius-md:12px;--radius-lg:24px;--radius-pill:999px;
+--font-sans:"Outfit","Avenir Next",system-ui,sans-serif;
+--goodbg:rgba(121,188,118,.16);--warnbg:rgba(234,169,69,.16);--warn:var(--amber)}
+@media (prefers-color-scheme:light){:root:not([data-theme=dark]){--surface:#f2eee8;--surface-raised:#fbf9f5;--ink:#121310;--ink-muted:#5a574e;--hairline:#d9d3c8;--border-strong:#8d887b;--accent-text:#a8420f;--success:#38763a;--danger:#b3263d;--track-off:#8a8579;--goodbg:rgba(56,118,58,.12);--warnbg:rgba(168,66,15,.1);--warn:#a8420f}}
+:root[data-theme=light]{--surface:#f2eee8;--surface-raised:#fbf9f5;--ink:#121310;--ink-muted:#5a574e;--hairline:#d9d3c8;--border-strong:#8d887b;--accent-text:#a8420f;--success:#38763a;--danger:#b3263d;--track-off:#8a8579;--goodbg:rgba(56,118,58,.12);--warnbg:rgba(168,66,15,.1);--warn:#a8420f}
+:root{/* names the page already used, now pointing at the tokens */--bg:var(--surface);--card:var(--surface-raised);--mute:var(--ink-muted);--line:var(--hairline);--home:var(--blue);--away:var(--track-off);--good:var(--success);--bad:var(--danger)}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 var(--font-sans)}
 main{max-width:1000px;margin:0 auto;padding:20px 16px 60px}
 html{scroll-behavior:smooth}
-h1{font-size:22px;margin:0}h2{font-size:16px;margin:28px 0 10px}h3{font-size:15px;margin:22px 0 8px;scroll-margin-top:64px}
-h2.sec{font-size:19px;margin:44px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line);scroll-margin-top:64px}
+h1{font-size:clamp(30px,6vw,44px);line-height:1.1;font-weight:700;letter-spacing:-.5px;margin:0}h2{font-size:18px;font-weight:600;margin:28px 0 10px}h3{font-size:20px;font-weight:600;margin:22px 0 8px;scroll-margin-top:64px}
+h2.sec{font-size:28px;line-height:34px;font-weight:600;margin:var(--space-6) 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line);scroll-margin-top:64px}
 h2.sec:first-of-type{margin-top:18px}
 nav.jump{position:sticky;top:0;z-index:20;background:var(--bg);margin:10px -16px 0;padding:8px 16px;border-bottom:1px solid var(--line);display:flex;gap:6px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}
 nav.jump{scrollbar-width:none}nav.jump::-webkit-scrollbar{display:none}
-nav.jump a{color:var(--ink);text-decoration:none;font-size:13px;padding:5px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);flex:0 0 auto}
-nav.jump a:hover{border-color:var(--home)}
-nav.jump a.on{background:var(--home);border-color:var(--home);color:#fff}
+nav.jump a{color:var(--ink);text-decoration:none;font-size:13px;padding:5px 14px;border:1px solid var(--border-strong);border-radius:var(--radius-pill);background:var(--card);flex:0 0 auto}
+nav.jump a:hover{border-color:var(--ink)}
+nav.jump a.on{background:var(--accent);border-color:var(--accent);color:var(--on-accent);font-weight:600}
 .totop{display:inline-block;margin-top:18px;font-size:12px;color:var(--mute);text-decoration:none}
 .sub{color:var(--mute);font-size:13px;margin-top:2px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-md);padding:var(--space-4)}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
 .stat b{display:block;font-size:24px}.stat span{color:var(--mute);font-size:12px}
-.day{color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin:16px 0 6px}
+.day{color:var(--mute);font-size:15px;font-weight:500;margin:var(--space-5) 0 6px}
 .game{display:grid;grid-template-columns:1.1fr 1.6fr 1fr;gap:14px;align-items:center;margin-bottom:8px}
 .teams{font-weight:600}.teams small{display:block;font-weight:400;color:var(--mute)}
-.bar{height:10px;border-radius:5px;background:var(--away);overflow:hidden;position:relative}
+.bar{height:10px;border-radius:var(--radius-pill);background:var(--away);overflow:hidden;position:relative}
 .bar i{position:absolute;right:0;top:0;bottom:0;background:var(--home)}
 .pr{display:flex;justify-content:space-between;font-size:12px;color:var(--mute);margin-top:3px}
 .pick{font-weight:700}.pick small{font-weight:400;color:var(--mute);display:block}
 .meta{grid-column:1/-1;font-size:12px;color:var(--mute);display:flex;flex-wrap:wrap;gap:4px 14px;border-top:1px solid var(--line);padding-top:6px}
-.qm{grid-column:1/-1;font-size:12px;color:var(--mute);display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center}.qm .qc{border:1px solid var(--line);border-radius:4px;padding:0 6px;white-space:nowrap;color:var(--ink)}.qm .qc.hi{background:rgba(40,200,90,.4)}.qm .qc.lo{background:rgba(240,130,30,.4)}.qm .qc.sg{font-weight:700}
-.flag{background:#e6f4ea;color:var(--good);border:1px solid var(--good);border-radius:4px;padding:0 6px;font-size:11px;font-weight:600;margin-left:6px;white-space:nowrap}
-.tag{background:var(--warnbg);color:var(--warn);border-radius:4px;padding:0 5px;font-size:11px}
+.qm{grid-column:1/-1;font-size:12px;color:var(--mute);display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center}.qm .qc{border:1px solid var(--border-strong);border-radius:var(--radius-pill);padding:0 8px;white-space:nowrap;color:var(--ink)}.qm .qc.hi{background:rgba(40,200,90,.4)}.qm .qc.lo{background:rgba(240,130,30,.4)}.qm .qc.sg{font-weight:700}
+.flag{background:var(--goodbg);color:var(--good);border:1px solid var(--good);border-radius:var(--radius-pill);padding:0 8px;font-size:11px;font-weight:600;margin-left:6px;white-space:nowrap}
+.tag{background:var(--warnbg);color:var(--warn);border-radius:var(--radius-pill);padding:0 7px;font-size:11px}
 table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right}th:first-child,td:first-child{text-align:left}
 th{color:var(--mute);font-weight:500}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
@@ -51,26 +60,26 @@ th{color:var(--mute);font-weight:500}
 .chips{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin:6px 0 8px}.chip{border:1px solid var(--line);border-radius:8px;padding:4px 8px;font-size:12px}.chip b{display:block;font-size:13px}.chip span{color:var(--mute)}
 .form b{display:inline-block;min-width:20px;text-align:center;border-radius:4px;font-size:11px;margin-right:3px;border:1px solid var(--line)}.form b.w{border-color:var(--good);color:var(--good)}.form b.l{border-color:var(--bad);color:var(--bad)}
 .rv details{border-top:1px solid var(--line);padding:6px 0}.rv summary{cursor:pointer;font-weight:600}
-.rv .gm{margin:6px 0 10px;padding-left:10px;border-left:3px solid var(--line)}.rv .gm.ok{border-color:var(--good)}.rv .gm.no{border-color:var(--bad)}
-.rv .chips2{display:flex;flex-wrap:wrap;gap:4px;margin:4px 0}.rv .t{background:var(--warnbg);color:var(--warn);border-radius:4px;padding:0 6px;font-size:11px}
+.rv .gm{margin:6px 0 10px;padding:6px 10px;border:1px solid var(--line);border-radius:var(--radius-md)}.rv .gm.ok{border-color:var(--good)}.rv .gm.no{border-color:var(--bad)}
+.rv .chips2{display:flex;flex-wrap:wrap;gap:4px;margin:4px 0}.rv .t{background:var(--warnbg);color:var(--warn);border-radius:var(--radius-pill);padding:0 8px;font-size:11px}
 .rv .pl{font-size:12.5px;margin:6px 0;padding:6px 8px;border:1px solid var(--line);border-radius:8px}.rv .pl.hit{border-color:var(--good)}.rv .pl.miss{opacity:.95}
 .rv .lg{margin:1px 0}.rv .lg small{color:var(--mute)}
-.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-bottom:8px}
-.seg button{background:transparent;color:var(--ink);border:0;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
-.seg button.on{background:var(--home);color:#fff}
+.seg{display:inline-flex;border:1px solid var(--border-strong);border-radius:var(--radius-pill);overflow:hidden;margin-bottom:8px}
+.seg button{background:transparent;color:var(--ink);border:0;padding:5px 14px;font:inherit;font-size:13px;cursor:pointer}
+.seg button.on{background:var(--ink);color:var(--surface);font-weight:600}.seg button:focus-visible,nav.jump a:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
 #quadtable th,#quadtable td{text-align:center}#quadtable th:first-child,#quadtable td:first-child{text-align:left}
 #scatter svg{width:100%;height:auto;display:block}#scatter text{fill:var(--mute);font-size:11px}
 #scatter .pt{cursor:pointer}#scatter .pt:hover circle.chip{stroke-width:3.5}
-.tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12px;box-shadow:0 2px 10px rgba(0,0,0,.18);z-index:5;white-space:nowrap}
+.tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:var(--radius-md);padding:6px 9px;font-size:12px;z-index:5;white-space:nowrap}
 .tip b{display:block;margin-bottom:2px}
 .sgp{margin-bottom:8px}
-.sgp.hot{border-color:var(--good);box-shadow:inset 3px 0 0 var(--good)}
+.sgp.hot{border-color:var(--good)}
 .sgp .detail{margin-top:10px;padding-top:12px}
 .sgp .legs{font-weight:600}.sgp .legs div{margin:1px 0}.sgp .legs small{color:var(--mute);font-weight:400}
 .sgp .nums{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;margin-top:6px;align-items:center}
-.sgp input{width:84px;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
-.lift{background:var(--warnbg);color:var(--warn);border-radius:4px;padding:0 6px;font-weight:700}
-.sgp.hot .lift{background:#e6f4ea;color:var(--good)}
+.sgp input{width:84px;padding:3px 8px;border:1px solid var(--border-strong);border-radius:var(--radius-pill);background:var(--bg);color:var(--ink);font:inherit}
+.lift{background:var(--warnbg);color:var(--warn);border-radius:var(--radius-pill);padding:0 8px;font-weight:700}
+.sgp.hot .lift{background:var(--goodbg);color:var(--good)}
 .ev{font-weight:700}.warn{color:var(--warn)}
 .note{font-size:12.5px;color:var(--mute)}
 svg text{fill:var(--mute);font-size:10px}
@@ -302,7 +311,7 @@ Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/prediction
       +qr_(ql,qy,qx-ql,qb-qy,"rgba(110,170,240,.28)")+qr_(ql,qt,qx-ql,qy-qt,"rgba(220,120,210,.28)")        // weak/cold blue, weak/hot magenta
       +`<polygon points="${X(0.5)},${Y(-0.5)} ${X(0.55)},${Y(0)} ${X(0.5)},${Y(0.5)} ${X(0.45)},${Y(0)}" fill="rgba(150,150,150,.30)"/>`;   // too close to the middle to be predictive
     const ref=`<line x1="${X(0.5)}" x2="${X(0.5)}" y1="${M.t}" y2="${H-M.b}" stroke="var(--mute)" stroke-dasharray="4 4" opacity=".6"/><line x1="${M.l}" x2="${W-M.r}" y1="${Y(0)}" y2="${Y(0)}" stroke="var(--mute)" stroke-dasharray="4 4" opacity=".6"/>`;
-    const q=(t,x,y,a)=>`<text x="${x}" y="${y}" text-anchor="${a}" opacity=".75" style="font-size:10.5px;letter-spacing:.03em;text-transform:uppercase">${t}</text>`;
+    const q=(t,x,y,a)=>`<text x="${x}" y="${y}" text-anchor="${a}" opacity=".85" style="font-size:11px">${t}</text>`;
     const quad=q("Strong team · hot goalie",W-M.r-6,M.t+14,"end")+q("Weak team · hot goalie",M.l+6,M.t+14,"start")+q("Strong team · cold goalie",W-M.r-6,H-M.b-8,"end")+q("Weak team · cold goalie",M.l+6,H-M.b-8,"start");
     const dots=pts.sort((a,b)=>playing.has(a.r.team)-playing.has(b.r.team)).map(p=>{const on=playing.has(p.r.team);
       return `<g class="pt" data-t="${p.r.team}" transform="translate(${p.x.toFixed(1)},${p.y.toFixed(1)})"><title>${p.r.team}</title>
