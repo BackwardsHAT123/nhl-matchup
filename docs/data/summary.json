@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T20:29+00:00",
+ "generated_at": "2026-11-07T01:15+00:00",
  "live": {
   "n": 125,
   "acc": 0.6,
@@ -1149,7 +1149,7 @@
   {
    "team": "NJD",
    "goalie": "Jake Allen",
-   "p_start": 0.566,
+   "p_start": 0.921,
    "full": {
     "xgf": 0.5837,
     "gsax": -0.203,
