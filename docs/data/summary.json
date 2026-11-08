@@ -1,34 +1,10 @@
 {
- "generated_at": "2026-11-07T18:51+00:00",
+ "generated_at": "2026-11-08T00:56+00:00",
  "live": {
-  "n": 128,
-  "acc": 0.6015625,
-  "logloss": 0.6620769449346082,
+  "n": 131,
+  "acc": 0.6106870229007634,
+  "logloss": 0.6607240197150512,
   "recent": [
-   {
-    "date": "2026-11-02",
-    "home": "BOS",
-    "away": "VGK",
-    "p_home": 0.546,
-    "home_win": 1,
-    "correct": 1
-   },
-   {
-    "date": "2026-11-03",
-    "home": "TOR",
-    "away": "UTA",
-    "p_home": 0.375,
-    "home_win": 0,
-    "correct": 1
-   },
-   {
-    "date": "2026-11-03",
-    "home": "MTL",
-    "away": "WPG",
-    "p_home": 0.681,
-    "home_win": 0,
-    "correct": 0
-   },
    {
     "date": "2026-11-03",
     "home": "TBL",
@@ -103,17 +79,17 @@
    },
    {
     "date": "2026-11-04",
-    "home": "SEA",
-    "away": "CGY",
-    "p_home": 0.516,
+    "home": "LAK",
+    "away": "SJS",
+    "p_home": 0.624,
     "home_win": 1,
     "correct": 1
    },
    {
     "date": "2026-11-04",
-    "home": "LAK",
-    "away": "SJS",
-    "p_home": 0.624,
+    "home": "SEA",
+    "away": "CGY",
+    "p_home": 0.516,
     "home_win": 1,
     "correct": 1
    },
@@ -135,49 +111,25 @@
    },
    {
     "date": "2026-11-05",
-    "home": "MTL",
-    "away": "UTA",
-    "p_home": 0.489,
-    "home_win": 1,
-    "correct": 0
-   },
-   {
-    "date": "2026-11-05",
-    "home": "DET",
-    "away": "VGK",
-    "p_home": 0.538,
+    "home": "COL",
+    "away": "NSH",
+    "p_home": 0.633,
     "home_win": 0,
     "correct": 0
    },
    {
     "date": "2026-11-05",
-    "home": "TBL",
-    "away": "CHI",
-    "p_home": 0.776,
-    "home_win": 1,
-    "correct": 1
-   },
-   {
-    "date": "2026-11-05",
-    "home": "NJD",
-    "away": "STL",
-    "p_home": 0.67,
-    "home_win": 1,
-    "correct": 1
-   },
-   {
-    "date": "2026-11-05",
-    "home": "NYI",
-    "away": "CAR",
-    "p_home": 0.405,
+    "home": "EDM",
+    "away": "ANA",
+    "p_home": 0.597,
     "home_win": 0,
-    "correct": 1
+    "correct": 0
    },
    {
     "date": "2026-11-05",
-    "home": "NYR",
-    "away": "PHI",
-    "p_home": 0.72,
+    "home": "WPG",
+    "away": "VAN",
+    "p_home": 0.659,
     "home_win": 1,
     "correct": 1
    },
@@ -191,6 +143,14 @@
    },
    {
     "date": "2026-11-05",
+    "home": "NYR",
+    "away": "PHI",
+    "p_home": 0.72,
+    "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-11-05",
     "home": "CBJ",
     "away": "DAL",
     "p_home": 0.482,
@@ -199,34 +159,42 @@
    },
    {
     "date": "2026-11-05",
-    "home": "WPG",
-    "away": "VAN",
-    "p_home": 0.659,
+    "home": "NJD",
+    "away": "STL",
+    "p_home": 0.67,
     "home_win": 1,
     "correct": 1
    },
    {
     "date": "2026-11-05",
-    "home": "EDM",
-    "away": "ANA",
-    "p_home": 0.597,
+    "home": "TBL",
+    "away": "CHI",
+    "p_home": 0.776,
+    "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-11-05",
+    "home": "DET",
+    "away": "VGK",
+    "p_home": 0.538,
     "home_win": 0,
     "correct": 0
    },
    {
     "date": "2026-11-05",
-    "home": "COL",
-    "away": "NSH",
-    "p_home": 0.633,
-    "home_win": 0,
+    "home": "MTL",
+    "away": "UTA",
+    "p_home": 0.489,
+    "home_win": 1,
     "correct": 0
    },
    {
-    "date": "2026-11-06",
-    "home": "MIN",
-    "away": "SJS",
-    "p_home": 0.741,
-    "home_win": 1,
+    "date": "2026-11-05",
+    "home": "NYI",
+    "away": "CAR",
+    "p_home": 0.405,
+    "home_win": 0,
     "correct": 1
    },
    {
@@ -239,11 +207,43 @@
    },
    {
     "date": "2026-11-06",
+    "home": "MIN",
+    "away": "SJS",
+    "p_home": 0.741,
+    "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-11-06",
     "home": "CGY",
     "away": "ANA",
     "p_home": 0.622,
     "home_win": 0,
     "correct": 0
+   },
+   {
+    "date": "2026-11-07",
+    "home": "NSH",
+    "away": "STL",
+    "p_home": 0.51,
+    "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-11-07",
+    "home": "WSH",
+    "away": "FLA",
+    "p_home": 0.552,
+    "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-11-07",
+    "home": "SEA",
+    "away": "NYR",
+    "p_home": 0.418,
+    "home_win": 0,
+    "correct": 1
    }
   ]
  },

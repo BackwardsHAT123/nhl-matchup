@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T18:52+00:00",
+ "generated_at": "2026-11-08T00:57+00:00",
  "min_joint": 0.06,
  "n_sim": 20000,
  "odds_games": 0,
@@ -3103,24 +3103,6 @@
    "plays": [
     {
      "legs": [
-      "FLA ML",
-      "Over 5.5",
-      "Anton Lundell anytime goal"
-     ],
-     "leg_probs": [
-      0.442,
-      0.558,
-      0.181
-     ],
-     "p_joint": 0.0774,
-     "p_raw": 0.0725,
-     "p_indep": 0.0448,
-     "lift": 1.73,
-     "fair_odds": 1191,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
       "BOS ML",
       "Over 6.5",
       "Elias Lindholm anytime goal"
@@ -3140,19 +3122,37 @@
     {
      "legs": [
       "FLA ML",
+      "Over 5.5",
+      "Matthew Tkachuk anytime goal"
+     ],
+     "leg_probs": [
+      0.442,
+      0.558,
+      0.174
+     ],
+     "p_joint": 0.0739,
+     "p_raw": 0.0692,
+     "p_indep": 0.0429,
+     "lift": 1.721,
+     "fair_odds": 1254,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "FLA ML",
       "Over 6.5",
-      "Sam Reinhart anytime goal"
+      "Brady Tkachuk anytime goal"
      ],
      "leg_probs": [
       0.442,
       0.392,
-      0.241
+      0.273
      ],
-     "p_joint": 0.0718,
-     "p_raw": 0.0672,
-     "p_indep": 0.0418,
-     "lift": 1.719,
-     "fair_odds": 1293,
+     "p_joint": 0.0813,
+     "p_raw": 0.0762,
+     "p_indep": 0.0473,
+     "lift": 1.718,
+     "fair_odds": 1130,
      "sig": "atg+ml+total"
     },
     {
@@ -3194,37 +3194,37 @@
     {
      "legs": [
       "FLA ML",
-      "Over 5.5",
-      "Sam Bennett anytime goal"
+      "Over 6.5",
+      "Sam Reinhart anytime goal"
      ],
      "leg_probs": [
       0.442,
-      0.558,
-      0.197
+      0.392,
+      0.257
      ],
-     "p_joint": 0.082,
-     "p_raw": 0.0768,
-     "p_indep": 0.0487,
+     "p_joint": 0.0749,
+     "p_raw": 0.0702,
+     "p_indep": 0.0445,
      "lift": 1.683,
-     "fair_odds": 1120,
+     "fair_odds": 1236,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "FLA ML",
-      "Over 6.5",
-      "Brady Tkachuk anytime goal"
+      "Over 5.5",
+      "Carter Verhaeghe anytime goal"
      ],
      "leg_probs": [
       0.442,
-      0.392,
-      0.252
+      0.558,
+      0.194
      ],
-     "p_joint": 0.0734,
-     "p_raw": 0.0688,
-     "p_indep": 0.0437,
-     "lift": 1.68,
-     "fair_odds": 1262,
+     "p_joint": 0.0802,
+     "p_raw": 0.0751,
+     "p_indep": 0.0479,
+     "lift": 1.674,
+     "fair_odds": 1147,
      "sig": "atg+ml+total"
     },
     {
@@ -3247,6 +3247,38 @@
     },
     {
      "legs": [
+      "Over 5.5",
+      "Brady Tkachuk anytime goal"
+     ],
+     "leg_probs": [
+      0.558,
+      0.273
+     ],
+     "p_joint": 0.1919,
+     "p_raw": 0.1931,
+     "p_indep": 0.1525,
+     "lift": 1.259,
+     "fair_odds": 421,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "FLA ML",
+      "Brady Tkachuk anytime goal"
+     ],
+     "leg_probs": [
+      0.442,
+      0.273
+     ],
+     "p_joint": 0.1566,
+     "p_raw": 0.1576,
+     "p_indep": 0.1207,
+     "lift": 1.298,
+     "fair_odds": 538,
+     "sig": "atg+ml"
+    },
+    {
+     "legs": [
       "Over 6.5",
       "David Pastrnak anytime goal"
      ],
@@ -3263,69 +3295,21 @@
     },
     {
      "legs": [
-      "FLA ML",
+      "Over 5.5",
+      "David Pastrnak over 1.5 SOG",
       "Brady Tkachuk anytime goal"
      ],
      "leg_probs": [
-      0.442,
-      0.252
-     ],
-     "p_joint": 0.1463,
-     "p_raw": 0.1472,
-     "p_indep": 0.1114,
-     "lift": 1.313,
-     "fair_odds": 584,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "Sam Bennett anytime goal"
-     ],
-     "leg_probs": [
       0.558,
-      0.197
+      0.771,
+      0.273
      ],
-     "p_joint": 0.1435,
-     "p_raw": 0.139,
-     "p_indep": 0.1102,
-     "lift": 1.302,
-     "fair_odds": 597,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
-      "David Pastrnak anytime goal",
-      "Brady Tkachuk over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.558,
-      0.289,
-      0.683
-     ],
-     "p_joint": 0.1418,
-     "p_raw": 0.1382,
-     "p_indep": 0.1101,
-     "lift": 1.288,
-     "fair_odds": 605,
+     "p_joint": 0.1489,
+     "p_raw": 0.1522,
+     "p_indep": 0.1176,
+     "lift": 1.267,
+     "fair_odds": 572,
      "sig": "atg+sog+total"
-    },
-    {
-     "legs": [
-      "BOS ML",
-      "James Hagens anytime goal"
-     ],
-     "leg_probs": [
-      0.558,
-      0.194
-     ],
-     "p_joint": 0.1397,
-     "p_raw": 0.1353,
-     "p_indep": 0.1082,
-     "lift": 1.291,
-     "fair_odds": 616,
-     "sig": "atg+ml"
     },
     {
      "legs": [
@@ -3334,14 +3318,30 @@
      ],
      "leg_probs": [
       0.442,
-      0.241
+      0.257
      ],
-     "p_joint": 0.1397,
-     "p_raw": 0.1406,
-     "p_indep": 0.1065,
-     "lift": 1.312,
-     "fair_odds": 616,
+     "p_joint": 0.1467,
+     "p_raw": 0.1476,
+     "p_indep": 0.1134,
+     "lift": 1.294,
+     "fair_odds": 582,
      "sig": "atg+ml"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Brady Tkachuk anytime goal"
+     ],
+     "leg_probs": [
+      0.392,
+      0.273
+     ],
+     "p_joint": 0.1445,
+     "p_raw": 0.1453,
+     "p_indep": 0.1071,
+     "lift": 1.349,
+     "fair_odds": 592,
+     "sig": "atg+total"
     }
    ]
   },
@@ -4645,18 +4645,18 @@
      "legs": [
       "NYR ML",
       "Over 6.5",
-      "Pavel Dorofeyev anytime goal"
+      "Tye Kartye anytime goal"
      ],
      "leg_probs": [
       0.537,
       0.385,
-      0.219
+      0.179
      ],
-     "p_joint": 0.0802,
-     "p_raw": 0.0751,
-     "p_indep": 0.0454,
-     "lift": 1.767,
-     "fair_odds": 1147,
+     "p_joint": 0.0652,
+     "p_raw": 0.0611,
+     "p_indep": 0.0369,
+     "lift": 1.766,
+     "fair_odds": 1433,
      "sig": "atg+ml+total"
     },
     {
@@ -4717,18 +4717,18 @@
      "legs": [
       "NYR ML",
       "Over 6.5",
-      "Mika Zibanejad anytime goal"
+      "Alexis Lafrenire anytime goal"
      ],
      "leg_probs": [
       0.537,
       0.385,
-      0.232
+      0.241
      ],
-     "p_joint": 0.0823,
-     "p_raw": 0.0772,
-     "p_indep": 0.0479,
-     "lift": 1.717,
-     "fair_odds": 1114,
+     "p_joint": 0.0862,
+     "p_raw": 0.0808,
+     "p_indep": 0.0499,
+     "lift": 1.727,
+     "fair_odds": 1060,
      "sig": "atg+ml+total"
     },
     {
@@ -4740,49 +4740,49 @@
      "leg_probs": [
       0.537,
       0.385,
-      0.229
+      0.227
      ],
-     "p_joint": 0.0802,
-     "p_raw": 0.0751,
-     "p_indep": 0.0474,
-     "lift": 1.692,
-     "fair_odds": 1148,
+     "p_joint": 0.0799,
+     "p_raw": 0.0749,
+     "p_indep": 0.0469,
+     "lift": 1.706,
+     "fair_odds": 1151,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "NYR ML",
       "Over 6.5",
-      "Alexis Lafrenire anytime goal"
+      "Pavel Dorofeyev anytime goal"
      ],
      "leg_probs": [
       0.537,
       0.385,
-      0.241
+      0.223
      ],
-     "p_joint": 0.0841,
-     "p_raw": 0.0788,
-     "p_indep": 0.0499,
-     "lift": 1.685,
-     "fair_odds": 1089,
+     "p_joint": 0.0781,
+     "p_raw": 0.0732,
+     "p_indep": 0.046,
+     "lift": 1.696,
+     "fair_odds": 1181,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
-      "EDM ML",
-      "Over 5.5",
-      "Vasily Podkolzin anytime goal"
+      "NYR ML",
+      "Over 6.5",
+      "Mika Zibanejad anytime goal"
      ],
      "leg_probs": [
-      0.463,
-      0.558,
-      0.205
+      0.537,
+      0.385,
+      0.233
      ],
-     "p_joint": 0.0875,
-     "p_raw": 0.082,
-     "p_indep": 0.0529,
-     "lift": 1.655,
-     "fair_odds": 1043,
+     "p_joint": 0.0814,
+     "p_raw": 0.0763,
+     "p_indep": 0.0481,
+     "lift": 1.691,
+     "fair_odds": 1129,
      "sig": "atg+ml+total"
     },
     {
@@ -4836,22 +4836,6 @@
     {
      "legs": [
       "Over 5.5",
-      "Mika Zibanejad anytime goal"
-     ],
-     "leg_probs": [
-      0.558,
-      0.232
-     ],
-     "p_joint": 0.1623,
-     "p_raw": 0.1633,
-     "p_indep": 0.1295,
-     "lift": 1.253,
-     "fair_odds": 516,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "Over 5.5",
       "Evan Bouchard anytime goal"
      ],
      "leg_probs": [
@@ -4863,6 +4847,22 @@
      "p_indep": 0.1288,
      "lift": 1.252,
      "fair_odds": 520,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Pavel Dorofeyev anytime goal"
+     ],
+     "leg_probs": [
+      0.558,
+      0.223
+     ],
+     "p_joint": 0.1575,
+     "p_raw": 0.1585,
+     "p_indep": 0.1243,
+     "lift": 1.266,
+     "fair_odds": 535,
      "sig": "atg+total"
     },
     {
