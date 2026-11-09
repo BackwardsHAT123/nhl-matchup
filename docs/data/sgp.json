@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-09T13:03+00:00",
+ "generated_at": "2026-11-09T23:30+00:00",
  "min_joint": 0.06,
  "n_sim": 20000,
- "odds_games": 3,
- "priced_plays": 45,
+ "odds_games": 0,
+ "priced_plays": 0,
  "games": [
   {
    "gameId": 2026020283,
@@ -12,7 +12,7 @@
    "away": "NYR",
    "start_utc": "2026-11-10T01:00:00Z",
    "p_home": 0.4657,
-   "priced": true,
+   "priced": false,
    "exp_total": 6.13,
    "plays": [
     {
@@ -31,22 +31,7 @@
      "p_indep": 0.0394,
      "lift": 1.757,
      "fair_odds": 1346,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1090,
-      "naive_dec": 11.9,
-      "ev": -0.1767,
-      "ev_half": -0.3789,
-      "ev_full": -0.5315,
-      "f_star": -0.345,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.61,
-       0.5,
-       0.263
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -64,22 +49,7 @@
      "p_indep": 0.0517,
      "lift": 1.754,
      "fair_odds": 1004,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 617,
-      "naive_dec": 7.17,
-      "ev": -0.35,
-      "ev_half": -0.5093,
-      "ev_full": -0.6295,
-      "f_star": -0.766,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.606,
-       0.505,
-       0.435
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -97,22 +67,7 @@
      "p_indep": 0.0419,
      "lift": 1.709,
      "fair_odds": 1296,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 2140,
-      "naive_dec": 22.4,
-      "ev": 0.6046,
-      "ev_half": 0.2273,
-      "ev_full": -0.0613,
-      "f_star": 0.882,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.435,
-       0.5,
-       0.196
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -130,22 +85,7 @@
      "p_indep": 0.0455,
      "lift": 1.704,
      "fair_odds": 1190,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "BetMGM",
-      "naive_odds": 1076,
-      "naive_dec": 11.76,
-      "ev": -0.0882,
-      "ev_half": -0.3015,
-      "ev_full": -0.4648,
-      "f_star": -0.173,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.617,
-       0.5,
-       0.263
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -163,22 +103,7 @@
      "p_indep": 0.0527,
      "lift": 1.672,
      "fair_odds": 1036,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 1204,
-      "naive_dec": 13.04,
-      "ev": 0.1484,
-      "ev_half": -0.1119,
-      "ev_full": -0.3131,
-      "f_star": 0.269,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.435,
-       0.505,
-       0.333
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -196,22 +121,7 @@
      "p_indep": 0.0519,
      "lift": 1.669,
      "fair_odds": 1054,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 1639,
-      "naive_dec": 17.39,
-      "ev": 0.507,
-      "ev_half": 0.1667,
-      "ev_full": -0.0968,
-      "f_star": 0.801,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.435,
-       0.505,
-       0.25
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -247,22 +157,7 @@
      "p_indep": 0.0502,
      "lift": 1.641,
      "fair_odds": 1114,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "BetRivers",
-      "naive_odds": 1353,
-      "naive_dec": 14.53,
-      "ev": 0.1965,
-      "ev_half": -0.0661,
-      "ev_full": -0.2711,
-      "f_star": 0.362,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.42,
-       0.511,
-       0.303
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -278,21 +173,7 @@
      "p_indep": 0.1598,
      "lift": 1.292,
      "fair_odds": 384,
-     "sig": "atg+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 301,
-      "naive_dec": 4.01,
-      "ev": -0.1716,
-      "ev_half": -0.2713,
-      "ev_full": -0.359,
-      "f_star": -0.734,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.5,
-       0.476
-      ]
-     }
+     "sig": "atg+total"
     },
     {
      "legs": [
@@ -326,21 +207,7 @@
      "p_indep": 0.1257,
      "lift": 1.304,
      "fair_odds": 510,
-     "sig": "atg+ml",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 280,
-      "naive_dec": 3.79,
-      "ev": -0.3779,
-      "ev_half": -0.4552,
-      "ev_full": -0.5229,
-      "f_star": -1.0,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.606,
-       0.435
-      ]
-     }
+     "sig": "atg+ml"
     },
     {
      "legs": [
@@ -395,198 +262,6 @@
      "lift": 1.289,
      "fair_odds": 568,
      "sig": "atg+sog+total"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Tye Kartye anytime goal"
-     ],
-     "leg_probs": [
-      0.537,
-      0.19
-     ],
-     "p_joint": 0.1285,
-     "p_raw": 0.1244,
-     "p_indep": 0.102,
-     "lift": 1.26,
-     "fair_odds": 678,
-     "sig": "atg+ml",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1073,
-      "naive_dec": 11.73,
-      "ev": 0.5072,
-      "ev_half": 0.3427,
-      "ev_full": 0.1962,
-      "f_star": 1.775,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.435,
-       0.196
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Gabe Perreault anytime goal"
-     ],
-     "leg_probs": [
-      0.537,
-      0.235
-     ],
-     "p_joint": 0.1566,
-     "p_raw": 0.1576,
-     "p_indep": 0.1264,
-     "lift": 1.239,
-     "fair_odds": 538,
-     "sig": "atg+ml",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 820,
-      "naive_dec": 9.2,
-      "ev": 0.441,
-      "ev_half": 0.2946,
-      "ev_full": 0.1631,
-      "f_star": 1.705,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.435,
-       0.25
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Gabe Perreault over 1.5 SOG",
-      "Tye Kartye anytime goal"
-     ],
-     "leg_probs": [
-      0.537,
-      0.547,
-      0.19
-     ],
-     "p_joint": 0.0718,
-     "p_raw": 0.0664,
-     "p_indep": 0.0558,
-     "lift": 1.287,
-     "fair_odds": 1292,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1871,
-      "naive_dec": 19.71,
-      "ev": 0.4155,
-      "ev_half": 0.2478,
-      "ev_full": 0.1,
-      "f_star": 1.378,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.435,
-       0.56,
-       0.196
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Evan Bouchard over 2.5 SOG",
-      "Tye Kartye anytime goal"
-     ],
-     "leg_probs": [
-      0.537,
-      0.503,
-      0.19
-     ],
-     "p_joint": 0.067,
-     "p_raw": 0.0619,
-     "p_indep": 0.0513,
-     "lift": 1.307,
-     "fair_odds": 1393,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1918,
-      "naive_dec": 20.18,
-      "ev": 0.3511,
-      "ev_half": 0.182,
-      "ev_full": 0.034,
-      "f_star": 1.125,
-      "n_books": 2,
-      "leg_mkt_p": [
-       0.435,
-       0.545,
-       0.196
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Vasily Podkolzin over 1.5 SOG",
-      "Gabe Perreault anytime goal"
-     ],
-     "leg_probs": [
-      0.537,
-      0.548,
-      0.235
-     ],
-     "p_joint": 0.0903,
-     "p_raw": 0.0835,
-     "p_indep": 0.0693,
-     "lift": 1.303,
-     "fair_odds": 1007,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 1381,
-      "naive_dec": 14.81,
-      "ev": 0.3377,
-      "ev_half": 0.1719,
-      "ev_full": 0.0267,
-      "f_star": 1.1,
-      "n_books": 2,
-      "leg_mkt_p": [
-       0.435,
-       0.577,
-       0.25
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Evan Bouchard over 2.5 SOG",
-      "Gabe Perreault anytime goal"
-     ],
-     "leg_probs": [
-      0.537,
-      0.503,
-      0.235
-     ],
-     "p_joint": 0.0849,
-     "p_raw": 0.0785,
-     "p_indep": 0.0635,
-     "lift": 1.335,
-     "fair_odds": 1078,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 1473,
-      "naive_dec": 15.73,
-      "ev": 0.335,
-      "ev_half": 0.1552,
-      "ev_full": -0.0003,
-      "f_star": 0.999,
-      "n_books": 2,
-      "leg_mkt_p": [
-       0.435,
-       0.545,
-       0.25
-      ]
-     }
     }
    ]
   },
@@ -597,7 +272,7 @@
    "away": "PHI",
    "start_utc": "2026-11-10T02:30:00Z",
    "p_home": 0.5153,
-   "priced": true,
+   "priced": false,
    "exp_total": 6.37,
    "plays": [
     {
@@ -616,22 +291,7 @@
      "p_indep": 0.0383,
      "lift": 1.779,
      "fair_odds": 1366,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 1289,
-      "naive_dec": 13.89,
-      "ev": -0.053,
-      "ev_half": -0.2899,
-      "ev_full": -0.4676,
-      "f_star": -0.094,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.575,
-       0.457,
-       0.263
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -649,22 +309,7 @@
      "p_indep": 0.0528,
      "lift": 1.726,
      "fair_odds": 997,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 934,
-      "naive_dec": 10.34,
-      "ev": -0.0579,
-      "ev_half": -0.283,
-      "ev_full": -0.4543,
-      "f_star": -0.109,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.578,
-       0.462,
-       0.345
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -682,22 +327,7 @@
      "p_indep": 0.0477,
      "lift": 1.716,
      "fair_odds": 1121,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1147,
-      "naive_dec": 12.47,
-      "ev": 0.0212,
-      "ev_half": -0.2206,
-      "ev_full": -0.4051,
-      "f_star": 0.039,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.578,
-       0.462,
-       0.286
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -715,22 +345,7 @@
      "p_indep": 0.0438,
      "lift": 1.71,
      "fair_odds": 1236,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 2148,
-      "naive_dec": 22.48,
-      "ev": 0.6834,
-      "ev_half": 0.2874,
-      "ev_full": -0.0155,
-      "f_star": 0.971,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.467,
-       0.462,
-       0.196
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -748,22 +363,7 @@
      "p_indep": 0.044,
      "lift": 1.709,
      "fair_odds": 1231,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 1124,
-      "naive_dec": 12.24,
-      "ev": -0.0802,
-      "ev_half": -0.2964,
-      "ev_full": -0.4617,
-      "f_star": -0.156,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.575,
-       0.457,
-       0.299
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -817,22 +417,7 @@
      "p_indep": 0.0508,
      "lift": 1.642,
      "fair_odds": 1099,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "BetRivers",
-      "naive_odds": 1168,
-      "naive_dec": 12.69,
-      "ev": 0.0581,
-      "ev_half": -0.1741,
-      "ev_full": -0.3554,
-      "f_star": 0.114,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.465,
-       0.474,
-       0.339
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -848,21 +433,7 @@
      "p_indep": 0.1195,
      "lift": 1.279,
      "fair_odds": 554,
-     "sig": "atg+ml",
-     "market": {
-      "book": "BetMGM",
-      "naive_odds": 541,
-      "naive_dec": 6.41,
-      "ev": -0.0195,
-      "ev_half": -0.1331,
-      "ev_full": -0.2336,
-      "f_star": -0.08,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.585,
-       0.267
-      ]
-     }
+     "sig": "atg+ml"
     },
     {
      "legs": [
@@ -894,21 +465,7 @@
      "p_indep": 0.108,
      "lift": 1.316,
      "fair_odds": 604,
-     "sig": "atg+ml",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 506,
-      "naive_dec": 6.05,
-      "ev": -0.1398,
-      "ev_half": -0.2501,
-      "ev_full": -0.3463,
-      "f_star": -0.548,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.578,
-       0.286
-      ]
-     }
+     "sig": "atg+ml"
     },
     {
      "legs": [
@@ -924,21 +481,7 @@
      "p_indep": 0.109,
      "lift": 1.298,
      "fair_odds": 607,
-     "sig": "atg+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 497,
-      "naive_dec": 5.97,
-      "ev": -0.1548,
-      "ev_half": -0.2582,
-      "ev_full": -0.3489,
-      "f_star": -0.645,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.462,
-       0.345
-      ]
-     }
+     "sig": "atg+total"
     },
     {
      "legs": [
@@ -970,183 +513,7 @@
      "p_indep": 0.1112,
      "lift": 1.258,
      "fair_odds": 615,
-     "sig": "atg+ml",
-     "market": {
-      "book": "BetRivers",
-      "naive_odds": 1018,
-      "naive_dec": 11.18,
-      "ev": 0.5633,
-      "ev_half": 0.394,
-      "ev_full": 0.243,
-      "f_star": 1.948,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.465,
-       0.192
-      ]
-     }
-    },
-    {
-     "legs": [
-      "VAN ML",
-      "Marco Rossi anytime goal",
-      "Trevor Zegras over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.516,
-      0.216,
-      0.592
-     ],
-     "p_joint": 0.0896,
-     "p_raw": 0.0829,
-     "p_indep": 0.0659,
-     "lift": 1.36,
-     "fair_odds": 1016,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1657,
-      "naive_dec": 17.57,
-      "ev": 0.5746,
-      "ev_half": 0.35,
-      "ev_full": 0.1575,
-      "f_star": 1.475,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.467,
-       0.196,
-       0.583
-      ]
-     }
-    },
-    {
-     "legs": [
-      "VAN ML",
-      "Marco Rossi anytime goal",
-      "Tyson Foerster over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.516,
-      0.216,
-      0.62
-     ],
-     "p_joint": 0.093,
-     "p_raw": 0.086,
-     "p_indep": 0.0689,
-     "lift": 1.349,
-     "fair_odds": 976,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1548,
-      "naive_dec": 16.48,
-      "ev": 0.532,
-      "ev_half": 0.3189,
-      "ev_full": 0.1353,
-      "f_star": 1.424,
-      "n_books": 2,
-      "leg_mkt_p": [
-       0.467,
-       0.196,
-       0.622
-      ]
-     }
-    },
-    {
-     "legs": [
-      "VAN ML",
-      "Marco Rossi anytime goal",
-      "Linus Karlsson over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.516,
-      0.216,
-      0.519
-     ],
-     "p_joint": 0.078,
-     "p_raw": 0.0722,
-     "p_indep": 0.0577,
-     "lift": 1.354,
-     "fair_odds": 1181,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 1821,
-      "naive_dec": 19.21,
-      "ev": 0.4993,
-      "ev_half": 0.2886,
-      "ev_full": 0.1075,
-      "f_star": 1.337,
-      "n_books": 2,
-      "leg_mkt_p": [
-       0.467,
-       0.213,
-       0.489
-      ]
-     }
-    },
-    {
-     "legs": [
-      "VAN ML",
-      "Linus Karlsson anytime goal"
-     ],
-     "leg_probs": [
-      0.516,
-      0.192
-     ],
-     "p_joint": 0.1306,
-     "p_raw": 0.1265,
-     "p_indep": 0.0991,
-     "lift": 1.318,
-     "fair_odds": 666,
-     "sig": "atg+ml",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 991,
-      "naive_dec": 10.91,
-      "ev": 0.4254,
-      "ev_half": 0.2418,
-      "ev_full": 0.0817,
-      "f_star": 1.285,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.467,
-       0.196
-      ]
-     }
-    },
-    {
-     "legs": [
-      "VAN ML",
-      "Marco Rossi anytime goal",
-      "Matvei Michkov over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.516,
-      0.216,
-      0.55
-     ],
-     "p_joint": 0.0826,
-     "p_raw": 0.0764,
-     "p_indep": 0.0611,
-     "lift": 1.351,
-     "fair_odds": 1111,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1668,
-      "naive_dec": 17.68,
-      "ev": 0.4602,
-      "ev_half": 0.2564,
-      "ev_full": 0.0811,
-      "f_star": 1.26,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.467,
-       0.196,
-       0.578
-      ]
-     }
+     "sig": "atg+ml"
     }
    ]
   },
@@ -1157,7 +524,7 @@
    "away": "NYI",
    "start_utc": "2026-11-10T03:00:00Z",
    "p_home": 0.4226,
-   "priced": true,
+   "priced": false,
    "exp_total": 5.9,
    "plays": [
     {
@@ -1194,22 +561,7 @@
      "p_indep": 0.0394,
      "lift": 1.719,
      "fair_odds": 1375,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "BetRivers",
-      "naive_odds": 1126,
-      "naive_dec": 12.25,
-      "ev": -0.1694,
-      "ev_half": -0.3665,
-      "ev_full": -0.5168,
-      "f_star": -0.343,
-      "n_books": 4,
-      "leg_mkt_p": [
-       0.465,
-       0.474,
-       0.351
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -1227,22 +579,7 @@
      "p_indep": 0.0413,
      "lift": 1.718,
      "fair_odds": 1310,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1078,
-      "naive_dec": 11.78,
-      "ev": -0.1644,
-      "ev_half": -0.3625,
-      "ev_full": -0.5137,
-      "f_star": -0.332,
-      "n_books": 4,
-      "leg_mkt_p": [
-       0.571,
-       0.48,
-       0.294
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -1260,22 +597,7 @@
      "p_indep": 0.0483,
      "lift": 1.687,
      "fair_odds": 1126,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1113,
-      "naive_dec": 12.13,
-      "ev": -0.011,
-      "ev_half": -0.2385,
-      "ev_full": -0.4136,
-      "f_star": -0.021,
-      "n_books": 4,
-      "leg_mkt_p": [
-       0.571,
-       0.48,
-       0.286
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -1293,22 +615,7 @@
      "p_indep": 0.062,
      "lift": 1.686,
      "fair_odds": 857,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1182,
-      "naive_dec": 12.82,
-      "ev": 0.3394,
-      "ev_half": 0.0317,
-      "ev_full": -0.2054,
-      "f_star": 0.56,
-      "n_books": 4,
-      "leg_mkt_p": [
-       0.571,
-       0.48,
-       0.27
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -1326,22 +633,7 @@
      "p_indep": 0.0489,
      "lift": 1.675,
      "fair_odds": 1121,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "BetRivers",
-      "naive_odds": 932,
-      "naive_dec": 10.32,
-      "ev": -0.1546,
-      "ev_half": -0.3467,
-      "ev_full": -0.4952,
-      "f_star": -0.326,
-      "n_books": 4,
-      "leg_mkt_p": [
-       0.465,
-       0.474,
-       0.417
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -1359,22 +651,7 @@
      "p_indep": 0.0601,
      "lift": 1.673,
      "fair_odds": 895,
-     "sig": "atg+ml+total",
-     "market": {
-      "book": "DraftKings",
-      "naive_odds": 744,
-      "naive_dec": 8.44,
-      "ev": -0.1517,
-      "ev_half": -0.3442,
-      "ev_full": -0.493,
-      "f_star": -0.32,
-      "n_books": 4,
-      "leg_mkt_p": [
-       0.575,
-       0.483,
-       0.408
-      ]
-     }
+     "sig": "atg+ml+total"
     },
     {
      "legs": [
@@ -1424,21 +701,7 @@
      "p_indep": 0.1325,
      "lift": 1.284,
      "fair_odds": 488,
-     "sig": "atg+ml",
-     "market": {
-      "book": "BetRivers",
-      "naive_odds": 416,
-      "naive_dec": 5.16,
-      "ev": -0.1226,
-      "ev_half": -0.2255,
-      "ev_full": -0.3164,
-      "f_star": -0.524,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.465,
-       0.417
-      ]
-     }
+     "sig": "atg+ml"
     },
     {
      "legs": [
@@ -1454,21 +717,7 @@
      "p_indep": 0.1159,
      "lift": 1.342,
      "fair_odds": 543,
-     "sig": "atg+total",
-     "market": {
-      "book": "BetRivers",
-      "naive_odds": 380,
-      "naive_dec": 4.8,
-      "ev": -0.2537,
-      "ev_half": -0.3558,
-      "ev_full": -0.4439,
-      "f_star": -0.994,
-      "n_books": 4,
-      "leg_mkt_p": [
-       0.474,
-       0.417
-      ]
-     }
+     "sig": "atg+total"
     },
     {
      "legs": [
@@ -1518,216 +767,7 @@
      "p_indep": 0.1073,
      "lift": 1.353,
      "fair_odds": 589,
-     "sig": "atg+total",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 633,
-      "naive_dec": 7.33,
-      "ev": 0.0634,
-      "ev_half": -0.0858,
-      "ev_full": -0.2141,
-      "f_star": 0.203,
-      "n_books": 4,
-      "leg_mkt_p": [
-       0.48,
-       0.27
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYI ML",
-      "Matthew Schaefer anytime goal"
-     ],
-     "leg_probs": [
-      0.578,
-      0.291
-     ],
-     "p_joint": 0.2064,
-     "p_raw": 0.2077,
-     "p_indep": 0.1679,
-     "lift": 1.23,
-     "fair_odds": 384,
-     "sig": "atg+ml",
-     "market": {
-      "book": "BetMGM",
-      "naive_odds": 584,
-      "naive_dec": 6.84,
-      "ev": 0.4119,
-      "ev_half": 0.2733,
-      "ev_full": 0.1483,
-      "f_star": 1.669,
-      "n_books": 5,
-      "leg_mkt_p": [
-       0.585,
-       0.25
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYI ML",
-      "Matthew Schaefer anytime goal",
-      "Brayden Schenn over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.578,
-      0.291,
-      0.545
-     ],
-     "p_joint": 0.116,
-     "p_raw": 0.113,
-     "p_indep": 0.0916,
-     "lift": 1.267,
-     "fair_odds": 762,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "BetMGM",
-      "naive_odds": 1056,
-      "naive_dec": 11.56,
-      "ev": 0.3413,
-      "ev_half": 0.1916,
-      "ev_full": 0.0586,
-      "f_star": 1.241,
-      "n_books": 2,
-      "leg_mkt_p": [
-       0.585,
-       0.25,
-       0.542
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYI ML",
-      "Will Smith over 2.5 SOG",
-      "Matthew Schaefer anytime goal"
-     ],
-     "leg_probs": [
-      0.578,
-      0.425,
-      0.291
-     ],
-     "p_joint": 0.0926,
-     "p_raw": 0.0856,
-     "p_indep": 0.0713,
-     "lift": 1.299,
-     "fair_odds": 980,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "BetMGM",
-      "naive_odds": 1206,
-      "naive_dec": 13.06,
-      "ev": 0.2096,
-      "ev_half": 0.0613,
-      "ev_full": -0.0687,
-      "f_star": 0.728,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.585,
-       0.477,
-       0.25
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYI ML",
-      "Matthew Schaefer anytime goal",
-      "Simon Holmstrom over 1.5 SOG"
-     ],
-     "leg_probs": [
-      0.578,
-      0.291,
-      0.473
-     ],
-     "p_joint": 0.1008,
-     "p_raw": 0.0983,
-     "p_indep": 0.0795,
-     "lift": 1.269,
-     "fair_odds": 892,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "BetMGM",
-      "naive_odds": 1070,
-      "naive_dec": 11.7,
-      "ev": 0.1795,
-      "ev_half": 0.047,
-      "ev_full": -0.0706,
-      "f_star": 0.693,
-      "n_books": 2,
-      "leg_mkt_p": [
-       0.585,
-       0.25,
-       0.533
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYI ML",
-      "Matthew Schaefer anytime goal",
-      "Bo Horvat over 3.5 SOG"
-     ],
-     "leg_probs": [
-      0.578,
-      0.291,
-      0.37
-     ],
-     "p_joint": 0.0807,
-     "p_raw": 0.0747,
-     "p_indep": 0.0621,
-     "lift": 1.3,
-     "fair_odds": 1138,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "BetMGM",
-      "naive_odds": 1371,
-      "naive_dec": 14.71,
-      "ev": 0.1875,
-      "ev_half": 0.0414,
-      "ev_full": -0.0868,
-      "f_star": 0.654,
-      "n_books": 2,
-      "leg_mkt_p": [
-       0.585,
-       0.25,
-       0.428
-      ]
-     }
-    },
-    {
-     "legs": [
-      "NYI ML",
-      "Macklin Celebrini over 3.5 SOG",
-      "Matthew Schaefer anytime goal"
-     ],
-     "leg_probs": [
-      0.578,
-      0.453,
-      0.291
-     ],
-     "p_joint": 0.0964,
-     "p_raw": 0.0892,
-     "p_indep": 0.076,
-     "lift": 1.268,
-     "fair_odds": 937,
-     "sig": "atg+ml+sog",
-     "market": {
-      "book": "FanDuel",
-      "naive_odds": 1111,
-      "naive_dec": 12.11,
-      "ev": 0.1675,
-      "ev_half": 0.0367,
-      "ev_full": -0.0794,
-      "f_star": 0.652,
-      "n_books": 3,
-      "leg_mkt_p": [
-       0.571,
-       0.501,
-       0.27
-      ]
-     }
+     "sig": "atg+total"
     }
    ]
   },
