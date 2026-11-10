@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T23:29+00:00",
+ "generated_at": "2026-11-10T03:51+00:00",
  "today": "2026-11-09",
  "games": [
   {
@@ -1017,6 +1017,13 @@
    ],
    "a_last4": [
     {
+     "date": "2026-11-09",
+     "opp": "EDM",
+     "home": false,
+     "gf": 1,
+     "ga": 3
+    },
+    {
      "date": "2026-11-07",
      "opp": "SEA",
      "home": false,
@@ -1036,13 +1043,6 @@
      "home": true,
      "gf": 3,
      "ga": 1
-    },
-    {
-     "date": "2026-11-01",
-     "opp": "EDM",
-     "home": true,
-     "gf": 1,
-     "ga": 4
     }
    ]
   },
@@ -1074,6 +1074,13 @@
    ],
    "h_last4": [
     {
+     "date": "2026-11-09",
+     "opp": "NYR",
+     "home": true,
+     "gf": 3,
+     "ga": 1
+    },
+    {
      "date": "2026-11-07",
      "opp": "VAN",
      "home": true,
@@ -1093,13 +1100,6 @@
      "home": false,
      "gf": 3,
      "ga": 4
-    },
-    {
-     "date": "2026-11-01",
-     "opp": "NYR",
-     "home": false,
-     "gf": 4,
-     "ga": 1
     }
    ],
    "a_last4": [

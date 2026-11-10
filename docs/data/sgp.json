@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T23:30+00:00",
+ "generated_at": "2026-11-10T03:52+00:00",
  "min_joint": 0.06,
  "n_sim": 20000,
  "odds_games": 0,
@@ -2817,6 +2817,42 @@
    "plays": [
     {
      "legs": [
+      "NYR ML",
+      "Over 6.5",
+      "Tye Kartye anytime goal"
+     ],
+     "leg_probs": [
+      0.555,
+      0.358,
+      0.188
+     ],
+     "p_joint": 0.0667,
+     "p_raw": 0.0625,
+     "p_indep": 0.0372,
+     "lift": 1.792,
+     "fair_odds": 1399,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
+      "NYR ML",
+      "Over 6.5",
+      "Gabe Perreault anytime goal"
+     ],
+     "leg_probs": [
+      0.555,
+      0.358,
+      0.231
+     ],
+     "p_joint": 0.0811,
+     "p_raw": 0.076,
+     "p_indep": 0.0457,
+     "lift": 1.773,
+     "fair_odds": 1133,
+     "sig": "atg+ml+total"
+    },
+    {
+     "legs": [
       "CGY ML",
       "Over 6.5",
       "Joel Farabee anytime goal"
@@ -2837,54 +2873,36 @@
      "legs": [
       "NYR ML",
       "Over 6.5",
-      "Gabe Perreault anytime goal"
+      "Pavel Dorofeyev anytime goal"
      ],
      "leg_probs": [
       0.555,
       0.358,
-      0.237
+      0.232
      ],
-     "p_joint": 0.0826,
-     "p_raw": 0.0773,
-     "p_indep": 0.047,
+     "p_joint": 0.081,
+     "p_raw": 0.0759,
+     "p_indep": 0.0461,
      "lift": 1.758,
-     "fair_odds": 1111,
+     "fair_odds": 1134,
      "sig": "atg+ml+total"
     },
     {
      "legs": [
       "NYR ML",
       "Over 6.5",
-      "Alexis Lafreniere anytime goal"
+      "Mika Zibanejad anytime goal"
      ],
      "leg_probs": [
       0.555,
       0.358,
-      0.24
+      0.223
      ],
-     "p_joint": 0.0834,
-     "p_raw": 0.0781,
-     "p_indep": 0.0476,
-     "lift": 1.75,
-     "fair_odds": 1100,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Over 6.5",
-      "Tye Kartye anytime goal"
-     ],
-     "leg_probs": [
-      0.555,
-      0.358,
-      0.19
-     ],
-     "p_joint": 0.0653,
-     "p_raw": 0.0611,
-     "p_indep": 0.0377,
-     "lift": 1.732,
-     "fair_odds": 1432,
+     "p_joint": 0.0773,
+     "p_raw": 0.0724,
+     "p_indep": 0.0442,
+     "lift": 1.749,
+     "fair_odds": 1193,
      "sig": "atg+ml+total"
     },
     {
@@ -2909,36 +2927,18 @@
      "legs": [
       "NYR ML",
       "Over 6.5",
-      "Mika Zibanejad anytime goal"
+      "Alexis Lafreniere anytime goal"
      ],
      "leg_probs": [
       0.555,
       0.358,
-      0.224
+      0.24
      ],
-     "p_joint": 0.0762,
-     "p_raw": 0.0714,
-     "p_indep": 0.0444,
-     "lift": 1.718,
-     "fair_odds": 1212,
-     "sig": "atg+ml+total"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Over 6.5",
-      "Pavel Dorofeyev anytime goal"
-     ],
-     "leg_probs": [
-      0.555,
-      0.358,
-      0.231
-     ],
-     "p_joint": 0.0779,
-     "p_raw": 0.0729,
-     "p_indep": 0.0459,
-     "lift": 1.698,
-     "fair_odds": 1184,
+     "p_joint": 0.0821,
+     "p_raw": 0.0769,
+     "p_indep": 0.0475,
+     "lift": 1.728,
+     "fair_odds": 1118,
      "sig": "atg+ml+total"
     },
     {
@@ -2984,12 +2984,44 @@
       0.529,
       0.24
      ],
-     "p_joint": 0.1613,
-     "p_raw": 0.1622,
-     "p_indep": 0.1271,
-     "lift": 1.268,
-     "fair_odds": 520,
+     "p_joint": 0.159,
+     "p_raw": 0.16,
+     "p_indep": 0.1268,
+     "lift": 1.254,
+     "fair_odds": 529,
      "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 5.5",
+      "Pavel Dorofeyev anytime goal"
+     ],
+     "leg_probs": [
+      0.529,
+      0.232
+     ],
+     "p_joint": 0.1575,
+     "p_raw": 0.1585,
+     "p_indep": 0.123,
+     "lift": 1.28,
+     "fair_odds": 535,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "NYR ML",
+      "Mika Zibanejad anytime goal"
+     ],
+     "leg_probs": [
+      0.555,
+      0.223
+     ],
+     "p_joint": 0.1546,
+     "p_raw": 0.1556,
+     "p_indep": 0.1237,
+     "lift": 1.25,
+     "fair_odds": 547,
+     "sig": "atg+ml"
     },
     {
      "legs": [
@@ -2998,13 +3030,13 @@
      ],
      "leg_probs": [
       0.529,
-      0.237
+      0.231
      ],
-     "p_joint": 0.1589,
-     "p_raw": 0.1599,
-     "p_indep": 0.1254,
-     "lift": 1.267,
-     "fair_odds": 529,
+     "p_joint": 0.1542,
+     "p_raw": 0.1552,
+     "p_indep": 0.1221,
+     "lift": 1.263,
+     "fair_odds": 548,
      "sig": "atg+total"
     },
     {
@@ -3014,46 +3046,14 @@
      ],
      "leg_probs": [
       0.529,
-      0.224
+      0.223
      ],
-     "p_joint": 0.151,
-     "p_raw": 0.1519,
-     "p_indep": 0.1184,
-     "lift": 1.275,
-     "fair_odds": 562,
+     "p_joint": 0.1478,
+     "p_raw": 0.1487,
+     "p_indep": 0.118,
+     "lift": 1.252,
+     "fair_odds": 577,
      "sig": "atg+total"
-    },
-    {
-     "legs": [
-      "CGY ML",
-      "Joel Farabee anytime goal"
-     ],
-     "leg_probs": [
-      0.445,
-      0.247
-     ],
-     "p_joint": 0.1429,
-     "p_raw": 0.1438,
-     "p_indep": 0.11,
-     "lift": 1.3,
-     "fair_odds": 600,
-     "sig": "atg+ml"
-    },
-    {
-     "legs": [
-      "NYR ML",
-      "Tye Kartye anytime goal"
-     ],
-     "leg_probs": [
-      0.555,
-      0.19
-     ],
-     "p_joint": 0.1344,
-     "p_raw": 0.1302,
-     "p_indep": 0.1054,
-     "lift": 1.276,
-     "fair_odds": 644,
-     "sig": "atg+ml"
     }
    ]
   },
