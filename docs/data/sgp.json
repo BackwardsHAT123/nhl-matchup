@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T20:55+00:00",
+ "generated_at": "2026-11-11T01:31+00:00",
  "min_joint": 0.06,
  "n_sim": 20000,
  "odds_games": 0,
@@ -3997,22 +3997,6 @@
     },
     {
      "legs": [
-      "Over 6.5",
-      "Kirill Kaprizov anytime goal"
-     ],
-     "leg_probs": [
-      0.389,
-      0.355
-     ],
-     "p_joint": 0.1793,
-     "p_raw": 0.1805,
-     "p_indep": 0.1383,
-     "lift": 1.297,
-     "fair_odds": 458,
-     "sig": "atg+total"
-    },
-    {
-     "legs": [
       "Over 5.5",
       "Auston Matthews anytime goal"
      ],
@@ -4024,6 +4008,22 @@
      "p_raw": 0.1805,
      "p_indep": 0.1419,
      "lift": 1.264,
+     "fair_odds": 458,
+     "sig": "atg+total"
+    },
+    {
+     "legs": [
+      "Over 6.5",
+      "Kirill Kaprizov anytime goal"
+     ],
+     "leg_probs": [
+      0.389,
+      0.355
+     ],
+     "p_joint": 0.1793,
+     "p_raw": 0.1805,
+     "p_indep": 0.1383,
+     "lift": 1.297,
      "fair_odds": 458,
      "sig": "atg+total"
     },
