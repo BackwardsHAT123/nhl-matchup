@@ -1,26 +1,10 @@
 {
- "generated_at": "2026-11-14T01:50+00:00",
+ "generated_at": "2026-11-14T19:14+00:00",
  "live": {
-  "n": 173,
-  "acc": 0.6011560693641619,
-  "logloss": 0.6572586764473223,
+  "n": 175,
+  "acc": 0.6,
+  "logloss": 0.6570797146426245,
   "recent": [
-   {
-    "date": "2026-11-08",
-    "home": "BUF",
-    "away": "VGK",
-    "p_home": 0.49,
-    "home_win": 0,
-    "correct": 1
-   },
-   {
-    "date": "2026-11-08",
-    "home": "BOS",
-    "away": "FLA",
-    "p_home": 0.618,
-    "home_win": 1,
-    "correct": 1
-   },
    {
     "date": "2026-11-08",
     "home": "TOR",
@@ -55,18 +39,18 @@
    },
    {
     "date": "2026-11-10",
-    "home": "LAK",
-    "away": "NSH",
-    "p_home": 0.553,
-    "home_win": 0,
+    "home": "STL",
+    "away": "DET",
+    "p_home": 0.496,
+    "home_win": 1,
     "correct": 0
    },
    {
     "date": "2026-11-10",
-    "home": "WPG",
-    "away": "NJD",
-    "p_home": 0.385,
-    "home_win": 1,
+    "home": "LAK",
+    "away": "NSH",
+    "p_home": 0.553,
+    "home_win": 0,
     "correct": 0
    },
    {
@@ -79,9 +63,9 @@
    },
    {
     "date": "2026-11-10",
-    "home": "STL",
-    "away": "DET",
-    "p_home": 0.496,
+    "home": "WPG",
+    "away": "NJD",
+    "p_home": 0.385,
     "home_win": 1,
     "correct": 0
    },
@@ -159,6 +143,22 @@
    },
    {
     "date": "2026-11-12",
+    "home": "SEA",
+    "away": "CAR",
+    "p_home": 0.285,
+    "home_win": 0,
+    "correct": 1
+   },
+   {
+    "date": "2026-11-12",
+    "home": "LAK",
+    "away": "NYI",
+    "p_home": 0.516,
+    "home_win": 0,
+    "correct": 0
+   },
+   {
+    "date": "2026-11-12",
     "home": "UTA",
     "away": "STL",
     "p_home": 0.595,
@@ -183,19 +183,19 @@
    },
    {
     "date": "2026-11-12",
-    "home": "CBJ",
-    "away": "TBL",
-    "p_home": 0.444,
+    "home": "TOR",
+    "away": "MIN",
+    "p_home": 0.399,
     "home_win": 0,
     "correct": 1
    },
    {
     "date": "2026-11-12",
-    "home": "BOS",
-    "away": "MTL",
-    "p_home": 0.564,
-    "home_win": 0,
-    "correct": 0
+    "home": "NJD",
+    "away": "WSH",
+    "p_home": 0.601,
+    "home_win": 1,
+    "correct": 1
    },
    {
     "date": "2026-11-12",
@@ -215,44 +215,44 @@
    },
    {
     "date": "2026-11-12",
-    "home": "TOR",
-    "away": "MIN",
-    "p_home": 0.399,
-    "home_win": 0,
-    "correct": 1
-   },
-   {
-    "date": "2026-11-12",
-    "home": "LAK",
-    "away": "NYI",
-    "p_home": 0.516,
+    "home": "BOS",
+    "away": "MTL",
+    "p_home": 0.564,
     "home_win": 0,
     "correct": 0
    },
    {
     "date": "2026-11-12",
-    "home": "NJD",
-    "away": "WSH",
-    "p_home": 0.601,
-    "home_win": 1,
+    "home": "CBJ",
+    "away": "TBL",
+    "p_home": 0.444,
+    "home_win": 0,
     "correct": 1
    },
    {
-    "date": "2026-11-12",
-    "home": "SEA",
-    "away": "CAR",
-    "p_home": 0.285,
+    "date": "2026-11-13",
+    "home": "VAN",
+    "away": "NYR",
+    "p_home": 0.307,
     "home_win": 0,
     "correct": 1
+   },
+   {
+    "date": "2026-11-13",
+    "home": "VGK",
+    "away": "NSH",
+    "p_home": 0.6,
+    "home_win": 0,
+    "correct": 0
    }
   ]
  },
  "backtest": {
   "label": "2025-26 + 2026-27",
-  "n": 1621,
-  "acc": 0.5743368291178285,
-  "logloss": 0.6736733420240082,
-  "home_rate": 0.527452190006169,
+  "n": 1623,
+  "acc": 0.574245224892175,
+  "logloss": 0.6736504315739608,
+  "home_rate": 0.5268022181146026,
   "calibration": [
    {
     "n": 573,
@@ -260,8 +260,8 @@
     "conf": 0.5247
    },
    {
-    "n": 447,
-    "acc": 0.5391,
+    "n": 448,
+    "acc": 0.5379,
     "conf": 0.5746
    },
    {
@@ -270,16 +270,16 @@
     "conf": 0.6222
    },
    {
-    "n": 264,
-    "acc": 0.7121,
-    "conf": 0.6954
+    "n": 265,
+    "acc": 0.7132,
+    "conf": 0.6952
    }
   ],
   "cumulative": [
    {
     "date": "2025-10-07",
     "n": 1,
-    "cum": 1.0
+    "cum": 0.0
    },
    {
     "date": "2025-10-09",
@@ -289,22 +289,22 @@
    {
     "date": "2025-10-13",
     "n": 41,
-    "cum": 0.4634
+    "cum": 0.439
    },
    {
     "date": "2025-10-16",
     "n": 61,
-    "cum": 0.4918
+    "cum": 0.5082
    },
    {
     "date": "2025-10-18",
     "n": 81,
-    "cum": 0.5432
+    "cum": 0.5309
    },
    {
     "date": "2025-10-21",
     "n": 101,
-    "cum": 0.5446
+    "cum": 0.5347
    },
    {
     "date": "2025-10-23",
@@ -314,7 +314,7 @@
    {
     "date": "2025-10-26",
     "n": 141,
-    "cum": 0.5461
+    "cum": 0.539
    },
    {
     "date": "2025-10-28",
@@ -339,12 +339,12 @@
    {
     "date": "2025-11-08",
     "n": 241,
-    "cum": 0.5477
+    "cum": 0.5436
    },
    {
     "date": "2025-11-11",
     "n": 261,
-    "cum": 0.5479
+    "cum": 0.5517
    },
    {
     "date": "2025-11-14",
@@ -364,17 +364,17 @@
    {
     "date": "2025-11-22",
     "n": 341,
-    "cum": 0.5513
+    "cum": 0.5455
    },
    {
     "date": "2025-11-26",
     "n": 361,
-    "cum": 0.5596
+    "cum": 0.5568
    },
    {
     "date": "2025-11-28",
     "n": 381,
-    "cum": 0.5538
+    "cum": 0.5564
    },
    {
     "date": "2025-11-29",
@@ -384,12 +384,12 @@
    {
     "date": "2025-12-03",
     "n": 421,
-    "cum": 0.5416
+    "cum": 0.5439
    },
    {
     "date": "2025-12-06",
     "n": 441,
-    "cum": 0.5397
+    "cum": 0.5374
    },
    {
     "date": "2025-12-08",
@@ -399,17 +399,17 @@
    {
     "date": "2025-12-11",
     "n": 481,
-    "cum": 0.5426
+    "cum": 0.5405
    },
    {
     "date": "2025-12-13",
     "n": 501,
-    "cum": 0.5429
+    "cum": 0.5449
    },
    {
     "date": "2025-12-16",
     "n": 521,
-    "cum": 0.547
+    "cum": 0.5451
    },
    {
     "date": "2025-12-18",
@@ -424,7 +424,7 @@
    {
     "date": "2025-12-23",
     "n": 581,
-    "cum": 0.5473
+    "cum": 0.5491
    },
    {
     "date": "2025-12-28",
@@ -464,7 +464,7 @@
    {
     "date": "2026-01-15",
     "n": 741,
-    "cum": 0.5506
+    "cum": 0.5493
    },
    {
     "date": "2026-01-17",
@@ -474,7 +474,7 @@
    {
     "date": "2026-01-20",
     "n": 781,
-    "cum": 0.5506
+    "cum": 0.5493
    },
    {
     "date": "2026-01-22",
@@ -494,12 +494,12 @@
    {
     "date": "2026-01-31",
     "n": 861,
-    "cum": 0.5528
+    "cum": 0.5505
    },
    {
     "date": "2026-02-02",
     "n": 881,
-    "cum": 0.5528
+    "cum": 0.5539
    },
    {
     "date": "2026-02-04",
@@ -514,12 +514,12 @@
    {
     "date": "2026-02-28",
     "n": 941,
-    "cum": 0.5558
+    "cum": 0.5579
    },
    {
     "date": "2026-03-03",
     "n": 961,
-    "cum": 0.5578
+    "cum": 0.5588
    },
    {
     "date": "2026-03-05",
@@ -529,12 +529,12 @@
    {
     "date": "2026-03-08",
     "n": 1001,
-    "cum": 0.5604
+    "cum": 0.5594
    },
    {
     "date": "2026-03-10",
     "n": 1021,
-    "cum": 0.5593
+    "cum": 0.5612
    },
    {
     "date": "2026-03-13",
@@ -549,7 +549,7 @@
    {
     "date": "2026-03-18",
     "n": 1081,
-    "cum": 0.556
+    "cum": 0.555
    },
    {
     "date": "2026-03-21",
@@ -559,7 +559,7 @@
    {
     "date": "2026-03-24",
     "n": 1121,
-    "cum": 0.5549
+    "cum": 0.5558
    },
    {
     "date": "2026-03-26",
@@ -569,17 +569,17 @@
    {
     "date": "2026-03-28",
     "n": 1161,
-    "cum": 0.553
+    "cum": 0.5547
    },
    {
     "date": "2026-03-31",
     "n": 1181,
-    "cum": 0.5529
+    "cum": 0.5521
    },
    {
     "date": "2026-04-02",
     "n": 1201,
-    "cum": 0.5562
+    "cum": 0.5545
    },
    {
     "date": "2026-04-04",
@@ -634,12 +634,12 @@
    {
     "date": "2026-10-15",
     "n": 1421,
-    "cum": 0.5651
+    "cum": 0.5644
    },
    {
     "date": "2026-10-17",
     "n": 1441,
-    "cum": 0.5663
+    "cum": 0.5677
    },
    {
     "date": "2026-10-20",
@@ -654,12 +654,12 @@
    {
     "date": "2026-10-27",
     "n": 1501,
-    "cum": 0.5703
+    "cum": 0.5696
    },
    {
     "date": "2026-10-29",
     "n": 1521,
-    "cum": 0.5713
+    "cum": 0.572
    },
    {
     "date": "2026-11-01",
@@ -669,17 +669,17 @@
    {
     "date": "2026-11-04",
     "n": 1561,
-    "cum": 0.5734
+    "cum": 0.574
    },
    {
     "date": "2026-11-07",
     "n": 1581,
-    "cum": 0.5743
+    "cum": 0.5737
    },
    {
     "date": "2026-11-10",
     "n": 1601,
-    "cum": 0.5734
+    "cum": 0.5746
    },
    {
     "date": "2026-11-12",
@@ -744,22 +744,22 @@
    "gp_window": 20
   },
   {
+   "team": "NYR",
+   "xgf_pct": 0.5189896463287211,
+   "last_game": "2026-11-13",
+   "gp_window": 21
+  },
+  {
    "team": "VGK",
-   "xgf_pct": 0.517945741819995,
-   "last_game": "2026-11-11",
-   "gp_window": 20
+   "xgf_pct": 0.5189200597187591,
+   "last_game": "2026-11-13",
+   "gp_window": 21
   },
   {
    "team": "PIT",
    "xgf_pct": 0.5173970657081418,
    "last_game": "2026-11-11",
    "gp_window": 19
-  },
-  {
-   "team": "NYR",
-   "xgf_pct": 0.5133386627547615,
-   "last_game": "2026-11-11",
-   "gp_window": 20
   },
   {
    "team": "DET",
@@ -828,16 +828,16 @@
    "gp_window": 20
   },
   {
-   "team": "NSH",
-   "xgf_pct": 0.4867540720480211,
-   "last_game": "2026-11-11",
-   "gp_window": 19
-  },
-  {
    "team": "CBJ",
    "xgf_pct": 0.48573596090400667,
    "last_game": "2026-11-12",
    "gp_window": 17
+  },
+  {
+   "team": "NSH",
+   "xgf_pct": 0.48557221721937277,
+   "last_game": "2026-11-13",
+   "gp_window": 20
   },
   {
    "team": "CGY",
@@ -883,42 +883,42 @@
   },
   {
    "team": "VAN",
-   "xgf_pct": 0.43350891477376585,
-   "last_game": "2026-11-09",
-   "gp_window": 20
+   "xgf_pct": 0.42993099597144113,
+   "last_game": "2026-11-13",
+   "gp_window": 21
   }
  ],
  "team_goalies": [
   {
    "team": "ANA",
    "goalie": "Lukas Dostal",
-   "p_start": 0.584,
+   "p_start": 0.591,
    "full": {
     "xgf": 0.4451,
-    "gsax": -0.294,
+    "gsax": -0.302,
     "gp": 19,
     "starts": 10
    },
    "l5": {
     "xgf": 0.4613,
-    "gsax": -0.809,
+    "gsax": -0.817,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "BOS",
-   "goalie": "Michael DiPietro",
-   "p_start": 0.962,
+   "goalie": "Jeremy Swayman",
+   "p_start": 0.552,
    "full": {
     "xgf": 0.5307,
-    "gsax": 0.732,
+    "gsax": 0.573,
     "gp": 19,
-    "starts": 5
+    "starts": 14
    },
    "l5": {
     "xgf": 0.5171,
-    "gsax": 0.732,
+    "gsax": 0.584,
     "gp": 5,
     "starts": 5
    }
@@ -926,16 +926,16 @@
   {
    "team": "BUF",
    "goalie": "Colten Ellis",
-   "p_start": 0.559,
+   "p_start": 0.542,
    "full": {
     "xgf": 0.5096,
-    "gsax": 0.075,
+    "gsax": 0.067,
     "gp": 19,
     "starts": 7
    },
    "l5": {
     "xgf": 0.5252,
-    "gsax": 0.114,
+    "gsax": 0.107,
     "gp": 5,
     "starts": 5
    }
@@ -943,16 +943,16 @@
   {
    "team": "CGY",
    "goalie": "Dustin Wolf",
-   "p_start": 0.621,
+   "p_start": 0.6,
    "full": {
     "xgf": 0.4718,
-    "gsax": -0.733,
+    "gsax": -0.74,
     "gp": 19,
     "starts": 9
    },
    "l5": {
     "xgf": 0.4869,
-    "gsax": -0.036,
+    "gsax": -0.043,
     "gp": 5,
     "starts": 5
    }
@@ -960,33 +960,33 @@
   {
    "team": "CAR",
    "goalie": "Pyotr Kochetkov",
-   "p_start": 0.943,
+   "p_start": 0.883,
    "full": {
     "xgf": 0.598,
-    "gsax": 0.879,
+    "gsax": 0.872,
     "gp": 20,
     "starts": 12
    },
    "l5": {
     "xgf": 0.5965,
-    "gsax": 1.061,
+    "gsax": 1.054,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "CHI",
-   "goalie": "Arvid Soderblom",
-   "p_start": 0.96,
+   "goalie": "Spencer Knight",
+   "p_start": 0.641,
    "full": {
     "xgf": 0.4045,
-    "gsax": -1.054,
+    "gsax": -0.274,
     "gp": 19,
-    "starts": 4
+    "starts": 15
    },
    "l5": {
     "xgf": 0.382,
-    "gsax": -1.049,
+    "gsax": -0.917,
     "gp": 5,
     "starts": 5
    }
@@ -994,16 +994,16 @@
   {
    "team": "COL",
    "goalie": "Mackenzie Blackwood",
-   "p_start": 0.931,
+   "p_start": 0.823,
    "full": {
     "xgf": 0.529,
-    "gsax": 0.169,
+    "gsax": 0.162,
     "gp": 20,
     "starts": 14
    },
    "l5": {
     "xgf": 0.4675,
-    "gsax": 0.523,
+    "gsax": 0.516,
     "gp": 5,
     "starts": 5
    }
@@ -1011,50 +1011,50 @@
   {
    "team": "CBJ",
    "goalie": "Cam Talbot",
-   "p_start": 0.971,
+   "p_start": 0.664,
    "full": {
     "xgf": 0.478,
-    "gsax": 0.672,
+    "gsax": 0.664,
     "gp": 17,
     "starts": 8
    },
    "l5": {
     "xgf": 0.4927,
-    "gsax": 1.239,
+    "gsax": 1.231,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "DAL",
-   "goalie": "Casey DeSmith",
-   "p_start": 0.959,
+   "goalie": "Jake Oettinger",
+   "p_start": 0.55,
    "full": {
     "xgf": 0.503,
-    "gsax": 0.198,
+    "gsax": 0.26,
     "gp": 18,
-    "starts": 4
+    "starts": 14
    },
    "l5": {
     "xgf": 0.4715,
-    "gsax": -0.3,
+    "gsax": -0.944,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "DET",
-   "goalie": "Daniil Tarasov",
-   "p_start": 0.949,
+   "goalie": "John Gibson",
+   "p_start": 0.626,
    "full": {
     "xgf": 0.515,
-    "gsax": 0.828,
+    "gsax": -0.42,
     "gp": 20,
-    "starts": 6
+    "starts": 13
    },
    "l5": {
     "xgf": 0.4267,
-    "gsax": 0.35,
+    "gsax": -0.371,
     "gp": 5,
     "starts": 5
    }
@@ -1062,16 +1062,16 @@
   {
    "team": "EDM",
    "goalie": "Devon Levi",
-   "p_start": 0.632,
+   "p_start": 0.554,
    "full": {
     "xgf": 0.4802,
-    "gsax": 0.032,
+    "gsax": 0.024,
     "gp": 20,
     "starts": 9
    },
    "l5": {
     "xgf": 0.4536,
-    "gsax": 0.138,
+    "gsax": 0.131,
     "gp": 5,
     "starts": 5
    }
@@ -1079,16 +1079,16 @@
   {
    "team": "FLA",
    "goalie": "Jacob Markstrom",
-   "p_start": 0.969,
+   "p_start": 0.855,
    "full": {
     "xgf": 0.513,
-    "gsax": 0.287,
+    "gsax": 0.28,
     "gp": 20,
     "starts": 10
    },
    "l5": {
     "xgf": 0.4624,
-    "gsax": 0.102,
+    "gsax": 0.094,
     "gp": 5,
     "starts": 5
    }
@@ -1096,67 +1096,67 @@
   {
    "team": "LAK",
    "goalie": "Anton Forsberg",
-   "p_start": 0.973,
+   "p_start": 0.682,
    "full": {
     "xgf": 0.5031,
-    "gsax": -0.048,
+    "gsax": -0.055,
     "gp": 17,
     "starts": 6
    },
    "l5": {
     "xgf": 0.5926,
-    "gsax": 0.459,
+    "gsax": 0.452,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "MIN",
-   "goalie": "Calvin Pickard",
-   "p_start": 0.913,
+   "goalie": "Jesper Wallstedt",
+   "p_start": 0.712,
    "full": {
     "xgf": 0.5327,
-    "gsax": -1.187,
+    "gsax": 0.798,
     "gp": 21,
-    "starts": 3
+    "starts": 18
    },
    "l5": {
     "xgf": 0.4729,
-    "gsax": -1.373,
+    "gsax": 1.135,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "MTL",
-   "goalie": "Jakub Dobes",
-   "p_start": 0.926,
+   "goalie": "Jacob Fowler",
+   "p_start": 0.573,
    "full": {
     "xgf": 0.5115,
-    "gsax": -0.836,
+    "gsax": 1.047,
     "gp": 19,
-    "starts": 7
+    "starts": 12
    },
    "l5": {
     "xgf": 0.4578,
-    "gsax": -0.814,
+    "gsax": 0.652,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "NSH",
-   "goalie": "Juuse Saros",
-   "p_start": 0.768,
+   "goalie": "Justus Annunen",
+   "p_start": 0.956,
    "full": {
-    "xgf": 0.4803,
-    "gsax": 0.59,
-    "gp": 19,
-    "starts": 13
+    "xgf": 0.479,
+    "gsax": 0.061,
+    "gp": 20,
+    "starts": 5
    },
    "l5": {
-    "xgf": 0.4984,
-    "gsax": 0.918,
+    "xgf": 0.4969,
+    "gsax": 0.061,
     "gp": 5,
     "starts": 5
    }
@@ -1164,50 +1164,50 @@
   {
    "team": "NJD",
    "goalie": "Jake Allen",
-   "p_start": 0.947,
+   "p_start": 0.556,
    "full": {
     "xgf": 0.5677,
-    "gsax": -0.335,
+    "gsax": -0.342,
     "gp": 20,
     "starts": 10
    },
    "l5": {
     "xgf": 0.5074,
-    "gsax": -0.394,
+    "gsax": -0.402,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "NYI",
-   "goalie": "Semyon Varlamov",
-   "p_start": 0.954,
+   "goalie": "Ilya Sorokin",
+   "p_start": 0.687,
    "full": {
     "xgf": 0.4892,
-    "gsax": 0.36,
+    "gsax": 0.831,
     "gp": 18,
-    "starts": 5
+    "starts": 13
    },
    "l5": {
     "xgf": 0.4681,
-    "gsax": 0.36,
+    "gsax": 0.791,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "NYR",
-   "goalie": "Dylan Garand",
-   "p_start": 0.932,
+   "goalie": "Igor Shesterkin",
+   "p_start": 0.701,
    "full": {
-    "xgf": 0.5199,
-    "gsax": -0.023,
-    "gp": 20,
-    "starts": 12
+    "xgf": 0.5278,
+    "gsax": 0.703,
+    "gp": 21,
+    "starts": 5
    },
    "l5": {
-    "xgf": 0.5507,
-    "gsax": -0.489,
+    "xgf": 0.5603,
+    "gsax": 0.703,
     "gp": 5,
     "starts": 5
    }
@@ -1215,33 +1215,33 @@
   {
    "team": "OTT",
    "goalie": "Samuel Ersson",
-   "p_start": 0.938,
+   "p_start": 0.629,
    "full": {
     "xgf": 0.5315,
-    "gsax": -0.494,
+    "gsax": -0.501,
     "gp": 20,
     "starts": 7
    },
    "l5": {
     "xgf": 0.5759,
-    "gsax": 0.211,
+    "gsax": 0.204,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "PHI",
-   "goalie": "Joseph Woll",
-   "p_start": 0.551,
+   "goalie": "Dan Vladar",
+   "p_start": 0.514,
    "full": {
     "xgf": 0.4309,
-    "gsax": 0.405,
+    "gsax": -0.254,
     "gp": 21,
-    "starts": 10
+    "starts": 11
    },
    "l5": {
     "xgf": 0.5308,
-    "gsax": 0.032,
+    "gsax": -0.917,
     "gp": 5,
     "starts": 5
    }
@@ -1249,16 +1249,16 @@
   {
    "team": "PIT",
    "goalie": "Arturs Silovs",
-   "p_start": 0.75,
+   "p_start": 0.726,
    "full": {
     "xgf": 0.5255,
-    "gsax": -0.226,
+    "gsax": -0.234,
     "gp": 19,
     "starts": 12
    },
    "l5": {
     "xgf": 0.5458,
-    "gsax": -0.709,
+    "gsax": -0.717,
     "gp": 5,
     "starts": 5
    }
@@ -1266,50 +1266,50 @@
   {
    "team": "SJS",
    "goalie": "Yaroslav Askarov",
-   "p_start": 0.595,
+   "p_start": 0.674,
    "full": {
     "xgf": 0.4348,
-    "gsax": 0.153,
+    "gsax": 0.144,
     "gp": 21,
     "starts": 14
    },
    "l5": {
     "xgf": 0.4609,
-    "gsax": -0.262,
+    "gsax": -0.27,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "SEA",
-   "goalie": "Joey Daccord",
-   "p_start": 0.938,
+   "goalie": "Philipp Grubauer",
+   "p_start": 0.602,
    "full": {
     "xgf": 0.4472,
-    "gsax": -0.399,
+    "gsax": -0.416,
     "gp": 17,
-    "starts": 8
+    "starts": 9
    },
    "l5": {
     "xgf": 0.485,
-    "gsax": -0.654,
+    "gsax": -1.6,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "STL",
-   "goalie": "Jordan Binnington",
-   "p_start": 0.938,
+   "goalie": "Joel Hofer",
+   "p_start": 0.625,
    "full": {
     "xgf": 0.5022,
-    "gsax": -0.29,
+    "gsax": 0.699,
     "gp": 19,
-    "starts": 5
+    "starts": 14
    },
    "l5": {
     "xgf": 0.4978,
-    "gsax": -0.29,
+    "gsax": 1.04,
     "gp": 5,
     "starts": 5
    }
@@ -1317,16 +1317,16 @@
   {
    "team": "TBL",
    "goalie": "Andrei Vasilevskiy",
-   "p_start": 0.971,
+   "p_start": 0.824,
    "full": {
     "xgf": 0.5588,
-    "gsax": -0.096,
+    "gsax": -0.103,
     "gp": 19,
     "starts": 14
    },
    "l5": {
     "xgf": 0.5617,
-    "gsax": 0.459,
+    "gsax": 0.45,
     "gp": 5,
     "starts": 5
    }
@@ -1334,101 +1334,101 @@
   {
    "team": "TOR",
    "goalie": "Sergei Bobrovsky",
-   "p_start": 0.936,
+   "p_start": 0.771,
    "full": {
     "xgf": 0.4603,
-    "gsax": -0.133,
+    "gsax": -0.141,
     "gp": 21,
     "starts": 13
    },
    "l5": {
     "xgf": 0.4678,
-    "gsax": -1.174,
+    "gsax": -1.181,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "UTA",
-   "goalie": "Sebastian Cossa",
-   "p_start": 0.952,
+   "goalie": "Karel Vejmelka",
+   "p_start": 0.544,
    "full": {
     "xgf": 0.5683,
-    "gsax": -0.67,
+    "gsax": -0.446,
     "gp": 20,
-    "starts": 7
+    "starts": 13
    },
    "l5": {
     "xgf": 0.5408,
-    "gsax": -0.815,
+    "gsax": -0.637,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "VAN",
-   "goalie": "Leevi Merilinen",
-   "p_start": 0.629,
+   "goalie": "Kevin Lankinen",
+   "p_start": 0.932,
    "full": {
-    "xgf": 0.4004,
-    "gsax": -0.021,
-    "gp": 20,
-    "starts": 12
+    "xgf": 0.3971,
+    "gsax": -1.971,
+    "gp": 21,
+    "starts": 8
    },
    "l5": {
-    "xgf": 0.4229,
-    "gsax": -0.71,
+    "xgf": 0.3989,
+    "gsax": -2.197,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "VGK",
-   "goalie": "Adin Hill",
-   "p_start": 0.775,
+   "goalie": "Carter Hart",
+   "p_start": 0.95,
    "full": {
-    "xgf": 0.5267,
-    "gsax": 0.105,
-    "gp": 20,
-    "starts": 9
+    "xgf": 0.5275,
+    "gsax": -0.245,
+    "gp": 21,
+    "starts": 11
    },
    "l5": {
-    "xgf": 0.4513,
-    "gsax": 0.175,
+    "xgf": 0.4574,
+    "gsax": -0.549,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "WSH",
-   "goalie": "Charlie Lindgren",
-   "p_start": 0.932,
+   "goalie": "Logan Thompson",
+   "p_start": 0.667,
    "full": {
     "xgf": 0.5318,
-    "gsax": -0.273,
+    "gsax": 0.079,
     "gp": 17,
-    "starts": 4
+    "starts": 13
    },
    "l5": {
     "xgf": 0.5336,
-    "gsax": -1.039,
+    "gsax": -0.816,
     "gp": 5,
     "starts": 5
    }
   },
   {
    "team": "WPG",
-   "goalie": "Clay Stevenson",
-   "p_start": 0.771,
+   "goalie": "Stuart Skinner",
+   "p_start": 0.89,
    "full": {
     "xgf": 0.4841,
-    "gsax": -0.552,
+    "gsax": 0.034,
     "gp": 20,
-    "starts": 4
+    "starts": 14
    },
    "l5": {
     "xgf": 0.5592,
-    "gsax": -0.068,
+    "gsax": -0.653,
     "gp": 5,
     "starts": 5
    }
@@ -1436,7 +1436,7 @@
  ],
  "quad_lookback": {
   "full": {
-   "n": 3474,
+   "n": 3476,
    "home_win": 0.543,
    "avg_total": 6.16,
    "over55": 0.56,
@@ -1449,12 +1449,12 @@
      "A_win": null,
      "A_win_z": null,
      "home_win": 0.591,
-     "home_z": 0.904,
+     "home_z": 0.91,
      "avg_total": 6.125,
      "over55": 0.557,
-     "over55_z": -0.058,
+     "over55_z": -0.057,
      "over65": 0.375,
-     "over65_z": -1.391
+     "over65_z": -1.386
     },
     {
      "A": "TR",
@@ -1463,12 +1463,12 @@
      "A_win": 0.417,
      "A_win_z": -1.951,
      "home_win": 0.496,
-     "home_z": -1.1,
+     "home_z": -1.093,
      "avg_total": 6.129,
      "over55": 0.604,
      "over55_z": 1.056,
      "over65": 0.453,
-     "over65_z": 0.106
+     "over65_z": 0.112
     },
     {
      "A": "TR",
@@ -1477,12 +1477,12 @@
      "A_win": 0.677,
      "A_win_z": 4.075,
      "home_win": 0.481,
-     "home_z": -1.428,
+     "home_z": -1.421,
      "avg_total": 6.316,
      "over55": 0.541,
-     "over55_z": -0.43,
+     "over55_z": -0.429,
      "over65": 0.429,
-     "over65_z": -0.468
+     "over65_z": -0.462
     },
     {
      "A": "TR",
@@ -1491,12 +1491,12 @@
      "A_win": 0.655,
      "A_win_z": 4.308,
      "home_win": 0.536,
-     "home_z": -0.19,
+     "home_z": -0.182,
      "avg_total": 6.17,
      "over55": 0.552,
-     "over55_z": -0.234,
+     "over55_z": -0.233,
      "over65": 0.454,
-     "over65_z": 0.136
+     "over65_z": 0.143
     },
     {
      "A": "TR",
@@ -1505,12 +1505,12 @@
      "A_win": 0.556,
      "A_win_z": 2.592,
      "home_win": 0.517,
-     "home_z": -1.213,
+     "home_z": -1.198,
      "avg_total": 6.034,
      "over55": 0.534,
-     "over55_z": -1.226,
+     "over55_z": -1.225,
      "over65": 0.424,
-     "over65_z": -1.176
+     "over65_z": -1.164
     },
     {
      "A": "BR",
@@ -1519,12 +1519,12 @@
      "A_win": null,
      "A_win_z": null,
      "home_win": 0.638,
-     "home_z": 1.313,
+     "home_z": 1.317,
      "avg_total": 6.532,
      "over55": 0.638,
-     "over55_z": 1.083,
+     "over55_z": 1.084,
      "over65": 0.511,
-     "over65_z": 0.853
+     "over65_z": 0.856
     },
     {
      "A": "BR",
@@ -1533,12 +1533,12 @@
      "A_win": 0.631,
      "A_win_z": 2.66,
      "home_win": 0.592,
-     "home_z": 1.005,
+     "home_z": 1.012,
      "avg_total": 5.602,
      "over55": 0.495,
      "over55_z": -1.323,
      "over65": 0.34,
-     "over65_z": -2.223
+     "over65_z": -2.218
     },
     {
      "A": "BR",
@@ -1547,12 +1547,12 @@
      "A_win": 0.606,
      "A_win_z": 2.437,
      "home_win": 0.545,
-     "home_z": 0.059,
+     "home_z": 0.066,
      "avg_total": 6.159,
      "over55": 0.53,
      "over55_z": -0.684,
      "over65": 0.417,
-     "over65_z": -0.741
+     "over65_z": -0.735
     },
     {
      "A": "BR",
@@ -1561,12 +1561,12 @@
      "A_win": 0.533,
      "A_win_z": 1.204,
      "home_win": 0.503,
-     "home_z": -1.464,
+     "home_z": -1.452,
      "avg_total": 6.12,
      "over55": 0.518,
-     "over55_z": -1.543,
+     "over55_z": -1.542,
      "over65": 0.428,
-     "over65_z": -0.758
+     "over65_z": -0.748
     },
     {
      "A": "BL",
@@ -1575,12 +1575,12 @@
      "A_win": null,
      "A_win_z": null,
      "home_win": 0.694,
-     "home_z": 1.825,
+     "home_z": 1.829,
      "avg_total": 5.778,
      "over55": 0.528,
      "over55_z": -0.388,
      "over65": 0.389,
-     "over65_z": -0.722
+     "over65_z": -0.719
     },
     {
      "A": "BL",
@@ -1589,26 +1589,26 @@
      "A_win": 0.557,
      "A_win_z": 1.432,
      "home_win": 0.481,
-     "home_z": -1.561,
+     "home_z": -1.553,
      "avg_total": 6.316,
      "over55": 0.614,
-     "over55_z": 1.369,
+     "over55_z": 1.37,
      "over65": 0.5,
-     "over65_z": 1.295
+     "over65_z": 1.302
     },
     {
      "A": "BL",
      "B": "MID",
-     "n": 311,
-     "A_win": 0.418,
-     "A_win_z": -2.892,
-     "home_win": 0.563,
-     "home_z": 0.701,
-     "avg_total": 6.415,
-     "over55": 0.608,
-     "over55_z": 1.7,
-     "over65": 0.498,
-     "over65_z": 1.76
+     "n": 313,
+     "A_win": 0.415,
+     "A_win_z": -2.996,
+     "home_win": 0.562,
+     "home_z": 0.7,
+     "avg_total": 6.412,
+     "over55": 0.61,
+     "over55_z": 1.796,
+     "over65": 0.495,
+     "over65_z": 1.661
     },
     {
      "A": "TL",
@@ -1617,26 +1617,26 @@
      "A_win": null,
      "A_win_z": null,
      "home_win": 0.513,
-     "home_z": -0.653,
+     "home_z": -0.646,
      "avg_total": 6.239,
      "over55": 0.521,
-     "over55_z": -0.839,
+     "over55_z": -0.838,
      "over65": 0.444,
-     "over65_z": -0.094
+     "over65_z": -0.088
     },
     {
      "A": "TL",
      "B": "MID",
      "n": 496,
-     "A_win": 0.417,
-     "A_win_z": -3.682,
-     "home_win": 0.593,
-     "home_z": 2.229,
-     "avg_total": 6.095,
-     "over55": 0.552,
-     "over55_z": -0.334,
+     "A_win": 0.419,
+     "A_win_z": -3.592,
+     "home_win": 0.591,
+     "home_z": 2.152,
+     "avg_total": 6.093,
+     "over55": 0.55,
+     "over55_z": -0.423,
      "over65": 0.452,
-     "over65_z": 0.128
+     "over65_z": 0.139
     },
     {
      "A": "MID",
@@ -1645,17 +1645,17 @@
      "A_win": null,
      "A_win_z": null,
      "home_win": 0.552,
-     "home_z": 0.482,
+     "home_z": 0.498,
      "avg_total": 6.245,
      "over55": 0.589,
-     "over55_z": 1.508,
+     "over55_z": 1.51,
      "over65": 0.477,
-     "over65_z": 1.444
+     "over65_z": 1.457
     }
    ]
   },
   "l5": {
-   "n": 3595,
+   "n": 3597,
    "home_win": 0.544,
    "avg_total": 6.18,
    "over55": 0.562,
@@ -1668,26 +1668,26 @@
      "A_win": null,
      "A_win_z": null,
      "home_win": 0.623,
-     "home_z": 1.808,
+     "home_z": 1.815,
      "avg_total": 5.777,
      "over55": 0.477,
-     "over55_z": -1.966,
+     "over55_z": -1.965,
      "over65": 0.385,
-     "over65_z": -1.5
+     "over65_z": -1.494
     },
     {
      "A": "TR",
      "B": "BR",
-     "n": 294,
-     "A_win": 0.493,
-     "A_win_z": -0.233,
-     "home_win": 0.578,
-     "home_z": 1.175,
-     "avg_total": 6.065,
-     "over55": 0.537,
-     "over55_z": -0.865,
-     "over65": 0.425,
-     "over65_z": -0.858
+     "n": 293,
+     "A_win": 0.491,
+     "A_win_z": -0.292,
+     "home_win": 0.58,
+     "home_z": 1.252,
+     "avg_total": 6.055,
+     "over55": 0.536,
+     "over55_z": -0.917,
+     "over65": 0.423,
+     "over65_z": -0.916
     },
     {
      "A": "TR",
@@ -1696,12 +1696,12 @@
      "A_win": 0.584,
      "A_win_z": 2.872,
      "home_win": 0.519,
-     "home_z": -0.863,
+     "home_z": -0.852,
      "avg_total": 5.986,
      "over55": 0.536,
-     "over55_z": -0.907,
+     "over55_z": -0.905,
      "over65": 0.405,
-     "over65_z": -1.528
+     "over65_z": -1.52
     },
     {
      "A": "TR",
@@ -1710,12 +1710,12 @@
      "A_win": 0.531,
      "A_win_z": 1.166,
      "home_win": 0.534,
-     "home_z": -0.393,
+     "home_z": -0.382,
      "avg_total": 6.379,
      "over55": 0.596,
-     "over55_z": 1.257,
+     "over55_z": 1.259,
      "over65": 0.483,
-     "over65_z": 1.254
+     "over65_z": 1.264
     },
     {
      "A": "TR",
@@ -1724,40 +1724,40 @@
      "A_win": 0.554,
      "A_win_z": 1.678,
      "home_win": 0.492,
-     "home_z": -1.631,
+     "home_z": -1.621,
      "avg_total": 6.35,
      "over55": 0.617,
-     "over55_z": 1.693,
+     "over55_z": 1.694,
      "over65": 0.512,
-     "over65_z": 1.944
+     "over65_z": 1.952
     },
     {
      "A": "BR",
      "B": "BR",
-     "n": 153,
+     "n": 154,
      "A_win": null,
      "A_win_z": null,
-     "home_win": 0.523,
-     "home_z": -0.527,
-     "avg_total": 6.301,
-     "over55": 0.575,
-     "over55_z": 0.317,
-     "over65": 0.438,
-     "over65_z": -0.302
+     "home_win": 0.519,
+     "home_z": -0.606,
+     "avg_total": 6.318,
+     "over55": 0.578,
+     "over55_z": 0.388,
+     "over65": 0.442,
+     "over65_z": -0.206
     },
     {
      "A": "BR",
      "B": "BL",
-     "n": 300,
-     "A_win": 0.607,
-     "A_win_z": 3.695,
-     "home_win": 0.58,
-     "home_z": 1.249,
+     "n": 301,
+     "A_win": 0.608,
+     "A_win_z": 3.747,
+     "home_win": 0.578,
+     "home_z": 1.194,
      "avg_total": 6.05,
-     "over55": 0.513,
-     "over55_z": -1.715,
-     "over65": 0.417,
-     "over65_z": -1.163
+     "over55": 0.515,
+     "over55_z": -1.66,
+     "over65": 0.415,
+     "over65_z": -1.204
     },
     {
      "A": "BR",
@@ -1766,12 +1766,12 @@
      "A_win": 0.62,
      "A_win_z": 4.545,
      "home_win": 0.531,
-     "home_z": -0.508,
+     "home_z": -0.496,
      "avg_total": 6.159,
      "over55": 0.547,
-     "over55_z": -0.571,
+     "over55_z": -0.569,
      "over65": 0.419,
-     "over65_z": -1.182
+     "over65_z": -1.172
     },
     {
      "A": "BR",
@@ -1780,12 +1780,12 @@
      "A_win": 0.515,
      "A_win_z": 0.485,
      "home_win": 0.57,
-     "home_z": 0.853,
+     "home_z": 0.863,
      "avg_total": 6.257,
      "over55": 0.592,
-     "over55_z": 0.98,
+     "over55_z": 0.981,
      "over65": 0.463,
-     "over65_z": 0.436
+     "over65_z": 0.445
     },
     {
      "A": "BL",
@@ -1794,12 +1794,12 @@
      "A_win": null,
      "A_win_z": null,
      "home_win": 0.585,
-     "home_z": 0.919,
+     "home_z": 0.926,
      "avg_total": 6.122,
      "over55": 0.545,
      "over55_z": -0.396,
      "over65": 0.447,
-     "over65_z": -0.065
+     "over65_z": -0.059
     },
     {
      "A": "BL",
@@ -1808,12 +1808,12 @@
      "A_win": 0.531,
      "A_win_z": 1.122,
      "home_win": 0.516,
-     "home_z": -1.016,
+     "home_z": -1.005,
      "avg_total": 6.258,
      "over55": 0.588,
-     "over55_z": 0.92,
+     "over55_z": 0.922,
      "over65": 0.503,
-     "over65_z": 1.902
+     "over65_z": 1.912
     },
     {
      "A": "BL",
@@ -1822,26 +1822,26 @@
      "A_win": 0.433,
      "A_win_z": -1.978,
      "home_win": 0.572,
-     "home_z": 0.824,
+     "home_z": 0.833,
      "avg_total": 6.172,
      "over55": 0.563,
-     "over55_z": 0.01,
+     "over55_z": 0.011,
      "over65": 0.442,
-     "over65_z": -0.242
+     "over65_z": -0.235
     },
     {
      "A": "TL",
      "B": "TL",
-     "n": 187,
+     "n": 188,
      "A_win": null,
      "A_win_z": null,
-     "home_win": 0.519,
-     "home_z": -0.697,
-     "avg_total": 6.193,
-     "over55": 0.572,
-     "over55_z": 0.269,
-     "over65": 0.439,
-     "over65_z": -0.318
+     "home_win": 0.516,
+     "home_z": -0.766,
+     "avg_total": 6.186,
+     "over55": 0.569,
+     "over55_z": 0.186,
+     "over65": 0.436,
+     "over65_z": -0.376
     },
     {
      "A": "TL",
@@ -1850,12 +1850,12 @@
      "A_win": 0.527,
      "A_win_z": 0.865,
      "home_win": 0.538,
-     "home_z": -0.192,
+     "home_z": -0.183,
      "avg_total": 6.206,
      "over55": 0.588,
-     "over55_z": 0.827,
+     "over55_z": 0.828,
      "over65": 0.477,
-     "over65_z": 0.879
+     "over65_z": 0.888
     },
     {
      "A": "MID",
@@ -1864,12 +1864,12 @@
      "A_win": null,
      "A_win_z": null,
      "home_win": 0.521,
-     "home_z": -0.457,
+     "home_z": -0.452,
      "avg_total": 6.167,
      "over55": 0.531,
-     "over55_z": -0.616,
+     "over55_z": -0.615,
      "over65": 0.469,
-     "over65_z": 0.368
+     "over65_z": 0.373
     }
    ]
   }
