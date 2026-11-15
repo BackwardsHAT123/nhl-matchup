@@ -337,16 +337,32 @@ Promise.all([fetch("data/summary.json").then(r=>r.json()),fetch("data/prediction
         <tr><td><i>All games</i></td><td>${QL.n}</td><td>–</td><td>${p1(QL.home_win)}</td><td>${QL.avg_total.toFixed(2)}</td><td>${p1(QL.over55)}</td><td>${p1(QL.over65)}</td></tr>
         ${QL.cells.map(r=>`<tr><td>${QN[r.A]} v ${QN[r.B]}</td><td>${r.n}</td>${c("A_win","A_win_z",r)}${c("home_win","home_z",r)}${c("avg_total","none",r,v=>v.toFixed(2))}${c("over55","over55_z",r)}${c("over65","over65_z",r)}</tr>`).join("")}</table>
         <p class="note" style="margin:6px 0 0">Every game since 2023-24, graded with the quadrants each team was in <i>before</i> it (${view==="full"?"season to date":"last 5"}; the goalie is the one who actually started). Green = top 3 in the column (darkest = highest), orange = bottom 3 (darkest = lowest). Bold with * = more than two standard errors from the average (50% for "first side wins"); with this many cells, a few will look significant by chance. Totals use fixed 5.5 / 6.5 lines (no historical odds) and include OT/SO goals. Middle = inside the grey diamond.</p>`}
-    window.__sc=rows;
+    window.__sc=rows;window.__xy={X,Y,l:M.l,r:W-M.r,t:M.t,b:H-M.b};
   }
+  // hover trail: where the chip sat after each of the team's last 5 games (oldest -> newest), drawn over the scatter
+  let trailFor=null;
+  function clearTrail(){trailFor=null;const o=document.getElementById("trail");if(o)o.remove()}
+  function showTrail(r){
+    if(trailFor===r.team)return;clearTrail();
+    const svg=$("scatter").querySelector("svg"),A=window.__xy,tr=(r.trail||[]).filter(p=>p.gsax!=null);
+    if(!svg||!A||tr.length<2)return;trailFor=r.team;
+    const cl=(v,a,b)=>Math.min(Math.max(v,a),b),P=tr.map(p=>[cl(A.X(p.xgf),A.l+4,A.r-4),cl(A.Y(p.gsax),A.t+4,A.b-4)]);
+    const col=playing.has(r.team)?"var(--home)":"var(--accent,#2b6cb0)",n=P.length;
+    const segs=P.slice(1).map((q,i)=>{const p=P[i];return `<line x1="${p[0].toFixed(1)}" y1="${p[1].toFixed(1)}" x2="${q[0].toFixed(1)}" y2="${q[1].toFixed(1)}" stroke="${col}" stroke-width="2.2" stroke-linecap="round" opacity="${(0.35+0.65*(i+1)/(n-1)).toFixed(2)}"${i===n-2?' marker-end="url(#trailarrow)"':""}/>`}).join("");
+    const dots=P.map((p,i)=>`<g transform="translate(${p[0].toFixed(1)},${p[1].toFixed(1)})"><circle r="${i===n-1?8:7}" fill="${col}" stroke="#fff" stroke-width="1.5" opacity="${(0.55+0.45*i/(n-1)).toFixed(2)}"/><text y="3" text-anchor="middle" style="fill:#fff;font-size:9px;font-weight:700">${i+1}</text></g>`).join("");
+    const g=document.createElementNS("http://www.w3.org/2000/svg","g");g.id="trail";g.setAttribute("pointer-events","none");
+    g.innerHTML=`<defs><marker id="trailarrow" viewBox="0 0 10 10" refX="14" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="${col}"/></marker></defs>${segs}${dots}`;
+    svg.appendChild(g)}
   const tip=$("sctip"),wrap=$("scatterwrap");
-  wrap.addEventListener("mousemove",e=>{const g=e.target.closest&&e.target.closest(".pt");if(!g){tip.hidden=true;return}
-    const r=(window.__sc||[]).find(x=>x.team===g.dataset.t);if(!r)return;
-    tip.innerHTML=`<b>${r.team} · ${r.goalie}</b>xGF% ${pct(r.xgf)} (${r.gp} games)<br>GSAx ${sg(r.gsax)} per start (${r.starts} starts)<br><span class="note">${pct(r.p_start,0)} likely to start${playing.has(r.team)?" · plays today":""}</span>`;
+  wrap.addEventListener("mousemove",e=>{const g=e.target.closest&&e.target.closest(".pt");if(!g){tip.hidden=true;clearTrail();return}
+    const r=(window.__sc||[]).find(x=>x.team===g.dataset.t);if(!r)return;showTrail(r);
+    const steps=(r.trail||[]).filter(p=>p.gsax!=null),md=d=>d.slice(5).replace("-","/");
+    const hist=steps.length>1?`<div class="note" style="margin-top:4px">Last ${steps.length} games (${view==="full"?"season to date":"rolling 5"} after each):</div>${steps.map((p,i)=>`<div class="note">${i+1}. ${md(p.d)} ${p.home?"vs":"@"} ${p.opp} ${p.gf===p.ga?"SO":p.gf>p.ga?"W":"L"} ${p.gf}-${p.ga} → ${pct(p.xgf)} · ${sg(p.gsax)}</div>`).join("")}`:"";
+    tip.innerHTML=`<b>${r.team} · ${r.goalie}</b>xGF% ${pct(r.xgf)} (${r.gp} games)<br>GSAx ${sg(r.gsax)} per start (${r.starts} starts)<br><span class="note">${pct(r.p_start,0)} likely to start${playing.has(r.team)?" · plays today":""}</span>${hist}`;
     const b=wrap.getBoundingClientRect();tip.hidden=false;tip.style.left=Math.min(e.clientX-b.left+14,b.width-tip.offsetWidth-8)+"px";tip.style.top=(e.clientY-b.top+14)+"px"});
-  wrap.addEventListener("mouseleave",()=>{tip.hidden=true});
+  wrap.addEventListener("mouseleave",()=>{tip.hidden=true;clearTrail()});
   wrap.querySelectorAll&&wrap.querySelectorAll(".seg button").forEach(b=>b.addEventListener("click",()=>{view=b.dataset.w;
-    wrap.querySelectorAll(".seg button").forEach(x=>{x.classList.toggle("on",x===b);x.setAttribute("aria-pressed",String(x===b))});draw()}));
+    wrap.querySelectorAll(".seg button").forEach(x=>{x.classList.toggle("on",x===b);x.setAttribute("aria-pressed",String(x===b))});clearTrail();draw()}));
   draw();
 }).catch(()=>{});
 // ---- section jump bar: highlight the section in view ----

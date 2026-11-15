@@ -103,9 +103,24 @@ def team_goalies(today):
         starts = gg[gg.goalie_id == gid].sort_values("date")
         s_cur, s_l5 = starts[starts.season == CUR], starts.tail(5)
         avg = lambda d: round(float(d.gsax.mean()), 3) if len(d) else None
+
+        def trail(view):
+            """Where the team's chip sat after each of its last 5 games (same definition as the chip itself), oldest first."""
+            out = []
+            for _, g in t.tail(5).iterrows():
+                if view == "full":
+                    w, s = cur[cur.date <= g.date], s_cur[s_cur.date <= g.date]
+                else:
+                    w, s = t[t.date <= g.date].tail(5), starts[starts.date <= g.date].tail(5)
+                if w.empty or s.empty:
+                    continue
+                out.append(dict(d=g.date.date().isoformat(), opp=g.opposingTeam, home=int(g.home),
+                                gf=int(g.goalsFor), ga=int(g.goalsAgainst), xgf=round(x(w), 4), gsax=avg(s)))
+            return out
+
         rows.append(dict(team=team, goalie=name, p_start=round(p, 3),
-                         full=dict(xgf=round(x(cur), 4), gsax=avg(s_cur), gp=int(len(cur)), starts=int(len(s_cur))),
-                         l5=dict(xgf=round(x(t.tail(5)), 4), gsax=avg(s_l5), gp=int(min(5, len(t))), starts=int(len(s_l5)))))
+                         full=dict(xgf=round(x(cur), 4), gsax=avg(s_cur), gp=int(len(cur)), starts=int(len(s_cur)), trail=trail("full")),
+                         l5=dict(xgf=round(x(t.tail(5)), 4), gsax=avg(s_l5), gp=int(min(5, len(t))), starts=int(len(s_l5)), trail=trail("l5"))))
     return rows
 
 
