@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-11-15T13:07+00:00",
+ "generated_at": "2026-11-15T13:12+00:00",
  "source": "ESPN",
  "gp": {
-  "ANA": 19,
-  "BOS": 19,
-  "BUF": 19,
-  "CGY": 19,
+  "ANA": 20,
+  "BOS": 20,
+  "BUF": 20,
+  "CGY": 20,
   "CAR": 21,
   "CHI": 20,
-  "COL": 20,
-  "CBJ": 17,
-  "DAL": 18,
-  "DET": 20,
-  "EDM": 20,
-  "FLA": 20,
-  "LAK": 17,
-  "MIN": 21,
-  "MTL": 19,
+  "COL": 21,
+  "CBJ": 18,
+  "DAL": 19,
+  "DET": 21,
+  "EDM": 21,
+  "FLA": 21,
+  "LAK": 18,
+  "MIN": 22,
+  "MTL": 20,
   "NSH": 20,
-  "NJD": 20,
-  "NYI": 18,
+  "NJD": 21,
+  "NYI": 19,
   "NYR": 21,
-  "OTT": 20,
-  "PHI": 21,
-  "PIT": 19,
-  "SJS": 21,
+  "OTT": 21,
+  "PHI": 22,
+  "PIT": 20,
+  "SJS": 22,
   "SEA": 18,
-  "STL": 19,
-  "TBL": 19,
-  "TOR": 21,
-  "UTA": 20,
+  "STL": 20,
+  "TBL": 20,
+  "TOR": 22,
+  "UTA": 21,
   "VAN": 21,
   "VGK": 21,
-  "WSH": 17,
+  "WSH": 18,
   "WPG": 21
  },
  "teams": {
@@ -67,7 +67,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-15",
     "updated": "2026-11-02T18:46Z",
-    "share": 0.0504,
+    "share": 0.0518,
     "note": "Greer (upper body) was placed on injured reserve Monday."
    }
   ],
@@ -80,7 +80,7 @@
     "type": "Back",
     "return_date": "2026-11-21",
     "updated": "2026-11-07T17:30Z",
-    "share": 0.0718,
+    "share": 0.0724,
     "note": "Head coach Marco Sturm announced Saturday that Hagens (back) is expected to miss multiple weeks, per Jack Studley of Boston Hockey Now."
    }
   ],
@@ -187,7 +187,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-28",
     "updated": "2026-11-14T17:37Z",
-    "share": 0.1093,
+    "share": 0.1095,
     "note": "out"
    },
    {
@@ -198,7 +198,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-12",
     "updated": "2026-11-14T17:30Z",
-    "share": 0.1247,
+    "share": 0.1248,
     "note": "MacKinnon (lower body) will miss at least one month, per Corey Masisak of The Denver Post on Saturday."
    },
    {
@@ -233,7 +233,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-17",
     "updated": "2026-11-14T17:54Z",
-    "share": 0.1026,
+    "share": 0.1038,
     "note": "Heiskanen (upper body) is doubtful for Sunday's matchup against Florida, per Mike Heika of the Stars' official site."
    },
    {
@@ -268,6 +268,17 @@
     "updated": "2026-10-24T18:32Z",
     "share": null,
     "note": "Back was placed on long-term injured reserve on Saturday."
+   },
+   {
+    "name": "Matt Duchene",
+    "id": null,
+    "pos": "C",
+    "status": "Injured Reserve",
+    "type": "Abdomen",
+    "return_date": "2027-01-12",
+    "updated": "2026-10-12T16:46Z",
+    "share": null,
+    "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday."
    }
   ],
   "DET": [
@@ -290,7 +301,7 @@
     "type": "Suspension",
     "return_date": "2026-12-20",
     "updated": "2026-10-31T17:03Z",
-    "share": 0.0884,
+    "share": 0.0893,
     "note": "ir-nr"
    },
    {
@@ -419,7 +430,7 @@
     "type": "Personal",
     "return_date": "2026-11-17",
     "updated": "2026-11-14T19:34Z",
-    "share": 0.1357,
+    "share": 0.1374,
     "note": "out"
    },
    {
@@ -454,7 +465,7 @@
     "type": "Lower Body",
     "return_date": "2027-01-02",
     "updated": "2026-11-14T15:55Z",
-    "share": 0.0551,
+    "share": 0.0564,
     "note": "Kreider (lower body) will be out for approximately 6-8 weeks, the Canadiens announced Saturday."
    },
    {
@@ -518,13 +529,13 @@
    },
    {
     "name": "Brett Pesce",
-    "id": 8477488,
+    "id": null,
     "pos": "D",
     "status": "Out",
     "type": "Illness",
     "return_date": "2026-11-18",
     "updated": "2026-11-14T18:16Z",
-    "share": 0.0605,
+    "share": null,
     "note": "Pesce (illness) won't play against Washington on Saturday, Amanda Stein of the Devils' official site reports."
    },
    {
@@ -557,7 +568,7 @@
     "type": "Neck",
     "return_date": "2026-12-05",
     "updated": "2026-11-11T22:42Z",
-    "share": 0.0615,
+    "share": 0.0608,
     "note": "Mantha (throat) was placed on long-term injured reserve by the Devils on Wednesday, retroactive to Nov. 7."
    }
   ],
@@ -570,18 +581,18 @@
     "type": "Undisclosed",
     "return_date": "2026-11-17",
     "updated": "2026-11-15T06:01Z",
-    "share": 0.1177,
+    "share": 0.1188,
     "note": "day-to-day"
    },
    {
     "name": "Logan Stanley",
-    "id": 8479378,
+    "id": null,
     "pos": "D",
     "status": "Day-To-Day",
     "type": "Lower Body",
     "return_date": "2026-11-17",
     "updated": "2026-11-15T05:17Z",
-    "share": 0.0554,
+    "share": null,
     "note": "Stanley (lower body) won't return to Saturday's game versus the Ducks."
    },
    {
@@ -592,7 +603,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-17",
     "updated": "2026-11-15T02:35Z",
-    "share": 0.0639,
+    "share": 0.0627,
     "note": "Pageau (lower body) won't play Saturday versus the Ducks, Andrew Gross of Newsday reports."
    },
    {
@@ -787,7 +798,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-28",
     "updated": "2026-10-28T16:49Z",
-    "share": 0.0578,
+    "share": 0.0558,
     "note": "ir"
    },
    {
@@ -868,7 +879,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-17",
     "updated": "2026-11-15T02:26Z",
-    "share": 0.1003,
+    "share": 0.0988,
     "note": "day-to-day"
    },
    {
@@ -914,7 +925,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-17",
     "updated": "2026-11-14T22:54Z",
-    "share": 0.0543,
+    "share": 0.0559,
     "note": "Cernak (upper body) won't play against Detroit on Saturday, per Diandra Loux of The Hockey News."
    },
    {
@@ -925,7 +936,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-17",
     "updated": "2026-11-14T22:52Z",
-    "share": 0.0769,
+    "share": 0.0798,
     "note": "Cirelli (lower body) is set to miss Saturday's game against Detroit, per Diandra Loux of The Hockey News."
    },
    {
@@ -936,7 +947,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-17",
     "updated": "2026-11-10T15:30Z",
-    "share": 0.0903,
+    "share": 0.0938,
     "note": "ir"
    }
   ],
@@ -949,7 +960,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-17",
     "updated": "2026-11-14T23:51Z",
-    "share": 0.0824,
+    "share": 0.085,
     "note": "out"
    },
    {
@@ -971,7 +982,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-23",
     "updated": "2026-10-29T17:28Z",
-    "share": 0.1067,
+    "share": 0.1106,
     "note": "ir"
    },
    {
@@ -1050,7 +1061,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-21",
     "updated": "2026-11-14T18:48Z",
-    "share": 0.109,
+    "share": 0.1075,
     "note": "Schmaltz (lower body) isn't expected to play against San Jose on Saturday, and it's unclear when he will be ready to return, Brogan Houston of the Deseret News reports."
    },
    {
@@ -1061,7 +1072,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-16",
     "updated": "2026-11-13T23:19Z",
-    "share": 0.1201,
+    "share": 0.1185,
     "note": "out"
    },
    {
@@ -1083,7 +1094,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-05",
     "updated": "2026-11-12T01:21Z",
-    "share": 0.0788,
+    "share": 0.0781,
     "note": "ir"
    },
    {
