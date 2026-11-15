@@ -11,6 +11,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import injuries
 import odds
 import predict
 import sgp_model as M
@@ -71,6 +72,10 @@ def build_game(g, i, st, res, cache, cal, books=None, gmap=None):
     starters = {"h": odds.norm(g["h_goalie"]), "a": odds.norm(g["a_goalie"])}
     try:
         lh, la = last_lineup(res, g["home"], asof, cache), last_lineup(res, g["away"], asof, cache)
+        inj = injuries.load()          # drop skaters hurt since that boxscore (or still listed out)
+        out_h, out_a = injuries.out_ids(inj, g["home"], g["date"]), injuries.out_ids(inj, g["away"], g["date"])
+        lh = [p for p in lh if p not in out_h] if lh else lh
+        la = [p for p in la if p not in out_a] if la else la
         inp = M.build_inputs(st, g["home"], g["away"], asof, g["p_home"], lh, la)
         if inp.players_h.empty or inp.players_a.empty:
             return None, 0

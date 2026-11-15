@@ -56,6 +56,14 @@ ice-time drop, penalties/fights/majors, empty-net goals, OT/shootout, hot/shaky 
 `python3 review.py backfill 2026-10-19 2026-10-22` rebuilds past days from pre-game data (marked "reconstructed").
 Output: `docs/data/results_review.json` (dashboard "Results review"). Injuries are inferred from lineup and ice-time changes, not read from a feed.
 
+## Injuries
+`injuries.py` (daily, before `export_dashboard.py`) reads ESPN's public NHL injury feed into `docs/data/injuries.json` and snapshots it
+to `log/injuries/<date>.json`. Out/IR skaters with a return date after the game day are out; day-to-day counts half; they drop off by
+themselves when the feed clears them or the return date passes. `predict.py` lowers that team's rolling xGF% by
+`K x (share of team production - replacement)` (share = blend of points and ice-time share, capped at 4 pts), scaled down for games already
+played without him (those are already in the rolling window). `sgp_slate.py` removes out skaters from the parlay lineups.
+`K`/`REPLACEMENT`/`MAX_PENALTY` are priors, not fitted; the daily snapshots are there to fit them later. Past dates are never adjusted.
+
 ## Starting-goalie model
 `starters.py` predicts who starts: a boosted classifier scores each recent goalie on usage, tandem alternation, rest and
 back-to-backs, whether the team plays tomorrow, this-season starts, schedule density and last-start performance (candidates are

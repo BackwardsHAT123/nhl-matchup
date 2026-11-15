@@ -19,6 +19,7 @@ import pandas as pd
 
 import backtest
 import features as F
+import injuries
 import starters
 from seasons import CUR
 
@@ -107,6 +108,8 @@ def compute_slate(day, over=None, w1=0.75):
     """Predictions for every regular-season game on `day` (YYYY-MM-DD). Returns list of dicts."""
     over = over or {}
     asof = pd.Timestamp(day)
+    inj = injuries.load()
+    live = day >= date.today().isoformat()      # never apply today's injury list to past dates
     w2 = (1 - w1) * 0.6 if w1 != 0.75 else 0.15
     w = (w1, w2, 1 - w1 - w2)
     tg = pd.read_csv(PROC / "team_games.csv", parse_dates=["date"])
@@ -122,6 +125,10 @@ def compute_slate(day, over=None, w1=0.75):
         h, a = g["homeTeam"]["abbrev"], g["awayTeam"]["abbrev"]
         hx, hr, hn = team_state(tg, h, asof)
         ax, ar, an = team_state(tg, a, asof)
+        # injuries: knock the rolling xGF% down for key skaters out (live slates only; the feed has no history)
+        hpen, hinj = injuries.team_impact(inj, h, day) if live else (0.0, [])
+        apen, ainj = injuries.team_impact(inj, a, day) if live else (0.0, [])
+        hx, ax = hx - hpen / 100, ax - apen / 100
         hg = pick_goalie(gg, h, asof, over.get(h))
         ag = pick_goalie(gg, a, asof, over.get(a))
         hgs, _ = goalie_stats(gg, hg[0])
@@ -139,6 +146,7 @@ def compute_slate(day, over=None, w1=0.75):
                         h_alt=(f"{hg[3][1][1]} {hg[3][1][2]:.0%}" if len(hg[3]) > 1 else None),
                         a_alt=(f"{ag[3][1][1]} {ag[3][1][2]:.0%}" if len(ag[3]) > 1 else None),
                         h_rest=int(hr), a_rest=int(ar), weights=list(w),
+                        h_inj=hinj, a_inj=ainj, h_inj_xg=round(-hpen, 2), a_inj_xg=round(-apen, 2),
                         h_last4=last_games(res, h, asof), a_last4=last_games(res, a, asof)))
     return out
 

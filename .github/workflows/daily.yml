@@ -48,6 +48,10 @@ jobs:
       - name: Backtest
         run: python backtest.py
 
+      - name: Injuries (ESPN feed -> docs/data/injuries.json; adjusts predictions + parlay lineups)
+        continue-on-error: true   # a feed outage just means no injury adjustment this run
+        run: python injuries.py
+
       - name: Export dashboard data
         run: python export_dashboard.py
 
