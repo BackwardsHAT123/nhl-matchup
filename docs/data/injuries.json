@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T13:12+00:00",
+ "generated_at": "2026-11-15T14:33+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 20,
@@ -65,7 +65,7 @@
     "pos": "L",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-15",
+    "return_date": "2026-11-28",
     "updated": "2026-11-02T18:46Z",
     "share": 0.0518,
     "note": "Greer (upper body) was placed on injured reserve Monday."
@@ -224,6 +224,19 @@
     "note": "ir-lt"
    }
   ],
+  "CBJ": [
+   {
+    "name": "Sean Monahan",
+    "id": 8477497,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-15T14:13Z",
+    "share": 0.0641,
+    "note": "day-to-day"
+   }
+  ],
   "DAL": [
    {
     "name": "Miro Heiskanen",
@@ -268,17 +281,6 @@
     "updated": "2026-10-24T18:32Z",
     "share": null,
     "note": "Back was placed on long-term injured reserve on Saturday."
-   },
-   {
-    "name": "Matt Duchene",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Abdomen",
-    "return_date": "2027-01-12",
-    "updated": "2026-10-12T16:46Z",
-    "share": null,
-    "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday."
    }
   ],
   "DET": [
@@ -397,41 +399,17 @@
     "note": "Gadjovich (upper body) is out indefinitely, the team announced Thursday."
    }
   ],
-  "PHI": [
-   {
-    "name": "Erik Gustafsson",
-    "id": null,
-    "pos": "D",
-    "status": "Out",
-    "type": "Undisclosed",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-14T20:41Z",
-    "share": null,
-    "note": "out"
-   },
-   {
-    "name": "Nikita Grebenkin",
-    "id": null,
-    "pos": "RW",
-    "status": "Injured Reserve",
-    "type": "Back",
-    "return_date": "2027-02-13",
-    "updated": "2026-10-10T16:58Z",
-    "share": null,
-    "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months."
-   }
-  ],
   "LAK": [
    {
     "name": "Artemi Panarin",
     "id": 8478550,
     "pos": "L",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Personal",
     "return_date": "2026-11-17",
-    "updated": "2026-11-14T19:34Z",
+    "updated": "2026-11-15T14:13Z",
     "share": 0.1374,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Jakub Dvorak",
@@ -445,17 +423,41 @@
     "note": "ir-nr"
    }
   ],
+  "PHI": [
+   {
+    "name": "Erik Gustafsson",
+    "id": null,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Undisclosed",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-15T14:13Z",
+    "share": null,
+    "note": "day-to-day"
+   },
+   {
+    "name": "Nikita Grebenkin",
+    "id": null,
+    "pos": "RW",
+    "status": "Injured Reserve",
+    "type": "Back",
+    "return_date": "2027-02-13",
+    "updated": "2026-10-10T16:58Z",
+    "share": null,
+    "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months."
+   }
+  ],
   "MTL": [
    {
     "name": "Mike Matheson",
     "id": null,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Lower Body",
     "return_date": "2026-11-16",
-    "updated": "2026-11-14T23:39Z",
+    "updated": "2026-11-15T14:13Z",
     "share": null,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Chris Kreider",
@@ -517,26 +519,26 @@
   ],
   "NJD": [
    {
-    "name": "Vladislav Kolyachonok",
-    "id": null,
-    "pos": "D",
-    "status": "Out",
-    "type": "Illness",
-    "return_date": "2026-11-18",
-    "updated": "2026-11-14T18:20Z",
-    "share": null,
-    "note": "out"
-   },
-   {
     "name": "Brett Pesce",
     "id": null,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Illness",
     "return_date": "2026-11-18",
-    "updated": "2026-11-14T18:16Z",
+    "updated": "2026-11-15T14:13Z",
     "share": null,
-    "note": "Pesce (illness) won't play against Washington on Saturday, Amanda Stein of the Devils' official site reports."
+    "note": "day-to-day"
+   },
+   {
+    "name": "Vladislav Kolyachonok",
+    "id": null,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Illness",
+    "return_date": "2026-11-18",
+    "updated": "2026-11-15T14:13Z",
+    "share": null,
+    "note": "day-to-day"
    },
    {
     "name": "Seamus Casey",
@@ -574,6 +576,17 @@
   ],
   "NYI": [
    {
+    "name": "Jean-Gabriel Pageau",
+    "id": 8476419,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Lower Body",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-15T14:13Z",
+    "share": 0.0627,
+    "note": "day-to-day"
+   },
+   {
     "name": "Bo Horvat",
     "id": 8477500,
     "pos": "C",
@@ -594,17 +607,6 @@
     "updated": "2026-11-15T05:17Z",
     "share": null,
     "note": "Stanley (lower body) won't return to Saturday's game versus the Ducks."
-   },
-   {
-    "name": "Jean-Gabriel Pageau",
-    "id": 8476419,
-    "pos": "C",
-    "status": "Out",
-    "type": "Lower Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T02:35Z",
-    "share": 0.0627,
-    "note": "Pageau (lower body) won't play Saturday versus the Ducks, Andrew Gross of Newsday reports."
    },
    {
     "name": "Calum Ritchie",
@@ -783,12 +785,12 @@
     "name": "Alexander Wennberg",
     "id": null,
     "pos": "C",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-15",
-    "updated": "2026-11-14T19:54Z",
+    "updated": "2026-11-15T14:13Z",
     "share": null,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Igor Chernyshov",
@@ -921,23 +923,23 @@
     "name": "Erik Cernak",
     "id": 8478416,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-17",
-    "updated": "2026-11-14T22:54Z",
+    "updated": "2026-11-15T14:13Z",
     "share": 0.0559,
-    "note": "Cernak (upper body) won't play against Detroit on Saturday, per Diandra Loux of The Hockey News."
+    "note": "day-to-day"
    },
    {
     "name": "Anthony Cirelli",
     "id": 8478519,
     "pos": "C",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Lower Body",
     "return_date": "2026-11-17",
-    "updated": "2026-11-14T22:52Z",
+    "updated": "2026-11-15T14:13Z",
     "share": 0.0798,
-    "note": "Cirelli (lower body) is set to miss Saturday's game against Detroit, per Diandra Loux of The Hockey News."
+    "note": "day-to-day"
    },
    {
     "name": "Brayden Point",
@@ -956,12 +958,12 @@
     "name": "Morgan Rielly",
     "id": 8476853,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Lower Body",
     "return_date": "2026-11-17",
-    "updated": "2026-11-14T23:51Z",
+    "updated": "2026-11-15T14:13Z",
     "share": 0.085,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Colton Sissons",
@@ -1054,6 +1056,17 @@
   ],
   "UTA": [
    {
+    "name": "Logan Cooley",
+    "id": 8483431,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-16",
+    "updated": "2026-11-15T14:13Z",
+    "share": 0.1185,
+    "note": "day-to-day"
+   },
+   {
     "name": "Nick Schmaltz",
     "id": 8477951,
     "pos": "C",
@@ -1063,17 +1076,6 @@
     "updated": "2026-11-14T18:48Z",
     "share": 0.1075,
     "note": "Schmaltz (lower body) isn't expected to play against San Jose on Saturday, and it's unclear when he will be ready to return, Brogan Houston of the Deseret News reports."
-   },
-   {
-    "name": "Logan Cooley",
-    "id": 8483431,
-    "pos": "C",
-    "status": "Out",
-    "type": "Upper Body",
-    "return_date": "2026-11-16",
-    "updated": "2026-11-13T23:19Z",
-    "share": 0.1185,
-    "note": "out"
    },
    {
     "name": "Nate Schmidt",
@@ -1186,12 +1188,12 @@
     "name": "Isak Rosen",
     "id": null,
     "pos": "RW",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Undisclosed",
     "return_date": "2026-11-17",
-    "updated": "2026-11-13T19:25Z",
+    "updated": "2026-11-15T14:13Z",
     "share": null,
-    "note": "Rosen (undisclosed) has been ruled out for Saturday's game against the Blackhawks, Ken Wiebe of The Winnipeg Free Press reports."
+    "note": "day-to-day"
    },
    {
     "name": "Dylan DeMelo",

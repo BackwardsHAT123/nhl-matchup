@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T13:12+00:00",
+ "generated_at": "2026-11-15T14:33+00:00",
  "today": "2026-11-15",
  "games": [
   {
@@ -8,8 +8,8 @@
    "start_utc": "2026-11-16T00:30:00Z",
    "home": "PHI",
    "away": "EDM",
-   "p_home": 0.4691899402090596,
-   "h_xg": 0.44980261390099274,
+   "p_home": 0.4722087634733612,
+   "h_xg": 0.45095352299190183,
    "a_xg": 0.48581199242620937,
    "h_goalie": "Dan Vladar",
    "a_goalie": "Tristan Jarry",
@@ -32,10 +32,10 @@
     {
      "name": "Erik Gustafsson",
      "pos": "D",
-     "status": "Out",
+     "status": "Day-To-Day",
      "return_date": "2026-11-17",
-     "p_out": 0.9795454545454545,
-     "xgf_pts": -0.24
+     "p_out": 0.5,
+     "xgf_pts": -0.12
     },
     {
      "name": "Nikita Grebenkin",
@@ -72,7 +72,7 @@
      "xgf_pts": -0.01
     }
    ],
-   "h_inj_xg": -0.3,
+   "h_inj_xg": -0.18,
    "a_inj_xg": -0.21,
    "h_last4": [
     {
@@ -141,8 +141,8 @@
    "start_utc": "2026-11-16T01:00:00Z",
    "home": "DAL",
    "away": "FLA",
-   "p_home": 0.5194062495865532,
-   "h_xg": 0.49035408683732884,
+   "p_home": 0.5206344077345187,
+   "h_xg": 0.49082145525838144,
    "a_xg": 0.5026721721687041,
    "h_goalie": "Casey DeSmith",
    "a_goalie": "Akira Schmid",
@@ -193,14 +193,6 @@
      "return_date": "2026-11-17",
      "p_out": 0.47894736842105257,
      "xgf_pts": -0.11
-    },
-    {
-     "name": "Matt Duchene",
-     "pos": "C",
-     "status": "Injured Reserve",
-     "return_date": "2027-01-12",
-     "p_out": 0.1947368421052631,
-     "xgf_pts": -0.05
     }
    ],
    "a_inj": [
@@ -221,7 +213,7 @@
      "xgf_pts": -0.19
     }
    ],
-   "h_inj_xg": -1.78,
+   "h_inj_xg": -1.74,
    "a_inj_xg": -0.39,
    "h_last4": [
     {
@@ -290,8 +282,8 @@
    "start_utc": "2026-11-16T01:00:00Z",
    "home": "ANA",
    "away": "CGY",
-   "p_home": 0.4890011332678231,
-   "h_xg": 0.46462584150055936,
+   "p_home": 0.4825112602621758,
+   "h_xg": 0.46215808150055937,
    "a_xg": 0.47412373072370234,
    "h_goalie": "Ville Husso",
    "a_goalie": "Devin Cooley",
@@ -311,6 +303,14 @@
     0.1
    ],
    "h_inj": [
+    {
+     "name": "A.J. Greer",
+     "pos": "L",
+     "status": "Injured Reserve",
+     "return_date": "2026-11-28",
+     "p_out": 0.7075,
+     "xgf_pts": -0.25
+    },
     {
      "name": "Ryan Poehling",
      "pos": "C",
@@ -346,7 +346,7 @@
      "xgf_pts": -0.15
     }
    ],
-   "h_inj_xg": -0.22,
+   "h_inj_xg": -0.47,
    "a_inj_xg": -0.58,
    "h_last4": [
     {
@@ -1356,7 +1356,7 @@
    "start_utc": "2026-11-18T00:00:00Z",
    "home": "WPG",
    "away": "OTT",
-   "p_home": 0.4502793263299187,
+   "p_home": 0.4502793263299188,
    "h_xg": 0.48197169391650224,
    "a_xg": 0.5137624219125421,
    "h_goalie": "Stuart Skinner",
@@ -1778,9 +1778,9 @@
    "start_utc": "2026-11-18T01:00:00Z",
    "home": "STL",
    "away": "ANA",
-   "p_home": 0.660626603673358,
+   "p_home": 0.6664269749214969,
    "h_xg": 0.501675900776776,
-   "a_xg": 0.46462584150055936,
+   "a_xg": 0.46215808150055937,
    "h_goalie": "Joel Hofer",
    "a_goalie": "Lukas Dostal",
    "h_assumed": true,
@@ -1818,6 +1818,14 @@
    ],
    "a_inj": [
     {
+     "name": "A.J. Greer",
+     "pos": "L",
+     "status": "Injured Reserve",
+     "return_date": "2026-11-28",
+     "p_out": 0.7075,
+     "xgf_pts": -0.25
+    },
+    {
      "name": "Ryan Poehling",
      "pos": "C",
      "status": "Injured Reserve",
@@ -1827,7 +1835,7 @@
     }
    ],
    "h_inj_xg": -0.11,
-   "a_inj_xg": -0.22,
+   "a_inj_xg": -0.47,
    "h_last4": [
     {
      "date": "2026-11-14",
@@ -1986,9 +1994,9 @@
    "start_utc": "2026-11-18T03:00:00Z",
    "home": "VGK",
    "away": "DAL",
-   "p_home": 0.5624849950564896,
+   "p_home": 0.5612737056642478,
    "h_xg": 0.516777202575902,
-   "a_xg": 0.5030318973636446,
+   "a_xg": 0.5034992657846973,
    "h_goalie": "Adin Hill",
    "a_goalie": "Jake Oettinger",
    "h_assumed": true,
@@ -2032,18 +2040,10 @@
      "return_date": "2026-11-27",
      "p_out": 0.9763157894736842,
      "xgf_pts": -0.23
-    },
-    {
-     "name": "Matt Duchene",
-     "pos": "C",
-     "status": "Injured Reserve",
-     "return_date": "2027-01-12",
-     "p_out": 0.1947368421052631,
-     "xgf_pts": -0.05
     }
    ],
    "h_inj_xg": -0.21,
-   "a_inj_xg": -0.52,
+   "a_inj_xg": -0.47,
    "h_last4": [
     {
      "date": "2026-11-13",
