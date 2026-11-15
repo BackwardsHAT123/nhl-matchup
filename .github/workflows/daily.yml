@@ -2,7 +2,7 @@ name: Daily update
 
 on:
   schedule:
-    - cron: "17 14 * * *"  # ~10:17 ET: morning slate (off the top of the hour: GitHub delays on-the-hour runs)
+    - cron: "17 10 * * *"  # 3:17 MST (4:17 MDT in summer; cron is UTC-only): morning slate (off the top of the hour: GitHub delays on-the-hour runs)
     - cron: "43 21 * * *"  # ~17:43 ET: refresh after starters are usually known
   workflow_dispatch:
     inputs:
