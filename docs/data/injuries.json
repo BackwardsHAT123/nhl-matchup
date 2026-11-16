@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T01:25+00:00",
+ "generated_at": "2026-11-16T20:31+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 20,
@@ -145,26 +145,15 @@
   ],
   "CHI": [
    {
-    "name": "Tyler Bertuzzi",
-    "id": 8477479,
-    "pos": "L",
-    "status": "Day-To-Day",
-    "type": "Undisclosed",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T00:03Z",
-    "share": 0.0671,
-    "note": "day-to-day"
-   },
-   {
     "name": "Bowen Byram",
     "id": null,
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Upper Body",
     "return_date": "2026-11-21",
-    "updated": "2026-11-03T17:31Z",
+    "updated": "2026-11-16T18:59Z",
     "share": null,
-    "note": "Byram (upper body) was placed on injured reserve Tuesday."
+    "note": "Byram (upper body) has been ruled out for Tuesday's game against the Maple Leafs, CHGO Blackhawks reports."
    }
   ],
   "COL": [
@@ -218,25 +207,36 @@
     "name": "Sean Monahan",
     "id": 8477497,
     "pos": "C",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Upper Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T14:13Z",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-16T17:42Z",
     "share": 0.0641,
-    "note": "day-to-day"
+    "note": "out"
    }
   ],
   "DAL": [
    {
+    "name": "Tyler Myers",
+    "id": null,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-16T14:05Z",
+    "share": null,
+    "note": "day-to-day"
+   },
+   {
     "name": "Miro Heiskanen",
     "id": 8480036,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-17",
-    "updated": "2026-11-14T17:54Z",
+    "updated": "2026-11-16T14:05Z",
     "share": 0.1038,
-    "note": "Heiskanen (upper body) is doubtful for Sunday's matchup against Florida, per Mike Heika of the Stars' official site."
+    "note": "day-to-day"
    },
    {
     "name": "Kyle Capobianco",
@@ -323,23 +323,12 @@
     "name": "Ryan Nugent-Hopkins",
     "id": 8476454,
     "pos": "C",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Undisclosed",
     "return_date": "2026-11-17",
-    "updated": "2026-11-15T23:26Z",
+    "updated": "2026-11-16T14:05Z",
     "share": 0.0877,
-    "note": "out"
-   },
-   {
-    "name": "Isaac Howard",
-    "id": null,
-    "pos": "LW",
-    "status": "Injured Reserve",
-    "type": "Knee",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-06T00:04Z",
-    "share": null,
-    "note": "ir"
+    "note": "day-to-day"
    },
    {
     "name": "Alec Regula",
@@ -450,12 +439,12 @@
     "name": "Denver Barkey",
     "id": 8484142,
     "pos": "C",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Illness",
     "return_date": "2026-11-17",
-    "updated": "2026-11-15T22:26Z",
+    "updated": "2026-11-16T14:05Z",
     "share": 0.0807,
-    "note": "Barkey (illness) won't play against Edmonton on Sunday, per Adam Kimelman of NHL.com."
+    "note": "day-to-day"
    },
    {
     "name": "Nikita Grebenkin",
@@ -467,6 +456,19 @@
     "updated": "2026-10-10T16:58Z",
     "share": null,
     "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months."
+   }
+  ],
+  "MIN": [
+   {
+    "name": "Olli Maatta",
+    "id": 8476874,
+    "pos": "D",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-16T17:52Z",
+    "share": 0.0521,
+    "note": "out"
    }
   ],
   "MTL": [
@@ -544,8 +546,8 @@
     "pos": "R",
     "status": "Day-To-Day",
     "type": "Lower Body",
-    "return_date": "2026-11-15",
-    "updated": "2026-11-14T14:19Z",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-16T14:05Z",
     "share": 0.0535,
     "note": "day-to-day"
    }
@@ -609,6 +611,17 @@
   ],
   "NYI": [
    {
+    "name": "Logan Stanley",
+    "id": null,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Lower Body",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-16T17:00Z",
+    "share": null,
+    "note": "Stanley (lower body) is considered day-to-day ahead of Tuesday's clash with the Blue Jackets, Andrew Gross of Newsday reports."
+   },
+   {
     "name": "Jean-Gabriel Pageau",
     "id": 8476419,
     "pos": "C",
@@ -618,28 +631,6 @@
     "updated": "2026-11-15T14:13Z",
     "share": 0.0627,
     "note": "day-to-day"
-   },
-   {
-    "name": "Bo Horvat",
-    "id": 8477500,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Undisclosed",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T06:01Z",
-    "share": 0.1188,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Logan Stanley",
-    "id": null,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Lower Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T05:17Z",
-    "share": null,
-    "note": "Stanley (lower body) won't return to Saturday's game versus the Ducks."
    },
    {
     "name": "Calum Ritchie",
@@ -726,12 +717,23 @@
     "name": "Hayden Hodgson",
     "id": null,
     "pos": "RW",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Groin",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T03:25Z",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-16T16:55Z",
     "share": null,
-    "note": "Hodgson sustained a groin injury versus the Penguins on Saturday, Bruce Garrioch of Postmedia reports."
+    "note": "Hodgson (groin) isn't expected to play against Winnipeg on Tuesday, per TSN 1200 Ottawa."
+   },
+   {
+    "name": "Warren Foegele",
+    "id": null,
+    "pos": "LW",
+    "status": "Injured Reserve",
+    "type": "Knee",
+    "return_date": "2026-12-03",
+    "updated": "2026-11-16T16:53Z",
+    "share": null,
+    "note": "Head coach Travis Green said Monday that Foegele (knee) hasn't yet resumed skating, Bruce Garrioch of Postmedia reports."
    },
    {
     "name": "Nick Cousins",
@@ -754,17 +756,6 @@
     "updated": "2026-10-31T21:35Z",
     "share": null,
     "note": "ir"
-   },
-   {
-    "name": "Warren Foegele",
-    "id": null,
-    "pos": "LW",
-    "status": "Injured Reserve",
-    "type": "Knee",
-    "return_date": "2026-11-25",
-    "updated": "2026-10-31T18:30Z",
-    "share": null,
-    "note": "Foegele (knee) will miss 3-4 weeks, Jackson Starr of the Senators' official site reports Saturday."
    },
    {
     "name": "William Eklund",
@@ -815,6 +806,28 @@
   ],
   "SJS": [
    {
+    "name": "Alexander Wennberg",
+    "id": null,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-16T14:05Z",
+    "share": null,
+    "note": "day-to-day"
+   },
+   {
+    "name": "Kiefer Sherwood",
+    "id": 8480748,
+    "pos": "L",
+    "status": "Day-To-Day",
+    "type": "Arm",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-16T05:16Z",
+    "share": 0.0593,
+    "note": "day-to-day"
+   },
+   {
     "name": "Igor Chernyshov",
     "id": 8484994,
     "pos": "L",
@@ -835,17 +848,6 @@
     "updated": "2026-11-15T23:51Z",
     "share": null,
     "note": "Head coach Ryan Warsofsky said Sunday that Musty (upper body) isn't close to returning, Curtis Pashelka of The San Jose Mercury News reports."
-   },
-   {
-    "name": "Alexander Wennberg",
-    "id": null,
-    "pos": "C",
-    "status": "Out",
-    "type": "Upper Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T23:38Z",
-    "share": null,
-    "note": "out"
    }
   ],
   "SEA": [
@@ -896,26 +898,15 @@
   ],
   "STL": [
    {
-    "name": "Jake Neighbours",
-    "id": 8482089,
-    "pos": "L",
+    "name": "Ross Johnston",
+    "id": null,
+    "pos": "LW",
     "status": "Day-To-Day",
-    "type": "Upper Body",
+    "type": "Personal",
     "return_date": "2026-11-17",
-    "updated": "2026-11-15T18:25Z",
-    "share": 0.0664,
-    "note": "Neighbours (upper body) is day-to-day, per Lou Korac of NHL.com on Sunday."
-   },
-   {
-    "name": "Philip Broberg",
-    "id": 8481598,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Lower Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T18:21Z",
-    "share": 0.0988,
-    "note": "Broberg (lower body) is day-to-day, according to Lou Korac of NHL.com on Sunday."
+    "updated": "2026-11-16T18:51Z",
+    "share": null,
+    "note": "Johnston didn't practice Monday due to personal reasons, and his status for Tuesday's game against the Ducks is uncertain, Lou Korac of NHL.com reports."
    },
    {
     "name": "Aleksanteri Kaskimaki",
