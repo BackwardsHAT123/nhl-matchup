@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T14:33+00:00",
+ "generated_at": "2026-11-16T01:25+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 20,
@@ -47,17 +47,6 @@
     "updated": "2026-11-11T22:59Z",
     "share": null,
     "note": "Poehling (lower body) was placed on long-term injured reserve by the Ducks on Wednesday."
-   },
-   {
-    "name": "Ian Moore",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-15",
-    "updated": "2026-11-11T18:59Z",
-    "share": null,
-    "note": "Moore (lower body) might be an option to play by the end of the week, Derek Lee of The Hockey News reports Wednesday."
    },
    {
     "name": "A.J. Greer",
@@ -281,6 +270,17 @@
     "updated": "2026-10-24T18:32Z",
     "share": null,
     "note": "Back was placed on long-term injured reserve on Saturday."
+   },
+   {
+    "name": "Matt Duchene",
+    "id": null,
+    "pos": "C",
+    "status": "Injured Reserve",
+    "type": "Abdomen",
+    "return_date": "2027-01-12",
+    "updated": "2026-10-12T16:46Z",
+    "share": null,
+    "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday."
    }
   ],
   "DET": [
@@ -319,6 +319,17 @@
    }
   ],
   "EDM": [
+   {
+    "name": "Ryan Nugent-Hopkins",
+    "id": 8476454,
+    "pos": "C",
+    "status": "Out",
+    "type": "Undisclosed",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-15T23:26Z",
+    "share": 0.0877,
+    "note": "out"
+   },
    {
     "name": "Isaac Howard",
     "id": null,
@@ -436,6 +447,17 @@
     "note": "day-to-day"
    },
    {
+    "name": "Denver Barkey",
+    "id": 8484142,
+    "pos": "C",
+    "status": "Out",
+    "type": "Illness",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-15T22:26Z",
+    "share": 0.0807,
+    "note": "Barkey (illness) won't play against Edmonton on Sunday, per Adam Kimelman of NHL.com."
+   },
+   {
     "name": "Nikita Grebenkin",
     "id": null,
     "pos": "RW",
@@ -452,23 +474,34 @@
     "name": "Mike Matheson",
     "id": null,
     "pos": "D",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Lower Body",
-    "return_date": "2026-11-16",
-    "updated": "2026-11-15T14:13Z",
+    "return_date": "2026-12-05",
+    "updated": "2026-11-15T22:23Z",
     "share": null,
-    "note": "day-to-day"
+    "note": "Matheson (lower body) will miss approximately 2-3 weeks, the Canadiens announced Sunday."
+   },
+   {
+    "name": "Josh Anderson",
+    "id": 8476981,
+    "pos": "R",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-12-14",
+    "updated": "2026-11-15T22:15Z",
+    "share": 0.0697,
+    "note": "Anderson (lower body) will be out for approximately 3-4 weeks, per Renaud Lavoie of TVA Sports on Sunday."
    },
    {
     "name": "Chris Kreider",
     "id": 8475184,
     "pos": "L",
-    "status": "Out",
+    "status": "Injured Reserve",
     "type": "Lower Body",
     "return_date": "2027-01-02",
-    "updated": "2026-11-14T15:55Z",
+    "updated": "2026-11-15T18:04Z",
     "share": 0.0564,
-    "note": "Kreider (lower body) will be out for approximately 6-8 weeks, the Canadiens announced Saturday."
+    "note": "ir"
    },
    {
     "name": "Ivan Demidov",
@@ -782,26 +815,15 @@
   ],
   "SJS": [
    {
-    "name": "Alexander Wennberg",
-    "id": null,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-15",
-    "updated": "2026-11-15T14:13Z",
-    "share": null,
-    "note": "day-to-day"
-   },
-   {
     "name": "Igor Chernyshov",
     "id": 8484994,
     "pos": "L",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-28",
-    "updated": "2026-10-28T16:49Z",
+    "return_date": "2026-12-08",
+    "updated": "2026-11-15T23:51Z",
     "share": 0.0558,
-    "note": "ir"
+    "note": "Head coach Ryan Warsofsky said Sunday that Chernyshov (upper body) is not close to returning to game action, per Curtis Pashelka of The San Jose Mercury News."
    },
    {
     "name": "Quentin Musty",
@@ -809,10 +831,21 @@
     "pos": "LW",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-12-01",
-    "updated": "2026-09-28T22:20Z",
+    "return_date": "2027-01-01",
+    "updated": "2026-11-15T23:51Z",
     "share": null,
-    "note": "Musty (upper body) was put on non-roster injured reserve Monday, according to Curtis Pashelka of The San Jose Mercury News."
+    "note": "Head coach Ryan Warsofsky said Sunday that Musty (upper body) isn't close to returning, Curtis Pashelka of The San Jose Mercury News reports."
+   },
+   {
+    "name": "Alexander Wennberg",
+    "id": null,
+    "pos": "C",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-15T23:38Z",
+    "share": null,
+    "note": "out"
    }
   ],
   "SEA": [
@@ -863,6 +896,28 @@
   ],
   "STL": [
    {
+    "name": "Jake Neighbours",
+    "id": 8482089,
+    "pos": "L",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-15T18:25Z",
+    "share": 0.0664,
+    "note": "Neighbours (upper body) is day-to-day, per Lou Korac of NHL.com on Sunday."
+   },
+   {
+    "name": "Philip Broberg",
+    "id": 8481598,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Lower Body",
+    "return_date": "2026-11-17",
+    "updated": "2026-11-15T18:21Z",
+    "share": 0.0988,
+    "note": "Broberg (lower body) is day-to-day, according to Lou Korac of NHL.com on Sunday."
+   },
+   {
     "name": "Aleksanteri Kaskimaki",
     "id": null,
     "pos": "C",
@@ -872,17 +927,6 @@
     "updated": "2026-11-15T03:55Z",
     "share": null,
     "note": "Kaskimaki sustained an undisclosed injury near the end of Saturday's game versus the Panthers, Lou Korac of NHL.com reports."
-   },
-   {
-    "name": "Philip Broberg",
-    "id": 8481598,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Lower Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T02:26Z",
-    "share": 0.0988,
-    "note": "day-to-day"
    },
    {
     "name": "Torey Krug",
