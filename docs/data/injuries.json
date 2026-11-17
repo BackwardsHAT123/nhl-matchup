@@ -1,37 +1,37 @@
 {
- "generated_at": "2026-11-16T20:31+00:00",
+ "generated_at": "2026-11-17T04:13+00:00",
  "source": "ESPN",
  "gp": {
-  "ANA": 20,
+  "ANA": 21,
   "BOS": 20,
   "BUF": 20,
-  "CGY": 20,
+  "CGY": 21,
   "CAR": 21,
   "CHI": 20,
   "COL": 21,
   "CBJ": 18,
-  "DAL": 19,
+  "DAL": 20,
   "DET": 21,
-  "EDM": 21,
-  "FLA": 21,
+  "EDM": 22,
+  "FLA": 22,
   "LAK": 18,
   "MIN": 22,
   "MTL": 20,
-  "NSH": 20,
+  "NSH": 21,
   "NJD": 21,
   "NYI": 19,
   "NYR": 21,
   "OTT": 21,
-  "PHI": 22,
+  "PHI": 23,
   "PIT": 20,
-  "SJS": 22,
+  "SJS": 23,
   "SEA": 18,
   "STL": 20,
   "TBL": 20,
   "TOR": 22,
   "UTA": 21,
-  "VAN": 21,
-  "VGK": 21,
+  "VAN": 22,
+  "VGK": 22,
   "WSH": 18,
   "WPG": 21
  },
@@ -56,7 +56,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-28",
     "updated": "2026-11-02T18:46Z",
-    "share": 0.0518,
+    "share": 0.0503,
     "note": "Greer (upper body) was placed on injured reserve Monday."
    }
   ],
@@ -80,7 +80,7 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-19",
+    "return_date": "2026-11-21",
     "updated": "2026-11-12T21:00Z",
     "share": null,
     "note": "ir"
@@ -235,7 +235,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-17",
     "updated": "2026-11-16T14:05Z",
-    "share": 0.1038,
+    "share": 0.1049,
     "note": "day-to-day"
    },
    {
@@ -327,7 +327,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-17",
     "updated": "2026-11-16T14:05Z",
-    "share": 0.0877,
+    "share": 0.0871,
     "note": "day-to-day"
    },
    {
@@ -404,12 +404,12 @@
     "name": "Artemi Panarin",
     "id": 8478550,
     "pos": "L",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Personal",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T14:13Z",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-16T20:36Z",
     "share": 0.1374,
-    "note": "day-to-day"
+    "note": "out"
    },
    {
     "name": "Jakub Dvorak",
@@ -443,7 +443,7 @@
     "type": "Illness",
     "return_date": "2026-11-17",
     "updated": "2026-11-16T14:05Z",
-    "share": 0.0807,
+    "share": 0.0819,
     "note": "day-to-day"
    },
    {
@@ -463,12 +463,12 @@
     "name": "Olli Maatta",
     "id": 8476874,
     "pos": "D",
-    "status": "Out",
+    "status": "Injured Reserve",
     "type": "Upper Body",
     "return_date": "2026-11-25",
-    "updated": "2026-11-16T17:52Z",
+    "updated": "2026-11-16T21:33Z",
     "share": 0.0521,
-    "note": "out"
+    "note": "ir"
    }
   ],
   "MTL": [
@@ -548,7 +548,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-17",
     "updated": "2026-11-16T14:05Z",
-    "share": 0.0535,
+    "share": 0.0541,
     "note": "day-to-day"
    }
   ],
@@ -656,6 +656,17 @@
    }
   ],
   "NYR": [
+   {
+    "name": "Pavel Dorofeyev",
+    "id": 8481604,
+    "pos": "R",
+    "status": "Out",
+    "type": "Lower Body",
+    "return_date": "2026-11-22",
+    "updated": "2026-11-17T00:12Z",
+    "share": 0.073,
+    "note": "out"
+   },
    {
     "name": "Alberts Smits",
     "id": null,
@@ -824,7 +835,7 @@
     "type": "Arm",
     "return_date": "2026-11-17",
     "updated": "2026-11-16T05:16Z",
-    "share": 0.0593,
+    "share": 0.0568,
     "note": "day-to-day"
    },
    {
@@ -835,7 +846,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-08",
     "updated": "2026-11-15T23:51Z",
-    "share": 0.0558,
+    "share": 0.0551,
     "note": "Head coach Ryan Warsofsky said Sunday that Chernyshov (upper body) is not close to returning to game action, per Curtis Pashelka of The San Jose Mercury News."
    },
    {
@@ -1090,17 +1101,6 @@
    }
   ],
   "UTA": [
-   {
-    "name": "Logan Cooley",
-    "id": 8483431,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-16",
-    "updated": "2026-11-15T14:13Z",
-    "share": 0.1185,
-    "note": "day-to-day"
-   },
    {
     "name": "Nick Schmaltz",
     "id": 8477951,
