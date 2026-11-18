@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T19:13+00:00",
+ "generated_at": "2026-11-18T03:09+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 21,
@@ -29,14 +29,25 @@
   "STL": 20,
   "TBL": 20,
   "TOR": 22,
-  "UTA": 21,
-  "VAN": 22,
+  "UTA": 22,
+  "VAN": 23,
   "VGK": 22,
   "WSH": 18,
   "WPG": 21
  },
  "teams": {
   "ANA": [
+   {
+    "name": "Beckett Sennecke",
+    "id": 8484762,
+    "pos": "R",
+    "status": "Out",
+    "type": "Illness",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-18T00:57Z",
+    "share": 0.1157,
+    "note": "out"
+   },
    {
     "name": "Ryan Poehling",
     "id": null,
@@ -220,23 +231,12 @@
     "name": "Tyler Myers",
     "id": null,
     "pos": "D",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Upper Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-16T14:05Z",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-17T20:12Z",
     "share": null,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Miro Heiskanen",
-    "id": 8480036,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-16T14:05Z",
-    "share": 0.1049,
-    "note": "day-to-day"
+    "note": "out"
    },
    {
     "name": "Kyle Capobianco",
@@ -563,6 +563,17 @@
   ],
   "NYI": [
    {
+    "name": "Jean-Gabriel Pageau",
+    "id": 8476419,
+    "pos": "C",
+    "status": "Out",
+    "type": "Lower Body",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-17T23:32Z",
+    "share": 0.0627,
+    "note": "out"
+   },
+   {
     "name": "Logan Stanley",
     "id": null,
     "pos": "D",
@@ -572,17 +583,6 @@
     "updated": "2026-11-17T19:05Z",
     "share": null,
     "note": "out"
-   },
-   {
-    "name": "Jean-Gabriel Pageau",
-    "id": 8476419,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Lower Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-17T15:46Z",
-    "share": 0.0627,
-    "note": "Pageau (lower body) will be a game-time decision ahead of Tuesday's matchup with Columbus, Stefen Rosner of NHL.com reports."
    },
    {
     "name": "Calum Ritchie",
@@ -782,26 +782,15 @@
   ],
   "SJS": [
    {
-    "name": "Alexander Wennberg",
-    "id": null,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-16T14:05Z",
-    "share": null,
-    "note": "day-to-day"
-   },
-   {
     "name": "Kiefer Sherwood",
     "id": 8480748,
     "pos": "L",
-    "status": "Day-To-Day",
-    "type": "Arm",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-16T05:16Z",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-12-01",
+    "updated": "2026-11-17T19:39Z",
     "share": 0.0568,
-    "note": "day-to-day"
+    "note": "out"
    },
    {
     "name": "Igor Chernyshov",
@@ -920,37 +909,37 @@
   ],
   "TBL": [
    {
+    "name": "Zemgus Girgensons",
+    "id": null,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Undisclosed",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-18T02:22Z",
+    "share": null,
+    "note": "day-to-day"
+   },
+   {
+    "name": "Brandon Hagel",
+    "id": 8479542,
+    "pos": "L",
+    "status": "Out",
+    "type": "Lower Body",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-17T23:17Z",
+    "share": 0.1146,
+    "note": "Hagel (undisclosed) won't play against Washington on Tuesday, Benjamin Pierce of the Lightning's official site reports."
+   },
+   {
     "name": "Conor Geekie",
     "id": 8483447,
     "pos": "C",
     "status": "Injured Reserve",
-    "type": "Undisclosed",
-    "return_date": "2026-11-25",
+    "type": "Upper Body",
+    "return_date": "2026-11-22",
     "updated": "2026-11-17T18:19Z",
     "share": 0.0345,
     "note": "ir"
-   },
-   {
-    "name": "Erik Cernak",
-    "id": 8478416,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T14:13Z",
-    "share": 0.0559,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Anthony Cirelli",
-    "id": 8478519,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Lower Body",
-    "return_date": "2026-11-17",
-    "updated": "2026-11-15T14:13Z",
-    "share": 0.0798,
-    "note": "day-to-day"
    }
   ],
   "TOR": [
@@ -1048,12 +1037,12 @@
     "name": "Nick Schmaltz",
     "id": 8477951,
     "pos": "C",
-    "status": "Out",
+    "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-14T18:48Z",
-    "share": 0.1075,
-    "note": "Schmaltz (lower body) isn't expected to play against San Jose on Saturday, and it's unclear when he will be ready to return, Brogan Houston of the Deseret News reports."
+    "return_date": "2026-11-25",
+    "updated": "2026-11-17T22:14Z",
+    "share": 0.109,
+    "note": "ir"
    },
    {
     "name": "Nate Schmidt",
@@ -1074,7 +1063,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-05",
     "updated": "2026-11-12T01:21Z",
-    "share": 0.0781,
+    "share": 0.079,
     "note": "ir"
    },
    {
