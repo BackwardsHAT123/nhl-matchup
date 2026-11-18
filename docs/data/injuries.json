@@ -1,39 +1,39 @@
 {
- "generated_at": "2026-11-18T03:09+00:00",
+ "generated_at": "2026-11-18T18:53+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 21,
-  "BOS": 20,
-  "BUF": 20,
+  "BOS": 21,
+  "BUF": 21,
   "CGY": 21,
   "CAR": 21,
   "CHI": 20,
   "COL": 21,
-  "CBJ": 18,
+  "CBJ": 19,
   "DAL": 20,
   "DET": 21,
-  "EDM": 22,
-  "FLA": 22,
-  "LAK": 18,
+  "EDM": 23,
+  "FLA": 23,
+  "LAK": 19,
   "MIN": 22,
   "MTL": 21,
   "NSH": 21,
   "NJD": 21,
-  "NYI": 19,
+  "NYI": 20,
   "NYR": 22,
-  "OTT": 21,
-  "PHI": 23,
+  "OTT": 22,
+  "PHI": 24,
   "PIT": 20,
   "SJS": 23,
   "SEA": 18,
   "STL": 20,
-  "TBL": 20,
+  "TBL": 21,
   "TOR": 22,
   "UTA": 22,
   "VAN": 23,
   "VGK": 22,
-  "WSH": 18,
-  "WPG": 21
+  "WSH": 19,
+  "WPG": 22
  },
  "teams": {
   "ANA": [
@@ -41,12 +41,12 @@
     "name": "Beckett Sennecke",
     "id": 8484762,
     "pos": "R",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Illness",
     "return_date": "2026-11-19",
-    "updated": "2026-11-18T00:57Z",
+    "updated": "2026-11-18T14:37Z",
     "share": 0.1157,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Ryan Poehling",
@@ -80,7 +80,7 @@
     "type": "Back",
     "return_date": "2026-11-21",
     "updated": "2026-11-07T17:30Z",
-    "share": 0.0724,
+    "share": 0.076,
     "note": "Head coach Marco Sturm announced Saturday that Hagens (back) is expected to miss multiple weeks, per Jack Studley of Boston Hockey Now."
    }
   ],
@@ -156,6 +156,17 @@
   ],
   "CHI": [
    {
+    "name": "Connor Bedard",
+    "id": 8484144,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Shoulder",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-18T16:42Z",
+    "share": 0.1706,
+    "note": "Bedard is being evaluated for a shoulder injury, Emily Kaplan of ESPN reports Wednesday."
+   },
+   {
     "name": "Bowen Byram",
     "id": null,
     "pos": "D",
@@ -222,7 +233,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-16T17:42Z",
-    "share": 0.0641,
+    "share": 0.0667,
     "note": "out"
    }
   ],
@@ -231,12 +242,12 @@
     "name": "Tyler Myers",
     "id": null,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-19",
-    "updated": "2026-11-17T20:12Z",
+    "updated": "2026-11-18T14:37Z",
     "share": null,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Kyle Capobianco",
@@ -285,26 +296,26 @@
   ],
   "DET": [
    {
+    "name": "William Wallinder",
+    "id": 8482171,
+    "pos": "D",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-18T16:15Z",
+    "share": 0.0605,
+    "note": "Wallinder (upper body) will not be in the lineup versus Boston on Wednesday, Ansar Khan of MLive.com reports."
+   },
+   {
     "name": "Albert Johansson",
     "id": null,
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Undisclosed",
-    "return_date": "2026-11-18",
-    "updated": "2026-11-17T17:59Z",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-18T16:14Z",
     "share": null,
-    "note": "Johansson (undisclosed) is expected to return to the lineup either Wednesday or Saturday, per Ansar Khan of MLive.com."
-   },
-   {
-    "name": "William Wallinder",
-    "id": 8482171,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-18",
-    "updated": "2026-11-17T17:40Z",
-    "share": 0.0605,
-    "note": "Wallinder (upper body) is day-to-day, per Ansar Khan of MLive.com on Tuesday."
+    "note": "Johansson (undisclosed) has been ruled out for Wednesday's game against the Bruins, Ansar Khan of MLive.com reports."
    },
    {
     "name": "Dylan Larkin",
@@ -334,12 +345,12 @@
     "name": "Ryan Nugent-Hopkins",
     "id": 8476454,
     "pos": "C",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Undisclosed",
     "return_date": "2026-11-19",
-    "updated": "2026-11-17T17:11Z",
-    "share": 0.0871,
-    "note": "Nugent-Hopkins (undisclosed) isn't expected to play against Florida on Tuesday, per Oilers play-by-play announcer Jack Michaels."
+    "updated": "2026-11-18T14:37Z",
+    "share": 0.0863,
+    "note": "day-to-day"
    },
    {
     "name": "Alec Regula",
@@ -415,12 +426,12 @@
     "name": "Artemi Panarin",
     "id": 8478550,
     "pos": "L",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Personal",
     "return_date": "2026-11-19",
-    "updated": "2026-11-16T20:36Z",
-    "share": 0.1374,
-    "note": "out"
+    "updated": "2026-11-18T14:37Z",
+    "share": 0.1384,
+    "note": "day-to-day"
    },
    {
     "name": "Jakub Dvorak",
@@ -528,6 +539,17 @@
   ],
   "NJD": [
    {
+    "name": "Jonas Siegenthaler",
+    "id": null,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Illness",
+    "return_date": "2026-11-18",
+    "updated": "2026-11-18T17:02Z",
+    "share": null,
+    "note": "Siegenthaler is dealing with an illness that could put his availability against the Habs on Wednesday in doubt, Amanda Stein of the Devils' official site reports."
+   },
+   {
     "name": "Anthony Mantha",
     "id": 8477511,
     "pos": "R",
@@ -566,34 +588,23 @@
     "name": "Jean-Gabriel Pageau",
     "id": 8476419,
     "pos": "C",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Lower Body",
     "return_date": "2026-11-19",
-    "updated": "2026-11-17T23:32Z",
-    "share": 0.0627,
-    "note": "out"
+    "updated": "2026-11-18T14:37Z",
+    "share": 0.0629,
+    "note": "day-to-day"
    },
    {
     "name": "Logan Stanley",
     "id": null,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Lower Body",
     "return_date": "2026-11-19",
-    "updated": "2026-11-17T19:05Z",
+    "updated": "2026-11-18T14:37Z",
     "share": null,
-    "note": "out"
-   },
-   {
-    "name": "Calum Ritchie",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-12-01",
-    "updated": "2026-10-26T17:28Z",
-    "share": null,
-    "note": "ir"
+    "note": "day-to-day"
    },
    {
     "name": "Alexander Romanov",
@@ -677,15 +688,37 @@
   ],
   "OTT": [
    {
+    "name": "Nick Cousins",
+    "id": null,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-18T14:37Z",
+    "share": null,
+    "note": "day-to-day"
+   },
+   {
     "name": "Hayden Hodgson",
     "id": null,
     "pos": "RW",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Groin",
     "return_date": "2026-11-19",
-    "updated": "2026-11-16T16:55Z",
+    "updated": "2026-11-18T14:37Z",
     "share": null,
-    "note": "Hodgson (groin) isn't expected to play against Winnipeg on Tuesday, per TSN 1200 Ottawa."
+    "note": "day-to-day"
+   },
+   {
+    "name": "Thomas Chabot",
+    "id": 8478469,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Undisclosed",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-18T03:35Z",
+    "share": 0.0898,
+    "note": "day-to-day"
    },
    {
     "name": "Warren Foegele",
@@ -697,17 +730,6 @@
     "updated": "2026-11-16T16:53Z",
     "share": null,
     "note": "Head coach Travis Green said Monday that Foegele (knee) hasn't yet resumed skating, Bruce Garrioch of Postmedia reports."
-   },
-   {
-    "name": "Nick Cousins",
-    "id": null,
-    "pos": "C",
-    "status": "Out",
-    "type": "Upper Body",
-    "return_date": "2026-11-19",
-    "updated": "2026-11-11T17:15Z",
-    "share": null,
-    "note": "out"
    },
    {
     "name": "Andre Burakovsky",
@@ -866,12 +888,12 @@
     "name": "Ross Johnston",
     "id": null,
     "pos": "LW",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-19",
-    "updated": "2026-11-17T17:49Z",
+    "updated": "2026-11-18T14:37Z",
     "share": null,
-    "note": "Johnston (upper body) won't play against Anaheim on Tuesday, Lou Korac of NHL.com reports."
+    "note": "day-to-day"
    },
    {
     "name": "Torey Krug",
@@ -909,26 +931,26 @@
   ],
   "TBL": [
    {
+    "name": "Brandon Hagel",
+    "id": 8479542,
+    "pos": "L",
+    "status": "Day-To-Day",
+    "type": "Lower Body",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-18T18:12Z",
+    "share": 0.1148,
+    "note": "Hagel is considered day-to-day due to his lower-body injury, Eduardo A. Encina of the Tampa Bay Times reports Wednesday."
+   },
+   {
     "name": "Zemgus Girgensons",
     "id": null,
     "pos": "C",
     "status": "Day-To-Day",
-    "type": "Undisclosed",
+    "type": "Upper Body",
     "return_date": "2026-11-19",
-    "updated": "2026-11-18T02:22Z",
+    "updated": "2026-11-18T18:08Z",
     "share": null,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Brandon Hagel",
-    "id": 8479542,
-    "pos": "L",
-    "status": "Out",
-    "type": "Lower Body",
-    "return_date": "2026-11-19",
-    "updated": "2026-11-17T23:17Z",
-    "share": 0.1146,
-    "note": "Hagel (undisclosed) won't play against Washington on Tuesday, Benjamin Pierce of the Lightning's official site reports."
+    "note": "Girgensons is considered day-to-day due to an upper-body injury, Lightning reporter Gabby Shirley reports Wednesday."
    },
    {
     "name": "Conor Geekie",
@@ -938,7 +960,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-22",
     "updated": "2026-11-17T18:19Z",
-    "share": 0.0345,
+    "share": 0.0351,
     "note": "ir"
    }
   ],
@@ -1034,6 +1056,28 @@
   ],
   "UTA": [
    {
+    "name": "Dylan Guenther",
+    "id": 8482699,
+    "pos": "R",
+    "status": "Injured Reserve",
+    "type": "Upper Body",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-18T18:29Z",
+    "share": 0.079,
+    "note": "Guenther (upper body) was on the ice for Wednesday's optional morning skate in a non-contact sweater, Brogan Houston of the Deseret News reports."
+   },
+   {
+    "name": "John Marino",
+    "id": null,
+    "pos": "D",
+    "status": "Injured Reserve",
+    "type": "Upper Body",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-18T18:29Z",
+    "share": null,
+    "note": "Marino (upper body) took the ice Wednesday in a regular jersey, Chase Beardsley of The Hockey Writers reports, indicating he's been cleared for contact."
+   },
+   {
     "name": "Nick Schmaltz",
     "id": 8477951,
     "pos": "C",
@@ -1054,28 +1098,6 @@
     "updated": "2026-11-12T19:30Z",
     "share": null,
     "note": "The Mammoth announced Thursday that Schmidt (upper body) is considered week-to-week, Cole Bagley of KSL Sports reports."
-   },
-   {
-    "name": "Dylan Guenther",
-    "id": 8482699,
-    "pos": "R",
-    "status": "Injured Reserve",
-    "type": "Upper Body",
-    "return_date": "2026-12-05",
-    "updated": "2026-11-12T01:21Z",
-    "share": 0.079,
-    "note": "ir"
-   },
-   {
-    "name": "John Marino",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Upper Body",
-    "return_date": "2026-12-03",
-    "updated": "2026-11-01T20:27Z",
-    "share": null,
-    "note": "ir"
    },
    {
     "name": "Maveric Lamoureux",
@@ -1170,7 +1192,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-21",
     "updated": "2026-11-13T16:33Z",
-    "share": 0.0615,
+    "share": 0.0639,
     "note": "DeMelo (lower body) was placed on injured reserve Friday."
    },
    {

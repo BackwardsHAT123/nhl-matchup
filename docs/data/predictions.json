@@ -1,1029 +1,28 @@
 {
- "generated_at": "2026-11-18T03:09+00:00",
- "today": "2026-11-17",
+ "generated_at": "2026-11-18T18:53+00:00",
+ "today": "2026-11-18",
  "games": [
-  {
-   "gameId": 2026020333,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T00:00:00Z",
-   "home": "BOS",
-   "away": "LAK",
-   "p_home": 0.6261149990648893,
-   "h_xg": 0.5256986624579527,
-   "a_xg": 0.5040453886218315,
-   "h_goalie": "Jeremy Swayman",
-   "a_goalie": "Darcy Kuemper",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": 0.32236794398172025,
-   "a_gsax": -0.41714386763547673,
-   "h_p_start": 0.7,
-   "a_p_start": 0.659,
-   "h_alt": "Michael DiPietro 30%",
-   "a_alt": "Anton Forsberg 34%",
-   "h_rest": 2,
-   "a_rest": 2,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "MIN",
-     "home": true,
-     "gf": 2,
-     "ga": 6
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "MTL",
-     "home": true,
-     "gf": 2,
-     "ga": 5
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "FLA",
-     "home": true,
-     "gf": 4,
-     "ga": 1
-    },
-    {
-     "date": "2026-11-05",
-     "opp": "PIT",
-     "home": false,
-     "gf": 6,
-     "ga": 2
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "CGY",
-     "home": true,
-     "gf": 2,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "NYI",
-     "home": true,
-     "gf": 2,
-     "ga": 5
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "NSH",
-     "home": true,
-     "gf": 0,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "PIT",
-     "home": true,
-     "gf": 2,
-     "ga": 5
-    }
-   ]
-  },
-  {
-   "gameId": 2026020335,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T00:00:00Z",
-   "home": "FLA",
-   "away": "EDM",
-   "p_home": 0.5970143113297042,
-   "h_xg": 0.5030784270009776,
-   "a_xg": 0.4824083805716846,
-   "h_goalie": "Jacob Markstrom",
-   "a_goalie": "Devon Levi",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": 0.033272215197353495,
-   "a_gsax": 0.03889154309207027,
-   "h_p_start": 0.74,
-   "a_p_start": 0.669,
-   "h_alt": "Akira Schmid 26%",
-   "a_alt": "Tristan Jarry 33%",
-   "h_rest": 1,
-   "a_rest": 1,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-15",
-     "opp": "DAL",
-     "home": false,
-     "gf": 1,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-14",
-     "opp": "STL",
-     "home": false,
-     "gf": 4,
-     "ga": 1
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "DET",
-     "home": true,
-     "gf": 5,
-     "ga": 4
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "CBJ",
-     "home": false,
-     "gf": 4,
-     "ga": 1
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-15",
-     "opp": "PHI",
-     "home": false,
-     "gf": 5,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-14",
-     "opp": "TOR",
-     "home": false,
-     "gf": 1,
-     "ga": 0
-    },
-    {
-     "date": "2026-11-11",
-     "opp": "PHI",
-     "home": true,
-     "gf": 3,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-09",
-     "opp": "NYR",
-     "home": true,
-     "gf": 3,
-     "ga": 1
-    }
-   ]
-  },
-  {
-   "gameId": 2026020336,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T00:00:00Z",
-   "home": "NYI",
-   "away": "CBJ",
-   "p_home": 0.5689057179500834,
-   "h_xg": 0.4913225957471274,
-   "a_xg": 0.4885409228467476,
-   "h_goalie": "Ilya Sorokin",
-   "a_goalie": "Jet Greaves",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": 0.19294100232266445,
-   "a_gsax": -0.14546291516540152,
-   "h_p_start": 0.806,
-   "a_p_start": 0.501,
-   "h_alt": "Semyon Varlamov 19%",
-   "a_alt": "Cam Talbot 50%",
-   "h_rest": 2,
-   "a_rest": 2,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "ANA",
-     "home": false,
-     "gf": 6,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "LAK",
-     "home": false,
-     "gf": 5,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-09",
-     "opp": "SJS",
-     "home": false,
-     "gf": 2,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "NJD",
-     "home": true,
-     "gf": 4,
-     "ga": 5
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "PHI",
-     "home": true,
-     "gf": 3,
-     "ga": 4
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "TBL",
-     "home": true,
-     "gf": 1,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "FLA",
-     "home": true,
-     "gf": 1,
-     "ga": 4
-    },
-    {
-     "date": "2026-11-06",
-     "opp": "BUF",
-     "home": false,
-     "gf": 2,
-     "ga": 5
-    }
-   ]
-  },
-  {
-   "gameId": 2026020337,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T00:00:00Z",
-   "home": "PHI",
-   "away": "BUF",
-   "p_home": 0.42196536439560145,
-   "h_xg": 0.4591652652499617,
-   "a_xg": 0.5004391314954867,
-   "h_goalie": "Joseph Woll",
-   "a_goalie": "Colten Ellis",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": -0.019079823566273607,
-   "a_gsax": 0.0953861406694914,
-   "h_p_start": 0.627,
-   "a_p_start": 0.557,
-   "h_alt": "Dan Vladar 37%",
-   "a_alt": "Ukko-Pekka Luukkonen 44%",
-   "h_rest": 1,
-   "a_rest": 2,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-15",
-     "opp": "EDM",
-     "home": true,
-     "gf": 2,
-     "ga": 5
-    },
-    {
-     "date": "2026-11-14",
-     "opp": "CBJ",
-     "home": false,
-     "gf": 4,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-11",
-     "opp": "EDM",
-     "home": false,
-     "gf": 2,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-09",
-     "opp": "VAN",
-     "home": false,
-     "gf": 3,
-     "ga": 1
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "DAL",
-     "home": false,
-     "gf": 0,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "CHI",
-     "home": false,
-     "gf": 2,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-11",
-     "opp": "TBL",
-     "home": true,
-     "gf": 3,
-     "ga": 8
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "VGK",
-     "home": true,
-     "gf": 1,
-     "ga": 4
-    }
-   ]
-  },
-  {
-   "gameId": 2026020341,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T00:00:00Z",
-   "home": "WPG",
-   "away": "OTT",
-   "p_home": 0.45304660676279945,
-   "h_xg": 0.48922997963078796,
-   "a_xg": 0.5200195647696849,
-   "h_goalie": "Stuart Skinner",
-   "a_goalie": "Linus Ullmark",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": -0.14240926137826357,
-   "a_gsax": 0.29940816453014496,
-   "h_p_start": 0.894,
-   "a_p_start": 0.633,
-   "h_alt": "Clay Stevenson 11%",
-   "a_alt": "Samuel Ersson 37%",
-   "h_rest": 2,
-   "a_rest": 2,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "CHI",
-     "home": false,
-     "gf": 5,
-     "ga": 4
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "DAL",
-     "home": false,
-     "gf": 8,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "NJD",
-     "home": true,
-     "gf": 4,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "TBL",
-     "home": true,
-     "gf": 4,
-     "ga": 3
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "PIT",
-     "home": false,
-     "gf": 4,
-     "ga": 1
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "COL",
-     "home": true,
-     "gf": 4,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "WSH",
-     "home": true,
-     "gf": 2,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "UTA",
-     "home": true,
-     "gf": 4,
-     "ga": 2
-    }
-   ]
-  },
-  {
-   "gameId": 2026020334,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T00:30:00Z",
-   "home": "TBL",
-   "away": "WSH",
-   "p_home": 0.5808032577630275,
-   "h_xg": 0.5426889820040206,
-   "a_xg": 0.524854771444256,
-   "h_goalie": "Andrei Vasilevskiy",
-   "a_goalie": "Logan Thompson",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": -0.06651272019217537,
-   "a_gsax": 0.06539191934224646,
-   "h_p_start": 0.673,
-   "a_p_start": 0.883,
-   "h_alt": "Dennis Hildeby 33%",
-   "a_alt": "Charlie Lindgren 12%",
-   "h_rest": 2,
-   "a_rest": 2,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "DET",
-     "home": true,
-     "gf": 0,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "CBJ",
-     "home": false,
-     "gf": 3,
-     "ga": 1
-    },
-    {
-     "date": "2026-11-11",
-     "opp": "BUF",
-     "home": false,
-     "gf": 8,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "WPG",
-     "home": false,
-     "gf": 3,
-     "ga": 4
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "NJD",
-     "home": true,
-     "gf": 4,
-     "ga": 7
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "NJD",
-     "home": false,
-     "gf": 2,
-     "ga": 5
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "OTT",
-     "home": false,
-     "gf": 3,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "FLA",
-     "home": true,
-     "gf": 4,
-     "ga": 3
-    }
-   ]
-  },
-  {
-   "gameId": 2026020338,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T00:30:00Z",
-   "home": "CHI",
-   "away": "TOR",
-   "p_home": 0.4451471005783101,
-   "h_xg": 0.43901935526489627,
-   "a_xg": 0.47341058112625356,
-   "h_goalie": "Spencer Knight",
-   "a_goalie": "Anthony Stolarz",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": -0.19662631390719454,
-   "a_gsax": -0.06809614122502482,
-   "h_p_start": 0.754,
-   "a_p_start": 0.674,
-   "h_alt": "Arvid Soderblom 25%",
-   "a_alt": "Sergei Bobrovsky 33%",
-   "h_rest": 2,
-   "a_rest": 2,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "WPG",
-     "home": true,
-     "gf": 4,
-     "ga": 5
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "BUF",
-     "home": true,
-     "gf": 3,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "CAR",
-     "home": false,
-     "gf": 2,
-     "ga": 9
-    },
-    {
-     "date": "2026-11-05",
-     "opp": "TBL",
-     "home": false,
-     "gf": 1,
-     "ga": 4
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "EDM",
-     "home": true,
-     "gf": 0,
-     "ga": 1
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "MIN",
-     "home": true,
-     "gf": 2,
-     "ga": 5
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "COL",
-     "home": true,
-     "gf": 3,
-     "ga": 6
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "NJD",
-     "home": true,
-     "gf": 0,
-     "ga": 4
-    }
-   ]
-  },
-  {
-   "gameId": 2026020339,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T01:00:00Z",
-   "home": "STL",
-   "away": "ANA",
-   "p_home": 0.6399362780830686,
-   "h_xg": 0.5027499007767761,
-   "a_xg": 0.47453345665674385,
-   "h_goalie": "Joel Hofer",
-   "a_goalie": "Lukas Dostal",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": 0.35013081008121494,
-   "a_gsax": -0.369862689935462,
-   "h_p_start": 0.738,
-   "a_p_start": 0.663,
-   "h_alt": "Jordan Binnington 26%",
-   "a_alt": "Ville Husso 34%",
-   "h_rest": 2,
-   "a_rest": 1,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "FLA",
-     "home": true,
-     "gf": 1,
-     "ga": 4
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "UTA",
-     "home": false,
-     "gf": 1,
-     "ga": 0
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "DET",
-     "home": true,
-     "gf": 3,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "NSH",
-     "home": false,
-     "gf": 1,
-     "ga": 3
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-15",
-     "opp": "CGY",
-     "home": true,
-     "gf": 6,
-     "ga": 1
-    },
-    {
-     "date": "2026-11-14",
-     "opp": "NYI",
-     "home": true,
-     "gf": 2,
-     "ga": 6
-    },
-    {
-     "date": "2026-11-11",
-     "opp": "NSH",
-     "home": true,
-     "gf": 2,
-     "ga": 4
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "PIT",
-     "home": true,
-     "gf": 5,
-     "ga": 2
-    }
-   ]
-  },
-  {
-   "gameId": 2026020340,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T01:00:00Z",
-   "home": "MIN",
-   "away": "NSH",
-   "p_home": 0.6243796679050216,
-   "h_xg": 0.5160042511292062,
-   "a_xg": 0.48853405680681444,
-   "h_goalie": "Jesper Wallstedt",
-   "a_goalie": "Juuse Saros",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": 0.633983116022649,
-   "a_gsax": 0.24616529156025316,
-   "h_p_start": 0.823,
-   "a_p_start": 0.532,
-   "h_alt": "Calvin Pickard 18%",
-   "a_alt": "Justus Annunen 47%",
-   "h_rest": 2,
-   "a_rest": 1,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-14",
-     "opp": "BOS",
-     "home": false,
-     "gf": 6,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "TOR",
-     "home": false,
-     "gf": 5,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "MTL",
-     "home": false,
-     "gf": 2,
-     "ga": 1
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "TBL",
-     "home": true,
-     "gf": 3,
-     "ga": 4
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-15",
-     "opp": "SJS",
-     "home": false,
-     "gf": 2,
-     "ga": 4
-    },
-    {
-     "date": "2026-11-13",
-     "opp": "VGK",
-     "home": false,
-     "gf": 3,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-11",
-     "opp": "ANA",
-     "home": false,
-     "gf": 4,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-10",
-     "opp": "LAK",
-     "home": false,
-     "gf": 3,
-     "ga": 0
-    }
-   ]
-  },
-  {
-   "gameId": 2026020342,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T03:00:00Z",
-   "home": "VGK",
-   "away": "DAL",
-   "p_home": 0.5451609413568292,
-   "h_xg": 0.5202046845326018,
-   "a_xg": 0.5113510496341326,
-   "h_goalie": "Adin Hill",
-   "a_goalie": "Jake Oettinger",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": -0.05978784018347161,
-   "a_gsax": 0.2194190484865541,
-   "h_p_start": 0.794,
-   "a_p_start": 0.83,
-   "h_alt": "Carter Hart 21%",
-   "a_alt": "Casey DeSmith 17%",
-   "h_rest": 1,
-   "a_rest": 1,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-15",
-     "opp": "VAN",
-     "home": true,
-     "gf": 3,
-     "ga": 6
-    },
-    {
-     "date": "2026-11-13",
-     "opp": "NSH",
-     "home": true,
-     "gf": 2,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-11",
-     "opp": "UTA",
-     "home": true,
-     "gf": 5,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "BUF",
-     "home": false,
-     "gf": 4,
-     "ga": 1
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-15",
-     "opp": "FLA",
-     "home": true,
-     "gf": 2,
-     "ga": 1
-    },
-    {
-     "date": "2026-11-14",
-     "opp": "BUF",
-     "home": true,
-     "gf": 2,
-     "ga": 0
-    },
-    {
-     "date": "2026-11-12",
-     "opp": "WPG",
-     "home": true,
-     "gf": 3,
-     "ga": 8
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "SJS",
-     "home": true,
-     "gf": 4,
-     "ga": 3
-    }
-   ]
-  },
-  {
-   "gameId": 2026020343,
-   "date": "2026-11-17",
-   "start_utc": "2026-11-18T03:00:00Z",
-   "home": "SJS",
-   "away": "CGY",
-   "p_home": 0.4840263623885903,
-   "h_xg": 0.45372423664829825,
-   "a_xg": 0.4748486907114624,
-   "h_goalie": "Yaroslav Askarov",
-   "a_goalie": "Dustin Wolf",
-   "h_assumed": true,
-   "a_assumed": true,
-   "h_gsax": -0.16208304224686207,
-   "a_gsax": -0.14546746320710988,
-   "h_p_start": 0.777,
-   "a_p_start": 0.721,
-   "h_alt": "Alex Nedeljkovic 22%",
-   "a_alt": "Devin Cooley 28%",
-   "h_rest": 1,
-   "a_rest": 1,
-   "weights": [
-    0.75,
-    0.15,
-    0.1
-   ],
-   "h_inj": [],
-   "a_inj": [],
-   "h_inj_xg": -0.0,
-   "a_inj_xg": -0.0,
-   "h_last4": [
-    {
-     "date": "2026-11-15",
-     "opp": "NSH",
-     "home": true,
-     "gf": 4,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-14",
-     "opp": "UTA",
-     "home": false,
-     "gf": 6,
-     "ga": 5
-    },
-    {
-     "date": "2026-11-11",
-     "opp": "PIT",
-     "home": true,
-     "gf": 2,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-09",
-     "opp": "NYI",
-     "home": true,
-     "gf": 3,
-     "ga": 2
-    }
-   ],
-   "a_last4": [
-    {
-     "date": "2026-11-15",
-     "opp": "ANA",
-     "home": false,
-     "gf": 1,
-     "ga": 6
-    },
-    {
-     "date": "2026-11-14",
-     "opp": "LAK",
-     "home": false,
-     "gf": 3,
-     "ga": 2
-    },
-    {
-     "date": "2026-11-11",
-     "opp": "NYR",
-     "home": true,
-     "gf": 1,
-     "ga": 3
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "PHI",
-     "home": true,
-     "gf": 4,
-     "ga": 3
-    }
-   ]
-  },
   {
    "gameId": 2026020344,
    "date": "2026-11-18",
    "start_utc": "2026-11-19T00:30:00Z",
    "home": "DET",
    "away": "BOS",
-   "p_home": 0.46657088170641287,
-   "h_xg": 0.4987058904818458,
-   "a_xg": 0.5205937024579527,
+   "p_home": 0.4858557486174906,
+   "h_xg": 0.49142854655625745,
+   "a_xg": 0.5180007528794971,
    "h_goalie": "John Gibson",
-   "a_goalie": "Michael DiPietro",
+   "a_goalie": "Jeremy Swayman",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.14327478107217437,
-   "a_gsax": 0.23994761050447938,
-   "h_p_start": 0.607,
-   "a_p_start": 0.502,
-   "h_alt": "Daniil Tarasov 39%",
-   "a_alt": "Jeremy Swayman 50%",
+   "h_gsax": -0.1351569477368085,
+   "a_gsax": 0.3324385974269052,
+   "h_p_start": 0.623,
+   "a_p_start": 0.946,
+   "h_alt": "Daniil Tarasov 38%",
+   "a_alt": "Michael DiPietro 5%",
    "h_rest": 3,
-   "a_rest": 3,
+   "a_rest": 0,
    "weights": [
     0.75,
     0.15,
@@ -1037,6 +36,22 @@
      "return_date": "2026-12-20",
      "p_out": 0.6142857142857143,
      "xgf_pts": -0.58
+    },
+    {
+     "name": "William Wallinder",
+     "pos": "D",
+     "status": "Out",
+     "return_date": "2026-11-21",
+     "p_out": 1.0,
+     "xgf_pts": -0.49
+    },
+    {
+     "name": "Albert Johansson",
+     "pos": "D",
+     "status": "Injured Reserve",
+     "return_date": "2026-11-21",
+     "p_out": 1.0,
+     "xgf_pts": -0.24
     },
     {
      "name": "Simon Edvinsson",
@@ -1053,12 +68,12 @@
      "pos": "C",
      "status": "Injured Reserve",
      "return_date": "2026-11-21",
-     "p_out": 0.7525,
-     "xgf_pts": -0.51
+     "p_out": 0.7642857142857142,
+     "xgf_pts": -0.56
     }
    ],
-   "h_inj_xg": -0.64,
-   "a_inj_xg": -0.51,
+   "h_inj_xg": -1.37,
+   "a_inj_xg": -0.56,
    "h_last4": [
     {
      "date": "2026-11-14",
@@ -1126,19 +141,19 @@
    "start_utc": "2026-11-19T00:30:00Z",
    "home": "NJD",
    "away": "MTL",
-   "p_home": 0.6225764974089346,
-   "h_xg": 0.5287612101688473,
+   "p_home": 0.622729278808733,
+   "h_xg": 0.5288009736354032,
    "a_xg": 0.49040087447171593,
    "h_goalie": "Connor Hellebuyck",
    "a_goalie": "Jacob Fowler",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.061555825818203125,
-   "a_gsax": 0.35848073560866256,
-   "h_p_start": 0.654,
-   "a_p_start": 0.567,
-   "h_alt": "Jake Allen 35%",
-   "a_alt": "Jakub Dobes 43%",
+   "h_gsax": -0.05724116097334974,
+   "a_gsax": 0.36780856117083693,
+   "h_p_start": 0.642,
+   "a_p_start": 0.543,
+   "h_alt": "Jake Allen 36%",
+   "a_alt": "Jakub Dobes 46%",
    "h_rest": 3,
    "a_rest": 1,
    "weights": [
@@ -1275,19 +290,19 @@
    "start_utc": "2026-11-19T03:00:00Z",
    "home": "UTA",
    "away": "COL",
-   "p_home": 0.6013423308587206,
-   "h_xg": 0.5284021906941606,
+   "p_home": 0.5980909428796747,
+   "h_xg": 0.5271894245333578,
    "a_xg": 0.4916870903116649,
    "h_goalie": "Karel Vejmelka",
    "a_goalie": "Mackenzie Blackwood",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.3873942396418487,
-   "a_gsax": 0.07638933942511077,
-   "h_p_start": 0.7,
-   "a_p_start": 0.746,
+   "h_gsax": -0.37916457235516576,
+   "a_gsax": 0.08534177569018753,
+   "h_p_start": 0.702,
+   "a_p_start": 0.721,
    "h_alt": "Sebastian Cossa 30%",
-   "a_alt": "Scott Wedgewood 25%",
+   "a_alt": "Scott Wedgewood 28%",
    "h_rest": 1,
    "a_rest": 3,
    "weights": [
@@ -1308,9 +323,17 @@
      "name": "Dylan Guenther",
      "pos": "R",
      "status": "Injured Reserve",
-     "return_date": "2026-12-05",
-     "p_out": 0.8772727272727272,
-     "xgf_pts": -0.69
+     "return_date": "2026-11-27",
+     "p_out": 1.0,
+     "xgf_pts": -0.78
+    },
+    {
+     "name": "John Marino",
+     "pos": "D",
+     "status": "Injured Reserve",
+     "return_date": "2026-11-21",
+     "p_out": 1.0,
+     "xgf_pts": -0.24
     },
     {
      "name": "Nate Schmidt",
@@ -1319,14 +342,6 @@
      "return_date": "2026-11-21",
      "p_out": 0.8772727272727272,
      "xgf_pts": -0.21
-    },
-    {
-     "name": "John Marino",
-     "pos": "D",
-     "status": "Injured Reserve",
-     "return_date": "2026-12-03",
-     "p_out": 0.6522727272727273,
-     "xgf_pts": -0.16
     }
    ],
    "a_inj": [
@@ -1363,7 +378,7 @@
      "xgf_pts": -0.11
     }
    ],
-   "h_inj_xg": -2.29,
+   "h_inj_xg": -2.47,
    "a_inj_xg": -2.85,
    "h_last4": [
     {
@@ -1432,21 +447,21 @@
    "start_utc": "2026-11-20T00:00:00Z",
    "home": "TOR",
    "away": "LAK",
-   "p_home": 0.4435143230309245,
-   "h_xg": 0.4621247629444354,
-   "a_xg": 0.5040453886218315,
+   "p_home": 0.4363395594600659,
+   "h_xg": 0.4638765031486364,
+   "a_xg": 0.5051065173902362,
    "h_goalie": "Anthony Stolarz",
    "a_goalie": "Darcy Kuemper",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.06809614122502482,
-   "a_gsax": -0.41714386763547673,
-   "h_p_start": 0.65,
-   "a_p_start": 0.638,
-   "h_alt": "Sergei Bobrovsky 35%",
-   "a_alt": "Anton Forsberg 36%",
-   "h_rest": 4,
-   "a_rest": 4,
+   "h_gsax": -0.06227783929569862,
+   "a_gsax": -0.2813417377847346,
+   "h_p_start": 0.799,
+   "a_p_start": 0.503,
+   "h_alt": "Sergei Bobrovsky 20%",
+   "a_alt": "Anton Forsberg 50%",
+   "h_rest": 1,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -1491,6 +506,13 @@
    "a_inj_xg": -0.0,
    "h_last4": [
     {
+     "date": "2026-11-17",
+     "opp": "CHI",
+     "home": false,
+     "gf": 3,
+     "ga": 6
+    },
+    {
      "date": "2026-11-14",
      "opp": "EDM",
      "home": true,
@@ -1510,13 +532,6 @@
      "home": true,
      "gf": 3,
      "ga": 6
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "NJD",
-     "home": true,
-     "gf": 0,
-     "ga": 4
     }
    ],
    "a_last4": [
@@ -1556,21 +571,21 @@
    "start_utc": "2026-11-20T00:00:00Z",
    "home": "OTT",
    "away": "PHI",
-   "p_home": 0.6823764202172597,
-   "h_xg": 0.5155967076268277,
-   "a_xg": 0.4585965695977878,
+   "p_home": 0.6987653522572747,
+   "h_xg": 0.5209878901328212,
+   "a_xg": 0.45854566704411703,
    "h_goalie": "Linus Ullmark",
-   "a_goalie": "Joseph Woll",
+   "a_goalie": "Dan Vladar",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": 0.29940816453014496,
-   "a_gsax": -0.019079823566273607,
-   "h_p_start": 0.588,
-   "a_p_start": 0.571,
-   "h_alt": "Samuel Ersson 41%",
-   "a_alt": "Dan Vladar 43%",
-   "h_rest": 4,
-   "a_rest": 3,
+   "h_gsax": 0.378183063659949,
+   "a_gsax": -0.06259543338313694,
+   "h_p_start": 0.686,
+   "a_p_start": 0.658,
+   "h_alt": "Samuel Ersson 31%",
+   "a_alt": "Joseph Woll 34%",
+   "h_rest": 1,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -1582,7 +597,7 @@
      "pos": "LW",
      "status": "Injured Reserve",
      "return_date": "2026-12-03",
-     "p_out": 0.9571428571428572,
+     "p_out": 0.9590909090909091,
      "xgf_pts": -0.23
     },
     {
@@ -1590,7 +605,7 @@
      "pos": "LW",
      "status": "Injured Reserve",
      "return_date": "2026-11-27",
-     "p_out": 0.6142857142857143,
+     "p_out": 0.6318181818181818,
      "xgf_pts": -0.15
     },
     {
@@ -1598,7 +613,7 @@
      "pos": "LW",
      "status": "Injured Reserve",
      "return_date": "2027-01-05",
-     "p_out": 0.27142857142857135,
+     "p_out": 0.30454545454545456,
      "xgf_pts": -0.07
     }
    ],
@@ -1608,11 +623,11 @@
      "pos": "RW",
      "status": "Injured Reserve",
      "return_date": "2027-02-13",
-     "p_out": 0.2369565217391304,
+     "p_out": 0.26874999999999993,
      "xgf_pts": -0.06
     }
    ],
-   "h_inj_xg": -0.44,
+   "h_inj_xg": -0.45,
    "a_inj_xg": -0.06,
    "h_last4": [
     {
@@ -1681,21 +696,21 @@
    "start_utc": "2026-11-20T00:00:00Z",
    "home": "PIT",
    "away": "STL",
-   "p_home": 0.5504466099535184,
-   "h_xg": 0.5154586785958285,
-   "a_xg": 0.501999900776776,
-   "h_goalie": "Arturs Silovs",
+   "p_home": 0.528979188746929,
+   "h_xg": 0.5154348950297446,
+   "a_xg": 0.5119915333070859,
+   "h_goalie": "Sergei Murashov",
    "a_goalie": "Joel Hofer",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.4071194534722095,
-   "a_gsax": 0.35013081008121494,
-   "h_p_start": 0.537,
-   "a_p_start": 0.678,
-   "h_alt": "Sergei Murashov 46%",
-   "a_alt": "Jordan Binnington 32%",
+   "h_gsax": -0.09582540707973605,
+   "a_gsax": 0.3598702900683242,
+   "h_p_start": 0.501,
+   "a_p_start": 0.898,
+   "h_alt": "Arturs Silovs 50%",
+   "a_alt": "Jordan Binnington 10%",
    "h_rest": 4,
-   "a_rest": 4,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -1763,6 +778,13 @@
    ],
    "a_last4": [
     {
+     "date": "2026-11-17",
+     "opp": "ANA",
+     "home": true,
+     "gf": 8,
+     "ga": 6
+    },
+    {
      "date": "2026-11-14",
      "opp": "FLA",
      "home": true,
@@ -1782,13 +804,6 @@
      "home": true,
      "gf": 3,
      "ga": 2
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "NSH",
-     "home": false,
-     "gf": 1,
-     "ga": 3
     }
    ]
   },
@@ -1798,21 +813,21 @@
    "start_utc": "2026-11-20T00:00:00Z",
    "home": "WSH",
    "away": "BUF",
-   "p_home": 0.5996357226237455,
-   "h_xg": 0.5221547714442559,
-   "a_xg": 0.49658713149548667,
+   "p_home": 0.5817130333734426,
+   "h_xg": 0.5181440628733144,
+   "a_xg": 0.49733728244053976,
    "h_goalie": "Logan Thompson",
    "a_goalie": "Colten Ellis",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": 0.06539191934224646,
-   "a_gsax": 0.0953861406694914,
-   "h_p_start": 0.845,
-   "a_p_start": 0.589,
-   "h_alt": "Charlie Lindgren 16%",
-   "a_alt": "Ukko-Pekka Luukkonen 41%",
-   "h_rest": 4,
-   "a_rest": 4,
+   "h_gsax": -0.028730535101488666,
+   "a_gsax": 0.10066490163699653,
+   "h_p_start": 0.75,
+   "a_p_start": 0.56,
+   "h_alt": "Charlie Lindgren 25%",
+   "a_alt": "Ukko-Pekka Luukkonen 44%",
+   "h_rest": 1,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -1824,7 +839,7 @@
      "pos": "D",
      "status": "Injured Reserve",
      "return_date": "2026-11-25",
-     "p_out": 0.775,
+     "p_out": 0.7868421052631579,
      "xgf_pts": -0.19
     },
     {
@@ -1832,8 +847,8 @@
      "pos": "D",
      "status": "Injured Reserve",
      "return_date": "2026-12-05",
-     "p_out": 0.35,
-     "xgf_pts": -0.08
+     "p_out": 0.38421052631578945,
+     "xgf_pts": -0.09
     }
    ],
    "a_inj": [
@@ -1842,7 +857,7 @@
      "pos": "C",
      "status": "Injured Reserve",
      "return_date": "2026-11-21",
-     "p_out": 0.865,
+     "p_out": 0.8714285714285714,
      "xgf_pts": -0.21
     },
     {
@@ -1850,20 +865,20 @@
      "pos": "RW",
      "status": "Injured Reserve",
      "return_date": "2026-11-22",
-     "p_out": 0.55,
-     "xgf_pts": -0.13
+     "p_out": 0.5714285714285714,
+     "xgf_pts": -0.14
     },
     {
      "name": "Matt Grzelcyk",
      "pos": "D",
      "status": "Injured Reserve",
      "return_date": "2026-11-22",
-     "p_out": 0.19000000000000006,
+     "p_out": 0.22857142857142865,
      "xgf_pts": -0.05
     }
    ],
-   "h_inj_xg": -0.27,
-   "a_inj_xg": -0.39,
+   "h_inj_xg": -0.28,
+   "a_inj_xg": -0.4,
    "h_last4": [
     {
      "date": "2026-11-17",
@@ -1931,19 +946,19 @@
    "start_utc": "2026-11-20T00:00:00Z",
    "home": "CAR",
    "away": "MTL",
-   "p_home": 0.7334878619054904,
-   "h_xg": 0.5752862797232379,
+   "p_home": 0.7337839653793337,
+   "h_xg": 0.5753447429067967,
    "a_xg": 0.49040087447171593,
    "h_goalie": "Pyotr Kochetkov",
-   "a_goalie": "Jacob Fowler",
+   "a_goalie": "Jakub Dobes",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": 0.20684240275388266,
-   "a_gsax": 0.35848073560866256,
-   "h_p_start": 0.569,
-   "a_p_start": 0.517,
-   "h_alt": "Brandon Bussi 43%",
-   "a_alt": "Jakub Dobes 48%",
+   "h_gsax": 0.21404115621312605,
+   "a_gsax": 0.1920171206544582,
+   "h_p_start": 0.584,
+   "a_p_start": 0.507,
+   "h_alt": "Brandon Bussi 42%",
+   "a_alt": "Jacob Fowler 49%",
    "h_rest": 4,
    "a_rest": 2,
    "weights": [
@@ -2055,21 +1070,21 @@
    "start_utc": "2026-11-20T00:00:00Z",
    "home": "WPG",
    "away": "NYI",
-   "p_home": 0.502680248827481,
-   "h_xg": 0.48260426534507367,
-   "a_xg": 0.48953522732607474,
+   "p_home": 0.476551774393896,
+   "h_xg": 0.4763996834725615,
+   "a_xg": 0.4943182303714738,
    "h_goalie": "Stuart Skinner",
    "a_goalie": "Ilya Sorokin",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.14240926137826357,
-   "a_gsax": 0.19294100232266445,
-   "h_p_start": 0.844,
-   "a_p_start": 0.772,
-   "h_alt": "Clay Stevenson 16%",
-   "a_alt": "Semyon Varlamov 23%",
-   "h_rest": 4,
-   "a_rest": 4,
+   "h_gsax": -0.08479604493034507,
+   "a_gsax": 0.22020851713705666,
+   "h_p_start": 0.948,
+   "a_p_start": 0.695,
+   "h_alt": "Clay Stevenson 5%",
+   "a_alt": "Semyon Varlamov 30%",
+   "h_rest": 1,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -2081,15 +1096,15 @@
      "pos": "D",
      "status": "Injured Reserve",
      "return_date": "2026-11-21",
-     "p_out": 0.8928571428571429,
-     "xgf_pts": -0.45
+     "p_out": 0.8977272727272727,
+     "xgf_pts": -0.49
     },
     {
      "name": "Vladislav Namestnikov",
      "pos": "C",
      "status": "Injured Reserve",
      "return_date": "2026-11-28",
-     "p_out": 0.44285714285714284,
+     "p_out": 0.46818181818181814,
      "xgf_pts": -0.11
     },
     {
@@ -2097,30 +1112,22 @@
      "pos": "C",
      "status": "Injured Reserve",
      "return_date": "2027-03-11",
-     "p_out": 0.44285714285714284,
+     "p_out": 0.46818181818181814,
      "xgf_pts": -0.11
     }
    ],
    "a_inj": [
     {
-     "name": "Calum Ritchie",
-     "pos": "C",
-     "status": "Injured Reserve",
-     "return_date": "2026-12-01",
-     "p_out": 0.4552631578947368,
-     "xgf_pts": -0.11
-    },
-    {
      "name": "Alexander Romanov",
      "pos": "D",
      "status": "Injured Reserve",
      "return_date": "2027-04-08",
-     "p_out": 0.2894736842105263,
-     "xgf_pts": -0.07
+     "p_out": 0.32499999999999996,
+     "xgf_pts": -0.08
     }
    ],
-   "h_inj_xg": -0.66,
-   "a_inj_xg": -0.18,
+   "h_inj_xg": -0.71,
+   "a_inj_xg": -0.08,
    "h_last4": [
     {
      "date": "2026-11-17",
@@ -2188,21 +1195,21 @@
    "start_utc": "2026-11-20T00:30:00Z",
    "home": "TBL",
    "away": "EDM",
-   "p_home": 0.6918105867913961,
-   "h_xg": 0.5419851820040206,
-   "a_xg": 0.4823211078444119,
+   "p_home": 0.6984840743733197,
+   "h_xg": 0.5433456578750023,
+   "a_xg": 0.48189232756879435,
    "h_goalie": "Andrei Vasilevskiy",
-   "a_goalie": "Devon Levi",
+   "a_goalie": "Tristan Jarry",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.06651272019217537,
-   "a_gsax": 0.03889154309207027,
-   "h_p_start": 0.641,
-   "a_p_start": 0.603,
-   "h_alt": "Dennis Hildeby 36%",
-   "a_alt": "Tristan Jarry 40%",
-   "h_rest": 4,
-   "a_rest": 3,
+   "h_gsax": -0.07315181599437398,
+   "a_gsax": -0.3631002767062486,
+   "h_p_start": 0.646,
+   "a_p_start": 0.707,
+   "h_alt": "Dennis Hildeby 35%",
+   "a_alt": "Devon Levi 29%",
+   "h_rest": 1,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -2214,8 +1221,8 @@
      "pos": "C",
      "status": "Injured Reserve",
      "return_date": "2026-11-22",
-     "p_out": 0.9775,
-     "xgf_pts": -0.07
+     "p_out": 0.9785714285714285,
+     "xgf_pts": -0.08
     }
    ],
    "a_inj": [
@@ -2224,20 +1231,28 @@
      "pos": "D",
      "status": "Injured Reserve",
      "return_date": "2026-11-21",
-     "p_out": 0.018181818181818077,
-     "xgf_pts": -0.0
+     "p_out": 0.060869565217391286,
+     "xgf_pts": -0.01
     },
     {
      "name": "Matt Savoie",
      "pos": "C",
      "status": "Injured Reserve",
      "return_date": "2026-11-24",
-     "p_out": 0.018181818181818077,
-     "xgf_pts": -0.0
+     "p_out": 0.060869565217391286,
+     "xgf_pts": -0.01
+    },
+    {
+     "name": "Mattias Janmark",
+     "pos": "C",
+     "status": "Injured Reserve",
+     "return_date": "2026-11-28",
+     "p_out": 0.021739130434782594,
+     "xgf_pts": -0.01
     }
    ],
-   "h_inj_xg": -0.07,
-   "a_inj_xg": -0.01,
+   "h_inj_xg": -0.08,
+   "a_inj_xg": -0.03,
    "h_last4": [
     {
      "date": "2026-11-17",
@@ -2305,21 +1320,21 @@
    "start_utc": "2026-11-20T01:00:00Z",
    "home": "CHI",
    "away": "CBJ",
-   "p_home": 0.42098506379057593,
-   "h_xg": 0.43667335526489626,
-   "a_xg": 0.4833577228467476,
+   "p_home": 0.43285140920392257,
+   "h_xg": 0.4381585594636672,
+   "a_xg": 0.4799160785828805,
    "h_goalie": "Spencer Knight",
-   "a_goalie": "Cam Talbot",
+   "a_goalie": "Jet Greaves",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.19662631390719454,
-   "a_gsax": -0.20061973448814796,
-   "h_p_start": 0.698,
-   "a_p_start": 0.537,
+   "h_gsax": -0.19317906720173775,
+   "a_gsax": -0.13926432690984905,
+   "h_p_start": 0.695,
+   "a_p_start": 0.708,
    "h_alt": "Arvid Soderblom 30%",
-   "a_alt": "Jet Greaves 46%",
-   "h_rest": 4,
-   "a_rest": 4,
+   "a_alt": "Cam Talbot 29%",
+   "h_rest": 1,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -2341,13 +1356,20 @@
      "pos": "C",
      "status": "Out",
      "return_date": "2026-11-25",
-     "p_out": 0.95,
-     "xgf_pts": -0.52
+     "p_out": 0.9526315789473684,
+     "xgf_pts": -0.56
     }
    ],
    "h_inj_xg": -0.23,
-   "a_inj_xg": -0.52,
+   "a_inj_xg": -0.56,
    "h_last4": [
+    {
+     "date": "2026-11-17",
+     "opp": "TOR",
+     "home": true,
+     "gf": 6,
+     "ga": 3
+    },
     {
      "date": "2026-11-14",
      "opp": "WPG",
@@ -2368,13 +1390,6 @@
      "home": false,
      "gf": 2,
      "ga": 9
-    },
-    {
-     "date": "2026-11-05",
-     "opp": "TBL",
-     "home": false,
-     "gf": 1,
-     "ga": 4
     }
    ],
    "a_last4": [
@@ -2414,21 +1429,21 @@
    "start_utc": "2026-11-20T01:00:00Z",
    "home": "CGY",
    "away": "MIN",
-   "p_home": 0.40121109226503565,
-   "h_xg": 0.46919154785431955,
-   "a_xg": 0.5126129056746608,
-   "h_goalie": "Dustin Wolf",
+   "p_home": 0.40505264536588714,
+   "h_xg": 0.46984508216668325,
+   "a_xg": 0.5153543941500899,
+   "h_goalie": "Devin Cooley",
    "a_goalie": "Jesper Wallstedt",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.14546746320710988,
-   "a_gsax": 0.633983116022649,
-   "h_p_start": 0.683,
-   "a_p_start": 0.772,
-   "h_alt": "Devin Cooley 32%",
-   "a_alt": "Calvin Pickard 23%",
-   "h_rest": 3,
-   "a_rest": 4,
+   "h_gsax": 0.28011770647676343,
+   "a_gsax": 0.6474438817588398,
+   "h_p_start": 0.568,
+   "a_p_start": 0.757,
+   "h_alt": "Dustin Wolf 43%",
+   "a_alt": "Calvin Pickard 24%",
+   "h_rest": 1,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -2474,6 +1489,13 @@
    "a_inj_xg": -0.34,
    "h_last4": [
     {
+     "date": "2026-11-17",
+     "opp": "SJS",
+     "home": false,
+     "gf": 5,
+     "ga": 2
+    },
+    {
      "date": "2026-11-15",
      "opp": "ANA",
      "home": false,
@@ -2493,16 +1515,16 @@
      "home": true,
      "gf": 1,
      "ga": 3
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "PHI",
-     "home": true,
-     "gf": 4,
-     "ga": 3
     }
    ],
    "a_last4": [
+    {
+     "date": "2026-11-17",
+     "opp": "NSH",
+     "home": true,
+     "gf": 7,
+     "ga": 3
+    },
     {
      "date": "2026-11-14",
      "opp": "BOS",
@@ -2523,13 +1545,6 @@
      "home": false,
      "gf": 2,
      "ga": 1
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "TBL",
-     "home": true,
-     "gf": 3,
-     "ga": 4
     }
    ]
   },
@@ -2539,21 +1554,21 @@
    "start_utc": "2026-11-20T02:00:00Z",
    "home": "COL",
    "away": "ANA",
-   "p_home": 0.6168775429866479,
+   "p_home": 0.6480299844451879,
    "h_xg": 0.4916870903116649,
-   "a_xg": 0.4703590566567438,
+   "a_xg": 0.4619204409547907,
    "h_goalie": "Mackenzie Blackwood",
    "a_goalie": "Lukas Dostal",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": 0.07638933942511077,
-   "a_gsax": -0.369862689935462,
-   "h_p_start": 0.544,
-   "a_p_start": 0.611,
-   "h_alt": "Scott Wedgewood 46%",
-   "a_alt": "Ville Husso 39%",
+   "h_gsax": 0.08534177569018753,
+   "a_gsax": -0.362224163712056,
+   "h_p_start": 0.548,
+   "a_p_start": 0.761,
+   "h_alt": "Scott Wedgewood 45%",
+   "a_alt": "Ville Husso 24%",
    "h_rest": 4,
-   "a_rest": 3,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -2645,6 +1660,13 @@
    ],
    "a_last4": [
     {
+     "date": "2026-11-17",
+     "opp": "STL",
+     "home": false,
+     "gf": 6,
+     "ga": 8
+    },
+    {
      "date": "2026-11-15",
      "opp": "CGY",
      "home": true,
@@ -2664,13 +1686,6 @@
      "home": true,
      "gf": 2,
      "ga": 4
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "PIT",
-     "home": true,
-     "gf": 5,
-     "ga": 2
     }
    ]
   },
@@ -2680,18 +1695,18 @@
    "start_utc": "2026-11-20T02:40:00Z",
    "home": "SEA",
    "away": "VAN",
-   "p_home": 0.6211795675832918,
-   "h_xg": 0.45264623147881683,
-   "a_xg": 0.42658377624918126,
+   "p_home": 0.6204678633039866,
+   "h_xg": 0.4525910976141222,
+   "a_xg": 0.4265995784000395,
    "h_goalie": "Philipp Grubauer",
    "a_goalie": "Leevi Merilinen",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.1861940790955507,
-   "a_gsax": -0.2858767488994827,
-   "h_p_start": 0.742,
+   "h_gsax": -0.18042553044617543,
+   "a_gsax": -0.2745989094968363,
+   "h_p_start": 0.713,
    "a_p_start": 0.85,
-   "h_alt": "Joey Daccord 26%",
+   "h_alt": "Joey Daccord 29%",
    "a_alt": "Kevin Lankinen 15%",
    "h_rest": 4,
    "a_rest": 2,
@@ -2789,21 +1804,21 @@
    "start_utc": "2026-11-20T03:00:00Z",
    "home": "VGK",
    "away": "DAL",
-   "p_home": 0.5547251161442367,
-   "h_xg": 0.5181974118053291,
-   "a_xg": 0.5055310496341325,
+   "p_home": 0.5641671947870258,
+   "h_xg": 0.5198830769888954,
+   "a_xg": 0.5028982183625353,
    "h_goalie": "Adin Hill",
    "a_goalie": "Jake Oettinger",
    "h_assumed": true,
    "a_assumed": true,
-   "h_gsax": -0.05978784018347161,
-   "a_gsax": 0.2194190484865541,
-   "h_p_start": 0.758,
-   "a_p_start": 0.786,
-   "h_alt": "Carter Hart 24%",
-   "a_alt": "Casey DeSmith 21%",
-   "h_rest": 3,
-   "a_rest": 3,
+   "h_gsax": -0.039154959732864585,
+   "a_gsax": 0.21181376400787855,
+   "h_p_start": 0.542,
+   "a_p_start": 0.692,
+   "h_alt": "Carter Hart 46%",
+   "a_alt": "Casey DeSmith 31%",
+   "h_rest": 1,
+   "a_rest": 1,
    "weights": [
     0.75,
     0.15,
@@ -2857,6 +1872,13 @@
    "a_inj_xg": -0.58,
    "h_last4": [
     {
+     "date": "2026-11-17",
+     "opp": "DAL",
+     "home": true,
+     "gf": 3,
+     "ga": 4
+    },
+    {
      "date": "2026-11-15",
      "opp": "VAN",
      "home": true,
@@ -2876,16 +1898,16 @@
      "home": true,
      "gf": 5,
      "ga": 3
-    },
-    {
-     "date": "2026-11-08",
-     "opp": "BUF",
-     "home": false,
-     "gf": 4,
-     "ga": 1
     }
    ],
    "a_last4": [
+    {
+     "date": "2026-11-17",
+     "opp": "VGK",
+     "home": false,
+     "gf": 4,
+     "ga": 3
+    },
     {
      "date": "2026-11-15",
      "opp": "FLA",
@@ -2906,13 +1928,6 @@
      "home": true,
      "gf": 3,
      "ga": 8
-    },
-    {
-     "date": "2026-11-07",
-     "opp": "SJS",
-     "home": true,
-     "gf": 4,
-     "ga": 3
     }
    ]
   }
