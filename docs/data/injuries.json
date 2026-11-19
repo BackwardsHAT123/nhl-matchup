@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T02:51+00:00",
+ "generated_at": "2026-11-19T19:00+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 22,
@@ -86,6 +86,17 @@
   ],
   "BUF": [
    {
+    "name": "Mattias Samuelsson",
+    "id": 8480807,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Undisclosed",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-19T16:37Z",
+    "share": 0.0861,
+    "note": "Samuelsson (undisclosed) is considered a game-time decision for Thursday's road clash against the Capitals, per Paul Hamilton of WGR Sports Radio 550."
+   },
+   {
     "name": "Konsta Helenius",
     "id": null,
     "pos": "C",
@@ -127,9 +138,9 @@
     "status": "Injured Reserve",
     "type": "Hip",
     "return_date": "2026-11-25",
-    "updated": "2026-11-17T17:10Z",
+    "updated": "2026-11-19T04:00Z",
     "share": null,
-    "note": "Huberdeau (hip) was assigned to AHL Calgary on Tuesday on a conditioning loan."
+    "note": "Huberdeau (hip) had three assists in AHL Calgary's 4-3 win over Coachella Valley on Wednesday."
    },
    {
     "name": "Kevin Bahl",
@@ -159,12 +170,12 @@
     "name": "Connor Bedard",
     "id": 8484144,
     "pos": "C",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Shoulder",
-    "return_date": "2026-11-19",
-    "updated": "2026-11-18T16:42Z",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-19T16:45Z",
     "share": 0.157,
-    "note": "Bedard is being evaluated for a shoulder injury, Emily Kaplan of ESPN reports Wednesday."
+    "note": "out"
    },
    {
     "name": "Bowen Byram",
@@ -179,6 +190,17 @@
    }
   ],
   "COL": [
+   {
+    "name": "Gavin Brindley",
+    "id": null,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-19T04:38Z",
+    "share": null,
+    "note": "day-to-day"
+   },
    {
     "name": "Cale Makar",
     "id": 8480069,
@@ -288,12 +310,12 @@
     "name": "William Wallinder",
     "id": 8482171,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-21",
-    "updated": "2026-11-18T16:15Z",
+    "updated": "2026-11-19T17:54Z",
     "share": 0.0605,
-    "note": "Wallinder (upper body) will not be in the lineup versus Boston on Wednesday, Ansar Khan of MLive.com reports."
+    "note": "Head coach Todd McLellan said Thursday that Wallinder (upper body) is questionable for Saturday's game against the Islanders, Helene St. James of the Detroit Free Press reports."
    },
    {
     "name": "Albert Johansson",
@@ -377,6 +399,17 @@
   ],
   "FLA": [
    {
+    "name": "Jonah Gadjovich",
+    "id": null,
+    "pos": "LW",
+    "status": "Injured Reserve",
+    "type": "Neck",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-19T16:20Z",
+    "share": null,
+    "note": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports."
+   },
+   {
     "name": "Brad Marchand",
     "id": null,
     "pos": "LW",
@@ -393,34 +426,34 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Knee",
-    "return_date": "2026-11-27",
+    "return_date": "2026-11-21",
     "updated": "2026-11-06T16:30Z",
     "share": null,
     "note": "Head coach Paul Maurice said Friday that Barkov (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports."
-   },
-   {
-    "name": "Jonah Gadjovich",
-    "id": null,
-    "pos": "LW",
-    "status": "Injured Reserve",
-    "type": "Neck",
-    "return_date": "2026-11-28",
-    "updated": "2026-09-17T20:53Z",
-    "share": null,
-    "note": "Gadjovich (upper body) is out indefinitely, the team announced Thursday."
    }
   ],
   "LAK": [
    {
+    "name": "Trevor Moore",
+    "id": 8479675,
+    "pos": "L",
+    "status": "Out",
+    "type": "Undisclosed",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-19T17:25Z",
+    "share": 0.0544,
+    "note": "out"
+   },
+   {
     "name": "Artemi Panarin",
     "id": 8478550,
     "pos": "L",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Personal",
-    "return_date": "2026-11-19",
-    "updated": "2026-11-18T14:37Z",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-19T16:23Z",
     "share": 0.1382,
-    "note": "day-to-day"
+    "note": "Panarin (personal), who has been ruled out for Thursday's game against the Maple Leafs, is expected to return Saturday against the Senators, John Hoven of SiriusXM NHL Network Radio reports."
    },
    {
     "name": "Jakub Dvorak",
@@ -436,6 +469,17 @@
   ],
   "MIN": [
    {
+    "name": "Yakov Trenin",
+    "id": null,
+    "pos": "C",
+    "status": "Out",
+    "type": "Personal",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-19T17:45Z",
+    "share": null,
+    "note": "out"
+   },
+   {
     "name": "Olli Maatta",
     "id": null,
     "pos": "D",
@@ -448,6 +492,17 @@
    }
   ],
   "MTL": [
+   {
+    "name": "Zack Bolduc",
+    "id": null,
+    "pos": "RW",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-19T17:59Z",
+    "share": null,
+    "note": "out"
+   },
    {
     "name": "Mike Matheson",
     "id": null,
@@ -558,9 +613,9 @@
     "status": "Day-To-Day",
     "type": "Lower Body",
     "return_date": "2026-11-19",
-    "updated": "2026-11-18T14:37Z",
+    "updated": "2026-11-19T17:04Z",
     "share": 0.0618,
-    "note": "day-to-day"
+    "note": "Pageau (lower body) will be a game-time call against the Jets on Thursday, Andrew Gross of Newsday reports."
    },
    {
     "name": "Logan Stanley",
@@ -736,6 +791,17 @@
   ],
   "PIT": [
    {
+    "name": "Nick Robertson",
+    "id": 8481582,
+    "pos": "L",
+    "status": "Day-To-Day",
+    "type": "Undisclosed",
+    "return_date": "2026-11-19",
+    "updated": "2026-11-19T16:36Z",
+    "share": 0.049,
+    "note": "Robertson left Thursday's morning skate early, raising doubts regarding his availability against St. Louis, Seth Rorabaugh of Tribune-Review Sports reports."
+   },
+   {
     "name": "Elmer Soderblom",
     "id": null,
     "pos": "LW",
@@ -901,12 +967,12 @@
     "name": "Brandon Hagel",
     "id": 8479542,
     "pos": "L",
-    "status": "Day-To-Day",
+    "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-19",
-    "updated": "2026-11-18T18:12Z",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-19T15:54Z",
     "share": 0.1134,
-    "note": "Hagel is considered day-to-day due to his lower-body injury, Eduardo A. Encina of the Tampa Bay Times reports Wednesday."
+    "note": "Hagel (lower body) was placed on injured reserve by the Lightning on Thursday, retroactive to Nov. 15, Eduardo A. Encina of the Tampa Bay Times reports."
    },
    {
     "name": "Zemgus Girgensons",
@@ -938,7 +1004,7 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-19",
+    "return_date": "2026-11-27",
     "updated": "2026-11-12T15:24Z",
     "share": null,
     "note": "ir"
@@ -1085,7 +1151,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Undisclosed",
-    "return_date": "2026-11-19",
+    "return_date": "2026-11-22",
     "updated": "2026-11-13T22:59Z",
     "share": null,
     "note": "ir"
@@ -1141,26 +1207,26 @@
   ],
   "WPG": [
    {
-    "name": "Isak Rosen",
-    "id": null,
-    "pos": "RW",
-    "status": "Injured Reserve",
-    "type": "Undisclosed",
-    "return_date": "2026-11-19",
-    "updated": "2026-11-17T15:15Z",
-    "share": null,
-    "note": "ir"
-   },
-   {
     "name": "Dylan DeMelo",
     "id": 8476331,
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-13T16:33Z",
+    "return_date": "2026-12-26",
+    "updated": "2026-11-19T16:39Z",
     "share": 0.0617,
-    "note": "DeMelo (lower body) was placed on injured reserve Friday."
+    "note": "DeMelo (lower body) is expected to be out of action for 4-6 weeks, Mitchell Clinton of the Jets' official site reports Thursday."
+   },
+   {
+    "name": "Isak Rosen",
+    "id": null,
+    "pos": "RW",
+    "status": "Injured Reserve",
+    "type": "Undisclosed",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-17T15:15Z",
+    "share": null,
+    "note": "ir"
    },
    {
     "name": "Elias Salomonsson",
@@ -1168,7 +1234,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Personal",
-    "return_date": "2026-11-19",
+    "return_date": "2026-11-21",
     "updated": "2026-11-08T00:05Z",
     "share": null,
     "note": "ir-nr"
