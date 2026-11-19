@@ -1,37 +1,37 @@
 {
- "generated_at": "2026-11-18T18:53+00:00",
+ "generated_at": "2026-11-19T02:51+00:00",
  "source": "ESPN",
  "gp": {
-  "ANA": 21,
+  "ANA": 22,
   "BOS": 21,
   "BUF": 21,
-  "CGY": 21,
+  "CGY": 22,
   "CAR": 21,
-  "CHI": 20,
+  "CHI": 21,
   "COL": 21,
   "CBJ": 19,
-  "DAL": 20,
+  "DAL": 21,
   "DET": 21,
   "EDM": 23,
   "FLA": 23,
   "LAK": 19,
-  "MIN": 22,
+  "MIN": 23,
   "MTL": 21,
-  "NSH": 21,
+  "NSH": 22,
   "NJD": 21,
   "NYI": 20,
   "NYR": 22,
   "OTT": 22,
   "PHI": 24,
   "PIT": 20,
-  "SJS": 23,
+  "SJS": 24,
   "SEA": 18,
-  "STL": 20,
+  "STL": 21,
   "TBL": 21,
-  "TOR": 22,
+  "TOR": 23,
   "UTA": 22,
   "VAN": 23,
-  "VGK": 22,
+  "VGK": 23,
   "WSH": 19,
   "WPG": 22
  },
@@ -45,7 +45,7 @@
     "type": "Illness",
     "return_date": "2026-11-19",
     "updated": "2026-11-18T14:37Z",
-    "share": 0.1157,
+    "share": 0.1135,
     "note": "day-to-day"
    },
    {
@@ -67,7 +67,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-28",
     "updated": "2026-11-02T18:46Z",
-    "share": 0.0503,
+    "share": 0.0495,
     "note": "Greer (upper body) was placed on injured reserve Monday."
    }
   ],
@@ -78,9 +78,9 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Back",
-    "return_date": "2026-11-21",
+    "return_date": "2026-11-25",
     "updated": "2026-11-07T17:30Z",
-    "share": 0.076,
+    "share": 0.0749,
     "note": "Head coach Marco Sturm announced Saturday that Hagens (back) is expected to miss multiple weeks, per Jack Studley of Boston Hockey Now."
    }
   ],
@@ -113,7 +113,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-22",
+    "return_date": "2026-12-01",
     "updated": "2026-10-13T20:51Z",
     "share": null,
     "note": "Grzelcyk (lower body) suffered a \"flare-up\" and could be out for at least \"a few days,\" head coach Lindy Ruff told Rachel Lenzi of The Buffalo News on Tuesday."
@@ -163,7 +163,7 @@
     "type": "Shoulder",
     "return_date": "2026-11-19",
     "updated": "2026-11-18T16:42Z",
-    "share": 0.1706,
+    "share": 0.157,
     "note": "Bedard is being evaluated for a shoulder injury, Emily Kaplan of ESPN reports Wednesday."
    },
    {
@@ -233,7 +233,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-16T17:42Z",
-    "share": 0.0667,
+    "share": 0.0656,
     "note": "out"
    }
   ],
@@ -242,12 +242,12 @@
     "name": "Tyler Myers",
     "id": null,
     "pos": "D",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Upper Body",
-    "return_date": "2026-11-19",
-    "updated": "2026-11-18T14:37Z",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-18T20:37Z",
     "share": null,
-    "note": "day-to-day"
+    "note": "out"
    },
    {
     "name": "Kyle Capobianco",
@@ -281,17 +281,6 @@
     "updated": "2026-10-24T18:32Z",
     "share": null,
     "note": "Back was placed on long-term injured reserve on Saturday."
-   },
-   {
-    "name": "Matt Duchene",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Abdomen",
-    "return_date": "2027-01-12",
-    "updated": "2026-10-12T16:46Z",
-    "share": null,
-    "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday."
    }
   ],
   "DET": [
@@ -358,7 +347,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Undisclosed",
-    "return_date": "2026-11-21",
+    "return_date": "2026-12-01",
     "updated": "2026-10-01T14:11Z",
     "share": null,
     "note": "Regula (undisclosed) was designated for long-term injured reserve Thursday."
@@ -430,7 +419,7 @@
     "type": "Personal",
     "return_date": "2026-11-19",
     "updated": "2026-11-18T14:37Z",
-    "share": 0.1384,
+    "share": 0.1382,
     "note": "day-to-day"
    },
    {
@@ -448,28 +437,17 @@
   "MIN": [
    {
     "name": "Olli Maatta",
-    "id": 8476874,
+    "id": null,
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-16T21:33Z",
-    "share": 0.0521,
+    "share": null,
     "note": "ir"
    }
   ],
   "MTL": [
-   {
-    "name": "Alexandre Texier",
-    "id": null,
-    "pos": "LW",
-    "status": "Day-To-Day",
-    "type": "Illness",
-    "return_date": "2026-11-18",
-    "updated": "2026-11-17T18:35Z",
-    "share": null,
-    "note": "day-to-day"
-   },
    {
     "name": "Mike Matheson",
     "id": null,
@@ -509,7 +487,7 @@
     "pos": "RW",
     "status": "Injured Reserve",
     "type": "Ankle",
-    "return_date": "2026-11-21",
+    "return_date": "2026-11-25",
     "updated": "2026-11-04T21:04Z",
     "share": null,
     "note": "Demidov (foot) skated Tuesday and could resume training with the team next week, Patrick Friolet of RDS reports."
@@ -538,17 +516,6 @@
    }
   ],
   "NJD": [
-   {
-    "name": "Jonas Siegenthaler",
-    "id": null,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Illness",
-    "return_date": "2026-11-18",
-    "updated": "2026-11-18T17:02Z",
-    "share": null,
-    "note": "Siegenthaler is dealing with an illness that could put his availability against the Habs on Wednesday in doubt, Amanda Stein of the Devils' official site reports."
-   },
    {
     "name": "Anthony Mantha",
     "id": 8477511,
@@ -592,7 +559,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-19",
     "updated": "2026-11-18T14:37Z",
-    "share": 0.0629,
+    "share": 0.0618,
     "note": "day-to-day"
    },
    {
@@ -647,7 +614,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-22",
+    "return_date": "2026-12-03",
     "updated": "2026-11-10T22:13Z",
     "share": null,
     "note": "ir"
@@ -717,7 +684,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-19",
     "updated": "2026-11-18T03:35Z",
-    "share": 0.0898,
+    "share": 0.0892,
     "note": "day-to-day"
    },
    {
@@ -774,7 +741,7 @@
     "pos": "LW",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-19",
+    "return_date": "2026-11-25",
     "updated": "2026-11-02T15:52Z",
     "share": null,
     "note": "Soderblom (upper body) is week-to-week, per Penguins PR on Monday."
@@ -811,7 +778,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-01",
     "updated": "2026-11-17T19:39Z",
-    "share": 0.0568,
+    "share": 0.0572,
     "note": "out"
    },
    {
@@ -822,7 +789,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-08",
     "updated": "2026-11-15T23:51Z",
-    "share": 0.0551,
+    "share": 0.0556,
     "note": "Head coach Ryan Warsofsky said Sunday that Chernyshov (upper body) is not close to returning to game action, per Curtis Pashelka of The San Jose Mercury News."
    },
    {
@@ -855,7 +822,7 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-19",
+    "return_date": "2026-11-25",
     "updated": "2026-11-05T01:12Z",
     "share": null,
     "note": "ir"
@@ -938,7 +905,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-19",
     "updated": "2026-11-18T18:12Z",
-    "share": 0.1148,
+    "share": 0.1134,
     "note": "Hagel is considered day-to-day due to his lower-body injury, Eduardo A. Encina of the Tampa Bay Times reports Wednesday."
    },
    {
@@ -960,7 +927,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-22",
     "updated": "2026-11-17T18:19Z",
-    "share": 0.0351,
+    "share": 0.0343,
     "note": "ir"
    }
   ],
@@ -982,9 +949,9 @@
     "pos": "R",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-23",
+    "return_date": "2026-11-27",
     "updated": "2026-10-29T17:28Z",
-    "share": 0.1106,
+    "share": 0.1117,
     "note": "ir"
    },
    {
@@ -1004,7 +971,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-23",
+    "return_date": "2026-11-27",
     "updated": "2026-10-23T15:29Z",
     "share": null,
     "note": "Blankenburg (undisclosed) was placed on injured reserve by the Maple Leafs on Friday, David Alter of The Hockey News reports."
@@ -1015,7 +982,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-23",
+    "return_date": "2026-12-03",
     "updated": "2026-10-23T02:22Z",
     "share": null,
     "note": "ir"
@@ -1192,7 +1159,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-21",
     "updated": "2026-11-13T16:33Z",
-    "share": 0.0639,
+    "share": 0.0617,
     "note": "DeMelo (lower body) was placed on injured reserve Friday."
    },
    {
