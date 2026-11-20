@@ -1,18 +1,10 @@
 {
- "generated_at": "2026-11-19T19:00+00:00",
+ "generated_at": "2026-11-20T02:39+00:00",
  "live": {
-  "n": 210,
-  "acc": 0.5714285714285714,
-  "logloss": 0.6761497490664751,
+  "n": 211,
+  "acc": 0.5687203791469194,
+  "logloss": 0.6763009720249076,
   "recent": [
-   {
-    "date": "2026-11-14",
-    "home": "CBJ",
-    "away": "PHI",
-    "p_home": 0.614,
-    "home_win": 0,
-    "correct": 0
-   },
    {
     "date": "2026-11-14",
     "home": "STL",
@@ -231,6 +223,14 @@
    },
    {
     "date": "2026-11-18",
+    "home": "UTA",
+    "away": "COL",
+    "p_home": 0.589,
+    "home_win": 1,
+    "correct": 1
+   },
+   {
+    "date": "2026-11-18",
     "home": "DET",
     "away": "BOS",
     "p_home": 0.507,
@@ -238,12 +238,12 @@
     "correct": 0
    },
    {
-    "date": "2026-11-18",
-    "home": "UTA",
-    "away": "COL",
-    "p_home": 0.589,
+    "date": "2026-11-19",
+    "home": "WPG",
+    "away": "NYI",
+    "p_home": 0.493,
     "home_win": 1,
-    "correct": 1
+    "correct": 0
    }
   ]
  },
