@@ -1,38 +1,38 @@
 {
- "generated_at": "2026-11-20T18:38+00:00",
+ "generated_at": "2026-11-21T02:51+00:00",
  "source": "ESPN",
  "gp": {
-  "ANA": 22,
+  "ANA": 23,
   "BOS": 22,
-  "BUF": 21,
-  "CGY": 22,
-  "CAR": 21,
-  "CHI": 21,
-  "COL": 22,
-  "CBJ": 19,
-  "DAL": 21,
+  "BUF": 22,
+  "CGY": 23,
+  "CAR": 22,
+  "CHI": 22,
+  "COL": 23,
+  "CBJ": 20,
+  "DAL": 22,
   "DET": 22,
-  "EDM": 23,
+  "EDM": 24,
   "FLA": 23,
-  "LAK": 19,
-  "MIN": 23,
-  "MTL": 22,
+  "LAK": 20,
+  "MIN": 24,
+  "MTL": 23,
   "NSH": 22,
   "NJD": 22,
   "NYI": 21,
   "NYR": 22,
-  "OTT": 22,
-  "PHI": 24,
-  "PIT": 20,
+  "OTT": 23,
+  "PHI": 25,
+  "PIT": 21,
   "SJS": 24,
-  "SEA": 18,
-  "STL": 21,
-  "TBL": 21,
-  "TOR": 23,
+  "SEA": 19,
+  "STL": 22,
+  "TBL": 22,
+  "TOR": 24,
   "UTA": 23,
-  "VAN": 23,
-  "VGK": 23,
-  "WSH": 19,
+  "VAN": 24,
+  "VGK": 24,
+  "WSH": 20,
   "WPG": 23
  },
  "teams": {
@@ -56,7 +56,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-28",
     "updated": "2026-11-02T18:46Z",
-    "share": 0.0495,
+    "share": 0.0508,
     "note": "Greer (upper body) was placed on injured reserve Monday."
    }
   ],
@@ -152,7 +152,7 @@
     "type": "Shoulder",
     "return_date": "2026-11-27",
     "updated": "2026-11-19T16:45Z",
-    "share": 0.157,
+    "share": 0.1597,
     "note": "out"
    },
    {
@@ -187,7 +187,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-28",
     "updated": "2026-11-19T21:33Z",
-    "share": 0.1125,
+    "share": 0.1127,
     "note": "ir"
    },
    {
@@ -198,7 +198,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-12",
     "updated": "2026-11-14T17:30Z",
-    "share": 0.1285,
+    "share": 0.1287,
     "note": "MacKinnon (lower body) will miss at least one month, per Corey Masisak of The Denver Post on Saturday."
    },
    {
@@ -233,7 +233,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-21",
     "updated": "2026-11-20T03:56Z",
-    "share": 0.0548,
+    "share": 0.052,
     "note": "day-to-day"
    },
    {
@@ -244,7 +244,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-16T17:42Z",
-    "share": 0.0656,
+    "share": 0.0643,
     "note": "out"
    }
   ],
@@ -349,7 +349,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-21",
     "updated": "2026-11-20T14:41Z",
-    "share": 0.0863,
+    "share": 0.0881,
     "note": "day-to-day"
    },
    {
@@ -430,7 +430,7 @@
     "type": "Personal",
     "return_date": "2026-11-21",
     "updated": "2026-11-20T14:41Z",
-    "share": 0.1382,
+    "share": 0.1346,
     "note": "day-to-day"
    },
    {
@@ -441,7 +441,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-21",
     "updated": "2026-11-20T14:41Z",
-    "share": 0.0544,
+    "share": 0.0528,
     "note": "day-to-day"
    },
    {
@@ -464,9 +464,9 @@
     "status": "Day-To-Day",
     "type": "Personal",
     "return_date": "2026-11-21",
-    "updated": "2026-11-20T14:41Z",
+    "updated": "2026-11-20T19:16Z",
     "share": null,
-    "note": "day-to-day"
+    "note": "Trenin (personal) is expected to meet up with the Wild in Vancouver ahead of Saturday's game versus the Canucks, per Michael Russo of The Athletic."
    },
    {
     "name": "Quinn Hughes",
@@ -476,7 +476,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-21",
     "updated": "2026-11-20T04:12Z",
-    "share": 0.1399,
+    "share": 0.1412,
     "note": "day-to-day"
    },
    {
@@ -522,7 +522,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-14",
     "updated": "2026-11-15T22:15Z",
-    "share": 0.0717,
+    "share": 0.0725,
     "note": "Anderson (lower body) will be out for approximately 3-4 weeks, per Renaud Lavoie of TVA Sports on Sunday."
    },
    {
@@ -533,7 +533,7 @@
     "type": "Lower Body",
     "return_date": "2027-01-02",
     "updated": "2026-11-15T18:04Z",
-    "share": 0.0579,
+    "share": 0.0586,
     "note": "ir"
    },
    {
@@ -642,6 +642,28 @@
   ],
   "NYR": [
    {
+    "name": "Oliver Bjorkstrand",
+    "id": 8477416,
+    "pos": "R",
+    "status": "Injured Reserve",
+    "type": "Upper Body",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-21T00:13Z",
+    "share": 0.0595,
+    "note": "ir"
+   },
+   {
+    "name": "Sean Durzi",
+    "id": null,
+    "pos": "D",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-11-22",
+    "updated": "2026-11-20T19:51Z",
+    "share": null,
+    "note": "Durzi (lower body) will likely be a game-time decision for Sunday's matchup against the Hurricanes, Jim Cerny of NHL.com reports."
+   },
+   {
     "name": "Joe Veleno",
     "id": null,
     "pos": "C",
@@ -653,17 +675,6 @@
     "note": "Veleno (lower body) skated on his own before Friday's practice session, Colin Stephenson of Newsday reports."
    },
    {
-    "name": "Oliver Bjorkstrand",
-    "id": 8477416,
-    "pos": "R",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-22",
-    "updated": "2026-11-20T16:21Z",
-    "share": 0.0595,
-    "note": "day-to-day"
-   },
-   {
     "name": "Pavel Dorofeyev",
     "id": 8481604,
     "pos": "R",
@@ -673,17 +684,6 @@
     "updated": "2026-11-17T14:23Z",
     "share": 0.0729,
     "note": "day-to-day"
-   },
-   {
-    "name": "Sean Durzi",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-22",
-    "updated": "2026-11-17T04:32Z",
-    "share": null,
-    "note": "Durzi (lower body) wore a regular jersey during Monday's morning skate and should be ready to play against the Hurricanes on Sunday, Colin Stephenson of Newsday reports."
    },
    {
     "name": "Alberts Smits",
@@ -809,7 +809,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-20T16:16Z",
-    "share": 0.1058,
+    "share": 0.1073,
     "note": "out"
    },
    {
@@ -820,7 +820,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-05",
     "updated": "2026-11-20T16:08Z",
-    "share": 0.049,
+    "share": 0.0494,
     "note": "ir"
    },
    {
@@ -912,7 +912,7 @@
     "type": "Lower Body",
     "return_date": "2027-01-02",
     "updated": "2026-10-25T17:08Z",
-    "share": 0.0808,
+    "share": 0.0793,
     "note": "McCann (lower body) will be out for approximately 10 weeks, the team announced Sunday."
    }
   ],
@@ -925,7 +925,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-22",
     "updated": "2026-11-20T18:15Z",
-    "share": 0.065,
+    "share": 0.0657,
     "note": "out"
    },
    {
@@ -993,7 +993,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-19T15:54Z",
-    "share": 0.1134,
+    "share": 0.1141,
     "note": "Hagel (lower body) was placed on injured reserve by the Lightning on Thursday, retroactive to Nov. 15, Eduardo A. Encina of the Tampa Bay Times reports."
    },
    {
@@ -1004,11 +1004,22 @@
     "type": "Upper Body",
     "return_date": "2026-11-27",
     "updated": "2026-11-17T18:19Z",
-    "share": 0.0343,
+    "share": 0.0344,
     "note": "ir"
    }
   ],
   "TOR": [
+   {
+    "name": "Cole McWard",
+    "id": null,
+    "pos": "D",
+    "status": "Injured Reserve",
+    "type": "Undisclosed",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-20T19:42Z",
+    "share": null,
+    "note": "ir"
+   },
    {
     "name": "Kirill Marchenko",
     "id": 8480893,
@@ -1017,7 +1028,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-27",
     "updated": "2026-11-20T17:49Z",
-    "share": 0.1117,
+    "share": 0.1118,
     "note": "Marchenko (lower body) was on the ice with his teammates for Friday's optional skate, Lance Hornby of The Toronto Sun reports."
    },
    {
@@ -1100,26 +1111,26 @@
   ],
   "UTA": [
    {
-    "name": "Dylan Guenther",
-    "id": 8482699,
-    "pos": "R",
-    "status": "Injured Reserve",
-    "type": "Upper Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-18T18:29Z",
-    "share": 0.0785,
-    "note": "Guenther (upper body) was on the ice for Wednesday's optional morning skate in a non-contact sweater, Brogan Houston of the Deseret News reports."
-   },
-   {
     "name": "John Marino",
     "id": null,
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Upper Body",
     "return_date": "2026-11-21",
-    "updated": "2026-11-18T18:29Z",
+    "updated": "2026-11-20T20:04Z",
     "share": null,
-    "note": "Marino (upper body) took the ice Wednesday in a regular jersey, Chase Beardsley of The Hockey Writers reports, indicating he's been cleared for contact."
+    "note": "Marino (upper body) is day-to-day and close to returning, per Cole Bagley of KSL Sports on Friday."
+   },
+   {
+    "name": "Dylan Guenther",
+    "id": 8482699,
+    "pos": "R",
+    "status": "Injured Reserve",
+    "type": "Upper Body",
+    "return_date": "2026-11-21",
+    "updated": "2026-11-20T19:59Z",
+    "share": 0.0785,
+    "note": "Guenther (upper body) was upgraded to day-to-day ahead of Saturday's matchup with Anaheim, Cole Bagley of KSL Sports reports."
    },
    {
     "name": "Nick Schmaltz",
@@ -1190,19 +1201,6 @@
     "note": "ir-nr"
    }
   ],
-  "VGK": [
-   {
-    "name": "Noah Hanifin",
-    "id": null,
-    "pos": "D",
-    "status": "Out",
-    "type": "Undisclosed",
-    "return_date": "2026-11-24",
-    "updated": "2026-11-10T20:34Z",
-    "share": null,
-    "note": "out"
-   }
-  ],
   "WSH": [
    {
     "name": "Vincent Desharnais",
@@ -1236,7 +1234,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-26",
     "updated": "2026-11-19T16:39Z",
-    "share": 0.0625,
+    "share": 0.062,
     "note": "DeMelo (lower body) is expected to be out of action for 4-6 weeks, Mitchell Clinton of the Jets' official site reports Thursday."
    },
    {

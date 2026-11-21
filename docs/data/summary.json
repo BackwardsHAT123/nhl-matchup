@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T18:38+00:00",
+ "generated_at": "2026-11-21T02:51+00:00",
  "live": {
   "n": 222,
   "acc": 0.5675675675675675,
@@ -4343,7 +4343,7 @@
   {
    "team": "WPG",
    "goalie": "Stuart Skinner",
-   "p_start": 0.856,
+   "p_start": 0.949,
    "full": {
     "xgf": 0.4767,
     "gsax": 0.016,
