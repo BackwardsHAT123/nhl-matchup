@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T02:51+00:00",
+ "generated_at": "2026-11-21T17:35+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 23,
@@ -292,17 +292,6 @@
     "updated": "2026-11-14T15:10Z",
     "share": null,
     "note": "Bichsel (lower body) was placed on injured reserve Saturday."
-   },
-   {
-    "name": "Matt Duchene",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Abdomen",
-    "return_date": "2027-01-12",
-    "updated": "2026-10-12T16:46Z",
-    "share": null,
-    "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday."
    }
   ],
   "DET": [
@@ -388,6 +377,28 @@
   ],
   "FLA": [
    {
+    "name": "Brad Marchand",
+    "id": null,
+    "pos": "LW",
+    "status": "Injured Reserve",
+    "type": "Knee",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-21T16:06Z",
+    "share": null,
+    "note": "Marchand (knee) is close to returning to the lineup, but he won't play against Buffalo on Saturday, per Jameson Olive of the Panthers' official site."
+   },
+   {
+    "name": "Aleksander Barkov",
+    "id": null,
+    "pos": "C",
+    "status": "Injured Reserve",
+    "type": "Knee",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-21T15:57Z",
+    "share": null,
+    "note": "Barkov (knee) won't play against Buffalo on Saturday, but he could return within Florida's next three games, Jameson Olive of the Panthers' official site reports."
+   },
+   {
     "name": "Jonah Gadjovich",
     "id": null,
     "pos": "LW",
@@ -397,28 +408,6 @@
     "updated": "2026-11-19T16:20Z",
     "share": null,
     "note": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports."
-   },
-   {
-    "name": "Brad Marchand",
-    "id": null,
-    "pos": "LW",
-    "status": "Injured Reserve",
-    "type": "Knee",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-06T16:34Z",
-    "share": null,
-    "note": "Head coach Paul Maurice said Friday that Marchand (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports."
-   },
-   {
-    "name": "Aleksander Barkov",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Knee",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-06T16:30Z",
-    "share": null,
-    "note": "Head coach Paul Maurice said Friday that Barkov (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports."
    }
   ],
   "LAK": [
@@ -492,17 +481,6 @@
    }
   ],
   "MTL": [
-   {
-    "name": "Zack Bolduc",
-    "id": null,
-    "pos": "RW",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-20T14:41Z",
-    "share": null,
-    "note": "day-to-day"
-   },
    {
     "name": "Mike Matheson",
     "id": null,
@@ -599,13 +577,24 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Knee",
-    "return_date": "2026-11-21",
+    "return_date": "2026-12-12",
     "updated": "2026-11-13T23:49Z",
     "share": null,
     "note": "Casey (knee) was moved to long-term injured reserve on Friday, per PuckPedia."
    }
   ],
   "NYI": [
+   {
+    "name": "Ryan Pulock",
+    "id": null,
+    "pos": "D",
+    "status": "Out",
+    "type": "Lower Body",
+    "return_date": "2026-11-23",
+    "updated": "2026-11-21T17:06Z",
+    "share": null,
+    "note": "out"
+   },
    {
     "name": "Logan Stanley",
     "id": null,
@@ -614,17 +603,6 @@
     "type": "Lower Body",
     "return_date": "2026-11-21",
     "updated": "2026-11-20T14:41Z",
-    "share": null,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Ryan Pulock",
-    "id": null,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Lower Body",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-20T02:53Z",
     "share": null,
     "note": "day-to-day"
    },
@@ -647,9 +625,31 @@
     "pos": "R",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-21T00:13Z",
+    "return_date": "2027-01-30",
+    "updated": "2026-11-21T16:33Z",
     "share": 0.0595,
+    "note": "Bjorkstrand (upper body) is expected to be sidelined for 2-3 months, Peter Baugh of The Athletic reports Saturday."
+   },
+   {
+    "name": "Alberts Smits",
+    "id": null,
+    "pos": "D",
+    "status": "Injured Reserve",
+    "type": "Upper Body",
+    "return_date": "2027-01-30",
+    "updated": "2026-11-21T16:18Z",
+    "share": null,
+    "note": "Smits (upper body) is expected to miss 2-3 months, Peter Baugh of The Athletic reported Saturday."
+   },
+   {
+    "name": "Pavel Dorofeyev",
+    "id": 8481604,
+    "pos": "R",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-11-22",
+    "updated": "2026-11-21T16:11Z",
+    "share": 0.0729,
     "note": "ir"
    },
    {
@@ -673,28 +673,6 @@
     "updated": "2026-11-20T16:23Z",
     "share": null,
     "note": "Veleno (lower body) skated on his own before Friday's practice session, Colin Stephenson of Newsday reports."
-   },
-   {
-    "name": "Pavel Dorofeyev",
-    "id": 8481604,
-    "pos": "R",
-    "status": "Day-To-Day",
-    "type": "Lower Body",
-    "return_date": "2026-11-22",
-    "updated": "2026-11-17T14:23Z",
-    "share": 0.0729,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Alberts Smits",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Upper Body",
-    "return_date": "2026-12-03",
-    "updated": "2026-11-10T22:13Z",
-    "share": null,
-    "note": "ir"
    },
    {
     "name": "Aidan Thompson",
@@ -730,17 +708,6 @@
     "updated": "2026-11-20T17:06Z",
     "share": null,
     "note": "Burakovsky (lower body) was on the ice Friday doing some individual drills, Bruce Garrioch of Postmedia reports."
-   },
-   {
-    "name": "Nick Cousins",
-    "id": null,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-20T14:41Z",
-    "share": null,
-    "note": "day-to-day"
    },
    {
     "name": "Hayden Hodgson",
@@ -929,17 +896,6 @@
     "note": "out"
    },
    {
-    "name": "Ross Johnston",
-    "id": null,
-    "pos": "LW",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-20T14:41Z",
-    "share": null,
-    "note": "day-to-day"
-   },
-   {
     "name": "Torey Krug",
     "id": null,
     "pos": "D",
@@ -1010,26 +966,37 @@
   ],
   "TOR": [
    {
-    "name": "Cole McWard",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Undisclosed",
-    "return_date": "2026-11-28",
-    "updated": "2026-11-20T19:42Z",
-    "share": null,
-    "note": "ir"
-   },
-   {
     "name": "Kirill Marchenko",
     "id": 8480893,
     "pos": "R",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-20T17:49Z",
+    "return_date": "2026-11-23",
+    "updated": "2026-11-21T15:14Z",
     "share": 0.1118,
-    "note": "Marchenko (lower body) was on the ice with his teammates for Friday's optional skate, Lance Hornby of The Toronto Sun reports."
+    "note": "Marchenko (lower body) is day-to-day, according to David Alter of The Hockey News on Saturday."
+   },
+   {
+    "name": "Cole McWard",
+    "id": null,
+    "pos": "D",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-21T15:10Z",
+    "share": null,
+    "note": "McWard (lower body) is considered day-to-day, per David Alter of The Hockey News on Saturday."
+   },
+   {
+    "name": "Nick Blankenburg",
+    "id": null,
+    "pos": "D",
+    "status": "Injured Reserve",
+    "type": "Upper Body",
+    "return_date": "2026-11-23",
+    "updated": "2026-11-21T15:07Z",
+    "share": null,
+    "note": "Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday."
    },
    {
     "name": "Colton Sissons",
@@ -1052,17 +1019,6 @@
     "updated": "2026-10-29T00:11Z",
     "share": null,
     "note": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports."
-   },
-   {
-    "name": "Nick Blankenburg",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Upper Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-10-23T15:29Z",
-    "share": null,
-    "note": "Blankenburg (undisclosed) was placed on injured reserve by the Maple Leafs on Friday, David Alter of The Hockey News reports."
    },
    {
     "name": "Marshall Rifai",
@@ -1149,7 +1105,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-21",
+    "return_date": "2026-11-30",
     "updated": "2026-11-12T19:30Z",
     "share": null,
     "note": "The Mammoth announced Thursday that Schmidt (upper body) is considered week-to-week, Cole Bagley of KSL Sports reports."
@@ -1171,12 +1127,12 @@
     "name": "Brendan Gallagher",
     "id": null,
     "pos": "RW",
-    "status": "Day-To-Day",
+    "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-20T05:02Z",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-21T17:13Z",
     "share": null,
-    "note": "Gallagher (lower body) won't return to Thursday's game versus the Kraken."
+    "note": "Gallagher (lower body) was placed on injured reserve Saturday."
    },
    {
     "name": "Guillaume Brisebois",
@@ -1247,17 +1203,6 @@
     "updated": "2026-11-17T15:15Z",
     "share": null,
     "note": "ir"
-   },
-   {
-    "name": "Elias Salomonsson",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Personal",
-    "return_date": "2026-11-21",
-    "updated": "2026-11-08T00:05Z",
-    "share": null,
-    "note": "ir-nr"
    },
    {
     "name": "Vladislav Namestnikov",
