@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-22T01:36+00:00",
+ "generated_at": "2026-11-22T17:51+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 23,
   "BOS": 22,
   "BUF": 22,
-  "CGY": 23,
-  "CAR": 22,
-  "CHI": 22,
+  "CGY": 24,
+  "CAR": 23,
+  "CHI": 23,
   "COL": 23,
   "CBJ": 20,
   "DAL": 22,
   "DET": 22,
-  "EDM": 24,
+  "EDM": 25,
   "FLA": 23,
   "LAK": 20,
   "MIN": 24,
@@ -37,6 +37,17 @@
  },
  "teams": {
   "ANA": [
+   {
+    "name": "Leo Carlsson",
+    "id": 8484153,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-23",
+    "updated": "2026-11-22T04:05Z",
+    "share": 0.1157,
+    "note": "day-to-day"
+   },
    {
     "name": "Beckett Sennecke",
     "id": 8484762,
@@ -102,7 +113,7 @@
     "pos": "RW",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-22",
+    "return_date": "2026-12-01",
     "updated": "2026-10-29T22:06Z",
     "share": null,
     "note": "Danforth (upper body) was placed on injured reserve Thursday, per the NHL media site."
@@ -128,7 +139,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-23",
     "updated": "2026-11-21T22:54Z",
-    "share": 0.0665,
+    "share": 0.0638,
     "note": "Pospisil (upper body) left Saturday's game against Chicago and won't return, per Pat Steinberg of QR Calgary 770 AM."
    },
    {
@@ -152,17 +163,6 @@
     "updated": "2026-11-08T16:17Z",
     "share": null,
     "note": "Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday."
-   },
-   {
-    "name": "Connor Zary",
-    "id": null,
-    "pos": "C",
-    "status": "Out",
-    "type": "Knee",
-    "return_date": "2026-11-28",
-    "updated": "2026-10-30T16:44Z",
-    "share": null,
-    "note": "out"
    }
   ],
   "CAR": [
@@ -174,7 +174,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-25",
     "updated": "2026-11-21T21:30Z",
-    "share": 0.0879,
+    "share": 0.0864,
     "note": "Ehlers (undisclosed) won't play Sunday against the Rangers, per Chip Alexander of The Raleigh News &amp; Observer."
    }
   ],
@@ -183,12 +183,12 @@
     "name": "Connor Bedard",
     "id": 8484144,
     "pos": "C",
-    "status": "Out",
+    "status": "Injured Reserve",
     "type": "Shoulder",
     "return_date": "2027-03-01",
-    "updated": "2026-11-22T00:07Z",
-    "share": 0.1597,
-    "note": "Bedard will undergo surgery on his injured right shoulder in the coming week, Ben Pope of the Chicago Sun-Times reports."
+    "updated": "2026-11-22T15:10Z",
+    "share": 0.1561,
+    "note": "Bedard (shoulder) was placed on injured reserve Sunday."
    },
    {
     "name": "Anton Frondell",
@@ -198,7 +198,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-22",
     "updated": "2026-11-21T22:45Z",
-    "share": 0.0798,
+    "share": 0.0757,
     "note": "day-to-day"
    },
    {
@@ -345,12 +345,12 @@
     "name": "William Wallinder",
     "id": 8482171,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-25",
-    "updated": "2026-11-21T21:44Z",
+    "updated": "2026-11-22T13:40Z",
     "share": 0.0616,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Dylan Larkin",
@@ -384,7 +384,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-24",
     "updated": "2026-11-21T21:28Z",
-    "share": 0.0881,
+    "share": 0.0883,
     "note": "Nugent-Hopkins (undisclosed) is slated to return to the lineup against Vegas on Tuesday, Paige Martin of Oilers TV reports."
    },
    {
@@ -395,7 +395,7 @@
     "type": "Illness",
     "return_date": "2026-11-22",
     "updated": "2026-11-21T20:26Z",
-    "share": 0.0573,
+    "share": 0.0542,
     "note": "day-to-day"
    },
    {
@@ -472,23 +472,23 @@
     "name": "Artemi Panarin",
     "id": 8478550,
     "pos": "L",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Personal",
     "return_date": "2026-11-23",
-    "updated": "2026-11-21T18:20Z",
+    "updated": "2026-11-22T13:40Z",
     "share": 0.1346,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Trevor Moore",
     "id": 8479675,
     "pos": "L",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Undisclosed",
     "return_date": "2026-11-23",
-    "updated": "2026-11-21T18:13Z",
+    "updated": "2026-11-22T13:40Z",
     "share": 0.0528,
-    "note": "Moore (undisclosed) isn't expected to play against Ottawa on Saturday, according to Zach Dooley of LA Kings Insider."
+    "note": "day-to-day"
    },
    {
     "name": "Jakub Dvorak",
@@ -500,6 +500,30 @@
     "updated": "2026-09-24T19:49Z",
     "share": null,
     "note": "ir-nr"
+   }
+  ],
+  "PHI": [
+   {
+    "name": "Erik Gustafsson",
+    "id": null,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-23",
+    "updated": "2026-11-22T02:05Z",
+    "share": null,
+    "note": "day-to-day"
+   },
+   {
+    "name": "Nikita Grebenkin",
+    "id": null,
+    "pos": "RW",
+    "status": "Injured Reserve",
+    "type": "Back",
+    "return_date": "2027-02-13",
+    "updated": "2026-10-10T16:58Z",
+    "share": null,
+    "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months."
    }
   ],
   "MIN": [
@@ -634,12 +658,12 @@
     "name": "Ryan Pulock",
     "id": null,
     "pos": "D",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Lower Body",
     "return_date": "2026-11-23",
-    "updated": "2026-11-21T17:06Z",
+    "updated": "2026-11-22T13:40Z",
     "share": null,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Alexander Romanov",
@@ -682,21 +706,10 @@
     "pos": "R",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-22",
+    "return_date": "2026-11-25",
     "updated": "2026-11-21T16:11Z",
     "share": 0.0729,
     "note": "ir"
-   },
-   {
-    "name": "Sean Durzi",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-22",
-    "updated": "2026-11-20T19:51Z",
-    "share": null,
-    "note": "Durzi (lower body) will likely be a game-time decision for Sunday's matchup against the Hurricanes, Jim Cerny of NHL.com reports."
    },
    {
     "name": "Joe Veleno",
@@ -737,12 +750,12 @@
     "name": "Hayden Hodgson",
     "id": null,
     "pos": "RW",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Groin",
     "return_date": "2026-11-23",
-    "updated": "2026-11-22T00:00Z",
+    "updated": "2026-11-22T13:40Z",
     "share": null,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Andre Burakovsky",
@@ -776,19 +789,6 @@
     "updated": "2026-10-15T15:24Z",
     "share": null,
     "note": "Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday."
-   }
-  ],
-  "PHI": [
-   {
-    "name": "Nikita Grebenkin",
-    "id": null,
-    "pos": "RW",
-    "status": "Injured Reserve",
-    "type": "Back",
-    "return_date": "2027-02-13",
-    "updated": "2026-10-10T16:58Z",
-    "share": null,
-    "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months."
    }
   ],
   "PIT": [
@@ -912,12 +912,12 @@
     "name": "Connor McMichael",
     "id": 8481580,
     "pos": "L",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Undisclosed",
     "return_date": "2026-11-22",
-    "updated": "2026-11-20T18:15Z",
+    "updated": "2026-11-22T13:40Z",
     "share": 0.0657,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "Torey Krug",
@@ -990,6 +990,28 @@
   ],
   "TOR": [
    {
+    "name": "Colton Sissons",
+    "id": null,
+    "pos": "C",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-22T17:19Z",
+    "share": null,
+    "note": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday."
+   },
+   {
+    "name": "Jack Roslovic",
+    "id": 8478458,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-23",
+    "updated": "2026-11-22T17:15Z",
+    "share": 0.108,
+    "note": "Roslovic (upper body) is day-to-day, per David Alter of The Hockey News on Sunday."
+   },
+   {
     "name": "Kirill Marchenko",
     "id": 8480893,
     "pos": "R",
@@ -1021,17 +1043,6 @@
     "updated": "2026-11-21T15:07Z",
     "share": null,
     "note": "Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday."
-   },
-   {
-    "name": "Colton Sissons",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-12T15:24Z",
-    "share": null,
-    "note": "ir"
    },
    {
     "name": "Miles Wood",
@@ -1094,12 +1105,12 @@
     "name": "Clayton Keller",
     "id": 8479343,
     "pos": "R",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Illness",
     "return_date": "2026-11-23",
-    "updated": "2026-11-22T01:31Z",
+    "updated": "2026-11-22T13:40Z",
     "share": 0.1276,
-    "note": "out"
+    "note": "day-to-day"
    },
    {
     "name": "John Marino",
@@ -1164,7 +1175,7 @@
     "pos": "C",
     "status": "Out",
     "type": "Upper Body",
-    "return_date": "2026-11-22",
+    "return_date": "2026-11-25",
     "updated": "2026-11-21T19:10Z",
     "share": 0.1208,
     "note": "Pettersson (upper body) isn't expected to play against Chicago on Sunday, per Canucks play-by-play announcer Brendan Batchelor."
@@ -1186,7 +1197,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Undisclosed",
-    "return_date": "2026-11-22",
+    "return_date": "2026-11-29",
     "updated": "2026-11-13T22:59Z",
     "share": null,
     "note": "ir"
