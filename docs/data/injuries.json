@@ -1,39 +1,39 @@
 {
- "generated_at": "2026-11-22T17:51+00:00",
+ "generated_at": "2026-11-23T01:59+00:00",
  "source": "ESPN",
  "gp": {
-  "ANA": 23,
-  "BOS": 22,
-  "BUF": 22,
+  "ANA": 24,
+  "BOS": 23,
+  "BUF": 23,
   "CGY": 24,
   "CAR": 23,
   "CHI": 23,
   "COL": 23,
-  "CBJ": 20,
+  "CBJ": 21,
   "DAL": 22,
-  "DET": 22,
+  "DET": 23,
   "EDM": 25,
-  "FLA": 23,
-  "LAK": 20,
-  "MIN": 24,
-  "MTL": 23,
-  "NSH": 22,
-  "NJD": 22,
-  "NYI": 21,
+  "FLA": 24,
+  "LAK": 21,
+  "MIN": 25,
+  "MTL": 24,
+  "NSH": 23,
+  "NJD": 23,
+  "NYI": 22,
   "NYR": 22,
-  "OTT": 23,
-  "PHI": 25,
-  "PIT": 21,
-  "SJS": 24,
-  "SEA": 19,
-  "STL": 22,
+  "OTT": 24,
+  "PHI": 26,
+  "PIT": 22,
+  "SJS": 25,
+  "SEA": 20,
+  "STL": 23,
   "TBL": 22,
-  "TOR": 24,
-  "UTA": 23,
-  "VAN": 24,
-  "VGK": 24,
-  "WSH": 20,
-  "WPG": 23
+  "TOR": 25,
+  "UTA": 24,
+  "VAN": 25,
+  "VGK": 25,
+  "WSH": 21,
+  "WPG": 24
  },
  "teams": {
   "ANA": [
@@ -44,9 +44,9 @@
     "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-23",
-    "updated": "2026-11-22T04:05Z",
+    "updated": "2026-11-22T21:11Z",
     "share": 0.1157,
-    "note": "day-to-day"
+    "note": "Carlsson (upper body) is day-to-day, according to Eric Stephens of The Athletic on Sunday."
    },
    {
     "name": "Beckett Sennecke",
@@ -56,7 +56,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-27",
     "updated": "2026-11-21T18:32Z",
-    "share": 0.113,
+    "share": 0.1145,
     "note": "Sennecke (upper body) was placed on injured reserve Saturday."
    },
    {
@@ -72,13 +72,13 @@
    },
    {
     "name": "A.J. Greer",
-    "id": 8478421,
-    "pos": "L",
+    "id": null,
+    "pos": "LW",
     "status": "Injured Reserve",
     "type": "Upper Body",
     "return_date": "2026-11-28",
     "updated": "2026-11-02T18:46Z",
-    "share": 0.0508,
+    "share": null,
     "note": "Greer (upper body) was placed on injured reserve Monday."
    }
   ],
@@ -91,7 +91,7 @@
     "type": "Back",
     "return_date": "2026-11-25",
     "updated": "2026-11-07T17:30Z",
-    "share": 0.0748,
+    "share": 0.0725,
     "note": "Head coach Marco Sturm announced Saturday that Hagens (back) is expected to miss multiple weeks, per Jack Studley of Boston Hockey Now."
    }
   ],
@@ -102,7 +102,7 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-12-01",
+    "return_date": "2026-12-06",
     "updated": "2026-11-12T21:00Z",
     "share": null,
     "note": "ir"
@@ -171,7 +171,7 @@
     "id": 8477940,
     "pos": "L",
     "status": "Out",
-    "type": "Undisclosed",
+    "type": "Lower Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-21T21:30Z",
     "share": 0.0864,
@@ -179,6 +179,28 @@
    }
   ],
   "CHI": [
+   {
+    "name": "Anton Frondell",
+    "id": 8485391,
+    "pos": "C",
+    "status": "Out",
+    "type": "Undisclosed",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-22T23:45Z",
+    "share": 0.0757,
+    "note": "out"
+   },
+   {
+    "name": "Wyatt Kaiser",
+    "id": 8482176,
+    "pos": "D",
+    "status": "Suspension",
+    "type": "Suspension",
+    "return_date": "2026-11-29",
+    "updated": "2026-11-22T18:51Z",
+    "share": 0.0627,
+    "note": "Kaiser was suspended for three games by the NHL Department of Player Safety on Sunday for an illegal check to the head against Calgary's Martin Pospisil (upper body) on Saturday."
+   },
    {
     "name": "Connor Bedard",
     "id": 8484144,
@@ -189,17 +211,6 @@
     "updated": "2026-11-22T15:10Z",
     "share": 0.1561,
     "note": "Bedard (shoulder) was placed on injured reserve Sunday."
-   },
-   {
-    "name": "Anton Frondell",
-    "id": 8485391,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Undisclosed",
-    "return_date": "2026-11-22",
-    "updated": "2026-11-21T22:45Z",
-    "share": 0.0757,
-    "note": "day-to-day"
    },
    {
     "name": "Bowen Byram",
@@ -279,7 +290,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-16T17:42Z",
-    "share": 0.0643,
+    "share": 0.0632,
     "note": "out"
    }
   ],
@@ -349,19 +360,8 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-22T13:40Z",
-    "share": 0.0616,
+    "share": 0.0621,
     "note": "day-to-day"
-   },
-   {
-    "name": "Dylan Larkin",
-    "id": 8477946,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Suspension",
-    "return_date": "2026-12-20",
-    "updated": "2026-10-31T17:03Z",
-    "share": 0.0909,
-    "note": "ir-nr"
    },
    {
     "name": "Simon Edvinsson",
@@ -377,6 +377,17 @@
   ],
   "EDM": [
    {
+    "name": "Zach Hyman",
+    "id": 8475786,
+    "pos": "L",
+    "status": "Out",
+    "type": "Illness",
+    "return_date": "2026-11-24",
+    "updated": "2026-11-22T22:39Z",
+    "share": 0.0542,
+    "note": "out"
+   },
+   {
     "name": "Ryan Nugent-Hopkins",
     "id": 8476454,
     "pos": "C",
@@ -386,17 +397,6 @@
     "updated": "2026-11-21T21:28Z",
     "share": 0.0883,
     "note": "Nugent-Hopkins (undisclosed) is slated to return to the lineup against Vegas on Tuesday, Paige Martin of Oilers TV reports."
-   },
-   {
-    "name": "Zach Hyman",
-    "id": 8475786,
-    "pos": "L",
-    "status": "Day-To-Day",
-    "type": "Illness",
-    "return_date": "2026-11-22",
-    "updated": "2026-11-21T20:26Z",
-    "share": 0.0542,
-    "note": "day-to-day"
    },
    {
     "name": "Alec Regula",
@@ -450,7 +450,7 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Knee",
-    "return_date": "2026-11-27",
+    "return_date": "2026-11-25",
     "updated": "2026-11-21T15:57Z",
     "share": null,
     "note": "Barkov (knee) won't play against Buffalo on Saturday, but he could return within Florida's next three games, Jameson Olive of the Panthers' official site reports."
@@ -461,7 +461,7 @@
     "pos": "LW",
     "status": "Injured Reserve",
     "type": "Neck",
-    "return_date": "2026-11-28",
+    "return_date": "2026-12-12",
     "updated": "2026-11-19T16:20Z",
     "share": null,
     "note": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports."
@@ -476,7 +476,7 @@
     "type": "Personal",
     "return_date": "2026-11-23",
     "updated": "2026-11-22T13:40Z",
-    "share": 0.1346,
+    "share": 0.1363,
     "note": "day-to-day"
    },
    {
@@ -487,7 +487,7 @@
     "type": "Undisclosed",
     "return_date": "2026-11-23",
     "updated": "2026-11-22T13:40Z",
-    "share": 0.0528,
+    "share": 0.0534,
     "note": "day-to-day"
    },
    {
@@ -535,7 +535,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-21T18:43Z",
-    "share": 0.1412,
+    "share": 0.1418,
     "note": "Hughes (upper body) will miss the rest of Minnesota's road trip, per Joe Smith of The Athletic on Saturday."
    },
    {
@@ -570,7 +570,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-14",
     "updated": "2026-11-15T22:15Z",
-    "share": 0.0725,
+    "share": 0.0727,
     "note": "Anderson (lower body) will be out for approximately 3-4 weeks, per Renaud Lavoie of TVA Sports on Sunday."
    },
    {
@@ -581,7 +581,7 @@
     "type": "Lower Body",
     "return_date": "2027-01-02",
     "updated": "2026-11-15T18:04Z",
-    "share": 0.0586,
+    "share": 0.0588,
     "note": "ir"
    },
    {
@@ -627,7 +627,7 @@
     "type": "Neck",
     "return_date": "2026-12-17",
     "updated": "2026-11-17T18:07Z",
-    "share": 0.0617,
+    "share": 0.0606,
     "note": "Mantha (neck) is expected to miss about one month after undergoing surgery, per Kristy Flannery of The Hockey News."
    },
    {
@@ -793,6 +793,17 @@
   ],
   "PIT": [
    {
+    "name": "Declan Carlile",
+    "id": null,
+    "pos": "D",
+    "status": "Out",
+    "type": "Lower Body",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-22T22:10Z",
+    "share": null,
+    "note": "Carlile (lower body) won't play against Dallas on Sunday, per King Jemison of the Pittsburgh Post-Gazette."
+   },
+   {
     "name": "Bryan Rust",
     "id": null,
     "pos": "RW",
@@ -811,7 +822,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-20T16:16Z",
-    "share": 0.1073,
+    "share": 0.1074,
     "note": "out"
    },
    {
@@ -822,7 +833,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-05",
     "updated": "2026-11-20T16:08Z",
-    "share": 0.0494,
+    "share": 0.0495,
     "note": "ir"
    },
    {
@@ -857,7 +868,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-01",
     "updated": "2026-11-17T19:39Z",
-    "share": 0.0572,
+    "share": 0.0583,
     "note": "out"
    },
    {
@@ -868,7 +879,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-08",
     "updated": "2026-11-15T23:51Z",
-    "share": 0.0556,
+    "share": 0.0563,
     "note": "Head coach Ryan Warsofsky said Sunday that Chernyshov (upper body) is not close to returning to game action, per Curtis Pashelka of The San Jose Mercury News."
    },
    {
@@ -903,7 +914,7 @@
     "type": "Lower Body",
     "return_date": "2027-01-02",
     "updated": "2026-10-25T17:08Z",
-    "share": 0.0793,
+    "share": 0.0801,
     "note": "McCann (lower body) will be out for approximately 10 weeks, the team announced Sunday."
    }
   ],
@@ -912,12 +923,12 @@
     "name": "Connor McMichael",
     "id": 8481580,
     "pos": "L",
-    "status": "Day-To-Day",
-    "type": "Undisclosed",
-    "return_date": "2026-11-22",
-    "updated": "2026-11-22T13:40Z",
-    "share": 0.0657,
-    "note": "day-to-day"
+    "status": "Out",
+    "type": "Lower Body",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-22T22:49Z",
+    "share": 0.0625,
+    "note": "out"
    },
    {
     "name": "Torey Krug",
@@ -955,6 +966,17 @@
   ],
   "TBL": [
    {
+    "name": "Zemgus Girgensons",
+    "id": null,
+    "pos": "C",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-22T20:52Z",
+    "share": null,
+    "note": "Girgensons (upper body) won't play against Buffalo on Sunday, per Benjamin Pierce of the Lightning's official site."
+   },
+   {
     "name": "Conor Geekie",
     "id": 8483447,
     "pos": "C",
@@ -964,17 +986,6 @@
     "updated": "2026-11-21T20:20Z",
     "share": 0.0344,
     "note": "Geekie (upper body) is out indefinitely, according to Eduardo A. Encina of the Tampa Bay Times on Saturday."
-   },
-   {
-    "name": "Zemgus Girgensons",
-    "id": null,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-22",
-    "updated": "2026-11-20T14:41Z",
-    "share": null,
-    "note": "day-to-day"
    },
    {
     "name": "Brandon Hagel",
@@ -1008,7 +1019,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-23",
     "updated": "2026-11-22T17:15Z",
-    "share": 0.108,
+    "share": 0.1062,
     "note": "Roslovic (upper body) is day-to-day, per David Alter of The Hockey News on Sunday."
    },
    {
@@ -1019,7 +1030,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-23",
     "updated": "2026-11-21T15:14Z",
-    "share": 0.1118,
+    "share": 0.11,
     "note": "Marchenko (lower body) is day-to-day, according to David Alter of The Hockey News on Saturday."
    },
    {
@@ -1109,7 +1120,7 @@
     "type": "Illness",
     "return_date": "2026-11-23",
     "updated": "2026-11-22T13:40Z",
-    "share": 0.1276,
+    "share": 0.1284,
     "note": "day-to-day"
    },
    {
@@ -1131,7 +1142,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-23",
     "updated": "2026-11-20T19:59Z",
-    "share": 0.0785,
+    "share": 0.079,
     "note": "Guenther (upper body) was upgraded to day-to-day ahead of Saturday's matchup with Anaheim, Cole Bagley of KSL Sports reports."
    },
    {
@@ -1142,7 +1153,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-17T22:14Z",
-    "share": 0.1082,
+    "share": 0.1088,
     "note": "ir"
    },
    {
@@ -1177,7 +1188,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-21T19:10Z",
-    "share": 0.1208,
+    "share": 0.1193,
     "note": "Pettersson (upper body) isn't expected to play against Chicago on Sunday, per Canucks play-by-play announcer Brendan Batchelor."
    },
    {
@@ -1247,7 +1258,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-26",
     "updated": "2026-11-19T16:39Z",
-    "share": 0.062,
+    "share": 0.0616,
     "note": "DeMelo (lower body) is expected to be out of action for 4-6 weeks, Mitchell Clinton of the Jets' official site reports Thursday."
    },
    {
