@@ -1,39 +1,39 @@
 {
- "generated_at": "2026-11-24T05:33+00:00",
+ "generated_at": "2026-11-24T18:11+00:00",
  "source": "ESPN",
  "gp": {
-  "ANA": 24,
+  "ANA": 25,
   "BOS": 23,
   "BUF": 24,
-  "CGY": 24,
+  "CGY": 25,
   "CAR": 24,
   "CHI": 24,
   "COL": 23,
-  "CBJ": 21,
+  "CBJ": 22,
   "DAL": 23,
   "DET": 23,
   "EDM": 26,
   "FLA": 24,
-  "LAK": 21,
+  "LAK": 22,
   "MIN": 25,
-  "MTL": 24,
+  "MTL": 25,
   "NSH": 23,
-  "NJD": 23,
-  "NYI": 22,
+  "NJD": 24,
+  "NYI": 23,
   "NYR": 23,
-  "OTT": 24,
+  "OTT": 25,
   "PHI": 26,
   "PIT": 23,
   "SJS": 25,
-  "SEA": 20,
+  "SEA": 21,
   "STL": 24,
   "TBL": 23,
-  "TOR": 25,
-  "UTA": 24,
+  "TOR": 26,
+  "UTA": 25,
   "VAN": 26,
   "VGK": 25,
   "WSH": 21,
-  "WPG": 24
+  "WPG": 25
  },
  "teams": {
   "ANA": [
@@ -41,12 +41,12 @@
     "name": "Leo Carlsson",
     "id": 8484153,
     "pos": "C",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-25",
-    "updated": "2026-11-24T02:32Z",
-    "share": 0.1157,
-    "note": "out"
+    "updated": "2026-11-24T14:14Z",
+    "share": 0.1184,
+    "note": "day-to-day"
    },
    {
     "name": "Beckett Sennecke",
@@ -56,7 +56,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-27",
     "updated": "2026-11-21T18:32Z",
-    "share": 0.1145,
+    "share": 0.1172,
     "note": "Sennecke (upper body) was placed on injured reserve Saturday."
    },
    {
@@ -89,13 +89,24 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Back",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-07T17:30Z",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-24T15:10Z",
     "share": 0.0725,
-    "note": "Head coach Marco Sturm announced Saturday that Hagens (back) is expected to miss multiple weeks, per Jack Studley of Boston Hockey Now."
+    "note": "Hagens (back) is wearing a non-contact sweater ahead of Tuesday's practice, Steve Conroy of the Boston Herald reports."
    }
   ],
   "BUF": [
+   {
+    "name": "Tyson Kozak",
+    "id": null,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Undisclosed",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-24T17:37Z",
+    "share": null,
+    "note": "Kozak (undisclosed) did not practice Tuesday and is considered day-to-day, per Paul Hamilton of WGR Sports Radio 550."
+   },
    {
     "name": "Konsta Helenius",
     "id": null,
@@ -139,7 +150,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-24T04:24Z",
-    "share": 0.0842,
+    "share": 0.0829,
     "note": "Frost sustained an upper-body injury during Monday's 2-1 loss to the Senators, and head coach Ryan Huska did not have an update on the center's status after the game, Flames TV host Brendan Parker reports."
    },
    {
@@ -150,7 +161,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-28",
     "updated": "2026-11-23T16:46Z",
-    "share": 0.0638,
+    "share": 0.0648,
     "note": "Pospisil (upper body) didn't travel with his teammates for the start of Calgary's five-game road trip, per Eric Francis of Sportsnet on Monday."
    },
    {
@@ -181,12 +192,12 @@
     "name": "Nikolaj Ehlers",
     "id": 8477940,
     "pos": "L",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Lower Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-23T14:10Z",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-24T17:27Z",
     "share": 0.0854,
-    "note": "day-to-day"
+    "note": "out"
    }
   ],
   "CHI": [
@@ -294,26 +305,26 @@
   ],
   "CBJ": [
    {
-    "name": "Mathieu Olivier",
-    "id": 8479671,
-    "pos": "R",
-    "status": "Out",
-    "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T02:25Z",
-    "share": 0.05,
-    "note": "out"
-   },
-   {
     "name": "Sean Monahan",
     "id": 8477497,
     "pos": "C",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-25",
-    "updated": "2026-11-16T17:42Z",
-    "share": 0.0632,
-    "note": "out"
+    "updated": "2026-11-24T14:14Z",
+    "share": 0.0636,
+    "note": "day-to-day"
+   },
+   {
+    "name": "Mathieu Olivier",
+    "id": 8479671,
+    "pos": "R",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-24T14:14Z",
+    "share": 0.0485,
+    "note": "day-to-day"
    }
   ],
   "DAL": [
@@ -360,17 +371,6 @@
     "updated": "2026-11-14T15:10Z",
     "share": null,
     "note": "Bichsel (lower body) was placed on injured reserve Saturday."
-   },
-   {
-    "name": "Matt Duchene",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Abdomen",
-    "return_date": "2027-01-12",
-    "updated": "2026-10-12T16:46Z",
-    "share": null,
-    "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday."
    }
   ],
   "DET": [
@@ -399,26 +399,15 @@
   ],
   "EDM": [
    {
-    "name": "Ryan Nugent-Hopkins",
-    "id": 8476454,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Undisclosed",
-    "return_date": "2026-11-24",
-    "updated": "2026-11-23T14:10Z",
-    "share": 0.0886,
-    "note": "day-to-day"
-   },
-   {
     "name": "Zach Hyman",
     "id": 8475786,
     "pos": "L",
-    "status": "Day-To-Day",
-    "type": "Illness",
-    "return_date": "2026-11-24",
-    "updated": "2026-11-23T14:10Z",
+    "status": "Out",
+    "type": "Impaired Vision",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-24T17:12Z",
     "share": 0.0545,
-    "note": "day-to-day"
+    "note": "Hyman (migraine) won't play against Vegas on Tuesday, per Oilers play-by-play announcer Jack Michaels."
    },
    {
     "name": "Alec Regula",
@@ -437,7 +426,7 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-24",
+    "return_date": "2026-11-28",
     "updated": "2026-10-01T14:05Z",
     "share": null,
     "note": "Savoie (lower body) was shifted to long-term injured reserve Thursday."
@@ -552,6 +541,17 @@
   ],
   "MTL": [
    {
+    "name": "Mike Matheson",
+    "id": null,
+    "pos": "D",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-12-05",
+    "updated": "2026-11-24T14:59Z",
+    "share": null,
+    "note": "Matheson (lower body) was placed on long-term injured reserve Tuesday, Renaud Lavoie of TVA Sports reports."
+   },
+   {
     "name": "Ivan Demidov",
     "id": null,
     "pos": "RW",
@@ -563,17 +563,6 @@
     "note": "General manager Kent Hughes said Monday that Demidov (ankle) will not travel with the team for Wednesday's game in Colorado, Renaud Lavoie of TVA Sports reports."
    },
    {
-    "name": "Mike Matheson",
-    "id": null,
-    "pos": "D",
-    "status": "Out",
-    "type": "Lower Body",
-    "return_date": "2026-12-05",
-    "updated": "2026-11-15T22:23Z",
-    "share": null,
-    "note": "Matheson (lower body) will miss approximately 2-3 weeks, the Canadiens announced Sunday."
-   },
-   {
     "name": "Josh Anderson",
     "id": 8476981,
     "pos": "R",
@@ -581,7 +570,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-14",
     "updated": "2026-11-15T22:15Z",
-    "share": 0.0727,
+    "share": 0.0743,
     "note": "Anderson (lower body) will be out for approximately 3-4 weeks, per Renaud Lavoie of TVA Sports on Sunday."
    },
    {
@@ -592,7 +581,7 @@
     "type": "Lower Body",
     "return_date": "2027-01-02",
     "updated": "2026-11-15T18:04Z",
-    "share": 0.0588,
+    "share": 0.0599,
     "note": "ir"
    },
    {
@@ -627,7 +616,7 @@
     "type": "Neck",
     "return_date": "2026-12-17",
     "updated": "2026-11-17T18:07Z",
-    "share": 0.0606,
+    "share": 0.061,
     "note": "Mantha (neck) is expected to miss about one month after undergoing surgery, per Kristy Flannery of The Hockey News."
    },
    {
@@ -655,26 +644,26 @@
   ],
   "NYI": [
    {
-    "name": "Kyle Palmieri",
-    "id": 8475151,
-    "pos": "C",
-    "status": "Out",
-    "type": "Lower Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T02:37Z",
-    "share": 0.0581,
-    "note": "out"
-   },
-   {
     "name": "Ryan Pulock",
     "id": null,
     "pos": "D",
     "status": "Out",
     "type": "Shoulder",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-23T16:34Z",
+    "return_date": "2026-12-04",
+    "updated": "2026-11-24T17:11Z",
     "share": null,
-    "note": "out"
+    "note": "Pulock (shoulder) is expected to miss 1-2 weeks, Andrew Gross of Newsday reports Tuesday."
+   },
+   {
+    "name": "Kyle Palmieri",
+    "id": 8475151,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Lower Body",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-24T14:14Z",
+    "share": 0.0566,
+    "note": "day-to-day"
    },
    {
     "name": "Alexander Romanov",
@@ -936,7 +925,7 @@
     "type": "Lower Body",
     "return_date": "2027-01-02",
     "updated": "2026-10-25T17:08Z",
-    "share": 0.0801,
+    "share": 0.0816,
     "note": "McCann (lower body) will be out for approximately 10 weeks, the team announced Sunday."
    }
   ],
@@ -988,6 +977,17 @@
   ],
   "TBL": [
    {
+    "name": "Conor Geekie",
+    "id": 8483447,
+    "pos": "C",
+    "status": "Injured Reserve",
+    "type": "Upper Body",
+    "return_date": "2027-03-30",
+    "updated": "2026-11-24T15:34Z",
+    "share": 0.0349,
+    "note": "Geekie (shoulder) underwent surgery Monday and is expected to miss 4-5 months."
+   },
+   {
     "name": "Zemgus Girgensons",
     "id": null,
     "pos": "C",
@@ -997,17 +997,6 @@
     "updated": "2026-11-23T14:10Z",
     "share": null,
     "note": "day-to-day"
-   },
-   {
-    "name": "Conor Geekie",
-    "id": 8483447,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Upper Body",
-    "return_date": "2026-12-12",
-    "updated": "2026-11-21T20:20Z",
-    "share": 0.0349,
-    "note": "Geekie (upper body) is out indefinitely, according to Eduardo A. Encina of the Tampa Bay Times on Saturday."
    },
    {
     "name": "Brandon Hagel",
@@ -1026,12 +1015,12 @@
     "name": "Jack Roslovic",
     "id": 8478458,
     "pos": "C",
-    "status": "Out",
+    "status": "Day-To-Day",
     "type": "Upper Body",
     "return_date": "2026-11-27",
-    "updated": "2026-11-24T00:08Z",
-    "share": 0.1062,
-    "note": "out"
+    "updated": "2026-11-24T14:14Z",
+    "share": 0.1055,
+    "note": "day-to-day"
    },
    {
     "name": "Colton Sissons",
@@ -1052,7 +1041,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-27",
     "updated": "2026-11-21T15:14Z",
-    "share": 0.11,
+    "share": 0.1093,
     "note": "Marchenko (lower body) is day-to-day, according to David Alter of The Hockey News on Saturday."
    },
    {
@@ -1164,7 +1153,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-17T22:14Z",
-    "share": 0.1088,
+    "share": 0.1101,
     "note": "ir"
    },
    {
@@ -1238,6 +1227,28 @@
   ],
   "WSH": [
    {
+    "name": "Vincent Desharnais",
+    "id": null,
+    "pos": "D",
+    "status": "Injured Reserve",
+    "type": "Abdomen",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-24T17:30Z",
+    "share": null,
+    "note": "Desharnais (appendectomy) was a full participant in Tuesday's practice and has been upgraded to day-to-day, Tarik El-Bashir of Monumental Sports Network reports."
+   },
+   {
+    "name": "Rasmus Sandin",
+    "id": null,
+    "pos": "D",
+    "status": "Injured Reserve",
+    "type": "Knee",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-24T15:28Z",
+    "share": null,
+    "note": "Sandin (knee) has been cleared to start taking contact, Sammi Silber of The District Standard reports Tuesday."
+   },
+   {
     "name": "Jordan Kyrou",
     "id": 8479385,
     "pos": "R",
@@ -1247,28 +1258,6 @@
     "updated": "2026-11-23T17:14Z",
     "share": 0.0724,
     "note": "out"
-   },
-   {
-    "name": "Vincent Desharnais",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Abdomen",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-20T16:03Z",
-    "share": null,
-    "note": "Desharnais (abdomen) has been cleared for contact, Sammi Silber of The District Standard reports Friday."
-   },
-   {
-    "name": "Rasmus Sandin",
-    "id": null,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Knee",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-09T17:28Z",
-    "share": null,
-    "note": "Sandin (knee) will be with the Capitals for their two-game road trip, Tarik El-Bashir of Monumental Sports Network reports Monday."
    }
   ],
   "WPG": [
@@ -1280,7 +1269,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-26",
     "updated": "2026-11-19T16:39Z",
-    "share": 0.0616,
+    "share": 0.0611,
     "note": "DeMelo (lower body) is expected to be out of action for 4-6 weeks, Mitchell Clinton of the Jets' official site reports Thursday."
    },
    {
