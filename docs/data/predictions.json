@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T18:11+00:00",
+ "generated_at": "2026-11-24T20:41+00:00",
  "today": "2026-11-24",
  "games": [
   {
@@ -265,9 +265,9 @@
    "start_utc": "2026-11-26T00:00:00Z",
    "home": "BUF",
    "away": "NYR",
-   "p_home": 0.4971671528614343,
+   "p_home": 0.5150968521345193,
    "h_xg": 0.49363713179744734,
-   "a_xg": 0.5079037245607525,
+   "a_xg": 0.5008797245607525,
    "h_goalie": "Ukko-Pekka Luukkonen",
    "a_goalie": "Dylan Garand",
    "h_assumed": true,
@@ -313,6 +313,14 @@
    ],
    "a_inj": [
     {
+     "name": "Pavel Dorofeyev",
+     "pos": "R",
+     "status": "Injured Reserve",
+     "return_date": "2026-11-27",
+     "p_out": 1.0,
+     "xgf_pts": -0.7
+    },
+    {
      "name": "Oliver Bjorkstrand",
      "pos": "R",
      "status": "Injured Reserve",
@@ -338,7 +346,7 @@
     }
    ],
    "h_inj_xg": -0.36,
-   "a_inj_xg": -0.9,
+   "a_inj_xg": -1.61,
    "h_last4": [
     {
      "date": "2026-11-22",
@@ -515,9 +523,9 @@
    "start_utc": "2026-11-26T00:00:00Z",
    "home": "FLA",
    "away": "OTT",
-   "p_home": 0.44551111259810244,
-   "h_xg": 0.49663993114423977,
-   "a_xg": 0.5318948208014416,
+   "p_home": 0.45134184762103635,
+   "h_xg": 0.4989049311442398,
+   "a_xg": 0.5318516208014417,
    "h_goalie": "Jacob Markstrom",
    "a_goalie": "Linus Ullmark",
    "h_assumed": true,
@@ -537,14 +545,6 @@
    ],
    "h_inj": [
     {
-     "name": "Brad Marchand",
-     "pos": "LW",
-     "status": "Injured Reserve",
-     "return_date": "2026-11-28",
-     "p_out": 0.94375,
-     "xgf_pts": -0.23
-    },
-    {
      "name": "Jonah Gadjovich",
      "pos": "LW",
      "status": "Injured Reserve",
@@ -557,9 +557,9 @@
     {
      "name": "Hayden Hodgson",
      "pos": "RW",
-     "status": "Out",
+     "status": "Injured Reserve",
      "return_date": "2026-11-28",
-     "p_out": 0.982,
+     "p_out": 1.0,
      "xgf_pts": -0.24
     },
     {
@@ -587,8 +587,8 @@
      "xgf_pts": -0.07
     }
    ],
-   "h_inj_xg": -0.44,
-   "a_inj_xg": -0.73,
+   "h_inj_xg": -0.22,
+   "a_inj_xg": -0.74,
    "h_last4": [
     {
      "date": "2026-11-21",
@@ -656,9 +656,9 @@
    "start_utc": "2026-11-26T00:00:00Z",
    "home": "NYI",
    "away": "STL",
-   "p_home": 0.520413380710529,
-   "h_xg": 0.4947521091906748,
-   "a_xg": 0.5027100830325909,
+   "p_home": 0.5224930279731947,
+   "h_xg": 0.4904961091906748,
+   "a_xg": 0.49763808303259094,
    "h_goalie": "Ilya Sorokin",
    "a_goalie": "Joel Hofer",
    "h_assumed": true,
@@ -678,6 +678,14 @@
    ],
    "h_inj": [
     {
+     "name": "Kyle Palmieri",
+     "pos": "C",
+     "status": "Injured Reserve",
+     "return_date": "2026-12-01",
+     "p_out": 1.0,
+     "xgf_pts": -0.43
+    },
+    {
      "name": "Ryan Pulock",
      "pos": "D",
      "status": "Out",
@@ -696,6 +704,14 @@
    ],
    "a_inj": [
     {
+     "name": "Connor McMichael",
+     "pos": "L",
+     "status": "Out",
+     "return_date": "2026-11-27",
+     "p_out": 1.0,
+     "xgf_pts": -0.51
+    },
+    {
      "name": "Torey Krug",
      "pos": "D",
      "status": "Injured Reserve",
@@ -712,8 +728,8 @@
      "xgf_pts": -0.04
     }
    ],
-   "h_inj_xg": -0.31,
-   "a_inj_xg": -0.09,
+   "h_inj_xg": -0.74,
+   "a_inj_xg": -0.6,
    "h_last4": [
     {
      "date": "2026-11-23",
@@ -1272,8 +1288,8 @@
    "start_utc": "2026-11-26T01:00:00Z",
    "home": "DAL",
    "away": "NSH",
-   "p_home": 0.5575911199456784,
-   "h_xg": 0.4969034251340803,
+   "p_home": 0.5566313368242849,
+   "h_xg": 0.49652255556886293,
    "a_xg": 0.48965131192029987,
    "h_goalie": "Jake Oettinger",
    "a_goalie": "Juuse Saros",
@@ -1297,7 +1313,7 @@
      "name": "Kyle Capobianco",
      "pos": "D",
      "status": "Injured Reserve",
-     "return_date": "2026-11-27",
+     "return_date": "2026-12-01",
      "p_out": 0.8043478260869565,
      "xgf_pts": -0.19
     },
@@ -1305,13 +1321,21 @@
      "name": "Lian Bichsel",
      "pos": "D",
      "status": "Injured Reserve",
-     "return_date": "2026-11-27",
+     "return_date": "2026-12-09",
      "p_out": 0.8043478260869565,
      "xgf_pts": -0.19
+    },
+    {
+     "name": "Matt Duchene",
+     "pos": "C",
+     "status": "Injured Reserve",
+     "return_date": "2027-01-12",
+     "p_out": 0.15869565217391302,
+     "xgf_pts": -0.04
     }
    ],
    "a_inj": [],
-   "h_inj_xg": -0.39,
+   "h_inj_xg": -0.42,
    "a_inj_xg": -0.0,
    "h_last4": [
     {
@@ -1380,8 +1404,8 @@
    "start_utc": "2026-11-26T01:00:00Z",
    "home": "MIN",
    "away": "UTA",
-   "p_home": 0.4780603511018,
-   "h_xg": 0.4994255531491229,
+   "p_home": 0.47850962928665286,
+   "h_xg": 0.4996018460721998,
    "a_xg": 0.5417235921364228,
    "h_goalie": "Jesper Wallstedt",
    "a_goalie": "Karel Vejmelka",
@@ -1406,8 +1430,8 @@
      "pos": "D",
      "status": "Injured Reserve",
      "return_date": "2026-11-27",
-     "p_out": 0.982,
-     "xgf_pts": -1.76
+     "p_out": 0.9826923076923076,
+     "xgf_pts": -1.74
     }
    ],
    "a_inj": [
@@ -1436,7 +1460,7 @@
      "xgf_pts": -0.19
     }
    ],
-   "h_inj_xg": -1.76,
+   "h_inj_xg": -1.74,
    "a_inj_xg": -0.66,
    "h_last4": [
     {
@@ -1505,8 +1529,8 @@
    "start_utc": "2026-11-26T02:30:00Z",
    "home": "COL",
    "away": "MTL",
-   "p_home": 0.5268681690115575,
-   "h_xg": 0.4898423779780714,
+   "p_home": 0.557123660424776,
+   "h_xg": 0.5017799431954627,
    "a_xg": 0.49304034247916845,
    "h_goalie": "Mackenzie Blackwood",
    "a_goalie": "Jacob Fowler",
@@ -1533,14 +1557,6 @@
      "return_date": "2027-02-13",
      "p_out": 0.941304347826087,
      "xgf_pts": -1.49
-    },
-    {
-     "name": "Cale Makar",
-     "pos": "D",
-     "status": "Injured Reserve",
-     "return_date": "2026-11-28",
-     "p_out": 0.9021739130434783,
-     "xgf_pts": -1.19
     },
     {
      "name": "Gavin Brindley",
@@ -1601,7 +1617,7 @@
      "xgf_pts": -0.24
     }
    ],
-   "h_inj_xg": -3.17,
+   "h_inj_xg": -1.97,
    "a_inj_xg": -1.47,
    "h_last4": [
     {
@@ -1670,8 +1686,8 @@
    "start_utc": "2026-11-26T02:40:00Z",
    "home": "SEA",
    "away": "CHI",
-   "p_home": 0.6226721213929626,
-   "h_xg": 0.4608698117386489,
+   "p_home": 0.6228914881788209,
+   "h_xg": 0.46096124031007746,
    "a_xg": 0.42544782463728287,
    "h_goalie": "Philipp Grubauer",
    "a_goalie": "Spencer Knight",
@@ -1726,7 +1742,7 @@
      "xgf_pts": -0.23
     }
    ],
-   "h_inj_xg": -0.51,
+   "h_inj_xg": -0.5,
    "a_inj_xg": -2.14,
    "h_last4": [
     {
@@ -1795,9 +1811,9 @@
    "start_utc": "2026-11-26T03:00:00Z",
    "home": "ANA",
    "away": "SJS",
-   "p_home": 0.5583020137714405,
-   "h_xg": 0.4529630073582205,
-   "a_xg": 0.43978408498115285,
+   "p_home": 0.5596042759314622,
+   "h_xg": 0.45312950335822044,
+   "a_xg": 0.43943335759653745,
    "h_goalie": "Lukas Dostal",
    "a_goalie": "Yaroslav Askarov",
    "h_assumed": true,
@@ -1822,7 +1838,7 @@
      "status": "Injured Reserve",
      "return_date": "2026-11-27",
      "p_out": 0.946,
-     "xgf_pts": -1.32
+     "xgf_pts": -1.3
     },
     {
      "name": "Ryan Poehling",
@@ -1847,36 +1863,36 @@
      "pos": "D",
      "status": "Out",
      "return_date": "2026-12-01",
-     "p_out": 0.982,
-     "xgf_pts": -0.74
+     "p_out": 0.9826923076923076,
+     "xgf_pts": -0.76
     },
     {
      "name": "Kiefer Sherwood",
      "pos": "L",
      "status": "Injured Reserve",
      "return_date": "2026-12-01",
-     "p_out": 0.982,
-     "xgf_pts": -0.44
+     "p_out": 0.9826923076923076,
+     "xgf_pts": -0.45
     },
     {
      "name": "Igor Chernyshov",
      "pos": "L",
      "status": "Injured Reserve",
      "return_date": "2026-12-08",
-     "p_out": 0.838,
-     "xgf_pts": -0.35
+     "p_out": 0.8442307692307692,
+     "xgf_pts": -0.36
     },
     {
      "name": "Quentin Musty",
      "pos": "LW",
      "status": "Injured Reserve",
      "return_date": "2027-01-01",
-     "p_out": 0.838,
+     "p_out": 0.8442307692307692,
      "xgf_pts": -0.2
     }
    ],
-   "h_inj_xg": -1.69,
-   "a_inj_xg": -1.74,
+   "h_inj_xg": -1.67,
+   "a_inj_xg": -1.78,
    "h_last4": [
     {
      "date": "2026-11-23",
