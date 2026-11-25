@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T04:37+00:00",
+ "generated_at": "2026-11-25T07:59+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 25,
@@ -12,7 +12,7 @@
   "CBJ": 22,
   "DAL": 23,
   "DET": 23,
-  "EDM": 26,
+  "EDM": 27,
   "FLA": 24,
   "LAK": 22,
   "MIN": 26,
@@ -31,7 +31,7 @@
   "TOR": 26,
   "UTA": 25,
   "VAN": 26,
-  "VGK": 25,
+  "VGK": 26,
   "WSH": 21,
   "WPG": 25
  },
@@ -371,17 +371,6 @@
     "updated": "2026-11-14T15:10Z",
     "share": null,
     "note": "Bichsel (lower body) was placed on injured reserve Saturday."
-   },
-   {
-    "name": "Matt Duchene",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Abdomen",
-    "return_date": "2027-01-12",
-    "updated": "2026-10-12T16:46Z",
-    "share": null,
-    "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday."
    }
   ],
   "DET": [
@@ -428,7 +417,7 @@
     "type": "Impaired Vision",
     "return_date": "2026-11-27",
     "updated": "2026-11-24T17:12Z",
-    "share": 0.0545,
+    "share": 0.0546,
     "note": "Hyman (migraine) won't play against Vegas on Tuesday, per Oilers play-by-play announcer Jack Michaels."
    },
    {
@@ -1278,6 +1267,19 @@
     "updated": "2026-09-29T17:03Z",
     "share": null,
     "note": "ir-nr"
+   }
+  ],
+  "VGK": [
+   {
+    "name": "Marc Gatcomb",
+    "id": null,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Face",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T05:18Z",
+    "share": null,
+    "note": "day-to-day"
    }
   ],
   "WSH": [
