@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T07:59+00:00",
+ "generated_at": "2026-11-25T19:58+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 25,
@@ -38,15 +38,15 @@
  "teams": {
   "ANA": [
    {
-    "name": "Leo Carlsson",
-    "id": 8484153,
+    "name": "Ryan Poehling",
+    "id": null,
     "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T14:14Z",
-    "share": 0.1173,
-    "note": "day-to-day"
+    "status": "Injured Reserve",
+    "type": "Knee",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T19:08Z",
+    "share": null,
+    "note": "Poehling (knee) is expected back in the short term, with head coach Joel Quenneville telling reporters, \"He's close. Would love to see him in by the weekend. We'll see,\" Derek Lee of The Hockey News reports."
    },
    {
     "name": "Beckett Sennecke",
@@ -55,20 +55,20 @@
     "status": "Injured Reserve",
     "type": "Upper Body",
     "return_date": "2026-11-27",
-    "updated": "2026-11-21T18:32Z",
+    "updated": "2026-11-25T19:08Z",
     "share": 0.1161,
-    "note": "Sennecke (upper body) was placed on injured reserve Saturday."
+    "note": "Sennecke (upper body) is now considered day-to-day, Zach Cavanagh of The Sporting Tribune reports Wednesday."
    },
    {
-    "name": "Ryan Poehling",
-    "id": null,
+    "name": "Leo Carlsson",
+    "id": 8484153,
     "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Knee",
-    "return_date": "2026-12-06",
-    "updated": "2026-11-20T03:31Z",
-    "share": null,
-    "note": "Poehling (knee) is on the Ducks' current road trip and has resumed skating, Derek Lee of The Hockey News reports Thursday."
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T19:06Z",
+    "share": 0.1173,
+    "note": "out"
    },
    {
     "name": "A.J. Greer",
@@ -97,6 +97,17 @@
   ],
   "BUF": [
    {
+    "name": "Mattias Samuelsson",
+    "id": 8480807,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Undisclosed",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-25T15:54Z",
+    "share": 0.0784,
+    "note": "Samuelsson (undisclosed) is considered a game-time decision for Wednesday's matchup against the Rangers, Paul Hamilton of WGR Sports Radio 550 reports."
+   },
+   {
     "name": "Tyson Kozak",
     "id": null,
     "pos": "C",
@@ -113,7 +124,7 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-12-06",
+    "return_date": "2026-12-01",
     "updated": "2026-11-12T21:00Z",
     "share": null,
     "note": "ir"
@@ -146,12 +157,12 @@
     "name": "Morgan Frost",
     "id": 8480028,
     "pos": "C",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T04:24Z",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T16:35Z",
     "share": 0.0829,
-    "note": "Frost sustained an upper-body injury during Monday's 2-1 loss to the Senators, and head coach Ryan Huska did not have an update on the center's status after the game, Flames TV host Brendan Parker reports."
+    "note": "Frost (upper body) has been ruled out for Wednesday's game against the Penguins, Eric Francis of Sportsnet reports."
    },
    {
     "name": "Martin Pospisil",
@@ -188,6 +199,17 @@
    }
   ],
   "CAR": [
+   {
+    "name": "K'Andre Miller",
+    "id": null,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Illness",
+    "return_date": "2026-11-25",
+    "updated": "2026-11-25T17:25Z",
+    "share": null,
+    "note": "day-to-day"
+   },
    {
     "name": "Nikolaj Ehlers",
     "id": 8477940,
@@ -248,17 +270,6 @@
   ],
   "COL": [
    {
-    "name": "Cale Makar",
-    "id": 8480069,
-    "pos": "D",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T18:19Z",
-    "share": 0.1127,
-    "note": "Makar (lower body) was on the ice in a regular sweater ahead of Wednesday's clash with Montreal, Evan Rawal of the Denver Gazette reports."
-   },
-   {
     "name": "Gavin Brindley",
     "id": null,
     "pos": "C",
@@ -314,38 +325,16 @@
     "updated": "2026-11-24T22:08Z",
     "share": 0.0485,
     "note": "ir"
-   },
-   {
-    "name": "Sean Monahan",
-    "id": 8477497,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T14:14Z",
-    "share": 0.0636,
-    "note": "day-to-day"
    }
   ],
   "DAL": [
-   {
-    "name": "Tyler Myers",
-    "id": null,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T18:29Z",
-    "share": null,
-    "note": "Myers (upper body) has a chance to return in Wednesday's home clash against the Predators, per Robert Tiffin of NHL.com."
-   },
    {
     "name": "Oskar Back",
     "id": null,
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Finger",
-    "return_date": "2026-11-25",
+    "return_date": "2026-11-27",
     "updated": "2026-11-19T20:29Z",
     "share": null,
     "note": "Back (finger) is expected to return within the next week, Robert Tiffin of NHL.com reports Thursday."
@@ -371,6 +360,17 @@
     "updated": "2026-11-14T15:10Z",
     "share": null,
     "note": "Bichsel (lower body) was placed on injured reserve Saturday."
+   },
+   {
+    "name": "Matt Duchene",
+    "id": null,
+    "pos": "C",
+    "status": "Injured Reserve",
+    "type": "Abdomen",
+    "return_date": "2027-01-12",
+    "updated": "2026-10-12T16:46Z",
+    "share": null,
+    "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday."
    }
   ],
   "DET": [
@@ -399,6 +399,17 @@
   ],
   "EDM": [
    {
+    "name": "Zach Hyman",
+    "id": 8475786,
+    "pos": "L",
+    "status": "Day-To-Day",
+    "type": "Impaired Vision",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T14:34Z",
+    "share": 0.0546,
+    "note": "day-to-day"
+   },
+   {
     "name": "Filip Hallander",
     "id": null,
     "pos": "C",
@@ -408,17 +419,6 @@
     "updated": "2026-11-25T02:33Z",
     "share": null,
     "note": "day-to-day"
-   },
-   {
-    "name": "Zach Hyman",
-    "id": 8475786,
-    "pos": "L",
-    "status": "Out",
-    "type": "Impaired Vision",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-24T17:12Z",
-    "share": 0.0546,
-    "note": "Hyman (migraine) won't play against Vegas on Tuesday, per Oilers play-by-play announcer Jack Michaels."
    },
    {
     "name": "Alec Regula",
@@ -456,28 +456,6 @@
   ],
   "FLA": [
    {
-    "name": "Brad Marchand",
-    "id": null,
-    "pos": "LW",
-    "status": "Injured Reserve",
-    "type": "Knee",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-21T16:06Z",
-    "share": null,
-    "note": "Marchand (knee) is close to returning to the lineup, but he won't play against Buffalo on Saturday, per Jameson Olive of the Panthers' official site."
-   },
-   {
-    "name": "Aleksander Barkov",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Knee",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-21T15:57Z",
-    "share": null,
-    "note": "Barkov (knee) won't play against Buffalo on Saturday, but he could return within Florida's next three games, Jameson Olive of the Panthers' official site reports."
-   },
-   {
     "name": "Jonah Gadjovich",
     "id": null,
     "pos": "LW",
@@ -489,31 +467,18 @@
     "note": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports."
    }
   ],
-  "PHI": [
+  "LAK": [
    {
     "name": "Erik Gustafsson",
-    "id": null,
+    "id": 8476979,
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Hand",
     "return_date": "2026-12-20",
     "updated": "2026-11-23T22:00Z",
-    "share": null,
+    "share": 0.0824,
     "note": "Gustafsson (upper body) was placed on injured reserve Monday, per the NHL media site."
    },
-   {
-    "name": "Nikita Grebenkin",
-    "id": null,
-    "pos": "RW",
-    "status": "Injured Reserve",
-    "type": "Back",
-    "return_date": "2027-02-13",
-    "updated": "2026-10-10T16:58Z",
-    "share": null,
-    "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months."
-   }
-  ],
-  "LAK": [
    {
     "name": "Jakub Dvorak",
     "id": null,
@@ -544,7 +509,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-25",
+    "return_date": "2026-12-01",
     "updated": "2026-11-16T21:33Z",
     "share": null,
     "note": "ir"
@@ -758,6 +723,17 @@
   ],
   "OTT": [
    {
+    "name": "Andre Burakovsky",
+    "id": null,
+    "pos": "LW",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-11-30",
+    "updated": "2026-11-25T13:03Z",
+    "share": null,
+    "note": "Burakovsky (lower body) will be with the Senators for their four-game road trip and is expected to play at some point, Bruce Garrioch of Postmedia reports Wednesday."
+   },
+   {
     "name": "Hayden Hodgson",
     "id": null,
     "pos": "RW",
@@ -769,23 +745,12 @@
     "note": "ir"
    },
    {
-    "name": "Andre Burakovsky",
-    "id": null,
-    "pos": "LW",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-20T17:06Z",
-    "share": null,
-    "note": "Burakovsky (lower body) was on the ice Friday doing some individual drills, Bruce Garrioch of Postmedia reports."
-   },
-   {
     "name": "Warren Foegele",
     "id": null,
     "pos": "LW",
     "status": "Injured Reserve",
     "type": "Knee",
-    "return_date": "2026-12-03",
+    "return_date": "2026-12-27",
     "updated": "2026-11-16T16:53Z",
     "share": null,
     "note": "Head coach Travis Green said Monday that Foegele (knee) hasn't yet resumed skating, Bruce Garrioch of Postmedia reports."
@@ -802,28 +767,30 @@
     "note": "Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday."
    }
   ],
+  "PHI": [
+   {
+    "name": "Nikita Grebenkin",
+    "id": null,
+    "pos": "RW",
+    "status": "Injured Reserve",
+    "type": "Back",
+    "return_date": "2027-02-13",
+    "updated": "2026-10-10T16:58Z",
+    "share": null,
+    "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months."
+   }
+  ],
   "PIT": [
    {
-    "name": "Evgeni Malkin",
-    "id": 8471215,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-23T14:10Z",
-    "share": 0.1113,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Declan Carlile",
-    "id": null,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Lower Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-23T14:10Z",
-    "share": null,
-    "note": "day-to-day"
+    "name": "Egor Chinakhov",
+    "id": 8482475,
+    "pos": "R",
+    "status": "Out",
+    "type": "Undisclosed",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T16:25Z",
+    "share": 0.0561,
+    "note": "out"
    },
    {
     "name": "Bryan Rust",
@@ -853,7 +820,7 @@
     "pos": "LW",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-25",
+    "return_date": "2026-11-30",
     "updated": "2026-11-02T15:52Z",
     "share": null,
     "note": "Soderblom (upper body) is week-to-week, per Penguins PR on Monday."
@@ -942,6 +909,28 @@
   ],
   "STL": [
    {
+    "name": "Pavel Buchnevich",
+    "id": 8477402,
+    "pos": "L",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T19:01Z",
+    "share": 0.0633,
+    "note": "Buchnevich (upper body) will miss Wednesday's game against the Islanders, per Brandon Kiley of ESPN St. Louis."
+   },
+   {
+    "name": "Jimmy Snuggerud",
+    "id": 8483516,
+    "pos": "R",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T18:58Z",
+    "share": 0.0904,
+    "note": "Snuggerud (upper body) didn't travel to Long Island for Wednesday's clash with the Islanders, Brandon Kiley of ESPN St. Louis reports."
+   },
+   {
     "name": "Connor McMichael",
     "id": 8481580,
     "pos": "L",
@@ -962,28 +951,6 @@
     "updated": "2026-11-24T22:25Z",
     "share": null,
     "note": "ir"
-   },
-   {
-    "name": "Pavel Buchnevich",
-    "id": 8477402,
-    "pos": "L",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T18:33Z",
-    "share": 0.0633,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Jimmy Snuggerud",
-    "id": 8483516,
-    "pos": "R",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T18:31Z",
-    "share": 0.0904,
-    "note": "Snuggerud (undisclosed) is questionable for Wednesday's game against the Islanders, per Lou Korac of NHL.com."
    },
    {
     "name": "Torey Krug",
@@ -1030,28 +997,6 @@
     "updated": "2026-11-24T15:34Z",
     "share": 0.0349,
     "note": "Geekie (shoulder) underwent surgery Monday and is expected to miss 4-5 months."
-   },
-   {
-    "name": "Zemgus Girgensons",
-    "id": null,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-23T14:10Z",
-    "share": null,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Brandon Hagel",
-    "id": 8479542,
-    "pos": "L",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-19T15:54Z",
-    "share": 0.116,
-    "note": "Hagel (lower body) was placed on injured reserve by the Lightning on Thursday, retroactive to Nov. 15, Eduardo A. Encina of the Tampa Bay Times reports."
    }
   ],
   "TOR": [
@@ -1228,12 +1173,12 @@
     "name": "Elias Pettersson",
     "id": 8480012,
     "pos": "C",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-23T14:10Z",
+    "return_date": "2026-12-04",
+    "updated": "2026-11-25T16:25Z",
     "share": 0.12,
-    "note": "day-to-day"
+    "note": "out"
    },
    {
     "name": "Brendan Gallagher",
@@ -1289,10 +1234,10 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Abdomen",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T17:30Z",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T16:03Z",
     "share": null,
-    "note": "Desharnais (appendectomy) was a full participant in Tuesday's practice and has been upgraded to day-to-day, Tarik El-Bashir of Monumental Sports Network reports."
+    "note": "Desharnais (appendectomy) is slated to miss Wednesday's game against the Flyers, Tarik El-Bashir of Monumental Sports Network reports."
    },
    {
     "name": "Rasmus Sandin",
@@ -1300,7 +1245,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Knee",
-    "return_date": "2026-11-25",
+    "return_date": "2026-12-15",
     "updated": "2026-11-24T15:28Z",
     "share": null,
     "note": "Sandin (knee) has been cleared to start taking contact, Sammi Silber of The District Standard reports Tuesday."
