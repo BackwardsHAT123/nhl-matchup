@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T20:41+00:00",
+ "generated_at": "2026-11-25T04:37+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 25,
@@ -305,6 +305,17 @@
   ],
   "CBJ": [
    {
+    "name": "Mathieu Olivier",
+    "id": 8479671,
+    "pos": "R",
+    "status": "Injured Reserve",
+    "type": "Upper Body",
+    "return_date": "2026-12-03",
+    "updated": "2026-11-24T22:08Z",
+    "share": 0.0485,
+    "note": "ir"
+   },
+   {
     "name": "Sean Monahan",
     "id": 8477497,
     "pos": "C",
@@ -313,17 +324,6 @@
     "return_date": "2026-11-25",
     "updated": "2026-11-24T14:14Z",
     "share": 0.0636,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Mathieu Olivier",
-    "id": 8479671,
-    "pos": "R",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T14:14Z",
-    "share": 0.0485,
     "note": "day-to-day"
    }
   ],
@@ -410,6 +410,17 @@
   ],
   "EDM": [
    {
+    "name": "Filip Hallander",
+    "id": null,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Lower Body",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T02:33Z",
+    "share": null,
+    "note": "day-to-day"
+   },
+   {
     "name": "Zach Hyman",
     "id": 8475786,
     "pos": "L",
@@ -437,7 +448,7 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-28",
+    "return_date": "2026-12-01",
     "updated": "2026-10-01T14:05Z",
     "share": null,
     "note": "Savoie (lower body) was shifted to long-term injured reserve Thursday."
@@ -945,30 +956,30 @@
     "name": "Connor McMichael",
     "id": 8481580,
     "pos": "L",
-    "status": "Out",
+    "status": "Injured Reserve",
     "type": "Lower Body",
     "return_date": "2026-11-27",
-    "updated": "2026-11-24T18:41Z",
+    "updated": "2026-11-24T22:30Z",
     "share": 0.0617,
-    "note": "McMichael (lower body) isn't expected to play against the Islanders on Wednesday, according to Lou Korac of NHL.com."
+    "note": "ir"
    },
    {
     "name": "Brandon Carlo",
     "id": null,
     "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Undisclosed",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T18:41Z",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-12-02",
+    "updated": "2026-11-24T22:25Z",
     "share": null,
-    "note": "day-to-day"
+    "note": "ir"
    },
    {
     "name": "Pavel Buchnevich",
     "id": 8477402,
     "pos": "L",
     "status": "Day-To-Day",
-    "type": "Undisclosed",
+    "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-24T18:33Z",
     "share": 0.0633,
@@ -979,7 +990,7 @@
     "id": 8483516,
     "pos": "R",
     "status": "Day-To-Day",
-    "type": "Undisclosed",
+    "type": "Upper Body",
     "return_date": "2026-11-25",
     "updated": "2026-11-24T18:31Z",
     "share": 0.0904,
@@ -1149,7 +1160,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Elbow",
-    "return_date": "2026-11-27",
+    "return_date": "2026-12-26",
     "updated": "2026-09-29T14:55Z",
     "share": null,
     "note": "ir-nr"
