@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T19:58+00:00",
+ "generated_at": "2026-11-26T03:47+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 25,
@@ -97,26 +97,15 @@
   ],
   "BUF": [
    {
-    "name": "Mattias Samuelsson",
-    "id": 8480807,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Undisclosed",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-25T15:54Z",
-    "share": 0.0784,
-    "note": "Samuelsson (undisclosed) is considered a game-time decision for Wednesday's matchup against the Rangers, Paul Hamilton of WGR Sports Radio 550 reports."
-   },
-   {
     "name": "Tyson Kozak",
     "id": null,
     "pos": "C",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Undisclosed",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-24T17:37Z",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T23:45Z",
     "share": null,
-    "note": "Kozak (undisclosed) did not practice Tuesday and is considered day-to-day, per Paul Hamilton of WGR Sports Radio 550."
+    "note": "Kozak (undisclosed) won't play Wednesday versus the Rangers, Matthew Fairburn of The Athletic reports."
    },
    {
     "name": "Konsta Helenius",
@@ -203,12 +192,12 @@
     "name": "K'Andre Miller",
     "id": null,
     "pos": "D",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Illness",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-25T17:25Z",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-25T23:35Z",
     "share": null,
-    "note": "day-to-day"
+    "note": "out"
    },
    {
     "name": "Nikolaj Ehlers",
@@ -224,6 +213,17 @@
   ],
   "CHI": [
    {
+    "name": "Tyler Bertuzzi",
+    "id": 8477479,
+    "pos": "L",
+    "status": "Out",
+    "type": "Illness",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-26T01:21Z",
+    "share": 0.0844,
+    "note": "out"
+   },
+   {
     "name": "Connor Bedard",
     "id": 8484144,
     "pos": "C",
@@ -233,17 +233,6 @@
     "updated": "2026-11-24T02:56Z",
     "share": 0.1495,
     "note": "Bedard underwent successful shoulder surgery Monday and is expected to make a full recovery in approximately four months, the Blackhawks announced."
-   },
-   {
-    "name": "Anton Frondell",
-    "id": 8485391,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Undisclosed",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-23T14:10Z",
-    "share": 0.0732,
-    "note": "day-to-day"
    },
    {
     "name": "Wyatt Kaiser",
@@ -316,6 +305,17 @@
   ],
   "CBJ": [
    {
+    "name": "Denton Mateychuk",
+    "id": 8483485,
+    "pos": "D",
+    "status": "Day-To-Day",
+    "type": "Concussion",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-26T03:21Z",
+    "share": 0.0633,
+    "note": "day-to-day"
+   },
+   {
     "name": "Mathieu Olivier",
     "id": 8479671,
     "pos": "R",
@@ -328,17 +328,6 @@
    }
   ],
   "DAL": [
-   {
-    "name": "Oskar Back",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Finger",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-19T20:29Z",
-    "share": null,
-    "note": "Back (finger) is expected to return within the next week, Robert Tiffin of NHL.com reports Thursday."
-   },
    {
     "name": "Kyle Capobianco",
     "id": null,
@@ -378,12 +367,12 @@
     "name": "William Wallinder",
     "id": 8482171,
     "pos": "D",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Upper Body",
-    "return_date": "2026-11-25",
-    "updated": "2026-11-22T13:40Z",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-26T00:20Z",
     "share": 0.0621,
-    "note": "day-to-day"
+    "note": "out"
    },
    {
     "name": "Simon Edvinsson",
@@ -785,12 +774,12 @@
     "name": "Egor Chinakhov",
     "id": 8482475,
     "pos": "R",
-    "status": "Out",
+    "status": "Injured Reserve",
     "type": "Undisclosed",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-25T16:25Z",
+    "return_date": "2026-12-02",
+    "updated": "2026-11-26T03:11Z",
     "share": 0.0561,
-    "note": "out"
+    "note": "ir"
    },
    {
     "name": "Bryan Rust",
@@ -988,6 +977,39 @@
   ],
   "TBL": [
    {
+    "name": "Pontus Holmberg",
+    "id": 8480995,
+    "pos": "R",
+    "status": "Out",
+    "type": "Undisclosed",
+    "return_date": "2026-12-02",
+    "updated": "2026-11-26T03:04Z",
+    "share": 0.0625,
+    "note": "out"
+   },
+   {
+    "name": "Erik Cernak",
+    "id": 8478416,
+    "pos": "D",
+    "status": "Out",
+    "type": "Illness",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T23:34Z",
+    "share": 0.0596,
+    "note": "out"
+   },
+   {
+    "name": "Victor Hedman",
+    "id": 8475167,
+    "pos": "D",
+    "status": "Out",
+    "type": "Illness",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T23:33Z",
+    "share": 0.0432,
+    "note": "out"
+   },
+   {
     "name": "Conor Geekie",
     "id": 8483447,
     "pos": "C",
@@ -1000,6 +1022,17 @@
    }
   ],
   "TOR": [
+   {
+    "name": "Kirill Marchenko",
+    "id": 8480893,
+    "pos": "R",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-11-27",
+    "updated": "2026-11-25T20:20Z",
+    "share": 0.1093,
+    "note": "Marchenko (lower body) is expected back in the lineup against the Bruins on Friday after telling reporters, \"My leg feels perfect and I'm ready to go,\" Mark Masters of TSN reports."
+   },
    {
     "name": "Jack Roslovic",
     "id": 8478458,
@@ -1021,17 +1054,6 @@
     "updated": "2026-11-22T17:19Z",
     "share": null,
     "note": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday."
-   },
-   {
-    "name": "Kirill Marchenko",
-    "id": 8480893,
-    "pos": "R",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-21T15:14Z",
-    "share": 0.1093,
-    "note": "Marchenko (lower body) is day-to-day, according to David Alter of The Hockey News on Saturday."
    },
    {
     "name": "Cole McWard",
@@ -1113,6 +1135,17 @@
   ],
   "UTA": [
    {
+    "name": "Michael Carcone",
+    "id": null,
+    "pos": "LW",
+    "status": "Injured Reserve",
+    "type": "Upper Body",
+    "return_date": "2027-03-21",
+    "updated": "2026-11-25T22:58Z",
+    "share": null,
+    "note": "ir"
+   },
+   {
     "name": "John Marino",
     "id": null,
     "pos": "D",
@@ -1124,23 +1157,12 @@
     "note": "Marino (upper body) likely won't return during Utah's four-game road trip, per Brogan Houston of the Deseret News on Monday."
    },
    {
-    "name": "Michael Carcone",
-    "id": null,
-    "pos": "LW",
-    "status": "Out",
-    "type": "Upper Body",
-    "return_date": "2027-03-21",
-    "updated": "2026-11-23T17:53Z",
-    "share": null,
-    "note": "Carcone (upper body) will be out of action for 3-4 months, Catherine Bogart of the Mammoth's official site reports Monday."
-   },
-   {
     "name": "Nick Schmaltz",
     "id": 8477951,
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-25",
+    "return_date": "2026-11-30",
     "updated": "2026-11-17T22:14Z",
     "share": 0.1101,
     "note": "ir"
