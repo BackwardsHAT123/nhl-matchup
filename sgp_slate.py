@@ -125,7 +125,9 @@ def build_game(g, i, st, res, cache, cal, books=None, gmap=None):
     lineup = lambda pl: [[int(r.player_id), r.name, round(float(r.share), 4)] for r in pl.itertuples()]
     entry = dict(gameId=g["gameId"], date=g["date"], home=g["home"], away=g["away"],
                  start_utc=g["start_utc"], p_home=round(g["p_home"], 4), priced=bool(books),
-                 exp_total=round(float(sim["total"].mean()), 2), plays=plays,
+                 exp_total=round(float(sim["total"].mean()), 2),
+                 p_over55=round(float((sim["total"] > 5.5).mean()), 3),   # game-card best bet reads these
+                 p_over65=round(float((sim["total"] > 6.5).mean()), 3), plays=plays,
                  starters=dict(h=g["h_goalie"], a=g["a_goalie"], h_assumed=bool(g["h_assumed"]), a_assumed=bool(g["a_assumed"])),
                  exp_sog=dict(h=round(inp.mu_sog_h, 1), a=round(inp.mu_sog_a, 1)),
                  lineup_h=lineup(inp.players_h), lineup_a=lineup(inp.players_a))
