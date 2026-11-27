@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-11-26T19:39+00:00",
+ "generated_at": "2026-11-27T03:48+00:00",
  "source": "ESPN",
  "gp": {
-  "ANA": 25,
+  "ANA": 26,
   "BOS": 24,
   "BUF": 25,
   "CGY": 26,
   "CAR": 25,
-  "CHI": 24,
-  "COL": 23,
+  "CHI": 25,
+  "COL": 24,
   "CBJ": 23,
   "DAL": 24,
   "DET": 24,
   "EDM": 27,
   "FLA": 25,
   "LAK": 22,
-  "MIN": 26,
-  "MTL": 25,
+  "MIN": 27,
+  "MTL": 26,
   "NSH": 24,
   "NJD": 25,
   "NYI": 24,
@@ -24,12 +24,12 @@
   "OTT": 26,
   "PHI": 27,
   "PIT": 24,
-  "SJS": 26,
-  "SEA": 21,
+  "SJS": 27,
+  "SEA": 22,
   "STL": 25,
   "TBL": 24,
   "TOR": 26,
-  "UTA": 25,
+  "UTA": 26,
   "VAN": 27,
   "VGK": 26,
   "WSH": 22,
@@ -45,7 +45,7 @@
     "type": "Upper Body",
     "return_date": "2026-11-27",
     "updated": "2026-11-26T14:08Z",
-    "share": 0.1173,
+    "share": 0.1148,
     "note": "day-to-day"
    },
    {
@@ -58,17 +58,6 @@
     "updated": "2026-11-25T19:08Z",
     "share": null,
     "note": "Poehling (knee) is expected back in the short term, with head coach Joel Quenneville telling reporters, \"He's close. Would love to see him in by the weekend. We'll see,\" Derek Lee of The Hockey News reports."
-   },
-   {
-    "name": "Beckett Sennecke",
-    "id": 8484762,
-    "pos": "R",
-    "status": "Injured Reserve",
-    "type": null,
-    "return_date": null,
-    "updated": "2026-11-25T19:08Z",
-    "share": 0.1161,
-    "note": "Sennecke (upper body) is now considered day-to-day, Zach Cavanagh of The Sporting Tribune reports Wednesday."
    },
    {
     "name": "A.J. Greer",
@@ -231,7 +220,7 @@
     "type": "Shoulder",
     "return_date": "2027-03-23",
     "updated": "2026-11-24T02:56Z",
-    "share": 0.1495,
+    "share": 0.1494,
     "note": "Bedard underwent successful shoulder surgery Monday and is expected to make a full recovery in approximately four months, the Blackhawks announced."
    },
    {
@@ -242,7 +231,7 @@
     "type": "Suspension",
     "return_date": "2026-11-29",
     "updated": "2026-11-22T18:51Z",
-    "share": 0.0613,
+    "share": 0.0614,
     "note": "Kaiser was suspended for three games by the NHL Department of Player Safety on Sunday for an illegal check to the head against Calgary's Martin Pospisil (upper body) on Saturday."
    },
    {
@@ -262,12 +251,12 @@
     "name": "Gavin Brindley",
     "id": null,
     "pos": "C",
-    "status": "Out",
+    "status": "Injured Reserve",
     "type": "Concussion",
-    "return_date": "2026-12-01",
-    "updated": "2026-11-21T20:47Z",
+    "return_date": "2026-12-08",
+    "updated": "2026-11-27T01:27Z",
     "share": null,
-    "note": "out"
+    "note": "ir"
    },
    {
     "name": "Nathan MacKinnon",
@@ -277,7 +266,7 @@
     "type": "Lower Body",
     "return_date": "2027-02-13",
     "updated": "2026-11-21T20:30Z",
-    "share": 0.1287,
+    "share": 0.1265,
     "note": "MacKinnon (lower body) has been evaluated by a specialist and is expected to miss the next 12 weeks, Aarif Deen of Colorado Hockey Now reports Saturday."
    },
    {
@@ -478,7 +467,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-03",
     "updated": "2026-11-26T04:22Z",
-    "share": 0.1406,
+    "share": 0.1412,
     "note": "Hughes (upper body) is doubtful to play Friday versus the Avalanche but is expected to join the wild on their road trip, which begins Sunday in Chicago, Michael Russo of The Athletic reports."
    },
    {
@@ -535,7 +524,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-14",
     "updated": "2026-11-15T22:15Z",
-    "share": 0.0743,
+    "share": 0.0766,
     "note": "Anderson (lower body) will be out for approximately 3-4 weeks, per Renaud Lavoie of TVA Sports on Sunday."
    },
    {
@@ -546,7 +535,7 @@
     "type": "Lower Body",
     "return_date": "2027-01-02",
     "updated": "2026-11-15T18:04Z",
-    "share": 0.0599,
+    "share": 0.0617,
     "note": "ir"
    },
    {
@@ -647,12 +636,12 @@
     "name": "Gabe Perreault",
     "id": 8484210,
     "pos": "R",
-    "status": "Out",
+    "status": "Injured Reserve",
     "type": "Lower Body",
     "return_date": "2026-12-31",
-    "updated": "2026-11-26T18:02Z",
+    "updated": "2026-11-26T19:38Z",
     "share": 0.065,
-    "note": "out"
+    "note": "Perreault (lower body) was put on injured reserve Thursday, per Mollie Walker of the New York Post."
    },
    {
     "name": "Pavel Dorofeyev",
@@ -846,7 +835,7 @@
     "type": "Lower Body",
     "return_date": "2026-12-01",
     "updated": "2026-11-23T19:34Z",
-    "share": 0.0782,
+    "share": 0.08,
     "note": "out"
    },
    {
@@ -857,7 +846,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-01",
     "updated": "2026-11-23T17:45Z",
-    "share": 0.0589,
+    "share": 0.0603,
     "note": "Sherwood (upper body) was placed on injured reserve Monday."
    },
    {
@@ -868,7 +857,7 @@
     "type": "Upper Body",
     "return_date": "2026-12-08",
     "updated": "2026-11-15T23:51Z",
-    "share": 0.0569,
+    "share": 0.0584,
     "note": "Head coach Ryan Warsofsky said Sunday that Chernyshov (upper body) is not close to returning to game action, per Curtis Pashelka of The San Jose Mercury News."
    },
    {
@@ -903,7 +892,7 @@
     "type": "Lower Body",
     "return_date": "2027-01-02",
     "updated": "2026-10-25T17:08Z",
-    "share": 0.08,
+    "share": 0.0818,
     "note": "McCann (lower body) will be out for approximately 10 weeks, the team announced Sunday."
    }
   ],
@@ -1175,7 +1164,7 @@
     "type": "Lower Body",
     "return_date": "2026-11-30",
     "updated": "2026-11-17T22:14Z",
-    "share": 0.1101,
+    "share": 0.1089,
     "note": "ir"
    },
    {
