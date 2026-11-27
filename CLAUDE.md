@@ -45,5 +45,5 @@ Keep this file under ~15 KB. Dated entries, review results and feature write-ups
 - **Where history lives:** dated entries go at the end of `NOTES-LOG.md` (append-only, grep it before re-fixing something); git log has the history before 2026-11-18.
 - **Status:** live on GitHub Pages, workflow running twice daily. Season 2026-27 in progress.
 - **Habits:** pull before pushing; the bot commits to `main` twice a day, so local `main` is often behind.
-- **Decisions that stand:** no odds in the win model (it measures win-prediction skill, not betting edge); xGF% uses current-season games only (window grows to 40); morning run moved to 10:17 UTC (2026-11-15).
+- **Decisions that stand:** no odds in the win model (it measures win-prediction skill, not betting edge); xGF% uses current-season games only (window grows to 40); morning run moved to 10:17 UTC (2026-11-15). Win model keeps the plain sigmoid calibration: isotonic blend and shrink-toward-50% were both tested and rejected 2026-11-26 (see NOTES-LOG).
 - **Still unconfirmed:** injury adjustment constants `K` / `REPLACEMENT` / `MAX_PENALTY` in `predict.py` are priors, not fitted; the daily `log/injuries/` snapshots are there to fit them later.
