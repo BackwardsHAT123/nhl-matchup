@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T03:48+00:00",
+ "generated_at": "2026-11-27T19:30+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 26,
@@ -41,12 +41,12 @@
     "name": "Leo Carlsson",
     "id": 8484153,
     "pos": "C",
-    "status": "Day-To-Day",
+    "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-26T14:08Z",
+    "return_date": "2026-12-01",
+    "updated": "2026-11-27T17:05Z",
     "share": 0.1148,
-    "note": "day-to-day"
+    "note": "ir"
    },
    {
     "name": "Ryan Poehling",
@@ -54,7 +54,7 @@
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Knee",
-    "return_date": "2026-11-27",
+    "return_date": "2026-11-28",
     "updated": "2026-11-25T19:08Z",
     "share": null,
     "note": "Poehling (knee) is expected back in the short term, with head coach Joel Quenneville telling reporters, \"He's close. Would love to see him in by the weekend. We'll see,\" Derek Lee of The Hockey News reports."
@@ -73,12 +73,23 @@
   ],
   "BOS": [
    {
+    "name": "David Pastrnak",
+    "id": 8477956,
+    "pos": "R",
+    "status": "Day-To-Day",
+    "type": "Lower Body",
+    "return_date": "2026-11-29",
+    "updated": "2026-11-27T19:04Z",
+    "share": 0.1305,
+    "note": "Pastrnak sustained a lower-body injury and is unlikely to return to Friday's game against Toronto."
+   },
+   {
     "name": "James Hagens",
     "id": 8485395,
     "pos": "C",
     "status": "Injured Reserve",
     "type": "Back",
-    "return_date": "2026-11-27",
+    "return_date": "2026-11-29",
     "updated": "2026-11-24T15:10Z",
     "share": 0.0734,
     "note": "Hagens (back) is wearing a non-contact sweater ahead of Tuesday's practice, Steve Conroy of the Boston Herald reports."
@@ -89,12 +100,34 @@
     "name": "Tyson Kozak",
     "id": null,
     "pos": "C",
-    "status": "Day-To-Day",
+    "status": "Injured Reserve",
     "type": "Undisclosed",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-26T14:08Z",
+    "return_date": "2026-12-01",
+    "updated": "2026-11-27T19:25Z",
     "share": null,
-    "note": "day-to-day"
+    "note": "ir"
+   },
+   {
+    "name": "Noah Ostlund",
+    "id": 8483500,
+    "pos": "C",
+    "status": "Out",
+    "type": "Undisclosed",
+    "return_date": "2026-12-01",
+    "updated": "2026-11-27T16:31Z",
+    "share": 0.0744,
+    "note": "Ostlund (undisclosed) is expected to miss Friday's game against Pittsburgh, per Rachel Lenzi of The Buffalo News."
+   },
+   {
+    "name": "Zach Benson",
+    "id": 8484145,
+    "pos": "L",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-12-01",
+    "updated": "2026-11-27T16:30Z",
+    "share": 0.1045,
+    "note": "Benson (upper body) will not play in Friday's home clash against the Penguins, per Rachel Lenzi of The Buffalo News."
    },
    {
     "name": "Konsta Helenius",
@@ -106,17 +139,6 @@
     "updated": "2026-11-12T21:00Z",
     "share": null,
     "note": "ir"
-   },
-   {
-    "name": "Justin Danforth",
-    "id": null,
-    "pos": "RW",
-    "status": "Injured Reserve",
-    "type": "Upper Body",
-    "return_date": "2026-12-01",
-    "updated": "2026-10-29T22:06Z",
-    "share": null,
-    "note": "Danforth (upper body) was placed on injured reserve Thursday, per the NHL media site."
    },
    {
     "name": "Matt Grzelcyk",
@@ -131,17 +153,6 @@
    }
   ],
   "CGY": [
-   {
-    "name": "Morgan Frost",
-    "id": 8480028,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-26T14:08Z",
-    "share": 0.0797,
-    "note": "day-to-day"
-   },
    {
     "name": "Martin Pospisil",
     "id": 8481028,
@@ -187,20 +198,20 @@
     "updated": "2026-11-26T14:08Z",
     "share": 0.0862,
     "note": "day-to-day"
-   },
-   {
-    "name": "K'Andre Miller",
-    "id": null,
-    "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Illness",
-    "return_date": "2026-11-28",
-    "updated": "2026-11-26T14:08Z",
-    "share": null,
-    "note": "day-to-day"
    }
   ],
   "CHI": [
+   {
+    "name": "Patrick Kane",
+    "id": 8474141,
+    "pos": "R",
+    "status": "Injured Reserve",
+    "type": "Foot",
+    "return_date": "2026-12-03",
+    "updated": "2026-11-27T18:55Z",
+    "share": 0.109,
+    "note": "Kane (foot) was placed on injured reserve Friday, per the NHL media site."
+   },
    {
     "name": "Tyler Bertuzzi",
     "id": 8477479,
@@ -240,7 +251,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-27",
+    "return_date": "2026-11-30",
     "updated": "2026-11-21T19:21Z",
     "share": null,
     "note": "Byram (upper body) didn't accompany his teammates on Chicago's three-game road trip, per Mark Lazerus of The Athletic on Saturday."
@@ -286,7 +297,7 @@
     "pos": "LW",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-27",
+    "return_date": "2026-12-08",
     "updated": "2026-10-23T21:39Z",
     "share": null,
     "note": "ir-lt"
@@ -366,26 +377,26 @@
   ],
   "EDM": [
    {
-    "name": "Zach Hyman",
-    "id": 8475786,
-    "pos": "L",
-    "status": "Day-To-Day",
-    "type": "Impaired Vision",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-25T14:34Z",
-    "share": 0.0546,
-    "note": "day-to-day"
-   },
-   {
     "name": "Filip Hallander",
     "id": null,
     "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Lower Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-25T02:33Z",
+    "status": "Out",
+    "type": "Knee",
+    "return_date": "2026-12-12",
+    "updated": "2026-11-27T18:45Z",
     "share": null,
-    "note": "day-to-day"
+    "note": "out"
+   },
+   {
+    "name": "Zach Hyman",
+    "id": 8475786,
+    "pos": "L",
+    "status": "Out",
+    "type": "Impaired Vision",
+    "return_date": "2026-12-03",
+    "updated": "2026-11-27T18:38Z",
+    "share": 0.0546,
+    "note": "out"
    },
    {
     "name": "Alec Regula",
@@ -487,12 +498,12 @@
     "name": "Kaiden Guhle",
     "id": null,
     "pos": "D",
-    "status": "Day-To-Day",
-    "type": "Undisclosed",
-    "return_date": "2026-11-28",
-    "updated": "2026-11-26T04:38Z",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-30",
+    "updated": "2026-11-27T19:11Z",
     "share": null,
-    "note": "day-to-day"
+    "note": "Guhle (upper body) is considered day-to-day, the team announced Friday."
    },
    {
     "name": "Ivan Demidov",
@@ -552,6 +563,17 @@
   ],
   "NJD": [
    {
+    "name": "Declan Chisholm",
+    "id": null,
+    "pos": "D",
+    "status": "Out",
+    "type": "Illness",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-27T15:59Z",
+    "share": null,
+    "note": "Chisholm (illness) is expected to miss Friday's game against Calgary, per Amanda Stein of the Devils' official site."
+   },
+   {
     "name": "Brenden Dillon",
     "id": null,
     "pos": "D",
@@ -602,11 +624,11 @@
     "id": 8475151,
     "pos": "C",
     "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-12-01",
-    "updated": "2026-11-24T20:00Z",
+    "type": "Knee",
+    "return_date": "2027-06-01",
+    "updated": "2026-11-27T15:49Z",
     "share": 0.0566,
-    "note": "ir"
+    "note": "Palmieri is expected to miss the next 6-8 months with a torn ACL and meniscus in his right knee, the team announced Friday."
    },
    {
     "name": "Ryan Pulock",
@@ -649,7 +671,7 @@
     "pos": "R",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-27",
+    "return_date": "2026-11-28",
     "updated": "2026-11-24T18:03Z",
     "share": 0.0753,
     "note": "Dorofeyev (lower body) will join the Rangers for their two-game road trip, Mollie Walker of the New York Post reports Tuesday."
@@ -712,28 +734,6 @@
   ],
   "OTT": [
    {
-    "name": "Andre Burakovsky",
-    "id": null,
-    "pos": "LW",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-30",
-    "updated": "2026-11-25T13:03Z",
-    "share": null,
-    "note": "Burakovsky (lower body) will be with the Senators for their four-game road trip and is expected to play at some point, Bruce Garrioch of Postmedia reports Wednesday."
-   },
-   {
-    "name": "Hayden Hodgson",
-    "id": null,
-    "pos": "RW",
-    "status": "Injured Reserve",
-    "type": "Groin",
-    "return_date": "2026-11-28",
-    "updated": "2026-11-24T20:28Z",
-    "share": null,
-    "note": "ir"
-   },
-   {
     "name": "Warren Foegele",
     "id": null,
     "pos": "LW",
@@ -757,6 +757,17 @@
    }
   ],
   "PHI": [
+   {
+    "name": "Matvei Michkov",
+    "id": 8484387,
+    "pos": "R",
+    "status": "Out",
+    "type": "Coach's Decision",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-27T18:32Z",
+    "share": 0.0991,
+    "note": "out"
+   },
    {
     "name": "Nikita Grebenkin",
     "id": null,
@@ -898,36 +909,14 @@
   ],
   "STL": [
    {
-    "name": "Pavel Buchnevich",
-    "id": 8477402,
-    "pos": "L",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-26T14:08Z",
-    "share": 0.0649,
-    "note": "day-to-day"
-   },
-   {
     "name": "Jimmy Snuggerud",
     "id": 8483516,
     "pos": "R",
-    "status": "Day-To-Day",
-    "type": "Upper Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-26T14:08Z",
-    "share": 0.0925,
-    "note": "day-to-day"
-   },
-   {
-    "name": "Connor McMichael",
-    "id": 8481580,
-    "pos": "L",
     "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-24T22:30Z",
-    "share": 0.0632,
+    "type": "Upper Body",
+    "return_date": "2026-12-02",
+    "updated": "2026-11-27T17:51Z",
+    "share": 0.0925,
     "note": "ir"
    },
    {
@@ -1023,6 +1012,17 @@
   ],
   "TOR": [
    {
+    "name": "Dakota Joshua",
+    "id": null,
+    "pos": "C",
+    "status": "Out",
+    "type": "Illness",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-27T17:39Z",
+    "share": null,
+    "note": "out"
+   },
+   {
     "name": "Jack Roslovic",
     "id": 8478458,
     "pos": "C",
@@ -1032,28 +1032,6 @@
     "updated": "2026-11-26T16:56Z",
     "share": 0.1055,
     "note": "Roslovic (upper body) is expected to miss Friday's road clash against the Bruins, per Mark Masters of TSN."
-   },
-   {
-    "name": "Kirill Marchenko",
-    "id": 8480893,
-    "pos": "R",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-25T20:20Z",
-    "share": 0.1093,
-    "note": "Marchenko (lower body) is expected back in the lineup against the Bruins on Friday after telling reporters, \"My leg feels perfect and I'm ready to go,\" Mark Masters of TSN reports."
-   },
-   {
-    "name": "Colton Sissons",
-    "id": null,
-    "pos": "C",
-    "status": "Injured Reserve",
-    "type": "Lower Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-22T17:19Z",
-    "share": null,
-    "note": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday."
    },
    {
     "name": "Cole McWard",
@@ -1072,7 +1050,7 @@
     "pos": "D",
     "status": "Injured Reserve",
     "type": "Upper Body",
-    "return_date": "2026-11-27",
+    "return_date": "2026-11-30",
     "updated": "2026-11-21T15:07Z",
     "share": null,
     "note": "Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday."
@@ -1208,7 +1186,7 @@
     "pos": "RW",
     "status": "Injured Reserve",
     "type": "Lower Body",
-    "return_date": "2026-11-27",
+    "return_date": "2026-12-01",
     "updated": "2026-11-21T17:13Z",
     "share": null,
     "note": "Gallagher (lower body) was placed on injured reserve Saturday."
@@ -1251,15 +1229,15 @@
   ],
   "WSH": [
    {
-    "name": "Vincent Desharnais",
-    "id": null,
-    "pos": "D",
+    "name": "Jordan Kyrou",
+    "id": 8479385,
+    "pos": "R",
     "status": "Injured Reserve",
-    "type": "Abdomen",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-25T16:03Z",
-    "share": null,
-    "note": "Desharnais (appendectomy) is slated to miss Wednesday's game against the Flyers, Tarik El-Bashir of Monumental Sports Network reports."
+    "type": "Upper Body",
+    "return_date": "2026-12-01",
+    "updated": "2026-11-27T15:11Z",
+    "share": 0.0702,
+    "note": "Kyrou (upper body) was put on injured reserve Friday."
    },
    {
     "name": "Rasmus Sandin",
@@ -1271,17 +1249,6 @@
     "updated": "2026-11-24T15:28Z",
     "share": null,
     "note": "Sandin (knee) has been cleared to start taking contact, Sammi Silber of The District Standard reports Tuesday."
-   },
-   {
-    "name": "Jordan Kyrou",
-    "id": 8479385,
-    "pos": "R",
-    "status": "Out",
-    "type": "Upper Body",
-    "return_date": "2026-12-01",
-    "updated": "2026-11-23T17:14Z",
-    "share": 0.0702,
-    "note": "out"
    }
   ],
   "WPG": [
@@ -1302,7 +1269,7 @@
     "pos": "RW",
     "status": "Injured Reserve",
     "type": "Undisclosed",
-    "return_date": "2026-11-27",
+    "return_date": "2026-11-30",
     "updated": "2026-11-17T15:15Z",
     "share": null,
     "note": "ir"
