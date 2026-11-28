@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T19:30+00:00",
+ "generated_at": "2026-11-28T03:33+00:00",
  "source": "ESPN",
  "gp": {
   "ANA": 26,
@@ -97,6 +97,17 @@
   ],
   "BUF": [
    {
+    "name": "Noah Ostlund",
+    "id": 8483500,
+    "pos": "C",
+    "status": "Injured Reserve",
+    "type": "Undisclosed",
+    "return_date": "2026-12-01",
+    "updated": "2026-11-27T19:45Z",
+    "share": 0.0744,
+    "note": "Ostlund (undisclosed) was placed on injured reserve Friday, per the NHL Media Site."
+   },
+   {
     "name": "Tyson Kozak",
     "id": null,
     "pos": "C",
@@ -106,17 +117,6 @@
     "updated": "2026-11-27T19:25Z",
     "share": null,
     "note": "ir"
-   },
-   {
-    "name": "Noah Ostlund",
-    "id": 8483500,
-    "pos": "C",
-    "status": "Out",
-    "type": "Undisclosed",
-    "return_date": "2026-12-01",
-    "updated": "2026-11-27T16:31Z",
-    "share": 0.0744,
-    "note": "Ostlund (undisclosed) is expected to miss Friday's game against Pittsburgh, per Rachel Lenzi of The Buffalo News."
    },
    {
     "name": "Zach Benson",
@@ -202,26 +202,37 @@
   ],
   "CHI": [
    {
-    "name": "Patrick Kane",
-    "id": 8474141,
-    "pos": "R",
-    "status": "Injured Reserve",
-    "type": "Foot",
-    "return_date": "2026-12-03",
-    "updated": "2026-11-27T18:55Z",
-    "share": 0.109,
-    "note": "Kane (foot) was placed on injured reserve Friday, per the NHL media site."
+    "name": "Jordan Greenway",
+    "id": null,
+    "pos": "LW",
+    "status": "Day-To-Day",
+    "type": "Upper Body",
+    "return_date": "2026-11-29",
+    "updated": "2026-11-28T01:44Z",
+    "share": null,
+    "note": "Greenway missed Friday's game versus the Rangers due to an upper-body injury, Ben Pope of the Chicago Sun-Times reports."
    },
    {
     "name": "Tyler Bertuzzi",
     "id": 8477479,
     "pos": "L",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Illness",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-26T14:08Z",
+    "return_date": "2026-11-29",
+    "updated": "2026-11-27T21:13Z",
     "share": 0.0844,
-    "note": "day-to-day"
+    "note": "out"
+   },
+   {
+    "name": "Patrick Kane",
+    "id": 8474141,
+    "pos": "R",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-12-03",
+    "updated": "2026-11-27T18:55Z",
+    "share": 0.109,
+    "note": "Kane (foot) was placed on injured reserve Friday, per the NHL media site."
    },
    {
     "name": "Connor Bedard",
@@ -258,6 +269,17 @@
    }
   ],
   "COL": [
+   {
+    "name": "Martin Necas",
+    "id": 8480039,
+    "pos": "C",
+    "status": "Out",
+    "type": "Upper Body",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-27T21:01Z",
+    "share": 0.1067,
+    "note": "out"
+   },
    {
     "name": "Gavin Brindley",
     "id": null,
@@ -356,12 +378,12 @@
     "name": "William Wallinder",
     "id": 8482171,
     "pos": "D",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Upper Body",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-26T14:08Z",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-27T19:58Z",
     "share": 0.0609,
-    "note": "day-to-day"
+    "note": "out"
    },
    {
     "name": "Simon Edvinsson",
@@ -382,7 +404,7 @@
     "pos": "C",
     "status": "Out",
     "type": "Knee",
-    "return_date": "2026-12-12",
+    "return_date": "2026-12-17",
     "updated": "2026-11-27T18:45Z",
     "share": null,
     "note": "out"
@@ -433,6 +455,17 @@
    }
   ],
   "FLA": [
+   {
+    "name": "Garnet Hathaway",
+    "id": null,
+    "pos": "RW",
+    "status": "Out",
+    "type": "Lower Body",
+    "return_date": "2026-12-01",
+    "updated": "2026-11-27T23:19Z",
+    "share": null,
+    "note": "out"
+   },
    {
     "name": "Jonah Gadjovich",
     "id": null,
@@ -758,14 +791,14 @@
   ],
   "PHI": [
    {
-    "name": "Matvei Michkov",
-    "id": 8484387,
+    "name": "Owen Tippett",
+    "id": 8480015,
     "pos": "R",
     "status": "Out",
-    "type": "Coach's Decision",
+    "type": "Lower Body",
     "return_date": "2026-11-28",
-    "updated": "2026-11-27T18:32Z",
-    "share": 0.0991,
+    "updated": "2026-11-27T21:10Z",
+    "share": 0.066,
     "note": "out"
    },
    {
@@ -970,33 +1003,33 @@
     "id": 8475167,
     "pos": "D",
     "status": "Day-To-Day",
-    "type": "Illness",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-26T14:08Z",
+    "type": "Undisclosed",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-27T23:15Z",
     "share": 0.044,
-    "note": "day-to-day"
+    "note": "Hedman (undisclosed) didn't finish Friday's game versus the Senators, Benjamin Pierce of the Lightning's official site reports."
    },
    {
     "name": "Erik Cernak",
     "id": 8478416,
     "pos": "D",
-    "status": "Day-To-Day",
+    "status": "Out",
     "type": "Illness",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-26T14:08Z",
+    "return_date": "2026-11-28",
+    "updated": "2026-11-27T19:46Z",
     "share": 0.0608,
-    "note": "day-to-day"
+    "note": "Cernak (illness) is expected to miss Friday's game against Ottawa, per Gabby Shirley of the Lightning's official site."
    },
    {
     "name": "Pontus Holmberg",
     "id": 8480995,
     "pos": "R",
-    "status": "Out",
-    "type": "Undisclosed",
-    "return_date": "2026-12-02",
-    "updated": "2026-11-26T03:04Z",
+    "status": "Injured Reserve",
+    "type": "Lower Body",
+    "return_date": "2026-12-26",
+    "updated": "2026-11-27T19:34Z",
     "share": 0.0616,
-    "note": "out"
+    "note": "ir"
    },
    {
     "name": "Conor Geekie",
@@ -1011,6 +1044,17 @@
    }
   ],
   "TOR": [
+   {
+    "name": "Chris Tanev",
+    "id": null,
+    "pos": "D",
+    "status": "Out",
+    "type": "Lower Body",
+    "return_date": "2026-11-30",
+    "updated": "2026-11-27T23:09Z",
+    "share": null,
+    "note": "out"
+   },
    {
     "name": "Dakota Joshua",
     "id": null,
@@ -1170,6 +1214,17 @@
   ],
   "VAN": [
    {
+    "name": "Filip Chytil",
+    "id": 8480078,
+    "pos": "C",
+    "status": "Day-To-Day",
+    "type": "Undisclosed",
+    "return_date": "2026-11-29",
+    "updated": "2026-11-27T22:13Z",
+    "share": 0.0775,
+    "note": "day-to-day"
+   },
+   {
     "name": "Elias Pettersson",
     "id": 8480012,
     "pos": "C",
@@ -1212,19 +1267,6 @@
     "updated": "2026-09-29T17:03Z",
     "share": null,
     "note": "ir-nr"
-   }
-  ],
-  "VGK": [
-   {
-    "name": "Marc Gatcomb",
-    "id": null,
-    "pos": "C",
-    "status": "Day-To-Day",
-    "type": "Face",
-    "return_date": "2026-11-27",
-    "updated": "2026-11-25T05:18Z",
-    "share": null,
-    "note": "day-to-day"
    }
   ],
   "WSH": [
